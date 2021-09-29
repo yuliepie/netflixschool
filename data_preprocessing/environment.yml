@@ -1,0 +1,11 @@
+name: ott2
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - pandas
+  - matplotlib
+  - numpy
+  - seaborn
+  - nltk
+prefix: /opt/miniconda3/envs/ott2
