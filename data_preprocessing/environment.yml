@@ -8,4 +8,5 @@ dependencies:
   - numpy
   - seaborn
   - nltk
+  - requests
 prefix: /opt/miniconda3/envs/ott2
