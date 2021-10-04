@@ -1,0 +1,126 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding:1rem 2 rem;
+  background: #white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(229, 229, 229, 1) ;
+}
+.header h1 { 
+  margin-left: 10px;
+  color: #black;
+  text-decoration-line: none;
+}
+.header button {
+  margin-right: 10px;
+}
+.header a {
+  text-decoration: none;;
+}
+.menu {
+  display:flex;
+  flex-wrap: wrap;
+}
+.menu li {
+  color: #black;
+  flex: 20% 0 0;
+  display: inline-block;
+  
+  width: 130px;
+  padding:10px;
+  
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  border: none;
+  border-radius: 4px;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.membership {
+  margin-right: 20px;
+}
+.membership button {
+  margin: 3px;
+  padding: 0.5rem 1rem;
+
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  width: auto;
+
+  border: none;
+  border-radius: 4px;
+}
+
+.footer {
+  padding: 3rem;
+  background: rgb(32, 32, 32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer span {
+  color: #fff
+}
+
+.slider {
+  position:relative;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.image {
+  width: 1440px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color:#000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
