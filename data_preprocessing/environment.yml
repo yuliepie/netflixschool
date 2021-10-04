@@ -9,4 +9,5 @@ dependencies:
   - seaborn
   - nltk
   - requests
+  - spacy
 prefix: /opt/miniconda3/envs/ott2
