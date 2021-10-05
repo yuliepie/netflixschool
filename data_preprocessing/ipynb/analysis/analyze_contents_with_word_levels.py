@@ -20,7 +20,7 @@ import os
 path = '../../script'
 
 # 다큐멘터리(0), 드라마(1), 영화(2) 선택
-category = 0
+category = 2
 if category == 0:
     path = path + '/Documentary'
 elif category == 1:
@@ -333,7 +333,7 @@ for title in file_list:
   elif category == 1:
       chart_path = chart_path + '/Drama'
   else:
-      chart_path = chart_path + '/Movie'
+      chart_path = chart_path + '/Movie2'
 
   plt.savefig(f'{chart_path}/{title}.png')
   print(f'chart save success: {title}')
