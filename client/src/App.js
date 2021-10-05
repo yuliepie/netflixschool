@@ -7,6 +7,7 @@ import Footer from './components/common/Footer';
 import Home from './components/Home/Home';
 import Intro from './components/Intro/Intro';
 // import Recommendation from './components/Recommendation/Recommendation';
+import Content from './components/Content/Content';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/intro" component={Intro} />
+          <Route exact path="/content" component={Content} />
           {/* <Route exact path="/recommendation" component={Recommendation} /> */}
         </Switch>
         <Footer/>
