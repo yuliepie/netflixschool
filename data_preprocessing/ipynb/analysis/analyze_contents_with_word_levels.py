@@ -333,7 +333,7 @@ for title in file_list:
   elif category == 1:
       chart_path = chart_path + '/Drama'
   else:
-      chart_path = chart_path + '/Movie2'
+      chart_path = chart_path + '/Movie3'
 
   plt.savefig(f'{chart_path}/{title}.png')
   print(f'chart save success: {title}')
