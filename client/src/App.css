@@ -4,8 +4,8 @@
 }
 
 .header {
-  padding:1rem 2 rem;
-  background: #white;
+  padding: 1rem 2rem;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 .header h1 { 
   margin-left: 10px;
-  color: #black;
+  color: black;
   text-decoration-line: none;
 }
 .header button {
@@ -27,7 +27,7 @@
   flex-wrap: wrap;
 }
 .menu li {
-  color: #black;
+  color: black;
   flex: 20% 0 0;
   display: inline-block;
   
@@ -45,6 +45,9 @@
 }
 .menu a {
   text-decoration: none;
+}
+.menu li :hover {
+  color: rgb(2007,47,38);
 }
 
 .membership {
@@ -86,8 +89,8 @@
   align-items: center;
 }
 
-.image {
-  width: 1440px;
+.slideimage {
+  width: 100%;
   height: 600px;
   border-radius: 10px;
 }
