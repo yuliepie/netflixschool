@@ -40,7 +40,7 @@ export default function Content () {
             <h3>영화에 나오는 대표 단어 및 예문</h3>
             {content_detail.example.map ((example, index) => {
               return (
-                <div className='list_content' key={index}>
+                <div className='word_content' key={index}>
                   <dt>{example.word}</dt>
                   <dl>{example.sentence}</dl>
                 </div>
