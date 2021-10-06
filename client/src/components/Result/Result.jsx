@@ -11,17 +11,25 @@ export default function Result () {
       </div>
       <div>
         <h1>레벨에 맞는 영화</h1>
-        {ResultData.normal_content.map((result, index) => {
-        return (
-          <Link to='/content' ><img src={result.image_path} alt="netflixschool" className='resultlist_image' /></Link>
-        )})}
+        <div className="box_list">
+          <section className='recommendation'>
+            {ResultData.normal_content.map((result, index) => {
+              return (
+                  <li key={index} className='recommended_list'><Link to='/content'><img src={result.image_path} alt="movie_poster" className='resultlist_image' /></Link></li>
+            )})}
+          </section>
+        </div>
       </div>
       <div>
-      <h1>한단계 수준 높은 영화</h1>
-        {ResultData.hard_content.map((result, index) => {
-        return (
-          <Link to='/content'><img src={result.image_path} alt="netflixschool" className='resultlist_image' /></Link>
-        )})}
+        <h1>한단계 수준 높은 영화</h1>
+        <div className="box_list">
+          <section className='recommendation'>
+            {ResultData.hard_content.map((result, index) => {
+              return (
+                <li key={index} className='recommended_list'><Link to='/content'><img src={result.image_path} alt="movie_poster" className='resultlist_image' /></Link></li>
+            )})}
+          </section>
+        </div>
       </div>
     </div>
   )
