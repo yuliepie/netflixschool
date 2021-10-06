@@ -8,6 +8,8 @@ class netflixContents(db.Model):
         * type (int) : 어떤 종류 ('영화', '드라마', '다큐멘터리')
         * title (string) : 작품 제목
         * genre (int) : 장르 선택 (다중으로 해야하나?)
+        * director (string) : 감독
+        * year (String) : 개봉연도
         * running_time (string) : 러닝 타임
         * story (text) : 작품 줄거리
         * subs_path (string) : 작품 자막 데이터 경로
@@ -61,6 +63,7 @@ class testQuestions(db.Model):
     Attributes:
         * question (string) : 테스트 질문
         * type (int) : 테스트 유형 (OX, 객관식 등)
+        * level (int) : 난이도
         * choice1 (string) : 보기 1
         * choice2 (string) : 보기 2
         * choice3 (string) : 보기 3
