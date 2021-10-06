@@ -4,9 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import TestMain from './pages/TestMain';
 import TestPage from './components/TestPage/TestPage';
-import Header from './components/common/Header';
-import Footer from './components/common/Footer';
-import Home from './components/Home/Home';
+import Home from './pages/Home';
 import Intro from './components/Intro/Intro';
 import Result from './components/Result/Result';
 import Content from './components/Content/Content';
@@ -18,7 +16,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path='/test' component={TestMain} />
@@ -28,7 +25,6 @@ function App() {
           <Route exact path="/result" component={Result} />
           <Route exact path="/content" component={Content} />
         </Switch>
-        <Footer/>
       </div>
     </BrowserRouter>
   );
