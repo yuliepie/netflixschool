@@ -1,7 +1,6 @@
 import { content_detail } from "./ContentData"
 
 export default function Content () {
-  
   return (
     <div>
       <div className='box_basic'>
@@ -11,10 +10,6 @@ export default function Content () {
         <div className="info_poster"><img src={content_detail.img_path} alt='movie_poster' /></div>
         <div className='info_content'>
         <div className='inner_content'>
-          <dl className='list_content'>
-            <dt>ID</dt>
-            <dd>{content_detail.id}</dd>
-          </dl>
           <dl className='list_content'>
             <dt>개봉연도</dt>
             <dd>{content_detail.year}</dd>

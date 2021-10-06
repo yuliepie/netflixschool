@@ -16,7 +16,7 @@ export default function Header () {
         <div className="menu">
           <li><Link to='/intro'>소개</Link></li>
           <li><Link to='/level_test'>레벨테스트</Link></li>
-          <li><Link to='/content'>영화추천</Link></li>
+          <li><Link to='/result'>영화추천</Link></li>
         </div>
       </herder1>
     </div>
