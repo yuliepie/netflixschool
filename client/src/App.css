@@ -26,6 +26,11 @@
   display:flex;
   flex-wrap: wrap;
 }
+
+li {
+  list-style: none;
+}
+
 .menu li {
   color: black;
   flex: 20% 0 0;
@@ -81,6 +86,7 @@
   color: #fff
 }
 
+/* 랜딩페이지 */
 .slider {
   position:relative;
   height: 100vh;
@@ -126,4 +132,78 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+
+/* 컨텐츠 상세 페이지 */
+.box_basic {
+  position: relative;
+  margin-left: 50px;
+  padding: 30px 0 60px 0;
+  display: block;
+}
+
+.inner_content {
+  display: table;
+  max-width: 60%;
+  margin-left: 450px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.list_content {
+  display: table-row;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+dl {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  list-style: none;
+}
+dd {
+  margin-inline-start: 40px;
+}
+
+.info_poster {
+  /* float: left; */
+  width: 3rem;
+  height: 3rem;
+  margin-right: 40px;
+}
+.info_poster img {
+  width:400px;
+  height: 500px;
+}
+
+.content_detail {
+  margin-top: 200px;
+  margin-left: 80px;
+  margin-bottom: 150px;
+}
+.word_content {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.word_content dt {
+  font: 18px bold;
+}
+
+/* 결과 페이지 */
+.box_list {
+}
+.recommended_list img{
+  width: 280px;
+  height: 420px;
+} 
+.recommended_list a :hover{
+  transform: scale(1.08 );
+  transition: transform 1s;
+  filter: brightness(120%);
+}
+
+.recommendation {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
 }
