@@ -9,20 +9,20 @@ class netflixContents(db.Model):
         * genre (string) : 장르
         * age_rating (sring) : 연령 등급
         * director (string) : 감독
-        * year (String) : 개봉연도
+        * release_year (String) : 개봉연도
         * running_time (string) : 러닝 타임
         * story (text) : 작품 줄거리
         * subs_path (string) : 작품 자막 데이터 경로
         * img_path (string) : 작품 대표 사진 경로
-        * avg_word_difficulty (int) : 작품 영단어 평균 난이도
-        * avg_wps (float) : 작품 wps
+        * word_difficulty_level (int) : 작품 영단어 평균 난이도
+        * words_per_second (float) : 작품 wps
         * content_level (int) : 작품 난이도
     """
 
-    __tablename__ = "netflixContents"
+    __tablename__ = "netflix_contents"
 
     id                      = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    type                    = db.Column(db.Integer, db.ForeignKey('contentTypes.id'), nullable=False) 
+    type                    = db.Column(db.Integer, db.ForeignKey('content_types.id'), nullable=False) 
     title                   = db.Column(db.String(100), nullable=False)
     genre                   = db.Column(db.String(200), nullable=False)
     age_rating              = db.Column(db.String(10))
@@ -34,7 +34,7 @@ class netflixContents(db.Model):
     img_path                = db.Column(db.String(255))
     word_difficulty_level   = db.Column(db.Integer, nullable=False) 
     words_per_second        = db.Column(db.Float, nullable=False) 
-    content_level           = db.Column(db.Integer, db.ForeignKey('contentLevels.id'), nullable=False)
+    content_level           = db.Column(db.Integer, db.ForeignKey('content_levels.id'), nullable=False)
 
 
 class sentences(db.Model):
@@ -51,7 +51,7 @@ class sentences(db.Model):
     __tablename__ = "sentences"
 
     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    content_id  = db.Column(db.Integer, db.ForeignKey('netflixContents.id'), nullable=False)
+    content_id  = db.Column(db.Integer, db.ForeignKey('netflix_contents.id'), nullable=False)
     sentence    = db.Column(db.String(255), nullable=False) 
     word        = db.Column(db.String(100), nullable=False)
     level       = db.Column(db.Integer, nullable=False) 
@@ -62,6 +62,7 @@ class testQuestions(db.Model):
     Represents a user of the application.
     Attributes:
         * question (string) : 테스트 질문
+        * file_path (string) : 질문 시 필요한 이미지 파일 등의 경로
         * type (int) : 테스트 유형 (OX, 객관식 등)
         * level (int) : 난이도
         * choice1 (string) : 보기 1
@@ -73,7 +74,7 @@ class testQuestions(db.Model):
 
     """
 
-    __tablename__ = "testQuestions"
+    __tablename__ = "test_questions"
 
     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     question    = db.Column(db.String(255), nullable=False)
@@ -95,7 +96,7 @@ class contentTypes(db.Model):
         * name (string) : 타입의 종류 (영화, 드라마, 다큐멘터리 ...)
     """
 
-    __tablename__ = "contentTypes"
+    __tablename__ = "content_types"
 
     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     name        = db.Column(db.String(255), nullable=False)
@@ -134,7 +135,7 @@ class contentLevels(db.Model):
         * level (string) : 레벨의 종류 / 숫자로 해도되고 어떤 단어형태로도 가능/ 아직 미정
     """
 
-    __tablename__ = "contentLevels"
+    __tablename__ = "content_levels"
 
     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     level       = db.Column(db.String(255), nullable=False)

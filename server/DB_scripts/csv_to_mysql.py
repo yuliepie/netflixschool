@@ -14,6 +14,7 @@ header = next(csv_data)
 # csv to mysql
 line_count = 0
 for row in csv_data:
+    type = 2
     title = row[2]
     genre = row[10]
     director = row[3]
@@ -22,8 +23,11 @@ for row in csv_data:
     story = row[11]
     # print(title, '\n', genre, '\n', director, '\n', release_year, '\n', running_time, '\n', story)
     # break
-    sql = """insert into netflixcontents (title, genre, director, release_year, running_time, story) values (%s, %s, %s, %s, %s, %s)"""
-    curs.execute(sql, (title, genre, director, release_year, running_time, story))
+    sql = """insert into netflix_contents (
+        type, title, genre, director, release_year, 
+        running_time, story, word_difficulty_level, words_per_second, content_level) 
+        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+    curs.execute(sql, (type, title, genre, director, release_year, running_time, story, 1, 1, 1))
     line_count += 1
 
     # 테스트 후에는 주석 처리

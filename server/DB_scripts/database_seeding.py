@@ -6,11 +6,14 @@ conn = pymysql.connect(host='127.0.0.1', user='root', password='root', db='netfl
 curs = conn.cursor()
 
 # contentTypes 
-sql = """insert into contentTypes (name) values (%s)"""
+sql = """insert into content_types (name) values (%s)"""
 types = ['drama', 'movie']
 for i in range(2):
     curs.execute(sql, (types[i]))
 
+sql = """insert into content_levels (level) values (%s)"""
+for i in range(1, 6):
+    curs.execute(sql, i)
 
 # db 저장
 conn.commit()
