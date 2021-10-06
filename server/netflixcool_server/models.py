@@ -4,10 +4,10 @@ class netflixContents(db.Model):
     """
     Represents a user of the application.
     Attributes:
-        * netflix_id (int) : 작품별 넷플릭스에서 사용하는 id
         * type (int) : 어떤 종류 ('영화', '드라마', '다큐멘터리')
         * title (string) : 작품 제목
-        * genre (int) : 장르 선택 (다중으로 해야하나?)
+        * genre (string) : 장르
+        * age_rating (sring) : 연령 등급
         * director (string) : 감독
         * year (String) : 개봉연도
         * running_time (string) : 러닝 타임
@@ -22,17 +22,17 @@ class netflixContents(db.Model):
     __tablename__ = "netflixContents"
 
     id                  = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    netflix_id          = db.Column(db.Integer, nullable=False, unique=True)  # netflix id must be unique
     type                = db.Column(db.Integer, db.ForeignKey('contentTypes.id'), nullable=False) 
     title               = db.Column(db.String(100), nullable=False)
-    genre               = db.Column(db.Integer, db.ForeignKey('genres.id'), nullable=False)
+    genre               = db.Column(db.String(200), nullable=False)
+    age_rating          = db.Column(db.String(10))
     director            = db.Column(db.String(100))
-    year                = db.Column(db.String(5))
+    release_year        = db.Column(db.String(5))
     running_time        = db.Column(db.String(25))
     story               = db.Column(db.Text)
-    subs_path           = db.Column(db.String(100), nullable=False)
-    img_path            = db.Column(db.String(100), nullable=False)
-    avg_word_difficulty = db.Column(db.Integer, db.ForeignKey('wordDifficultyLevels.id'), nullable=False) 
+    subs_path           = db.Column(db.String(255))
+    img_path            = db.Column(db.String(255))
+    avg_word_difficulty = db.Column(db.Integer, nullable=False) 
     avg_wps             = db.Column(db.Float, nullable=False) 
     content_level       = db.Column(db.Integer, db.ForeignKey('contentLevels.id'), nullable=False)
 
@@ -77,13 +77,14 @@ class testQuestions(db.Model):
 
     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     question    = db.Column(db.String(255), nullable=False)
+    file_path    = db.Column(db.String(255), nullable=False)
     type        = db.Column(db.Integer, nullable=False)
-    level       = db.column(db.Integer, nullable=False)
-    choice1     = db.Column(db.String(255), nullable=False)
-    choice2     = db.Column(db.String(255), nullable=False)
-    choice3     = db.Column(db.String(255), nullable=False)
-    choice4     = db.Column(db.String(255), nullable=False)
-    choice5     = db.Column(db.String(255), nullable=False)
+    level       = db.Column(db.Integer, nullable=False)
+    choice1     = db.Column(db.String(255))
+    choice2     = db.Column(db.String(255))
+    choice3     = db.Column(db.String(255))
+    choice4     = db.Column(db.String(255))
+    choice5     = db.Column(db.String(255))
     answer      = db.Column(db.Integer, nullable=False)
 
 
@@ -100,30 +101,30 @@ class contentTypes(db.Model):
     name        = db.Column(db.String(255), nullable=False)
 
 
-class genres(db.Model):
-    """
-    Represents a user of the application.
-    Attributes:
-        * name (string) : 장르의 종류 (코믹, 호러, 액션 ...)
-    """
+# class genres(db.Model):
+#     """
+#     Represents a user of the application.
+#     Attributes:
+#         * name (string) : 장르의 종류 (코믹, 호러, 액션 ...)
+#     """
 
-    __tablename__ = "genres"
+#     __tablename__ = "genres"
 
-    id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    name        = db.Column(db.String(255), nullable=False)
+#     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
+#     name        = db.Column(db.String(255), nullable=False)
 
 
-class wordDifficultyLevels(db.Model):
-    """
-    Represents a user of the application.
-    Attributes:
-        * level (string) : 레벨의 종류 / 숫자로 해도되고 어떤 단어형태로도 가능/ 아직 미정
-    """
+# class wordDifficultyLevels(db.Model):
+#     """
+#     Represents a user of the application.
+#     Attributes:
+#         * level (string) : 레벨의 종류 / 숫자로 해도되고 어떤 단어형태로도 가능/ 아직 미정
+#     """
 
-    __tablename__ = "wordDifficultyLevels"
+#     __tablename__ = "wordDifficultyLevels"
 
-    id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    level       = db.Column(db.String(255), nullable=False)
+#     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
+#     level       = db.Column(db.String(255), nullable=False)
 
 
 class contentLevels(db.Model):
