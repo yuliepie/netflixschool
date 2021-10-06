@@ -4,11 +4,12 @@ export default function Content () {
   
   return (
     <div>
-      <div className="info_poster"><img src={content_detail.img_path} alt='movie_poster' /></div>
-      <div className='info_content'>
+      <div className='box_basic'>
         <div className='detail_title'>
-          <h3 className='title_name'>{content_detail.title}</h3>
+          <h2 className='title_name'>{content_detail.title}</h2>
         </div>
+        <div className="info_poster"><img src={content_detail.img_path} alt='movie_poster' /></div>
+        <div className='info_content'>
         <div className='inner_content'>
           <dl className='list_content'>
             <dt>ID</dt>
@@ -31,22 +32,23 @@ export default function Content () {
             <dd>{content_detail.running_time}</dd>
           </dl>
         </div>
-        <div className='content_detail'>
-          <dl className='list_content'>
-            <dt>영화 내용</dt>
-            <dd>{content_detail.story}</dd>
-          </dl>
-          <div>
-            <h3>영화에 나오는 대표 단어 및 예문</h3>
-            {content_detail.example.map ((example, index) => {
-              return (
-                <div className='word_content' key={index}>
-                  <dt>{example.word}</dt>
-                  <dl>{example.sentence}</dl>
-                </div>
-              )
-            })}
-          </div>
+        </div>
+      </div>
+      <div className='content_detail'>
+        <dl className='list_content'>
+          <h3>영화 내용</h3>
+          <dd>{content_detail.story}</dd>
+        </dl>
+        <div>
+          <h3>영화에 나오는 대표 단어 및 예문</h3>
+          {content_detail.example.map ((example, index) => {
+            return (
+              <div className='word_content' key={index}>
+                <dt>{example.word}</dt>
+                <dd>{example.sentence}</dd>
+              </div>
+            )
+          })}
         </div>
       </div>
     </div>

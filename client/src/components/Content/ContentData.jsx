@@ -3,10 +3,10 @@ export const content_detail = {
   title: 'Norm of the North: King Sized Adventure',
   year: '2019',
   director: 'Richard Finn, Tim Maltby',
-  running_time: '',
+  running_time: '1h 30m',
   genre: 'Children & Family Movies, Comedies',
   story: 'Before planning an awesome wedding for his grandfather, a polar bear king must take back a stolen artifact from an evil archaeologist first.',
-  img_path: 'img_path',
+  img_path: '/img/MV5BNjMwZDhhZWYtOTM0OC00ZTQzLWIyNDktNDM1NmVkYTY4NWNlXkEyXkFqcGdeQXVyNTYyNDUxMDc@._V1_FMjpg_UX1000_.jpg',
   example: [{
           id: '1',
           word: 'word1',
