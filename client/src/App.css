@@ -86,6 +86,7 @@ li {
   color: #fff
 }
 
+/* 랜딩페이지 */
 .slider {
   position:relative;
   height: 100vh;
@@ -191,7 +192,6 @@ dd {
 
 /* 결과 페이지 */
 .box_list {
-
 }
 .recommended_list img{
   width: 280px;

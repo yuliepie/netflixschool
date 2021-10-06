@@ -1,6 +1,6 @@
 
 export const ResultData = {
-  user_level: '"네이티브 코리안"',
+  user_level: '"순수 한국인"',
   normal_content: [{
     id: '1',
     title: 'str',
