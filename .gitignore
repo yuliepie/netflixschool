@@ -26,7 +26,4 @@ __pycache__/
 # env file
 .env
 
-# flask migrations
-/migrations/versions
-
 .ipynb_checkpoints
