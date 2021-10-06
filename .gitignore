@@ -26,3 +26,6 @@ __pycache__/
 
 # env file
 .env
+
+# flask migraions
+/migraions/versions

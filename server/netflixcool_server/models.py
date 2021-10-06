@@ -23,7 +23,9 @@ class netflixContents(db.Model):
     netflix_id          = db.Column(db.Integer, nullable=False, unique=True)  # netflix id must be unique
     type                = db.Column(db.Integer, db.ForeignKey('contentTypes.id'), nullable=False) 
     title               = db.Column(db.String(100), nullable=False)
-    genre               = db.Column(db.Integer, db.ForeignKey('genres.id'), nullable=False) 
+    genre               = db.Column(db.Integer, db.ForeignKey('genres.id'), nullable=False)
+    director            = db.Column(db.String(100))
+    year                = db.Column(db.String(5))
     running_time        = db.Column(db.String(25))
     story               = db.Column(db.Text)
     subs_path           = db.Column(db.String(100), nullable=False)
@@ -73,6 +75,7 @@ class testQuestions(db.Model):
     id          = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     question    = db.Column(db.String(255), nullable=False)
     type        = db.Column(db.Integer, nullable=False)
+    level       = db.column(db.Integer, nullable=False)
     choice1     = db.Column(db.String(255), nullable=False)
     choice2     = db.Column(db.String(255), nullable=False)
     choice3     = db.Column(db.String(255), nullable=False)
