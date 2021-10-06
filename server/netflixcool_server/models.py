@@ -21,20 +21,20 @@ class netflixContents(db.Model):
 
     __tablename__ = "netflixContents"
 
-    id                  = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    type                = db.Column(db.Integer, db.ForeignKey('contentTypes.id'), nullable=False) 
-    title               = db.Column(db.String(100), nullable=False)
-    genre               = db.Column(db.String(200), nullable=False)
-    age_rating          = db.Column(db.String(10))
-    director            = db.Column(db.String(100))
-    release_year        = db.Column(db.String(5))
-    running_time        = db.Column(db.String(25))
-    story               = db.Column(db.Text)
-    subs_path           = db.Column(db.String(255))
-    img_path            = db.Column(db.String(255))
-    avg_word_difficulty = db.Column(db.Integer, nullable=False) 
-    avg_wps             = db.Column(db.Float, nullable=False) 
-    content_level       = db.Column(db.Integer, db.ForeignKey('contentLevels.id'), nullable=False)
+    id                      = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
+    type                    = db.Column(db.Integer, db.ForeignKey('contentTypes.id'), nullable=False) 
+    title                   = db.Column(db.String(100), nullable=False)
+    genre                   = db.Column(db.String(200), nullable=False)
+    age_rating              = db.Column(db.String(10))
+    director                = db.Column(db.String(100))
+    release_year            = db.Column(db.String(5))
+    running_time            = db.Column(db.String(25))
+    story                   = db.Column(db.Text)
+    subs_path               = db.Column(db.String(255))
+    img_path                = db.Column(db.String(255))
+    word_difficulty_level   = db.Column(db.Integer, nullable=False) 
+    words_per_second        = db.Column(db.Float, nullable=False) 
+    content_level           = db.Column(db.Integer, db.ForeignKey('contentLevels.id'), nullable=False)
 
 
 class sentences(db.Model):
