@@ -1,11 +1,8 @@
-import Header from "../common/Header";
-import Footer from "../common/Footer";
 import { content_detail } from "./ContentData"
 
 export default function Content () {
   return (
     <div>
-      <Header />
       <div className='box_basic'>
         <div className='detail_title'>
           <h2 className='title_name'>{content_detail.title}</h2>
@@ -49,7 +46,6 @@ export default function Content () {
           })}
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

@@ -133,6 +133,65 @@ li {
   transition-duration: 1s;
   transform: scale(1.08);
 }
+section {
+  margin: 30px;
+  margin-bottom: 100px;
+  padding:10px;
+  padding-bottom: 50px;
+}
+.shortcut_left_div {
+  background-color: black;
+}
+.shortcut_left {
+  margin-left: 10%;
+  padding: 10px;
+  display: block;
+  font: white;
+}
+.shortcut_button_left{
+  margin-left: 10%;
+}
+.shortcut_right_div {
+ 
+}
+.shortcut_right {
+  margin-left: 55%;
+  padding: 10px;
+  display: block;
+}
+.shortcut_button_right{
+  margin-left: 55%;
+}
+.shortcut_left p, .shortcut_left h3{
+  width: 500px;
+  color: white;
+}
+
+.shortcut_right p, .shortcut_right h3{
+  width: 500px;
+}
+.shortcut_button {
+  padding: 10px 30px 10px 30px;
+  width: 200px;
+  height: 80px%;
+  border-radius: 20px;
+}
+
+.shortcut {
+  background-color: rgb(41, 46, 112);
+}
+.shortcut h3,.shortcut h4,.shortcut p{
+  color: white;
+}
+.capable_list {
+  text-align: center;
+}
+.split{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  text-align: center;
+}
 
 /* 컨텐츠 상세 페이지 */
 .box_basic {

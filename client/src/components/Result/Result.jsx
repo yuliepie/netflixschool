@@ -1,12 +1,9 @@
 import { Link } from 'react-router-dom';
-import Header from '../common/Header';
-import Footer from '../common/Footer';
 import { ResultData } from "./ResultData";
 
 export default function Result () {
   return (
     <div>
-      <Header />
       <div>
         <h1>결과 출력</h1>
         <h2>당신의 레벨은 {ResultData.user_level}입니다.</h2>
@@ -33,7 +30,6 @@ export default function Result () {
           </section>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
