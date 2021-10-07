@@ -1,3 +1,5 @@
+// 메인페이지 footer
+
 import React from "react";
 
 export default function Footer () {

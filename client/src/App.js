@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import TestMain from './pages/TestMain';
-import TestPage from './components/TestPage/TestPage';
+import TestReadyPage from './pages/TestReadyPage';
+import TestPage from './pages/TestPage';
 import Home from './pages/Home';
 import Intro from './components/Intro/Intro';
-import Result from './components/Result/Result';
-import Content from './components/Content/Content';
+import Result from './pages/Result';
+import Content from './pages/Content';
 // import Recommendation from './components/Recommendation/Recommendation';
 
 
@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path='/test' component={TestMain} />
+          <Route path='/test' component={TestReadyPage} />
           <Route path="/dotest" component={TestPage}></Route>
           <Route exact path="/intro" component={Intro} />
           {/* <Route exact path="/recommendation" component={Recommendation} /> */}

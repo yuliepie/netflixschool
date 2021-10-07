@@ -1,3 +1,6 @@
+// 영화 데이터
+// db 생성 전 임시 사용
+
 export const content_detail = {
   id: '615bba51e62732f3bc4c10b6',
   title: 'Norm of the North: King Sized Adventure',

@@ -1,3 +1,5 @@
+// 메안(렌딩)페이지
+
 import React from "react";
 import ImageSlider from "../components/Home/ImageSlider";
 import Header from '../components/common/Header'

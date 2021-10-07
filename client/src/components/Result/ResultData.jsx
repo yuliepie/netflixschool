@@ -1,3 +1,5 @@
+// 테스트 결과 페이지에 연동할 영화 이미지
+// db 생성 전 임시 사용
 
 export const ResultData = {
   user_level: '"순수 한국인"',

@@ -1,8 +1,11 @@
+// 테스트 페이지 문제 내비게이션
+
 import React from "react";
 import { Link } from "react-router-dom";
 import './NavBar.css';
 import { Route, Switch } from "react-router-dom";
 import Testinfo from './TestInfo';
+import Result from "../../pages/Result";
 
 const Navbar = () => {
 
@@ -25,31 +28,10 @@ const Navbar = () => {
             </div>
             <Switch>
                 <Route path="/testForm/:number" component={Testinfo} />
+                {/* <Route path="/result" component={Result} /> */}
             </Switch>
         </div>
     );
 };
 
 export default Navbar;
-
-
-{/* <div>
-                <Link to="/testForm" style={{ textDecoration: 'none' }}>
-                    Q1
-                </Link>
-            </div>
-            <div>
-                <Link to="/testForm" style={{ textDecoration: 'none' }}>
-                    Q2
-                </Link>
-            </div>
-            <div>
-                <Link to="/testForm" style={{ textDecoration: 'none' }}>
-                    Q3
-                </Link>
-            </div>
-            <div>
-                <Link to="/testForm" style={{ textDecoration: 'none' }}>
-                    Q4
-                </Link>
-            </div> */}
