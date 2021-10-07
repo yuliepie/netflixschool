@@ -32,6 +32,7 @@ mydb = mysql.connector.connect(
 print("connected!")
 
 cursor = mydb.cursor()
+cursor.execute("DROP DATABASE IF EXISTS {};".format(env_variables["DB_NAME"]))
 cursor.execute(
     "CREATE DATABASE {} DEFAULT CHARACTER SET 'utf8'".format(env_variables["DB_NAME"])
 )

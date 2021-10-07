@@ -37,7 +37,7 @@ db_migration = Migrate()
 # ========================
 def create_app():
     app = Flask(__name__)
-    print(env_variables['DB_PORT'])
+    print(env_variables["DB_PORT"])
     SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{env_variables['DB_USER']}:{env_variables['DB_PWD']}@{env_variables['DB_HOST']}:{env_variables['DB_PORT']}/{env_variables['DB_NAME']}"
 
     # Configure Database
@@ -50,7 +50,7 @@ def create_app():
     print("migration added")
 
     from .api import main_view
-    from netflixcool_server.models import netflixContents
+    from netflixcool_server.models import NetflixContent
 
     app.register_blueprint(main_view.bp)
 
