@@ -11,15 +11,6 @@ export default function Header () {
           <button><Link to='/signup'>회원가입</Link></button>
         </div> */}
       </header1>
-      <herder1 className="header">
-        <div></div>
-        <div className="menu">
-          <li><Link to='/intro'>소개</Link></li>
-          <li><Link to='/test'>레벨테스트</Link></li>
-          {/* <li><Link to='/recommendation'>영화추천</Link></li> */}
-
-        </div>
-      </herder1>
     </div>
 
 
