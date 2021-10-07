@@ -30,7 +30,7 @@ class NetflixContent(db.Model):
     genre = db.Column(db.String(200), nullable=False)
     age_rating = db.Column(db.String(10))
     director = db.Column(db.String(100))
-    release_year = db.Column(db.String(5))
+    release_year = db.Column(db.Integer)
     running_time = db.Column(db.String(25))
     story = db.Column(db.Text)
     subs_path = db.Column(db.String(255), nullable=False)
@@ -125,4 +125,3 @@ class ContentLevel(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     level = db.Column(db.String(255), nullable=False)
-
