@@ -31,14 +31,14 @@ def get_wps_running_time_for_content(title, script_csv):
     script_csv = script_csv[script_csv['wordsPerSec']>=0.5].sort_values('words_num')
 
     # result DF 만들기
-    result = script_csv['wordsPerSec'].describe().to_frame().transpose()[['mean', 'std', 'min', 'max']]
-    result['title'] = title
-    result['running_time(sec)'] = running_time
-    result['weight'] = 3600/running_time
-    result = result.set_index('title')
-    result = result.rename(columns={'mean':'WPS_mean', 'std':'WPS_std', 'min':'WPS_min', 'max':'WPS_max'})
+    df_result = script_csv['wordsPerSec'].describe().to_frame().transpose()[['mean', 'std', 'min', 'max']]
+    df_result['title'] = title
+    df_result['running_time(sec)'] = running_time
+    df_result['weight'] = 3600/running_time
+    df_result = df_result.set_index('title')
+    df_result = df_result.rename(columns={'mean':'WPS_mean', 'std':'WPS_std', 'min':'WPS_min', 'max':'WPS_max'})
 
-    return result
+    return df_result
 
 if __name__ == '__main__':    # 프로그램의 시작점일 때만 아래 코드 실행
 
