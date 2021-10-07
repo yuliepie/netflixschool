@@ -46,25 +46,27 @@ header = next(csv_data)
 
 # csv to mysql
 for row in csv_data:
-    title = row[0]
-    title_kr = row[1]
-    title_en = row[2]
-    genre = row[3]
-    age_rating = row[4]
-    director = row[5]
-    release_year = str(row[6])
-    running_time = row[7]
-    story = row[8]
-    subs_path = row[9]
-    img_path = row[10]
-    type = int(row[11])
+    netflix_id = row[0]
+    title = row[1]
+    title_kr = row[2]
+    title_en = row[3]
+    genre = row[4]
+    age_rating = row[5]
+    director = row[6]
+    release_year = str(row[7])
+    running_time = row[8]
+    story = row[9]
+    subs_path = row[10]
+    img_path = row[11]
+    type = int(row[12])
     sql = """insert into netflix_contents (
-        title, title_kr, title_en, genre, age_rating, director, release_year,
+        netflix_id, title, title_kr, title_en, genre, age_rating, director, release_year,
         running_time, story, subs_path, img_path, type)
-        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
     curs.execute(
         sql,
         [
+            netflix_id,
             title,
             title_kr,
             title_en,
