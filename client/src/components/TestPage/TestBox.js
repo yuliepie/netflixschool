@@ -49,8 +49,3 @@ const NextIcons = styled.div`
     width:200px; 
     margin: 0 auto auto auto;
 `;
-
-// const Image = styled.img`
-//     width: 70%;
-//     height: 70%;
-// `;

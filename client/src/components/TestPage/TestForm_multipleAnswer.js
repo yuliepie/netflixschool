@@ -50,14 +50,3 @@ export default function TestFormMultipleAnswer ({props}) {
     </div>
   )
 }
-
-
-{/* <div><Image src={question.imgPath} alt='questionimg' /></div>
-      <p>{question.koreanSentence}</p>
-      {question.choices.map((answ, index) => {
-        return (
-          <div key={index}>
-            <input type='radio' name='answer'/><span>{answ.choice}</span>
-          </div>
-        )
-      })} */}
