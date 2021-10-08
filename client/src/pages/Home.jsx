@@ -6,9 +6,9 @@ import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 
 import { SliderData } from "../components/Home/SliderData";
-import HomeIntro from '../components/Home/Testintro';
+import HomeIntro from '../components/Home/TestIntro';
 import ProjectIntro from '../components/Home/ProjectIntro';
-import Cando from "../components/Home/Cando";
+import WhatCanDo from "../components/Home/WhatCanDo";
 
 export default function Home () {
   return (
@@ -17,7 +17,7 @@ export default function Home () {
       <ImageSlider slides={SliderData} />
       <HomeIntro />
       <ProjectIntro />
-      <Cando />
+      <WhatCanDo />
       <div>카운터</div>
       <Footer />
     </div>

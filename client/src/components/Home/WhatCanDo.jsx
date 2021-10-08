@@ -1,6 +1,6 @@
 // 메인페이지 마지막 이미지 - 서비스 간단 소개
 
-export default function Cando() {
+export default function WhatCanDo() {
   return (
 
     <section className='shortcut'>
