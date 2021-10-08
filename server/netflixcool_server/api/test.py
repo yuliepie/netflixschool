@@ -30,7 +30,8 @@ class Test(Resource):
         answers = data.get("answers")
 
         # 정답 리스트로 알고리즘 연산 후 유저 레벨 도출
-        result_level = 1
+        randoms = [random.randint(1, 5) for _ in range(100)]
+        result_level = random.choice(randoms)
 
         normal_contents = NetflixContent.query.filter_by(
             content_level=result_level
