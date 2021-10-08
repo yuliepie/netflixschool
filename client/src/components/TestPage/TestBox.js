@@ -23,11 +23,14 @@ const TestBox = ({props}) => {
     return(
         <div>
             <h1>test {props}</h1>
-            <NextIcons>
-                <Link to={`/doTest/${props+1}`}>
-                    <MdNextPlan size="50" />
-                </Link>
-            </NextIcons>
+            
+            <div>
+                <NextIcons>
+                    <Link to={`/doTest/${props+1}`}>
+                        <MdNextPlan size="50" />
+                    </Link>
+                </NextIcons>
+            </div>
         </div>
     );
 };

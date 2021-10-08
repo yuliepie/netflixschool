@@ -1,10 +1,16 @@
 import React from 'react';
 import {question} from './TestQuestions/Questions2';
+import styled from 'styled-components';
 
-export default function TestFormMultipleAnswer () {
+const Image = styled.img`
+  width: 70%;
+  height: 70%;
+`;
+
+export default function TestFormMultipleAnswer (props) {
   return(
     <div>
-      <img src={question.imgPath} alt='questionimg' />
+      <div><Image src={question.imgPath} alt='questionimg' /></div>
       <p>{question.koreanSentence}</p>
       {question.choices.map((answ, index) => {
         return (
@@ -17,3 +23,14 @@ export default function TestFormMultipleAnswer () {
     </div>
   )
 }
+
+
+{/* <div><Image src={question.imgPath} alt='questionimg' /></div>
+      <p>{question.koreanSentence}</p>
+      {question.choices.map((answ, index) => {
+        return (
+          <div key={index}>
+            <input type='radio' name='answer'/><span>{answ.choice}</span>
+          </div>
+        )
+      })} */}

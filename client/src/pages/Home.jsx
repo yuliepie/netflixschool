@@ -6,7 +6,7 @@ import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 
 import { SliderData } from "../components/Home/SliderData";
-import HomeIntro from '../components/Home/TestIntro';
+import TestIntro from '../components/Home/Testintro';
 import ProjectIntro from '../components/Home/ProjectIntro';
 import WhatCanDo from "../components/Home/WhatCanDo";
 
@@ -15,7 +15,7 @@ export default function Home () {
     <div>
       <Header />
       <ImageSlider slides={SliderData} />
-      <HomeIntro />
+      <TestIntro />
       <ProjectIntro />
       <WhatCanDo />
       <Footer />
