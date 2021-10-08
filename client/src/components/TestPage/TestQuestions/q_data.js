@@ -18,13 +18,13 @@
   type: 'int',
   imgPath: '/img/Qasdad3.jpg',
   koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
-  choices: ["what you have",	'What happen to', 'you	What time it is',	'where you belong',	'How old you are']
+  choices: ["what you have",	'What happen to you',	'What time it is',	'where you belong',	'How old you are']
 },{
   id: 'int',
   question: '4',
   type: 'int',
   imgPath: '/img/Qasdad4.jpg',
-  koreanSentence: '다음 중 빈칸에 들어갈 단어를   적어세요',
+  koreanSentence: '다음 중 빈칸에 들어갈 단어를 적어주세요',
   choices: ["civilization"]
 },{
   id: 'int',
