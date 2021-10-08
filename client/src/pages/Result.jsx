@@ -17,7 +17,7 @@ export default function Result () {
           <section className='recommendation'>
             {ResultData.normal_content.map((result, index) => {
               return (
-                  <li key={index} className='recommended_list'><Link to='/content'><img src={result.image_path} alt="movie_poster" className='resultlist_image' /></Link></li>
+                <li key={index} className='recommended_list'><Link to='/content'><img src={result.image_path} alt="movie_poster" className='resultlist_image' /></Link></li>
             )})}
           </section>
         </div>

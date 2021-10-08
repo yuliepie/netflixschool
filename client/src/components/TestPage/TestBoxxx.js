@@ -2,7 +2,8 @@ import React from 'react';
 import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { QuestionData } from './TestQuestions/q_data'
+import { QuestionData } from './TestQuestions/q_data_copy'
+import TestFormMultipleAnswer from './TestForm_multipleAnswer';
 
 const TestBox = ({match}) => {
     console.log(match)
@@ -20,6 +21,7 @@ const TestBox = ({match}) => {
             <div>
                 <div>
                     <h1>test {questionNumber}</h1>
+                    <TestFormMultipleAnswer />
                     <NextIcons>
                         <Link to='/result'>
                             <MdDoneOutline size="50" />
