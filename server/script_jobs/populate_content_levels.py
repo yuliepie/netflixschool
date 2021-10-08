@@ -5,6 +5,13 @@ import os
 import sys
 from dotenv import load_dotenv
 
+from Scripts import (
+    get_word_level_counts_for_content,
+    get_wps_running_time_for_content,
+    normalize_and_calculate_level,
+    get_unique_word_counts_from_script,
+)
+
 load_dotenv()
 
 env_variables = {
@@ -34,12 +41,23 @@ cursor = conn.cursor()
 
 # S3
 s3 = boto3.client("s3")
-bucket = "netflixschool-script-csv"
+script_bucket = "netflixschool-script-csv"
+words_bucket = "netflixschool"
+
+# word list
+words_obj = s3.get_object(Bucket=words_bucket, Key="word_levels.csv")
+word_list_csv = pd.read_csv(words_obj["Body"], index_col="Word")
+# lemmas
+lemmas_obj = s3.get_object(Bucket=words_bucket, Key="ex_lemmas.csv")
+lemmas_csv = pd.read_csv(lemmas_obj["Body"], index_col="Word")
+# compound lemmas
+compound_lemmas_obj = s3.get_object(Bucket=words_bucket, Key="compound_lemmas.csv")
+compound_lemmas_csv = pd.read_csv(compound_lemmas_obj["Body"], index_col="Word")
 
 select_netflix = "select id, title, release_year from netflix_contents"
 where = ' where title in ("About.Time", "Baby.Driver")'
 
-cursor.execute(select_netflix + where)
+cursor.execute(select_netflix)
 contents = list(cursor.fetchall())
 
 # DF to contain word level and WPS stats for all netflix contents
@@ -47,33 +65,41 @@ all_scripts_df = pd.DataFrame()
 
 # for each row in netflix_contents, get word_levels and wps
 for (id, title, year) in contents:
+    print(id, title)
     csv_name = f"{title}_{year}.csv"
-    print(id)
 
-    csv_obj = s3.get_object(Bucket=bucket, Key=csv_name)
+    csv_obj = s3.get_object(Bucket=script_bucket, Key=csv_name)
     script_csv = pd.read_csv(csv_obj["Body"])
 
-    # df1 = get_word_level_counts_for_content(script_csv, lemmas, word_list, primary_key)
-    # df2 = get_wps_running_time_for_content(script_csv, primary_key)
+    unique_words_df = get_unique_word_counts_from_script(
+        script_csv, compound_lemmas_csv
+    )
+    word_level_df = get_word_level_counts_for_content(
+        id, unique_words_df, word_list_csv, lemmas_csv
+    )
+    wps_df = get_wps_running_time_for_content(id, script_csv)
 
-    # all_scripts_df.append(df1 + df2)
+    merged = pd.merge(word_level_df, wps_df, left_index=True, right_index=True)
+
+    all_scripts_df = all_scripts_df.append(merged)
 
 # 가중치 리스트
-df_final = normalize_and_calculate_level(all_scripts_df, 가중치 리스트)
+level_weights = [1, 2, 3, 4, 5, 6, 5.25]
+df_final = normalize_and_calculate_level(all_scripts_df, level_weights)
+
+df_final.to_csv("test.csv")
 
 # add level to netflix_contents
 netflix_update_sql = """
     UPDATE netflix_contents
-    SET word_difficulty_level = %s, words_per_second = %s, content_level = %s
+    SET content_level = %s
     WHERE id = %s
 """
 for index, row in df_final.iterrows():
     cursor.execute(
         netflix_update_sql,
         (
-            row["word_difficulty_level"],
-            row["wps"],
-            row["content_difficulty_level"],
+            row["content_level"],
             index,
         ),
     )

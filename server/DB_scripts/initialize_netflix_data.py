@@ -8,7 +8,7 @@ import os
 import sys
 from dotenv import load_dotenv
 
-a = os.path.abspath("csv_files/netflix_contents_with_types.csv")
+a = os.path.abspath("script_jobs/csv_files/netflix_contents_with_types.csv")
 print(a)
 
 load_dotenv()
