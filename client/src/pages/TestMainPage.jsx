@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import Navbar from '../components/TestPage/Navbar';
 import Result from './Result';
-import TestBox from '../components/TestPage/TestBoxxx';
+import TestBox from '../components/TestPage/TestBox';
 
 const TestPage = ({history}) => {
     const [seconds, setSeconds] = useState(parseInt(3));

@@ -2,26 +2,21 @@ import React from 'react';
 import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { QuestionData } from './TestQuestions/q_data_copy'
+import { QuestionData } from './TestQuestions/q_data'
 import TestFormMultipleAnswer from './TestForm_multipleAnswer';
 
 const TestBox = ({match}) => {
-    console.log(match)
-    console.log(match.params)
     const { number } = match.params;
     const question = QuestionData[number];
-    const questionNumber = parseInt(question.question)
-    console.log(question)
-    
+
     if(!question) {
         return <div>존재하지 않는 번호</div>;
     }
-    if (questionNumber === 10){
+    if (parseInt(question.question) === 10){
         return(
             <div>
                 <div>
-                    <h1>test {questionNumber}</h1>
-                    <TestFormMultipleAnswer />
+                    <TestFormMultipleAnswer  props = {question}/>
                     <NextIcons>
                         <Link to='/result'>
                             <MdDoneOutline size="50" />
@@ -33,23 +28,10 @@ const TestBox = ({match}) => {
     }
     return(
         <div>
-            <h1>test {questionNumber}</h1>
-            <div>
-                <div><Image src={question.imgPath} alt='questionimg' /></div>
-                <p>{question.koreanSentence}</p>
-                {question.choices.map((answ, index) => {
-                    return (
-                    <div key={index}>
-                        <input type='radio' name='answer'/><span>{answ.choice}</span>
-                    </div>
-                    )
-                })}
-            </div>
-
-
+            <TestFormMultipleAnswer  props = {question}/>
             <div>
                 <NextIcons>
-                    <Link to={`/doTest/${questionNumber+1}`}>
+                    <Link to={`/doTest/${parseInt(question.question)+1}`}>
                         <MdNextPlan size="50" />
                     </Link>
                 </NextIcons>
@@ -68,7 +50,7 @@ const NextIcons = styled.div`
     margin: 0 auto auto auto;
 `;
 
-const Image = styled.img`
-    width: 70%;
-    height: 70%;
-`;
+// const Image = styled.img`
+//     width: 70%;
+//     height: 70%;
+// `;

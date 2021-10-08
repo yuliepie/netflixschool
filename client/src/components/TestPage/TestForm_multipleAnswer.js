@@ -1,7 +1,6 @@
 // 객관식 문제 유형
 
 import React from 'react';
-import {question} from './TestQuestions/Questions2';
 import styled from 'styled-components';
 
 const Image = styled.img`
@@ -26,13 +25,17 @@ const Reply = styled.div`
   padding-left: 50px;
 `;
 
-export default function TestFormMultipleAnswer (props) {
+export default function TestFormMultipleAnswer ({props}) {
+  const questionNumber = parseInt(props.question)
   return(
     <div>
-      <div><Image src={question.imgPath} alt='questionimg' /></div>
-      <Asking>{question.koreanSentence}</Asking>
       <Wrap>
-      {question.choices.map((answ, index) => {
+        <h1>test {questionNumber}</h1>
+      </Wrap>
+      <div><Image src={props.imgPath} alt='questionimg' /></div>
+      <Asking>{props.koreanSentence}</Asking>
+      <Wrap>
+      {props.choices.map((answ, index) => {
         return (
           <Reply key={index}>
             <input 
