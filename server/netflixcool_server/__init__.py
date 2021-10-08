@@ -1,6 +1,8 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from flask_restx import Api
+# from flask_cors import CORS
 import os
 import sys
 from dotenv import load_dotenv
@@ -36,7 +38,9 @@ db_migration = Migrate()
 # Initialize Flask App
 # ========================
 def create_app():
+
     app = Flask(__name__)
+    # CORS(app)
     print(env_variables["DB_PORT"])
     SQLALCHEMY_DATABASE_URI = f"mysql+pymysql://{env_variables['DB_USER']}:{env_variables['DB_PWD']}@{env_variables['DB_HOST']}:{env_variables['DB_PORT']}/{env_variables['DB_NAME']}"
 
@@ -49,9 +53,23 @@ def create_app():
 
     print("migration added")
 
-    from .api import main_view
+    api = Api(
+        app,
+        version='1.0',
+        title="Netflix School's API Server",
+        description="Netflix School's API Server",
+        terms_url="/",
+        contact="elice"
+    )
+
+    from .api.main_view import Home
+    from .api.content import api as NetflixContentApi
+    # from .api.intro import api as IntroApi
+    # from .api.test import api as TestApi
     from netflixcool_server.models import NetflixContent
 
-    app.register_blueprint(main_view.bp)
-
+    # app.register_blueprint(main_view.bp)
+    api.add_namespace(Home, "/home")
+    api.add_namespace(NetflixContentApi, "/content/<int:content_id>")
+    # api.add_namespace()
     return app
