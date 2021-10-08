@@ -24,6 +24,7 @@ function App() {
           {/* <Route exact path="/recommendation" component={Recommendation} /> */}
           <Route exact path="/result" component={Result} />
           <Route exact path="/content" component={Content} />
+          <Route path="/">NOT FOUND</Route>
         </Switch>
       </div>
     </BrowserRouter>

@@ -2,10 +2,12 @@
 
 import React from 'react';
 import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
+import Result from '../../pages/Result';
 
 const TestForm = ({props}) => {
+    const location = useLocation();
     if (props === 10){
         return(
             <div>
@@ -20,11 +22,12 @@ const TestForm = ({props}) => {
             </div>
         )
     }
+    console.log(location)
     return(
         <div>
             <h1>test {props}</h1>
             <NextIcons>
-                <Link to={`/testForm/${props+1}`}>
+                <Link to={`/doTest/${props+1}`}>
                     <MdNextPlan size="50" />
                 </Link>
             </NextIcons>

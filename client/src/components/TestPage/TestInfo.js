@@ -18,10 +18,11 @@ const data = {
     }
 };
 
-const Testinfo = ({ match}) => {
+const Testinfo = ({ match }) => {
 
-
-    const question = data[match.params.number];
+    const { number } = match.params;
+    console.log(match.params)
+    const question = data[number];
     console.log(question)
     if(!question) {
         return <div>존재하지 않는 번호</div>;
