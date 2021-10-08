@@ -1,7 +1,7 @@
 // db 생성 전 임시 사용
 
 import React from "react";
-import TestForm from "./TestForm_multiple";
+import TestBox from "./TestBox";
 
 const data = {
     1 : {
@@ -30,7 +30,7 @@ const Testinfo = ({ match }) => {
     console.log(question.number)
     return(
         <div>
-            <TestForm props = {question.number}/>
+            <TestBox props = {question.number}/>
         </div>
     );
 };

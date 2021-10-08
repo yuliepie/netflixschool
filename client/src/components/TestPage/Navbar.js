@@ -6,7 +6,6 @@ import './NavBar.css';
 import { Route } from "react-router-dom";
 import Testinfo from './TestInfo';
 const Navbar = () => {
-
     const Question_num = [1,2,3,4,5,6,7,8,9,10];
     const numList = Question_num.map(num => (
         <div key = {`${num}`}>

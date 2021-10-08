@@ -2,12 +2,10 @@
 
 import React from 'react';
 import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
-import { Link, useLocation, Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import Result from '../../pages/Result';
 
-const TestForm = ({props}) => {
-    const location = useLocation();
+const TestBox = ({props}) => {
     if (props === 10){
         return(
             <div>
@@ -22,7 +20,6 @@ const TestForm = ({props}) => {
             </div>
         )
     }
-    console.log(location)
     return(
         <div>
             <h1>test {props}</h1>
@@ -35,7 +32,7 @@ const TestForm = ({props}) => {
     );
 };
 
-export default TestForm;
+export default TestBox;
 
 const NextIcons = styled.div`
     bottom: 0;
