@@ -1,10 +1,11 @@
-// 테스트 준비 완료 후 나타나는 페이지
+// 테스트 준비 완료 후 나타나는 테스트 페이지
 
 import React,{ useEffect, useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import Navbar from '../components/TestPage/Navbar';
 import Result from './Result';
+import TestBox from '../components/TestPage/TestBox';
 
 const TestPage = ({history}) => {
     const [seconds, setSeconds] = useState(parseInt(3));
@@ -32,9 +33,9 @@ const TestPage = ({history}) => {
         return (
             <div>
                 <StartBox>테스트 시작까지 남은 시간</StartBox>
-                    <div>
-                        <StartBox><h1>{seconds}</h1></StartBox>
-                    </div>
+                <div>
+                    <StartBox><h1>{seconds}</h1></StartBox>
+                </div>
             </div>
         )
     }
@@ -51,6 +52,7 @@ const TestPage = ({history}) => {
                 <Navbar/>
                 <Switch>
                     <Route path="/result" component={Result} />
+                    <Route path="/doTest/:number" component={TestBox} />
                 </Switch>
             </BrowserRouter>
         </div>

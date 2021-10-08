@@ -1,3 +1,5 @@
+// 객관식 문제 유형
+
 import React from 'react';
 import {question} from './TestQuestions/Questions2';
 import styled from 'styled-components';

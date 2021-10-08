@@ -3,8 +3,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './NavBar.css';
-import { Route } from "react-router-dom";
-import Testinfo from './TestInfo';
+// import { Route } from "react-router-dom";
+// import Testinfo from './TestInfo';
 const Navbar = () => {
     const Question_num = [1,2,3,4,5,6,7,8,9,10];
     const numList = Question_num.map(num => (
@@ -23,7 +23,6 @@ const Navbar = () => {
             <div>
                 <nav className="wrapper">{numList}</nav>
             </div>
-            <Route path="/doTest/:number" component={Testinfo} />
         </div>
     );
 };
