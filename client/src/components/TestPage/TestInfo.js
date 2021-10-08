@@ -1,6 +1,7 @@
+// db 생성 전 임시 사용
+
 import React from "react";
 import TestForm from "./TestForm_multiple";
-import { Link } from "react-router-dom";
 
 const data = {
     1 : {
@@ -19,20 +20,14 @@ const data = {
 
 const Testinfo = ({ match }) => {
 
-
-    const question = data[match.params.number];
+    const { number } = match.params;
+    console.log(match.params)
+    const question = data[number];
     console.log(question)
     if(!question) {
         return <div>존재하지 않는 번호</div>;
     }
     console.log(question.number)
-    if(question.number === 10) {
-        return (
-            <Link to="/result">
-                <button>제출</button>
-            </Link>
-        );
-    }
     return(
         <div>
             <TestForm props = {question.number}/>

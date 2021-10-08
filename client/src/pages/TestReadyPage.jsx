@@ -1,7 +1,9 @@
+// 테스트 준비 페이지
+
 import React from 'react';
 import TestPrecautions from '../components/TestPage/TestPrecautions';
 
-const TestMain = () => {
+const TestReadyPage = () => {
     return(
         <div>
             <TestPrecautions />
@@ -9,4 +11,4 @@ const TestMain = () => {
     )
 }
 
-export default TestMain;
+export default TestReadyPage;

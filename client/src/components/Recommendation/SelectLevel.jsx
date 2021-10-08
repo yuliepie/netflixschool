@@ -1,6 +1,6 @@
 
 export default function SelectLevel () {
-   return (
+  return (
     <div className='levelselector'>
       <ul>
         <li><button>A</button></li>
@@ -10,5 +10,5 @@ export default function SelectLevel () {
         <li><button>E</button></li>
       </ul>
     </div>
-   )
- }
+  )
+}

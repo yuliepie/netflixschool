@@ -1,4 +1,6 @@
-import { content_detail } from "./ContentData"
+// 영화 소개 페이지
+
+import { content_detail } from "../components/Content/ContentData"
 
 export default function Content () {
   return (

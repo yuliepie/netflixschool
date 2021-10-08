@@ -1,7 +1,10 @@
+// 테스트 결과 페이지
+
 import { Link } from 'react-router-dom';
-import { ResultData } from "./ResultData";
+import { ResultData } from "../components/Result/ResultData";
 
 export default function Result () {
+
   return (
     <div>
       <div>

@@ -1,3 +1,4 @@
+// 메인페이지 슬라이더
 
 import React, { useState } from "react";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';

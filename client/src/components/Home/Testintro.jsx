@@ -1,3 +1,5 @@
+// 메인페이지 이미지 중 테스트로 연동해주는 컴포넌트
+
 import { Link } from "react-router-dom";
 
 export default function Testintro() {
