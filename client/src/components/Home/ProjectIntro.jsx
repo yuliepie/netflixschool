@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 
-export default function Testintro() {
+export default function ProjectShortcut() {
   return (
     <section className='shortcut_right_div'>
       {/* <img src='/img/32.jpeg' alt='projectinfo_img' />   */}

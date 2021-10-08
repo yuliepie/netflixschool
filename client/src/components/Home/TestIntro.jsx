@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 
-export default function TestIntro() {
+export default function TestShortcut() {
   return (
     <section className='shortcut_left_div'>
       <div>

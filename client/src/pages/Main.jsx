@@ -8,6 +8,9 @@ import Footer from '../components/common/Footer'
 import { SliderData } from "../components/Home/SliderData";
 import TestIntro from '../components/Home/Testintro';
 import ProjectIntro from '../components/Home/ProjectIntro';
+
+import TestShortcut from '../components/Home/TestShortcut';
+import ProjectShortcut from '../components/Home/ProjectShortcut';
 import WhatCanDo from "../components/Home/WhatCanDo";
 
 export default function Home () {
@@ -17,6 +20,8 @@ export default function Home () {
       <ImageSlider slides={SliderData} />
       <TestIntro />
       <ProjectIntro />
+      <TestShortcut />
+      <ProjectShortcut />
       <WhatCanDo />
       <Footer />
     </div>

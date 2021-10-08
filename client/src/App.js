@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import TestReadyPage from './pages/TestReadyPage';
 import TestPage from './pages/TestPage';
-import Home from './pages/Home';
+import Home from './pages/Main';
 import Intro from './components/Intro/Intro';
 import Result from './pages/Result';
 import Content from './pages/Content';
