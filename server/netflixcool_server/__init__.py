@@ -67,10 +67,11 @@ def create_app():
     from netflixcool_server.models import NetflixContent
 
     from .api.content import content_ns
+    from .api.test import test_ns
 
     # from .api.intro import api as IntroApi
-    # from .api.test import api as TestApi
 
     rest_api.add_namespace(content_ns)
+    rest_api.add_namespace(test_ns)
 
     return app

@@ -1,4 +1,3 @@
-from flask import Blueprint, request, jsonify
 from flask_restx import Resource, Namespace, fields, reqparse
 from netflixcool_server import db
 from netflixcool_server.models import *
