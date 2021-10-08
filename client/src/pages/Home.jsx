@@ -18,7 +18,6 @@ export default function Home () {
       <HomeIntro />
       <ProjectIntro />
       <WhatCanDo />
-      <div>카운터</div>
       <Footer />
     </div>
   )
