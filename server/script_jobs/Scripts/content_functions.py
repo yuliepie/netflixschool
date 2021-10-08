@@ -246,4 +246,26 @@ def calculate_level(df_normalize, _list):
     # Final Score 계산
     df_result["final_score"] = df_result["level_score"] + df_result["wps_score"]
 
+    df_result["content_level"] = None
+
+    level_1 = df_result.describe(percentiles=[0.2, 0.4, 0.6, 0.8])["final_score"]["20%"]
+    level_2 = df_result.describe(percentiles=[0.2, 0.4, 0.6, 0.8])["final_score"]["40%"]
+    level_3 = df_result.describe(percentiles=[0.2, 0.4, 0.6, 0.8])["final_score"]["60%"]
+    level_4 = df_result.describe(percentiles=[0.2, 0.4, 0.6, 0.8])["final_score"]["80%"]
+
+    df_result.loc[df_result["final_score"] < level_1, "content_level"] = 1
+    df_result.loc[
+        (level_1 <= df_result["final_score"]) & (df_result["final_score"] < level_2),
+        "content_level",
+    ] = 2
+    df_result.loc[
+        (level_2 <= df_result["final_score"]) & (df_result["final_score"] < level_3),
+        "content_level",
+    ] = 3
+    df_result.loc[
+        (level_3 <= df_result["final_score"]) & (df_result["final_score"] < level_4),
+        "content_level",
+    ] = 4
+    df_result.loc[df_result["final_score"] >= level_4, "content_level"] = 5
+
     return df_result

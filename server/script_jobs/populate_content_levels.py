@@ -5,7 +5,7 @@ import os
 import sys
 from dotenv import load_dotenv
 
-from content_functions import (
+from Scripts import (
     get_word_level_counts_for_content,
     get_wps_running_time_for_content,
     normalize_and_calculate_level,
@@ -71,41 +71,40 @@ for (id, title, year) in contents:
     csv_obj = s3.get_object(Bucket=script_bucket, Key=csv_name)
     script_csv = pd.read_csv(csv_obj["Body"])
 
-    # unique_words_df = get_unique_word_counts_from_script(
-    #     script_csv, compound_lemmas_csv
-    # )
-    # word_level_df = get_word_level_counts_for_content(
-    #     id, unique_words_df, word_list_csv, lemmas_csv
-    # )
-    # wps_df = get_wps_running_time_for_content(id, script_csv)
+    unique_words_df = get_unique_word_counts_from_script(
+        script_csv, compound_lemmas_csv
+    )
+    word_level_df = get_word_level_counts_for_content(
+        id, unique_words_df, word_list_csv, lemmas_csv
+    )
+    wps_df = get_wps_running_time_for_content(id, script_csv)
 
-    # merged = pd.merge(word_level_df, wps_df, left_index=True, right_index=True)
+    merged = pd.merge(word_level_df, wps_df, left_index=True, right_index=True)
 
-    # all_scripts_df = all_scripts_df.append(merged)
+    all_scripts_df = all_scripts_df.append(merged)
 
 # 가중치 리스트
-# level_weights = [1, 2, 3, 4, 5, 6, 4]
-# df_final = normalize_and_calculate_level(all_scripts_df, level_weights)
+level_weights = [1, 2, 3, 4, 5, 6, 5.25]
+df_final = normalize_and_calculate_level(all_scripts_df, level_weights)
 
-# df_final.to_csv("test.csv")
+df_final.to_csv("test.csv")
+
 # add level to netflix_contents
-# netflix_update_sql = """
-#     UPDATE netflix_contents
-#     SET word_difficulty_level = %s, words_per_second = %s, content_level = %s
-#     WHERE id = %s
-# """
-# for index, row in df_final.iterrows():
-#     cursor.execute(
-#         netflix_update_sql,
-#         (
-#             row["word_difficulty_level"],
-#             row["wps"],
-#             row["content_difficulty_level"],
-#             index,
-#         ),
-#     )
+netflix_update_sql = """
+    UPDATE netflix_contents
+    SET content_level = %s
+    WHERE id = %s
+"""
+for index, row in df_final.iterrows():
+    cursor.execute(
+        netflix_update_sql,
+        (
+            row["content_level"],
+            index,
+        ),
+    )
 
-# # db 저장
-# conn.commit()
+# db 저장
+conn.commit()
 # db 접속 해제
 conn.close()
