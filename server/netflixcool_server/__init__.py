@@ -71,5 +71,5 @@ def create_app():
     # app.register_blueprint(main_view.bp)
     api.add_namespace(Home, "/home")
     api.add_namespace(NetflixContentApi, "/content/<int:content_id>")
-    api.add_namespace()
+    # api.add_namespace()
     return app
