@@ -1,5 +1,7 @@
 alembic==1.7.3
+aniso8601==9.0.1
 appnope==0.1.2
+attrs==21.2.0
 backcall==0.2.0
 black==21.9b0
 blis==0.7.4
@@ -27,6 +29,7 @@ itsdangerous==2.0.1
 jedi==0.18.0
 Jinja2==3.0.1
 jmespath==0.10.0
+jsonschema==4.0.1
 jupyter-client==7.0.6
 jupyter-core==4.8.1
 Mako==1.1.5
@@ -53,6 +56,7 @@ pydantic==1.8.2
 Pygments==2.10.0
 PyMySQL==1.0.2
 pyparsing==2.4.7
+pyrsistent==0.18.0
 python-dateutil==2.8.2
 python-dotenv==0.19.0
 pytz==2021.3
