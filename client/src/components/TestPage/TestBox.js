@@ -4,6 +4,7 @@ import React from 'react';
 import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import TestFormMultipleAnswer from '../TestPage/TestForm_multipleAnswer';
 
 const TestBox = ({props}) => {
     if (props === 10){
@@ -11,6 +12,8 @@ const TestBox = ({props}) => {
             <div>
                 <div>
                     <h1>test {props}</h1>
+                    <TestFormMultipleAnswer />
+
                     <NextIcons>
                         <Link to='/result'>
                             <MdDoneOutline size="50" />
