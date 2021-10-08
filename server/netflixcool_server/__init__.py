@@ -2,6 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_restx import Api
+
 # from flask_cors import CORS
 import os
 import sys
@@ -33,6 +34,14 @@ for key, val in env_variables.items():
 db = SQLAlchemy()
 db_migration = Migrate()
 
+rest_api = Api(
+    version="1.0",
+    title="Netflix School's API Server",
+    description="Netflix School's API Server",
+    terms_url="/",
+    contact="elice",
+)
+
 
 # ========================
 # Initialize Flask App
@@ -53,23 +62,15 @@ def create_app():
 
     print("migration added")
 
-    api = Api(
-        app,
-        version='1.0',
-        title="Netflix School's API Server",
-        description="Netflix School's API Server",
-        terms_url="/",
-        contact="elice"
-    )
+    rest_api.init_app(app)
 
-    from .api.main_view import Home
-    from .api.content import api as NetflixContentApi
-    # from .api.intro import api as IntroApi
-    # from .api.test import api as TestApi
     from netflixcool_server.models import NetflixContent
 
-    # app.register_blueprint(main_view.bp)
-    api.add_namespace(Home, "/home")
-    api.add_namespace(NetflixContentApi, "/content/<int:content_id>")
-    # api.add_namespace()
+    from .api.content import content_ns
+
+    # from .api.intro import api as IntroApi
+    # from .api.test import api as TestApi
+
+    rest_api.add_namespace(content_ns)
+
     return app
