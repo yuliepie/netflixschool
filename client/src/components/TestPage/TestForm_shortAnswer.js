@@ -23,17 +23,20 @@ const TestFormShortAnswer = ({ slides }) => {
 
 
     return (
-        <section className='slider'>
-        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-        {QuestionData.map((slide, index) => {
-            return (
-            <div className={index === current ? 'slide active' : 'slide'} key={index} >
-                {index === current && (<img src={slide.image} alt="netflixschool" className='slideimage'/>)}
-            </div>
-            )
-        })}
-        </section>
+        <div>
+            <section className='slider'>
+            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+            {QuestionData.map((slide, index) => {
+                return (
+                <div className={index === current ? 'slide active' : 'slide'} key={index} >
+                    {index === current && (<img src={slide.image} alt="netflixschool" className='slideimage'/>)}
+                </div>
+                )
+            })}
+            </section>
+            <input name='answer' />
+        </div>
     )
 
 }
