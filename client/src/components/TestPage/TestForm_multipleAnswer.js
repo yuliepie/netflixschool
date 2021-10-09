@@ -27,6 +27,7 @@ const Reply = styled.div`
 
 export default function TestFormMultipleAnswer ({props}) {
   const questionNumber = parseInt(props.question)
+
   return(
     <div>
       <Wrap>
@@ -37,13 +38,14 @@ export default function TestFormMultipleAnswer ({props}) {
       <Wrap>
       {props.choices.map((answ, index) => {
         return (
-          <Reply key={index}>
-            <input 
-              type='radio' 
-              name='answer' 
-              value={answ.choice}
-            /><span>{answ.choice}</span>
-          </Reply>
+            <Reply key={index}>
+              <input
+                type='radio'
+                name='answer'
+                value={answ.choice}
+              />
+              <span>{answ.choice}</span>
+            </Reply>
         )
       })}
       </Wrap>
