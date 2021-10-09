@@ -1,8 +1,26 @@
 // 테스트 결과 페이지
+
+import React,{ useState, useEffect }  from 'react';
 import { Link } from 'react-router-dom';
 import { ResultData } from "../components/Result/ResultData";
+import axios from 'axios';
 
 export default function Result () {
+  // const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const callContent = async () => {
+      try {
+        const response = await axios.post(
+          '/api/test/result',{answer: [1,2,3]}
+        );
+        console.log(response.data)
+      } catch (e) {
+        console.log(e)
+      }
+    };
+    callContent();
+  }, []);
 
   return (
     <div>

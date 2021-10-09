@@ -12,7 +12,7 @@ export default function Content () {
     const callContent = async () => {
       try {
         const response = await axios.get(
-          '/content/1'
+          'api/content/1'
         );
         setContent(response.data);
         console.log(response.data)
