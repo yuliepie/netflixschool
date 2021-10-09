@@ -7,7 +7,7 @@ content_ns = Namespace(
     description="하나의 Netflix Contents 정보를 가져오는 netflixContent. ",
 )
 
-sentences_model = content_ns.model(
+sentences_fields = content_ns.model(
     "sentences",
     {
         "id": fields.Integer,
@@ -17,7 +17,7 @@ sentences_model = content_ns.model(
     },
 )
 
-netflix_contents_model = content_ns.model(
+netflix_contents_fields = content_ns.model(
     "netflix_contents",
     {
         "netflix_id": fields.String,
@@ -36,7 +36,7 @@ netflix_contents_model = content_ns.model(
         "words_difficulty_level": fields.Integer,
         "words_per_second": fields.Float,
         "content_level": fields.Integer,
-        "examples": fields.List(fields.Nested(sentences_model)),
+        "examples": fields.List(fields.Nested(sentences_fields)),
     },
 )
 
@@ -45,11 +45,11 @@ netflix_contents_model = content_ns.model(
 @content_ns.param("content_id", "The content idenifier")
 @content_ns.response(200, "success")
 @content_ns.response(404, "Content not found")
-class HelloWorld(Resource):
+class Content(Resource):
     """Netflix Contents 정보를 가져옵니다."""
 
     @content_ns.doc("GET Netflix Content")
-    @content_ns.marshal_with(netflix_contents_model)
+    @content_ns.marshal_with(netflix_contents_fields)
     def get(self, content_id):
 
         netflix_content = NetflixContent.query.filter(

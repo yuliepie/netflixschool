@@ -1,7 +1,7 @@
 from flask import request
 from flask_restx import Resource, Namespace, fields, reqparse
 from netflixcool_server import db
-from netflixcool_server.models import NetflixContent
+from netflixcool_server.models import NetflixContent, TestQuestion
 import random
 
 test_ns = Namespace(name="test", description="영어 레벨 테스트 관련 api 리스트.")
@@ -54,3 +54,54 @@ class Test(Resource):
         }
 
         return result
+
+
+test_question_fields = test_ns.model(
+    'test_questions', {
+        'id': fields.Integer,
+        'question': fields.String,
+        'file_path': fields.String,
+        'type': fields.Integer,
+        'level': fields.Integer,
+        'choice': fields.List(fields.String),
+        # 'choice1': fields.String,
+        # 'choice2': fields.String,
+        # 'choice3': fields.String,
+        # 'choice4': fields.String,
+        # 'choice5': fields.String,
+        'answer': fields.Integer
+    }
+)
+
+@test_ns.route('/question')
+@test_ns.response(200, 'success')
+@test_ns.response(404, 'Questions not found')
+class TestQuestions(Resource):
+    """GET TEST_QUESTIONS API"""
+    @test_ns.doc('GET Test Questions')
+    @test_ns.marshal_with(test_question_fields, as_list=True)
+    def get(self):  
+
+        test_questions = TestQuestion.query.all()
+        questions = []
+        for question in test_questions:
+            questions.append(
+                {
+                    'id': question.id,
+                    'question': question.question,
+                    'type': question.type,
+                    'file_path': question.file_path,
+                    'level': question.level,
+                    'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
+                    # 'choice1': question.choice1,
+                    # 'choice2': question.choice2,
+                    # 'choice3': question.choice3,
+                    # 'choice4': question.choice4,
+                    # 'choice5': question.choice5,
+                    'answer': question.answer
+                }
+            )
+
+        return questions
+
+
