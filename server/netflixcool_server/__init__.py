@@ -56,6 +56,7 @@ def create_app():
     # Configure Database
     app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+    # app.config["APPLICATION_ROOT"] = "/api"
 
     db.init_app(app)  # SQLAlchemy 객체를 app 객체와 이어줍니다.
     db_migration.init_app(app, db)
@@ -71,7 +72,7 @@ def create_app():
 
     # from .api.intro import api as IntroApi
 
-    rest_api.add_namespace(content_ns)
-    rest_api.add_namespace(test_ns)
+    rest_api.add_namespace(content_ns, "/api/content")
+    rest_api.add_namespace(test_ns, "/api/test")
 
     return app
