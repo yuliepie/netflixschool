@@ -11,6 +11,7 @@ import ProjectIntro from '../components/Home/ProjectIntro';
 import WhatCanDo from "../components/Home/WhatCanDo";
 
 export default function Home () {
+
   return (
     <div>
       <Header />

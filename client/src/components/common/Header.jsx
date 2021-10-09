@@ -12,7 +12,7 @@ const Logo = styled.div`
 
 const Image = styled.img`
   position: absolute; top:0; left: 0;
-  width: 12%;
+  width: 50;
   height: 12%;
   display: flex;
   align-items: center;

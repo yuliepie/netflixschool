@@ -1,7 +1,7 @@
 // 테스트 준비 완료 후 나타나는 테스트 페이지
 
 import React,{ useEffect, useState } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 import Navbar from '../components/TestPage/Navbar';
 import Result from './Result';
@@ -21,13 +21,13 @@ const TestPage = ({history}) => {
     },[seconds])
 
     // 테스트 도중 페이지 이탈시 경고
-    useEffect(() => {
-        const unblock = history.block('테스트를 끝내겠습니까?');
-        return () => {
-        unblock();
-        history.push('/');
-        };
-    }, [history]);
+    // useEffect(() => {
+    //     const unblock = history.block('테스트를 끝내겠습니까?');
+    //     return () => {
+    //     unblock();
+    //     history.push('/');
+    //     };
+    // }, [history]);
 
     if (seconds > 0){
         return (
@@ -48,13 +48,11 @@ const TestPage = ({history}) => {
     }
     return (
         <div>
-            <BrowserRouter>
-                <Navbar/>
-                <Switch>
-                    <Route path="/result" component={Result} />
-                    <Route path="/doTest/:number" component={TestBox} />
-                </Switch>
-            </BrowserRouter>
+            <Navbar/>
+            <Switch>
+                <Route path="/result" component={Result} />
+                <Route path="/doTest/:number" component={TestBox} />
+            </Switch>
         </div>
     );
 }
