@@ -106,8 +106,16 @@ def get_word_level_counts_for_content(
     df_unique_words_headed = df_unique_words.groupby(df_unique_words.index).sum()
     df_unique_words_headed.sort_values("counts", ascending=False, inplace=True)
 
+    # word_level 컬럼 추가
     counts_df_headed_joined = df_unique_words_headed.join(df_word_level[["word_level"]])
 
+    '''
+    NN 데이터 추가하는 코드 필요
+    data_preprocessing\ipynb\all_scripts\00_word_level_counts.ipynb
+    파일에서 Group by word_level Cell로 이동하면 주석처리 된 코드 확인 가능
+    '''
+
+    # word_level 별 counts의 합계 구하기
     result = counts_df_headed_joined.groupby("word_level").sum("counts").transpose()
     result["content_id"] = content_id
     result = result.set_index("content_id")
