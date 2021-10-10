@@ -9,3 +9,5 @@ from .content_functions import (
     normalize_and_calculate_level,
     get_unique_word_counts_from_script,
 )
+
+from .db_connector import connect_to_db
