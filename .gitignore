@@ -27,3 +27,10 @@ __pycache__/
 .env
 
 .ipynb_checkpoints
+
+# crwaling folder
+/temp_download
+/user_data
+user_data/
+
+
