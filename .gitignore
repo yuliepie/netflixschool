@@ -27,3 +27,6 @@ __pycache__/
 .env
 
 .ipynb_checkpoints
+
+# temp_download
+/temp_download
