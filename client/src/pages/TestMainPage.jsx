@@ -21,13 +21,14 @@ const TestPage = ({history}) => {
     },[seconds])
 
     // 테스트 도중 페이지 이탈시 경고
-    // useEffect(() => {
-    //     const unblock = history.block('테스트를 끝내겠습니까?');
-    //     return () => {
-    //     unblock();
-    //     history.push('/');
-    //     };
-    // }, [history]);
+    useEffect(() => {
+        history.push('/doTest/1')
+        // const unblock = history.block('테스트를 끝내겠습니까?');
+        // return () => {
+        // unblock();
+        // history.push('/');
+        // };
+    }, [history]);
 
     if (seconds > 0){
         return (

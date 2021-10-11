@@ -1,11 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
+import {IoMdCheckboxOutline} from 'react-icons/io'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { QuestionData } from './TestQuestions/q_data'
 import TestFormMultipleAnswer from './TestForm_multipleAnswer';
+import axios from 'axios';
 
 const TestBox = ({match}) => {
+    const [data, setData] = useState({});
+    const [level, setLevel] = useState({});
+    
+    const answer = [1,2,3,4]
+
+
+    const handleResult = (e) => {
+        e.preventDefault();
+
+        axios.post('/api/test/result', {answer: answer}
+        ).then((response) =>{
+            console.log(response.data)
+            setData(response.data)
+        })
+        // .then(
+        //     console.log(
+        //         'data',data
+        //     )
+        // )
+    }
 
     const { number } = match.params;
     const question = QuestionData[number];
@@ -18,8 +40,13 @@ const TestBox = ({match}) => {
             <div>
                 <div>
                     <TestFormMultipleAnswer  props = {question}/>
+                    <IoMdCheckboxOutline size="50" onClick = {handleResult}/>
                     <NextIcons>
-                        <Link to='/result'>
+                        <Link to={{
+                            pathname : '/result',
+                            state:{
+                                data : data
+                            }}}>
                             <MdDoneOutline size="50" />
                         </Link>
                     </NextIcons>
@@ -33,7 +60,7 @@ const TestBox = ({match}) => {
             <div>
                 <NextIcons>
                     <Link to={`/doTest/${parseInt(question.question)+1}`}>
-                        <MdNextPlan size="50" />
+                        <IoMdCheckboxOutline size="50" />
                     </Link>
                 </NextIcons>
             </div>

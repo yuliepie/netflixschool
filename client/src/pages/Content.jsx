@@ -5,14 +5,19 @@ import { content_detail } from "../components/Content/ContentData"
 import axios from "axios"
 import { useEffect, useState } from "react"
 
-export default function Content () {
+export default function Content ({location}) {
+  console.log('location content state',location.state)
   const [content, setContent] = useState("");
 
   useEffect(() => {
     const callContent = async () => {
       try {
         const response = await axios.get(
+<<<<<<< HEAD
           'api/content/1'
+=======
+          `/api/content/${location.state}`
+>>>>>>> frontend
         );
         setContent(response.data);
         console.log(response.data)
