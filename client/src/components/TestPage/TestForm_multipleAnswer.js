@@ -1,29 +1,7 @@
 // 객관식 문제 유형
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
-
-const Image = styled.img`
-  width: 60%;
-  height: 60%;
-  display: block; 
-  margin: 0px auto;
-`;
-
-const Asking = styled.p`
-  font-size: 30px;
-  text-align: center;
-`;
-
-const Wrap = styled.div`
-  text-align: center;
-`;
-
-const Reply = styled.div`
-  font-size: 24px;
-  display: inline-block;
-  padding-left: 50px;
-`;
 
 export default function TestFormMultipleAnswer ({props}) {
   const questionNumber = parseInt(props.question)
@@ -52,3 +30,25 @@ export default function TestFormMultipleAnswer ({props}) {
     </div>
   )
 }
+
+const Image = styled.img`
+  width: 60%;
+  height: 60%;
+  display: block; 
+  margin: 0px auto;
+`;
+
+const Asking = styled.p`
+  font-size: 30px;
+  text-align: center;
+`;
+
+const Wrap = styled.div`
+  text-align: center;
+`;
+
+const Reply = styled.div`
+  font-size: 24px;
+  display: inline-block;
+  padding-left: 50px;
+`;

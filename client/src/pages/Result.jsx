@@ -1,7 +1,6 @@
 // 테스트 결과 페이지
 
 import { Link } from 'react-router-dom';
-// import { ResultData } from "../components/Result/ResultData";
 
 export default function Result ({location}) {
   console.log('location data', location.state.data)
@@ -17,13 +16,13 @@ export default function Result ({location}) {
         <h1>레벨에 맞는 영화</h1>
         <div className="box_list">
           <section className='recommendation'>
-            {data.normal_content.map((result, index) => {
+            {data.normal_content.map((result) => {
               return (
-                <li key={index} className='recommended_list'>
+                <li key={result.id} className='recommended_list'>
                   <Link to={{
                       pathname : '/content',
                       state:result.id}}>
-                    <img src={result.img_path} alt="movie_poster" className='resultlist_image' />
+                    <img src={result.image_path} alt="movie_poster" className='resultlist_image' />
                   </Link>
                 </li>
             )})}
@@ -34,13 +33,13 @@ export default function Result ({location}) {
         <h1>한단계 수준 높은 영화</h1>
         <div className="box_list">
           <section className='recommendation'>
-            {data.hard_content.map((result, index) => {
+            {data.hard_content.map((result) => {
               return (
-                <li key={index} className='recommended_list'>
+                <li key={result.id} className='recommended_list'>
                   <Link to={{
                       pathname : '/content',
                       state:result.id}}>
-                    <img src={result.img_path} alt="movie_poster" className='resultlist_image' />
+                    <img src={result.image_path} alt="movie_poster" className='resultlist_image' />
                   </Link>
                 </li>
             )})}

@@ -20,7 +20,7 @@ const TestPage = ({history}) => {
         return () => clearTimeout(timer);
     },[seconds])
 
-    // 테스트 도중 페이지 이탈시 경고
+    // 테스트 시작시 바로 1번 문제로 페이지 전환
     useEffect(() => {
         history.push('/doTest/1')
         // const unblock = history.block('테스트를 끝내겠습니까?');

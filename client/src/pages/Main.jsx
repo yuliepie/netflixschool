@@ -9,16 +9,22 @@ import { SliderData } from "../components/Home/SliderData";
 import TestIntro from '../components/Home/TestIntro';
 import ProjectIntro from '../components/Home/ProjectIntro';
 import WhatCanDo from "../components/Home/WhatCanDo";
+import Sidebar from "../components/common/Sidebar";
 
 export default function Home () {
 
   return (
     <div>
-      <Header />
-      <ImageSlider slides={SliderData} />
-      <TestIntro />
+      <div>
+        <Header />
+      </div>
+      {/* <ImageSlider slides={SliderData} /> */}
+      {/* <div>
+        <TestIntro />
+      </div>
       <ProjectIntro />
-      <WhatCanDo />
+      <WhatCanDo /> */}
+      <hr />
       <Footer />
     </div>
   )
