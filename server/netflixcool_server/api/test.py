@@ -1,6 +1,5 @@
 from flask import request
-from flask_restx import Resource, Namespace, fields, reqparse
-from netflixcool_server import db
+from flask_restx import Resource, Namespace, fields
 from netflixcool_server.models import NetflixContent, TestQuestion
 import random
 
@@ -57,19 +56,19 @@ class Test(Resource):
 
 
 test_question_fields = test_ns.model(
-    'test_questions', {
+    'test_question', {
         'id': fields.Integer,
         'question': fields.String,
         'file_path': fields.String,
         'type': fields.Integer,
         'level': fields.Integer,
-        'choice': fields.List(fields.String),
+        'choice': fields.List(fields.String)
         # 'choice1': fields.String,
         # 'choice2': fields.String,
         # 'choice3': fields.String,
         # 'choice4': fields.String,
         # 'choice5': fields.String,
-        'answer': fields.Integer
+        # 'answer': fields.Integer
     }
 )
 
@@ -98,7 +97,7 @@ class TestQuestions(Resource):
                     # 'choice3': question.choice3,
                     # 'choice4': question.choice4,
                     # 'choice5': question.choice5,
-                    'answer': question.answer
+                    # 'answer': question.answer
                 }
             )
 

@@ -69,10 +69,12 @@ def create_app():
 
     from .api.content import content_ns
     from .api.test import test_ns
+    from .api.learning import learning_ns
 
     # from .api.intro import api as IntroApi
 
     rest_api.add_namespace(content_ns, "/api/content")
     rest_api.add_namespace(test_ns, "/api/test")
+    rest_api.add_namespace(learning_ns, "/api/learning")
 
     return app
