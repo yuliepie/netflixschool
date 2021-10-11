@@ -40,11 +40,13 @@ def calculate_level(df_normalize, _list):
             x['level_6']
         ], x['80%']), axis=1)
 
-    '''
-    word_level을 계산했으므로 80% 컬럼은 지워도 될 것 같음
-    실제 데이터 확인 후 삭제 처리
+    # 사용이 끝난 80% 컬럼 삭제
     df_result.drop(columns=['80%'])
     '''
+    level_score 컬럼의 사용 방안에 대한 결정 필요
+    필요없다면 삭제
+    '''
+    
 
     # WPS Score 계산
     df_result['wps_score'] = df_result['WPS_mean_nlln'] * _list[6]
