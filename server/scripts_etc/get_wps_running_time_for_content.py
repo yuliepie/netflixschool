@@ -10,7 +10,8 @@ def get_wps_running_time_for_content(title, script_csv):
     script_csv['duration'] = script_csv['duration'].str.split(' ').str[2]
     script_csv['duration'] = script_csv['duration'].str.split(':').str[2].astype('float')
 
-    # 러닝 타임 (sec) 시간 계산
+    # ----------------------------------------------------------------------------------------------------------------
+    # TODO 러닝 타임 (sec) 시간 계산
     start = 0
     full_running_time = 0
     for i in range(len(script_csv)):
@@ -21,7 +22,8 @@ def get_wps_running_time_for_content(title, script_csv):
             full_running_time += (script_csv['end'].loc[i] - script_csv['start'].loc[start]).total_seconds()
             start = i + 1
     running_time = full_running_time
-
+    # ----------------------------------------------------------------------------------------------------------------
+    
     # 필요없는 컬럼 제거
     script_csv = script_csv.drop(columns=['start', 'end'])
 
