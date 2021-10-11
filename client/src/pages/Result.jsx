@@ -2,33 +2,13 @@
 
 import React,{ useState, useEffect }  from 'react';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 import { ResultData } from "../components/Result/ResultData";
 import axios from 'axios';
 
-export default function Result () {
-  // const [data, setData] = useState([]);
-
-  useEffect(() => {
-    const callContent = async () => {
-      try {
-        const response = await axios.post(
-          '/api/test/result',{answer: [1,2,3]}
-        );
-        console.log(response.data)
-      } catch (e) {
-        console.log(e)
-      }
-    };
-    callContent();
-  }, []);
-=======
-// import { ResultData } from "../components/Result/ResultData";
 
 export default function Result ({location}) {
   console.log('location data', location.state.data)
   const data = location.state.data
->>>>>>> frontend
 
   return (
     <div>
