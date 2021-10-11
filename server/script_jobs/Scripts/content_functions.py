@@ -1,6 +1,13 @@
 import pandas as pd
 import spacy
 import re
+from nltk.corpus import wordnet
+import requests
+
+
+# ====================
+# HELPERS
+# ====================
 
 
 def removeStopWordsSpacy(sentence, nlp):
@@ -25,6 +32,64 @@ def hyphenateCompounds(sentence, compound_dict):
         if key in sentence:
             sentence_hyphen = sentence_hyphen.replace(key, val)
     return sentence_hyphen
+
+
+def check_word_type_api(word):
+    headers = {"User-Agent": "Chrome/66.0.3359.181"}
+
+    keyword = str(word)
+    url = "https://wordtype.org/api/senses?term=" + keyword
+    res = requests.get(url, headers=headers)
+    results = res.json()
+    try:
+        if len(results) == 0:
+            return False
+        # check if any word with correct pos & definition
+        for item in results:
+            if item["pos"] in ["interjection", "abbreviation"]:
+                return False
+        for item in results:
+            if item["pos"] in ["noun", "verb", "adjective", "adverb"]:
+                for sense in item["senses"]:
+                    if (
+                        sense["definition"] != ""
+                        and sense["definition"] != "<missing sense definition>"
+                    ):
+                        return True
+        if word.endswith("s"):
+            return check_word_type_api(word[:-1])
+        else:
+            return False
+    except Exception as e:
+        print("error:", e)
+
+
+def classify_unlevelled_words(unique_word_counts_df):
+    levelled_df = unique_word_counts_df.copy()
+    nn_level = levelled_df[levelled_df["word_level"].isnull()]
+
+    # First check with nltk synsets
+    for index in nn_level.index:
+        if len(wordnet.synsets(str(index))) > 0:
+            levelled_df.loc[index, "word_level"] = 6
+            # TODO: 필요하다면 최고 레벨 수정
+    nn_level = levelled_df[levelled_df["word_level"].isnull()]
+
+    # Then check with API
+    for index in nn_level.index:
+        if check_word_type_api(str(index)) == True:
+            levelled_df.loc[index, "word_level"] = 6
+    nn_level = levelled_df[levelled_df["word_level"].isnull()]
+
+    # Remove remaining NaN words
+    levelled_df = levelled_df.drop(nn_level.index)
+
+    return levelled_df
+
+
+# ===============================
+# Exported content functions
+# ===============================
 
 
 def get_unique_word_counts_from_script(script, compound_lemmas):
@@ -109,15 +174,12 @@ def get_word_level_counts_for_content(
     # word_level 컬럼 추가
     counts_df_headed_joined = df_unique_words_headed.join(df_word_level[["word_level"]])
 
-    """
-    NN 데이터 추가하는 코드 필요
-    data_preprocessing\ipynb\all_scripts\00_word_level_counts.ipynb
-    파일에서 Group by word_level Cell로 이동하면 주석처리 된 코드 확인 가능
-    """
+    # Todo: 해시태그 컬럼들 추가 할것
+
+    # Level NaN인 단어들 유효성 검사 후 처리
+    df_unique_words_all_levelled = classify_unlevelled_words(counts_df_headed_joined)
 
     # word_level 별 counts의 합계 구하기
-    # Todo: 해시태그 컬럼 추가 할것
-
     result = counts_df_headed_joined.groupby("word_level").sum("counts").transpose()
     result["content_id"] = content_id
     result = result.set_index("content_id")
@@ -132,7 +194,7 @@ def get_word_level_counts_for_content(
         }
     )
 
-    return (counts_df_headed_joined, result)
+    return (df_unique_words_all_levelled, result)
 
 
 def get_wps_running_time_for_content(content_id, script_csv):

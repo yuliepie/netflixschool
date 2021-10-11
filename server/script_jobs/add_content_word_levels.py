@@ -59,17 +59,31 @@ for (id, title, year) in contents:
         id, unique_words_df, word_list_csv, lemmas_csv
     )
 
-    # Todo: fill content_unique_words table
+    # ===============================
+    # content_unique_words 채우기
+    # ===============================
+    # Todo: hashtag 컬럼도 채우기
+
+    unique_words_insert_sql = """
+        insert into content_unique_words (content_id, word, level, frequency) values (%s, %s, %s, %s)
+    """
+    for index, row in unique_word_counts_df.iterrows():
+        cursor.execute(
+            unique_words_insert_sql, [id, str(index), row.word_level, row.counts]
+        )
 
     wps_df = get_wps_running_time_for_content(id, script_csv)
     levels_and_wps = pd.merge(word_level_df, wps_df, left_index=True, right_index=True)
 
+    # Todo: 러닝타임 weight 로직 고칠것
     # 러닝타임 weight 적용
     for i in range(1, 7):
         level = "level_" + str(i)
         levels_and_wps[level] = levels_and_wps[level] * levels_and_wps["weight"]
 
-    # fill content_word_levels table
+    # ===============================
+    # content_word_levels 채우기
+    # ===============================
     insert_sql = """
       insert into content_word_levels (content_id, level_1, level_2, level_3, level_4, level_5, level_6, wps) values (%s, %s, %s, %s, %s, %s, %s, %s,)
     """
@@ -86,3 +100,10 @@ for (id, title, year) in contents:
             levels_and_wps["WPS_mean"],
         ],
     )
+
+    # ===============================
+    # sentences 채우기
+    # ===============================
+
+    conn.commit()
+    conn.close()
