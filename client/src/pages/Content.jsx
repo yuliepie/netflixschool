@@ -13,11 +13,7 @@ export default function Content ({location}) {
     const callContent = async () => {
       try {
         const response = await axios.get(
-<<<<<<< HEAD
-          'api/content/1'
-=======
           `/api/content/${location.state}`
->>>>>>> frontend
         );
         setContent(response.data);
         console.log(response.data)
@@ -64,7 +60,7 @@ export default function Content ({location}) {
           <dd>{content.story}</dd>
         </dl>
         <div>
-          <h3>영화에 나오는 대표 단어 및 예문</h3>
+          {/* <h3>영화에 나오는 대표 단어 및 예문</h3>
           {content_detail.example.map ((example, index) => {
             return (
               <div className='word_content' key={index}>
@@ -72,7 +68,7 @@ export default function Content ({location}) {
                 <dd>{example.sentence}</dd>
               </div>
             )
-          })}
+          })} */}
         </div>
       </div>
     </div>
