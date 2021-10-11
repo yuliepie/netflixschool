@@ -59,7 +59,9 @@ class Sentence(db.Model):
     __tablename__ = "sentences"
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    content_id = db.Column(db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False)
+    content_id = db.Column(
+        db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False
+    )
     start = db.Column(db.String(100), nullable=False)
     sentence = db.Column(db.String(255), nullable=False)
     word = db.Column(db.String(100), nullable=False)
@@ -130,6 +132,7 @@ class ContentLevel(db.Model):
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     level = db.Column(db.String(255), nullable=False)
 
+
 class ContentUniqueWord(db.Model):
     """
     Attributes:
@@ -139,14 +142,18 @@ class ContentUniqueWord(db.Model):
         * frequency (int) : 단어 사용 횟수
         * hashtag (string) : 단어 카테고리
     """
+
     __tablename__ = "content_unique_words"
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    content_id = db.Column(db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False)
+    content_id = db.Column(
+        db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False
+    )
     word = db.Column(db.String(50), nullable=False)
     level = db.Column(db.Integer, nullable=False)
     frequency = db.Column(db.Integer, nullable=False)
     hashtag = db.Column(db.String(50))
+
 
 class ContentHashtag(db.Model):
     """
@@ -154,23 +161,30 @@ class ContentHashtag(db.Model):
         * content_id (int) : 작품 id (F.K - netflixContents.id)
         * hashtag (string) : 단어 카테고리
     """
+
     __tablename__ = "content_hashtags"
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    content_id = db.Column(db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False)
+    content_id = db.Column(
+        db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False
+    )
     hashtag = db.Column(db.String(50), nullable=False)
 
-class ContentWordLevel(db.Model):
+
+class ContentWordLevels(db.Model):
     """
     Attributes:
         * content_id (int) : 작품 id (F.K - netflixContents.id)
         * level_1 ~ 6 (int) : 해당 작품에서 사용된 각 단어 레벨의 횟수
         * wps (float) : Words Per Second
     """
+
     __tablename__ = "content_word_levels"
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    content_id = db.Column(db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False)
+    content_id = db.Column(
+        db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False
+    )
     level_1 = db.Column(db.Integer, nullable=False)
     level_2 = db.Column(db.Integer, nullable=False)
     level_3 = db.Column(db.Integer, nullable=False)
