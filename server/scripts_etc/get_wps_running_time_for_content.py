@@ -11,8 +11,16 @@ def get_wps_running_time_for_content(title, script_csv):
     script_csv['duration'] = script_csv['duration'].str.split(':').str[2].astype('float')
 
     # 러닝 타임 (sec) 시간 계산
-    running_time = script_csv['end'][len(script_csv)-1] - script_csv['start'][0]
-    running_time = running_time.total_seconds()
+    start = 0
+    full_running_time = 0
+    for i in range(len(script_csv)):
+        if i == len(script_csv)-1:
+            full_running_time += (script_csv['end'].loc[i] - script_csv['start'].loc[start]).total_seconds()
+            break
+        if script_csv['end'].loc[i] > script_csv['end'].loc[i + 1]:
+            full_running_time += (script_csv['end'].loc[i] - script_csv['start'].loc[start]).total_seconds()
+            start = i + 1
+    running_time = full_running_time
 
     # 필요없는 컬럼 제거
     script_csv = script_csv.drop(columns=['start', 'end'])
@@ -42,8 +50,8 @@ def get_wps_running_time_for_content(title, script_csv):
 
 if __name__ == '__main__':    # 프로그램의 시작점일 때만 아래 코드 실행
 
-    df = pd.read_csv('../../data_preprocessing/script/movie/About.Time/About.Time.WEBRip.Netflix.en[cc].csv')
+    df = pd.read_csv('../../data_preprocessing/script/drama/Friends/Friends.WEBRip.Netflix.en[cc].csv')
 
-    result = get_wps_running_time_for_content('About.Time_2013', df)
+    result = get_wps_running_time_for_content('Friends_1994', df)
 
     print(result)
