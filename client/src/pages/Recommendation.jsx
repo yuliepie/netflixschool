@@ -1,28 +1,15 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import axios from "axios";
+import ContentComponent from "../components/Recommendation/ContentComponent";
+import * as CC from "../components/Recommendation/ContentComponents"
 
 // import SelectLevel from "./SelectLevel";
 import Pagination from "../components/Recommendation/Pagination";
 import Recommend from "../components/Recommendation/Recommend";
 
-const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1232px;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 50px 0;
-  flex-direction: column;
-`
 
-const RecommendContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
 
 export default function Recommendation () {
   const [recommendation, setRecommendation]= useState();
@@ -30,41 +17,57 @@ export default function Recommendation () {
   const [totalCount, setTotalCount] = useState(200);
 
   useEffect(() => {
-    (async function () {
-      try {
-        const offset = currPage * 10;
-        const limit = offset + 10
-        const trackUrl = `/api/content/${offset}/${limit}`;
-        const response = await axios.get(trackUrl);
-        console.log(response);
-        setTotalCount(response.contents_max_count);
-        setRecommendation(response);  
-      } catch(e) {
-        console.log(e)
-      }
-
+    (async function() {
+      const offset = currPage * 10;
+      const limit = offset + 10
+      const trackUrl = `/api/content/${offset}/${limit}`;
+      await axios.get(trackUrl)
+        .then(response => {
+          console.log(response);
+          const ranked_contents = response.data.ranked_contents
+          const contents_max_count = response.data.contents_max_count
+          setRecommendation(ranked_contents);
+          setTotalCount(ranked_contents);
+          console.log(contents_max_count);
+        })
+        .catch(err => {
+          console.log('err:', err);
+          console.log('err.resonse:', err.response);
+        })
     })();
-  }, [currPage]); 
+  }, [currPage]);
 
   return (
-    <Container>
-      <RecommendContainer>
-        {recommendation.map((recommend, index) => {
+    <CC.Container>
+      <CC.ListWrapper>
+        {recommendation && recommendation.map((recommend, index) => {
           return (
-            <li key={index} className='recommendation'>
-              <Link to={{
-                pathname : '/recommend',
-                state: recommend.id}}>
-              <img src={recommend.img_path} alt="movie_poster" className='recommendlist_image' />
+            <Link to={{ pathname : '/recommend',
+                  state: recommend.id}}>
+              <ContentComponent
+                id={recommend.id}
+                title_kr={recommend.title_kr}
+                img_path={recommend.img_path}
+                word_difficulty_level={recommend.word_difficulty_level}
+                words_per_second={recommend.words_per_second}
+                content_level={recommend.content_level}
+              />
             </Link>
-          </li>
+          //   <li key={index} className='recommendation'>
+          //     <Link to={{
+          //       pathname : '/recommend',
+          //       state: recommend.id}}>
+          //     <Recommend ></Recommend>
+          //     <img src={recommend.img_path} alt="movie_poster" className='recommendlist_image' />
+          //   </Link>
+          // </li>
         )})}
-      </RecommendContainer>
-      <Pagination
+      </CC.ListWrapper>
+      {/* <Pagination
         currPage={currPage}
         onClickPage={setCurrPage}
         pageCount={Math.ceil(totalCount / 10)}
-      />
-    </Container>
+      /> */}
+    </CC.Container>
   )
 }
