@@ -10,6 +10,8 @@ from .content_functions import (
     get_unique_word_counts_from_script,
 )
 
+from .sentence_functions import get_sentences_df
+
 from .db_connector import connect_to_db
 
 

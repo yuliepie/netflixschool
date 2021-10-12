@@ -1,13 +1,13 @@
 import pandas as pd
 import boto3
-from dotenv import load_dotenv
+import spacy
 
 from Scripts import (
     get_word_level_counts_for_content,
     get_wps_running_time_for_content,
-    normalize_and_calculate_level,
     get_unique_word_counts_from_script,
     connect_to_db,
+    get_sentences_df,
 )
 
 """
@@ -24,18 +24,35 @@ s3 = boto3.client("s3")
 script_bucket = "netflixschool-script-csv"
 words_bucket = "netflixschool"
 
+nlp = spacy.load("en_core_web_sm")
+
+# =========================
+# 재료들 셋업
+# =========================
 # word list
 words_obj = s3.get_object(Bucket=words_bucket, Key="word_levels.csv")
 word_list_csv = pd.read_csv(words_obj["Body"], index_col="Word")
 # lemmas
 lemmas_obj = s3.get_object(Bucket=words_bucket, Key="ex_lemmas.csv")
 lemmas_csv = pd.read_csv(lemmas_obj["Body"], index_col="Word")
+lemmas_dict = {}
+for index, row in df_lemmas.iterrows():
+    lemmas = row["Lemmas"].split(";")
+    for lemma in lemmas:
+        lemmas_dict[lemma] = str(index)
 # compound lemmas
 compound_lemmas_obj = s3.get_object(Bucket=words_bucket, Key="compound_lemmas.csv")
 compound_lemmas_csv = pd.read_csv(compound_lemmas_obj["Body"], index_col="Word")
+compound_dict = {}
+for index, row in compound_lemmas_csv.iterrows():
+    lemmas = row["Lemmas"].split(";")
+    for lemma in lemmas:
+        compound_dict[lemma] = str(index)
 
-# drop rows from content_word_levels table
+# drop all rows from content_word_levels table
 cursor.execute("TRUNCATE TABLE content_word_levels;")
+cursor.execute("TRUNCATE TABLE content_unique_words")
+cursor.execute("TRUNCATE TABLE sentences")
 conn.commit()
 
 select_netflix = "select id, title, release_year from netflix_contents"
@@ -44,7 +61,7 @@ where = ' where title in ("About.Time", "Baby.Driver")'
 cursor.execute(select_netflix + where)
 contents = list(cursor.fetchall())
 
-# for all rows in netflix_contents table:
+# ------------- for all rows in netflix_contents table:
 for (id, title, year) in contents:
     print(id, title)
     csv_name = f"{title}_{year}.csv"
@@ -52,11 +69,9 @@ for (id, title, year) in contents:
     csv_obj = s3.get_object(Bucket=script_bucket, Key=csv_name)
     script_csv = pd.read_csv(csv_obj["Body"])
 
-    unique_words_df = get_unique_word_counts_from_script(
-        script_csv, compound_lemmas_csv
-    )
+    unique_words_df = get_unique_word_counts_from_script(script_csv, compound_dict, nlp)
     unique_word_counts_df, word_level_df = get_word_level_counts_for_content(
-        id, unique_words_df, word_list_csv, lemmas_csv
+        id, unique_words_df, word_list_csv, lemmas_dict
     )
 
     # ===============================
@@ -85,7 +100,7 @@ for (id, title, year) in contents:
     # content_word_levels 채우기
     # ===============================
     insert_sql = """
-      insert into content_word_levels (content_id, level_1, level_2, level_3, level_4, level_5, level_6, wps) values (%s, %s, %s, %s, %s, %s, %s, %s,)
+        insert into content_word_levels (content_id, level_1, level_2, level_3, level_4, level_5, level_6, wps) values (%s, %s, %s, %s, %s, %s, %s, %s,)
     """
     cursor.execute(
         insert_sql,
@@ -104,6 +119,20 @@ for (id, title, year) in contents:
     # ===============================
     # sentences 채우기
     # ===============================
+    sentences_df = get_sentences_df(script_csv, compound_dict, nlp)
+    insert_sql = """
+        insert into sentences (content_id, start, sentence, word, level) values (%s, %s, %s, %s, %s,)
+    """
+    cursor.execute(
+        insert_sql,
+        [
+            id,
+            sentences_df["start"],
+            sentences_df["script"],
+            sentences_df["word"],
+            sentences_df["level"],
+        ],
+    )
 
     conn.commit()
     conn.close()

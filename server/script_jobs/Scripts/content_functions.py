@@ -92,8 +92,8 @@ def classify_unlevelled_words(unique_word_counts_df):
 # ===============================
 
 
-def get_unique_word_counts_from_script(script, compound_lemmas):
-    nlp = spacy.load("en_core_web_sm")
+def get_unique_word_counts_from_script(script, compound_dict, nlp):
+
     script["script"] = script["script"].apply(lambda x: removeStopWordsSpacy(x, nlp))
 
     spacey_df = script.copy()
@@ -105,12 +105,6 @@ def get_unique_word_counts_from_script(script, compound_lemmas):
     spacey_df["script"] = spacey_df["script"].str.lower()
     # drop empty rows
     spacey_df = spacey_df[spacey_df.script.str.len() > 0]
-
-    compound_dict = {}
-    for index, row in compound_lemmas.iterrows():
-        lemmas = row["Lemmas"].split(";")
-        for lemma in lemmas:
-            compound_dict[lemma] = str(index)
 
     spacey_df["script"] = spacey_df["script"].apply(
         lambda x: hyphenateCompounds(x, compound_dict)
@@ -131,18 +125,11 @@ def get_unique_word_counts_from_script(script, compound_lemmas):
 
 
 def get_word_level_counts_for_content(
-    content_id, df_unique_words, df_word_level, df_lemmas
+    content_id, df_unique_words, df_word_level, lemmas_dict
 ):
     """
     작품 대본을 분석해서 각 레벨별 단어들의 빈도수 df 반환
     """
-
-    # 변형어 리스트 불러오기
-    lemmas_dict = {}
-    for index, row in df_lemmas.iterrows():
-        lemmas = row["Lemmas"].split(";")
-        for lemma in lemmas:
-            lemmas_dict[lemma] = str(index)
 
     def convertToHeadForm(word):
         word = str(word)
