@@ -13,7 +13,7 @@ export default function Content ({location}) {
     const callContent = async () => {
       try {
         const response = await axios.get(
-          `/api/content/${location.state}`
+          `/api/content/<int:offset>/<int:limit>`
         );
         setContent(response.data);
         console.log(response.data)
