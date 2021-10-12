@@ -159,6 +159,8 @@ def crawling_vtt_download(search_title, release_year):
 def crawling_content_detail(justwatch_url, file_name, episode, netflix_id, file_title):
     # selenium option
     options = webdriver.ChromeOptions()
+    options.add_experimental_option("excludeSwitches", ["enable-logging"])
+    options.add_argument('--user-data-dir=user_data')
 
     # TODO 창 숨기는 옵션 추가
     # options.add_argument("headless")
@@ -188,35 +190,79 @@ def crawling_content_detail(justwatch_url, file_name, episode, netflix_id, file_
     # 포스터 이미지 저장
     urllib.request.urlretrieve(origin_img_url, f'./crawling/img/{file_name}_Poster.jpg')
 
-    # imdb에서 검색
-    driver.get(f'https://www.imdb.com/find?q={en_title} {release_year}&s=tt&ref_=fn_tt')
+    # Netflix title에서 연령, 감독 가져오기
+
+    driver.get(f'https://www.netflix.com/title/{netflix_id}')
     driver.implicitly_wait(2)
-    print(f'Crawling content detail - {file_title} IMDb Search Page')
-
-
-    for i in range(1,10):
-        title = driver.find_element_by_css_selector(f'#main > div > div.findSection > table > tbody > tr:nth-child({i}) > td.result_text > a').text
-        year = driver.find_element_by_css_selector(f'#main > div > div.findSection > table > tbody > tr:nth-child({i}) > td.result_text').text.replace(title, '')
-        if release_year in year:
-            imdb_detail_url = driver.find_element_by_css_selector(f'#main > div > div.findSection > table > tbody > tr:nth-child({i}) > td.result_text > a').get_attribute('href')
-            break
-
-    # imdb 상세페이지에서 받아오기
-    driver.get(imdb_detail_url)
-    print(f'Crawling content detail - {file_title} IMDb Detail Page')
-    driver.implicitly_wait(2)
+    sleep(1)
+    
+    print(f'Crawling content detail - {file_title} Netflix Title Page')
 
     # 감독 정보 받아오기
-    director = driver.find_element_by_css_selector('#__next > main > div > section.ipc-page-background.ipc-page-background--base.TitlePage__StyledPageBackground-wzlr49-0.dDUGgO > div > section > div > div.TitleMainBelowTheFoldGroup__TitleMainPrimaryGroup-sc-1vpywau-1.btXiqv.ipc-page-grid__item.ipc-page-grid__item--span-2 > section.ipc-page-section.ipc-page-section--base.StyledComponents__CastSection-y9ygcu-0.fswvJC.celwidget > ul > li:nth-child(1) > div > ul > li > a').text.strip()
-
-    # age rating
     try:
-        if episode:
-            age_rating = driver.find_element_by_css_selector('#__next > main > div > section.ipc-page-background.ipc-page-background--base.TitlePage__StyledPageBackground-wzlr49-0.dDUGgO > section > div:nth-child(4) > section > section > div.TitleBlock__Container-sc-1nlhx7j-0.hglRHk > div.TitleBlock__TitleContainer-sc-1nlhx7j-1.jxsVNt > div.TitleBlock__TitleMetaDataContainer-sc-1nlhx7j-2.hWHMKr > ul > li:nth-child(3) > a').text.strip()
-        else :
-            age_rating = driver.find_element_by_css_selector('#__next > main > div > section.ipc-page-background.ipc-page-background--base.TitlePage__StyledPageBackground-wzlr49-0.dDUGgO > section > div:nth-child(4) > section > section > div.TitleBlock__Container-sc-1nlhx7j-0.hglRHk > div.TitleBlock__TitleContainer-sc-1nlhx7j-1.jxsVNt > div.TitleBlock__TitleMetaDataContainer-sc-1nlhx7j-2.hWHMKr > ul > li:nth-child(2) > a').text.strip()
+        for i in range(3,6):
+            # director or creater 확인
+            col = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1) > span.previewModal--tags-label').text
+
+            if 'Director' in col or 'Creators' in col:
+                director = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1)').text.split(':')[1].strip()
+
+                crawling_age_rating = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div.maturity-rating-wrapper > div > div.maturity-rating.inline-rating > span').text.strip()
+
+                break
     except:
+        director = 'Null'
+        crawling_age_rating = 'Null'    
+
+    if 'All' in crawling_age_rating:
+        age_rating = 'All'
+    elif '12' in crawling_age_rating:
+        age_rating = '12'
+    elif '15' in crawling_age_rating:
+        age_rating = '15'
+    elif '18' in crawling_age_rating:
+        age_rating = '18'
+    else:
         age_rating = 'Null'
+
+    # TODO 돌려보고 필요없으면 삭제 예쩡
+    
+    #appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child(4) > div > div > div.about-container > div:nth-child(1)
+
+    #appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child(4) > div > div > div.about-container > div:nth-child(1)
+
+    #appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child(4) > div > div > div.about-container > div.maturity-rating-wrapper > div > div.maturity-rating.inline-rating > span
+
+
+    # # imdb에서 검색
+    # driver.get(f'https://www.imdb.com/find?q={en_title} {release_year}&s=tt&ref_=fn_tt')
+    # driver.implicitly_wait(2)
+    # print(f'Crawling content detail - {file_title} IMDb Search Page')
+
+
+    # for i in range(1,10):
+    #     title = driver.find_element_by_css_selector(f'#main > div > div.findSection > table > tbody > tr:nth-child({i}) > td.result_text > a').text
+    #     year = driver.find_element_by_css_selector(f'#main > div > div.findSection > table > tbody > tr:nth-child({i}) > td.result_text').text.replace(title, '')
+    #     if release_year in year:
+    #         imdb_detail_url = driver.find_element_by_css_selector(f'#main > div > div.findSection > table > tbody > tr:nth-child({i}) > td.result_text > a').get_attribute('href')
+    #         break
+
+    # # imdb 상세페이지에서 받아오기
+    # driver.get(imdb_detail_url)
+    # print(f'Crawling content detail - {file_title} IMDb Detail Page')
+    # driver.implicitly_wait(2)
+
+    # # 감독 정보 받아오기
+    # director = driver.find_element_by_css_selector('#__next > main > div > section.ipc-page-background.ipc-page-background--base.TitlePage__StyledPageBackground-wzlr49-0.dDUGgO > div > section > div > div.TitleMainBelowTheFoldGroup__TitleMainPrimaryGroup-sc-1vpywau-1.btXiqv.ipc-page-grid__item.ipc-page-grid__item--span-2 > section.ipc-page-section.ipc-page-section--base.StyledComponents__CastSection-y9ygcu-0.fswvJC.celwidget > ul > li:nth-child(1) > div > ul > li > a').text.strip()
+
+    # # age rating
+    # try:
+    #     if episode:
+    #         age_rating = driver.find_element_by_css_selector('#__next > main > div > section.ipc-page-background.ipc-page-background--base.TitlePage__StyledPageBackground-wzlr49-0.dDUGgO > section > div:nth-child(4) > section > section > div.TitleBlock__Container-sc-1nlhx7j-0.hglRHk > div.TitleBlock__TitleContainer-sc-1nlhx7j-1.jxsVNt > div.TitleBlock__TitleMetaDataContainer-sc-1nlhx7j-2.hWHMKr > ul > li:nth-child(3) > a').text.strip()
+    #     else :
+    #         age_rating = driver.find_element_by_css_selector('#__next > main > div > section.ipc-page-background.ipc-page-background--base.TitlePage__StyledPageBackground-wzlr49-0.dDUGgO > section > div:nth-child(4) > section > section > div.TitleBlock__Container-sc-1nlhx7j-0.hglRHk > div.TitleBlock__TitleContainer-sc-1nlhx7j-1.jxsVNt > div.TitleBlock__TitleMetaDataContainer-sc-1nlhx7j-2.hWHMKr > ul > li:nth-child(2) > a').text.strip()
+    # except:
+    #     age_rating = 'Null'
     
     sleep(1)
     driver.quit()

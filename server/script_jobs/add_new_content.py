@@ -64,6 +64,8 @@ for i in range(len(add_list)):
     # s3에 poster.jpg 파일 업로드
     upload_poster_file(file['file_name'])
     
+    print(detail_content)
+
     netflix_id = detail_content[1]
     title = detail_content[0]
     title_kr = detail_content[3]
@@ -101,9 +103,9 @@ for i in range(len(add_list)):
             type,
         ],
     )
+    # db 저장
+    conn.commit()
 
-# db 저장
-conn.commit()
 # db 접속 해제
 conn.close()
 
