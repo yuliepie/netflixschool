@@ -53,9 +53,9 @@ export default function Recommendation () {
         <CC.ListWrapper>
           {data && data.map((recommend, index) => {
             return (
-              <Link to={{ pathname : '/content',
-                    state: recommend.id}}>
-                <ContentComponent
+              <CC.StyledLink to={{ pathname : '/content',
+                    state: recommend.id}} key={`content-${index}`}>
+                <ContentComponent 
                   id={recommend.id}
                   title_kr={recommend.title_kr}
                   img_path={recommend.img_path}
@@ -63,7 +63,7 @@ export default function Recommendation () {
                   words_per_second={recommend.words_per_second}
                   content_level={recommend.content_level}
                 />
-              </Link>
+              </CC.StyledLink>
             //   <li key={index} className='recommendation'>
             //     <Link to={{
             //       pathname : '/recommend',
