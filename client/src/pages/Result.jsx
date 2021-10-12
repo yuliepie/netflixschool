@@ -20,7 +20,7 @@ export default function Result ({location}) {
         <h1>레벨에 맞는 영화</h1>
         <div className="box_list">
           <section className='recommendation'>
-            {data.normal_content.map((result, index) => {
+            {data.normal_content && data.normal_content.map((result, index) => {
               return (
                 <li key={index} className='recommended_list'>
                   <Link to={{
@@ -37,7 +37,7 @@ export default function Result ({location}) {
         <h1>한단계 수준 높은 영화</h1>
         <div className="box_list">
           <section className='recommendation'>
-            {data.hard_content.map((result, index) => {
+            {data.hard_content && data.hard_content.map((result, index) => {
               return (
                 <li key={index} className='recommended_list'>
                   <Link to={{

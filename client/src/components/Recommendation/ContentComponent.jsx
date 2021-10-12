@@ -13,7 +13,7 @@ export default function ContentComponent({
     const history = useHistory();
     
     const handleClick = () => {
-        history.push(`/api/content/${id}`)    
+        history.push(`/recommendation`)
     };
 
     return (
