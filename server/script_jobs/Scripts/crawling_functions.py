@@ -54,11 +54,11 @@ def crawling_vtt_download(search_title, release_year):
     # justWatch 메인 페이지로 이동
     driver.get(f'https://www.justwatch.com/')
     # 검색창에 title year 적기
-    driver.find_element_by_css_selector('#app > div.navbar.container-fluid.container-max-width.landing-page > div > div.navbar__wrapper > div.navbar__search > div > ion-searchbar > div > input').send_keys(f'{search_title} {release_year}')
-    driver.implicitly_wait(0.5)
+    driver.find_element_by_css_selector('#app > div.navbar.container-fluid.container-max-width.landing-page > div > div.navbar__wrapper > div.navbar__search > div > ion-searchbar > div > input').send_keys(f'{search_title}')
+    driver.implicitly_wait(1)
     driver.find_element_by_css_selector('#app > div.navbar.container-fluid.container-max-width.landing-page > div > div.navbar__wrapper > div.navbar__search > div > ion-searchbar > div > input').click()
-    driver.implicitly_wait(0.5)
-    sleep(1)
+    driver.implicitly_wait(1)
+    sleep(2)
     # 검색 버튼 클릭
     driver.find_element_by_css_selector('#app > div.navbar.container-fluid.container-max-width.landing-page > div > div.navbar__wrapper > div.navbar__search.navbar__search--expanded > div.search-suggester.search-suggester--web > div.search-suggester__results > div > div:nth-child(2) > div > span').click()
     driver.implicitly_wait(2)
@@ -70,8 +70,8 @@ def crawling_vtt_download(search_title, release_year):
     driver.implicitly_wait(2)
 
     for i in range(1, 11):
-        year = driver.find_element_by_css_selector(f'#base > div.title-list.search-content > div > div.title-list-row > ion-grid > div > ion-row:nth-child({i}) > ion-col:nth-child(2) > a > span.title-list-row__row--muted').text
-        if release_year in year:
+        year = driver.find_element_by_css_selector(f'#base > div.title-list.search-content > div > div.title-list-row > ion-grid > div > ion-row:nth-child({i}) > ion-col:nth-child(2) > a > span.title-list-row__row--muted').text.replace('(', '').replace(')', '')
+        if int(release_year) + 1 >= int(year) or int(release_year) - 1 <= int(year):
             # 넷플릭스 id
             netflix_id = driver.find_element_by_css_selector(f'#base > div.title-list.search-content > div > div.title-list-row > ion-grid > div > ion-row:nth-child({i}) > ion-col:nth-child(2) > div:nth-child(2) > div.price-comparison--inline > div > div.price-comparison__grid__row.price-comparison__grid__row--stream > div.price-comparison__grid__row__holder > div:nth-child(1) > div > a').get_attribute('href').split('title%2F')[1].split('&')[0]
 
@@ -153,7 +153,7 @@ def crawling_vtt_download(search_title, release_year):
     print(f'Crawling vtt download - {search_title} download vtt file success')
 
 
-    return {'episode' : episode, 'justwatch_url' : justwatch_url, 'netflix_id' : netflix_id}
+    return {'episode' : episode, 'justwatch_url' : justwatch_url, 'netflix_id' : netflix_id, 'release_year': year}
 
 
 def crawling_content_detail(justwatch_url, file_name, episode, netflix_id, file_title):
@@ -198,29 +198,39 @@ def crawling_content_detail(justwatch_url, file_name, episode, netflix_id, file_
     
     print(f'Crawling content detail - {file_title} Netflix Title Page')
 
+    print(len(driver.find_elements_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child(3) > div > div > div.about-container > div:nth-child(1)')))
+
     # 감독 정보 받아오기
     try:
         for i in range(3,6):
-            # director or creater 확인
-            col = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1) > span.previewModal--tags-label').text
 
-            if 'Director' in col or 'Creators' in col:
-                director = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1)').text.split(':')[1].strip()
+            check = len(driver.find_elements_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1)'))
 
-                crawling_age_rating = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div.maturity-rating-wrapper > div > div.maturity-rating.inline-rating > span').text.strip()
+            if check != 0:
+                # director or creater 확인
+                col = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1) > span.previewModal--tags-label').text
+                
+                
+                print('col: ', col)
 
-                break
+                if 'Direc' in col or 'Creat' in col:
+                    director = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div:nth-child(1)').text.split(':')[1].strip()
+                    print('director: ', director)
+
+                    crawling_age_rating = driver.find_element_by_css_selector(f'#appMountPoint > div > div > div:nth-child(1) > div.focus-trap-wrapper.previewModal--wrapper.detail-modal.has-smaller-buttons > div > div.previewModal--info > div > div:nth-child({i}) > div > div > div.about-container > div.maturity-rating-wrapper > div > div.maturity-rating.inline-rating > span').text.strip()
+                    print('crawling_age_rating: ', crawling_age_rating)
+                    break
     except:
         director = 'Null'
         crawling_age_rating = 'Null'    
 
-    if 'All' in crawling_age_rating:
+    if 'All' in crawling_age_rating or 'General' in crawling_age_rating:
         age_rating = 'All'
     elif '12' in crawling_age_rating:
         age_rating = '12'
     elif '15' in crawling_age_rating:
         age_rating = '15'
-    elif '18' in crawling_age_rating:
+    elif '18' in crawling_age_rating or 'Not' in crawling_age_rating:
         age_rating = '18'
     else:
         age_rating = 'Null'

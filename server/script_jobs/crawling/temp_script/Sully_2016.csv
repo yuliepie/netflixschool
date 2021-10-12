@@ -1,0 +1,996 @@
+start,end,script
+00:00:28.778,00:00:30.697,We've lost both engines. Both engines.
+00:00:35.827,00:00:37.162,No relight on one or two.
+00:00:38.913,00:00:40.415,do you wanna try to land runway 1-3?
+00:00:40.498,00:00:43.209,"Departure control, we can make it. We're turning back towards LaGuardia."
+00:01:05.440,00:01:07.192,"-Sully, we're too low! -Come on."
+00:01:18.411,00:01:19.579,Just a little farther.
+00:01:21.414,00:01:22.373,Come on.
+00:01:29.339,00:01:30.298,Sully!
+00:01:30.381,00:01:31.382,"Lorrie, I love you."
+00:03:18.364,00:03:28.166,"three flight attendants and two pilots, one of whom, the senior pilot, drew on all of his experience and skill, which combined with near-miraculous good luck and a result that was, frankly, astounding."
+00:03:28.249,00:03:32.253,"There were some non-critical injuries, but everyone, everyone, survived."
+00:03:32.712,00:03:35.924,The first pictures of US Airways Flight 1549 reveal...
+00:03:36.007,00:03:38.468,You think that you're gonna die. That's what you think.
+00:03:39.177,00:03:42.138,"And then, miraculously, you don't."
+00:03:42.388,00:03:43.681,"Thank you, Captain."
+00:03:57.946,00:03:59.822,"Okay, thank you, everybody, thank you."
+00:04:00.240,00:04:02.075,"Thank you, Captain Sullenberger, for being here today."
+00:04:02.158,00:04:04.369,We also want to welcome First Officer Skiles.
+00:04:04.452,00:04:05.703,I'm glad you could make it in this morning.
+00:04:09.707,00:04:19.300,"For the record, we had an Aircraft Systems Team on this investigation. Also Aircraft Structures, MRT, Aircraft Performance, ATC, Wildlife Factors, Survival Factors and Emergency Response."
+00:04:19.592,00:04:25.765,"Today, we begin with our operation and human performance investigation on the crash of US Airways Flight 1549."
+00:04:25.848,00:04:27.558,-Water landing. -Captain?
+00:04:27.850,00:04:29.769,This was not a crash and it wasn't a ditching.
+00:04:30.770,00:04:34.148,We knew what we were trying to execute here. It was not a...
+00:04:34.524,00:04:37.193,It was not a crash. It was a forced water landing.
+00:04:37.277,00:04:39.529,Why didn't you attempt to return to LaGuardia?
+00:04:40.697,00:04:42.949,There simply was not enough altitude.
+00:04:43.992,00:04:49.080,The Hudson was the only place that was long enough and smooth enough and wide enough to even attempt to land the airplane safely.
+00:04:49.163,00:04:53.501,"Air Traffic testified that you stated you were returning to LaGuardia, but you did not."
+00:04:54.752,00:05:02.343,"As I began the left turn, I realized I couldn't make it back and it would have eliminated all the other options."
+00:05:02.427,00:05:04.304,Returning to LaGuardia would have been a mistake.
+00:05:04.387,00:05:06.848,"Okay, well, let's get into how you calculated all those parameters."
+00:05:06.931,00:05:08.641,There was no time for calculating.
+00:05:08.933,00:05:14.063,I had to rely on my experience of managing the altitude and speed of thousands of flights over four decades.
+00:05:14.522,00:05:15.565,You're saying you didn't do any...
+00:05:15.648,00:05:16.899,I eyeballed it.
+00:05:18.067,00:05:19.027,You eyeballed it?
+00:05:20.194,00:05:21.029,Yes.
+00:05:21.821,00:05:24.741,The best chance those passengers had was on that river.
+00:05:25.867,00:05:27.952,"And I'd bet my life on it. In fact, I did."
+00:05:28.369,00:05:29.620,And I would do it again.
+00:05:30.455,00:05:34.208,Aviation engineers are theorizing you had enough energy to make it back to a runway.
+00:05:35.543,00:05:38.963,"Well, engineers are not pilots. They're wrong."
+00:05:40.298,00:05:41.466,And they weren't there.
+00:05:41.716,00:05:45.678,"Regardless, we have to follow up on all implications as part of our investigation."
+00:05:46.095,00:05:48.556,Our computers will run return scenario algorithms.
+00:05:48.639,00:05:51.309,It'll generate simulations with your exact parameters.
+00:05:51.434,00:05:53.436,"The dual engine loss, the altitude."
+00:05:53.561,00:05:55.688,Everything you faced when you made your decision.
+00:05:55.772,00:05:58.274,I would like to oversee those computer simulations.
+00:05:58.357,00:06:00.234,Not possible during an investigation.
+00:06:00.610,00:06:05.031,You stated that it was a dual engine failure due to multiple bird strikes?
+00:06:05.740,00:06:07.533,That would be unprecedented.
+00:06:07.700,00:06:11.162,"Well, everything is unprecedented until it happens for the first time."
+00:06:14.874,00:06:16.584,How much sleep did you get the night before?
+00:06:16.876,00:06:18.127,Eight hours. Enough.
+00:06:18.419,00:06:20.171,Is it possible your blood sugar was low?
+00:06:20.254,00:06:22.965,"I was rested, alert and completely aware of my surroundings."
+00:06:23.800,00:06:25.384,"When was your last drink, Captain Sullenberger?"
+00:06:25.468,00:06:26.469,Nine days ago.
+00:06:26.886,00:06:28.429,-Drugs? -No. Never.
+00:06:29.180,00:06:30.098,First Officer Skiles?
+00:06:31.724,00:06:33.226,Don't drink. Never have.
+00:06:35.895,00:06:39.398,"Captain, have you had any troubles at home lately?"
+00:06:41.400,00:06:42.693,No more than anyone else.
+00:06:43.236,00:06:44.946,And nothing that affected my work.
+00:06:50.118,00:06:51.119,It's bullshit.
+00:06:52.286,00:06:55.498,Why are they looking for something we did wrong when it all turned out right?
+00:06:55.623,00:06:58.251,It didn't turn out all right for the airline and their insurance company.
+00:06:58.334,00:06:59.919,We should expect some blowback.
+00:07:00.419,00:07:03.381,"Come on, Mike. What are they gonna say? That he shouldn't have saved everybody?"
+00:07:03.464,00:07:06.175,It's not personal. NTSB's just doing its job.
+00:07:06.259,00:07:08.803,"Once they have all the facts, it'll calm down."
+00:07:09.303,00:07:12.765,"Sully, they should pin on the medal and send you back to work."
+00:07:15.601,00:07:18.438,I didn't call Lorrie since this morning. Apparently everyone else did.
+00:07:20.231,00:07:23.943,"Not meaning to bother, but I have to say, it is an honor driving you today."
+00:07:24.777,00:07:25.820,Thank you.
+00:07:27.989,00:07:31.659,"Bernie Madoff, two wars without end. Many million new people with no work."
+00:07:31.742,00:07:33.786,And that's just the first two weeks of January.
+00:07:34.787,00:07:37.665,Friday's headline? This is beautiful.
+00:07:40.668,00:07:43.004,"Hey, Mike. How about we add the driver as a character witness?"
+00:07:55.808,00:07:56.684,Finally.
+00:07:56.767,00:07:57.894,"Yeah, finally."
+00:07:58.644,00:08:00.813,The NTSB had us tied up all day.
+00:08:01.439,00:08:04.692,I know. I just needed to hear your voice.
+00:08:04.901,00:08:06.277,I've been hearing everybody else's.
+00:08:06.777,00:08:08.654,You'd be amazed how many cousins you have.
+00:08:09.322,00:08:12.116,It doesn't feel much like family here.
+00:08:16.996,00:08:18.539,"Pretty quiet here, too."
+00:08:20.041,00:08:23.961,The reporters want me to give an update inside the mind of Sully.
+00:08:24.045,00:08:25.379,What should I tell them?
+00:08:25.463,00:08:27.173,"Lorrie, tell them you're not allowed to talk to anybody."
+00:08:27.256,00:08:28.883,"-Look, I can't hear you. -Lorrie, I..."
+00:08:28.966,00:08:32.512,-I can't hear you. Call me back. -I'm trying to tell you you do not have to talk to anybody.
+00:08:32.595,00:08:34.180,I can't hear you. Call me back.
+00:08:48.778,00:08:50.029,How does it feel to be a miracle maker?
+00:08:50.112,00:08:51.447,"Sully, one question!"
+00:08:54.033,00:08:56.285,Captain Sully! Sully!
+00:08:57.161,00:08:58.162,Pardon me.
+00:09:08.089,00:09:10.508,I'm thinking about running over the press with the car.
+00:09:10.591,00:09:12.802,Self-defense. You think a jury would convict?
+00:09:14.345,00:09:17.390,"You know, I'm taking that as permission. The cops'll be coming after you."
+00:09:21.561,00:09:24.897,while the NTSB is conducting its investigation.
+00:09:25.982,00:09:27.608,"Sully, are you listening to me?"
+00:09:27.984,00:09:29.652,Maybe we should talk later.
+00:09:31.070,00:09:34.156,"Honey, it is later. I've been waiting all day."
+00:09:34.574,00:09:35.575,Are you okay?
+00:09:35.658,00:09:37.702,"Yeah, just tired, that's all."
+00:09:38.119,00:09:39.161,How are the girls?
+00:09:42.373,00:09:45.501,"They're a little overwhelmed. It sounds like you are, too."
+00:09:46.586,00:09:47.420,Yeah.
+00:09:48.421,00:09:50.131,They'll be all right. They'll be all right.
+00:09:50.214,00:09:51.382,It is a lot.
+00:09:51.465,00:09:52.550,"Yes, it is."
+00:09:53.676,00:09:55.428,were definitely not what investigators wanted...
+00:09:56.429,00:09:58.472,The whole world is talking about you.
+00:09:58.639,00:09:59.849,My Sully.
+00:10:06.439,00:10:08.149,for the NTSB investigation.
+00:10:08.232,00:10:12.194,Did I tell you that already? I apologize if I didn't tell you.
+00:10:12.695,00:10:16.532,There is no need for you to apologize. You are right where you need to be.
+00:10:19.118,00:10:21.662,"I want you to know, I did the best I could."
+00:10:23.789,00:10:27.418,Of course you did. You saved everyone.
+00:10:29.670,00:10:33.132,"Uh, maybe we should just talk in the morning. I'm tired."
+00:10:34.008,00:10:36.052,I'm overwhelmed by all this attention.
+00:10:39.347,00:10:41.098,I'm gonna be on TV in the morning.
+00:10:41.182,00:10:43.017,What are they gonna ask me? What am I gonna say?
+00:10:43.100,00:10:45.019,"Sully, do you want me to come be with you?"
+00:10:45.686,00:10:47.146,"No, no, Lorrie."
+00:10:47.980,00:10:49.857,"Thanks, but the girls need you."
+00:10:51.067,00:10:52.193,Tell them I love them.
+00:10:53.569,00:10:55.655,I love you. Get some sleep.
+00:10:56.322,00:10:57.239,Yeah.
+00:10:57.740,00:11:00.368,"Hey, maybe when I wake up, it'll be January 14th."
+00:11:00.451,00:11:01.786,Wouldn't that be good?
+00:11:03.496,00:11:04.497,I love you.
+00:11:10.836,00:11:18.344,"Why Captain Sullenberger made that fateful decision to turn the Hudson into a runway? Well, only he can answer."
+00:11:18.803,00:11:22.306,But we now know it was the wrong choice.
+00:11:22.848,00:11:26.519,A choice that endangered the lives of all of those on-board.
+00:11:26.811,00:11:37.988,"So, while much of the country hails him as a hero, this new information will certainly change everyone's understanding of the so-called Miracle on the Hudson."
+00:11:38.447,00:11:43.119,"Sully Sullenberger, are you a hero or a fraud?"
+00:12:04.390,00:12:05.766,I'm sorry to call so late.
+00:12:09.603,00:12:12.398,Can you believe they charge $5 for a Snickers?
+00:12:13.858,00:12:16.277,I could bankrupt the airline in about four bites.
+00:12:16.944,00:12:19.905,Just thought maybe you would want to...
+00:12:21.574,00:12:22.533,Absolutely.
+00:12:24.326,00:12:25.369,Let's get some air.
+00:12:26.662,00:12:27.496,Great.
+00:12:28.581,00:12:30.166,I'll be down there in five minutes.
+00:12:36.297,00:12:37.631,You enjoying the shakes?
+00:12:38.841,00:12:41.343,"-The nightmares, rapid heartbeat. -A little bit."
+00:12:41.510,00:12:43.429,Union's offering us counseling.
+00:12:46.098,00:12:47.975,You were in a plane crash and lived.
+00:12:48.309,00:12:50.644,It may have a minor impact on your day-to-day.
+00:12:50.895,00:12:53.814,I don't like not being in control of the process.
+00:12:53.898,00:12:55.733,-I want my self back. -Yeah.
+00:12:56.942,00:13:00.446,"I'm hoping six months from now, we'll just be laughing about how we got to meet David Letterman."
+00:13:03.616,00:13:04.700,We're doing David Letterman?
+00:13:05.618,00:13:07.578,Yeah. Right after the next NTSB interview.
+00:13:07.661,00:13:08.662,David Letterman.
+00:13:13.626,00:13:18.005,I guess I'm having a little trouble separating reality from whatever the hell this is.
+00:13:18.088,00:13:18.923,Yeah.
+00:13:19.256,00:13:21.467,This is two men freezing their asses off.
+00:13:24.136,00:13:25.095,Sully.
+00:13:26.972,00:13:28.599,Don't worry. You did a great thing.
+00:13:29.225,00:13:31.268,It's gonna be remembered for a very long time.
+00:13:31.352,00:13:32.478,Here's the funny thing.
+00:13:33.395,00:13:40.528,"I've delivered a million passengers over 40 years in the air, but in the end, I'm gonna be judged on 208 seconds."
+00:13:44.448,00:13:46.075,Come on. Tomorrow's gonna be a good day.
+00:13:47.159,00:13:50.329,Computer sims will prove you were right. We can all put our wings back on.
+00:13:50.663,00:13:52.873,"-You wanna run? -Yeah, let's run."
+00:13:59.421,00:14:11.058,"It was obvious that it was a critical situation, losing thrust in both engines at a low altitude over one of the most densely populated areas of the planet."
+00:14:11.976,00:14:16.605,"But choosing to land on the Hudson, that was still a big If."
+00:14:17.898,00:14:19.233,I was sure I could do it.
+00:14:19.900,00:14:20.860,You were?
+00:14:21.610,00:14:22.444,Yes.
+00:14:23.529,00:14:26.407,How do you feel when people call you a hero?
+00:14:27.533,00:14:29.368,I don't feel like a hero.
+00:14:29.910,00:14:33.080,I'm just a man who was doing his job.
+00:14:33.497,00:14:35.958,The right man for the job at the right time.
+00:14:37.668,00:14:40.963,"You've been flying for what, nearly 40 years?"
+00:14:41.338,00:14:43.716,Forty-two. It's been my life.
+00:14:45.259,00:14:46.260,My whole life.
+00:14:56.979,00:14:57.980,Your aircraft.
+00:14:59.398,00:15:00.608,My aircraft.
+00:15:13.412,00:15:16.540,I'll be busy crop dusting in the Super Cub rest of the summer.
+00:15:16.707,00:15:19.335,"So, you can take the plane up, I guess, when you please."
+00:15:19.793,00:15:22.171,Still six bucks an hour. I'll consider it lesson time.
+00:15:23.213,00:15:25.549,A pilot never stops acquiring knowledge.
+00:15:26.091,00:15:28.594,"You'll make mistakes, everyone does. Just learn from them."
+00:15:28.719,00:15:29.678,"Yes, sir."
+00:15:30.679,00:15:34.558,"And never forget, no matter what's happening, to fly the airplane."
+00:15:34.850,00:15:35.768,"Absolutely, sir."
+00:15:38.228,00:15:40.731,"Oh, one other thing, and this is important."
+00:15:40.814,00:15:42.691,-Sir? -You can go ahead and smile.
+00:15:54.244,00:15:56.914,"-I apologize for the perspiration. -Oh, no."
+00:15:56.997,00:15:59.917,"After what you did, I'd think that Katie couldn't be too intimidating."
+00:16:00.000,00:16:01.085,It wasn't Katie.
+00:16:01.168,00:16:04.380,It was the lights and the camera that she brought with her.
+00:16:05.214,00:16:06.382,Okay. All done.
+00:16:11.011,00:16:14.807,"Her name is Brenda, she says to say thank you and that she's single."
+00:16:14.890,00:16:18.352,"Well, you tell Brenda thank you, but I've got a girl at home."
+00:16:58.976,00:17:01.061,Sully. Sully!
+00:17:03.188,00:17:04.314,"Sully, where are you?"
+00:17:05.315,00:17:06.984,I'm standing here calling your name.
+00:17:08.402,00:17:09.528,What's up with you?
+00:17:13.449,00:17:14.658,You need to get focused.
+00:17:16.035,00:17:18.620,Because the media request avalanche continues.
+00:17:18.704,00:17:19.705,Yeah. Yeah.
+00:17:21.957,00:17:25.461,Larry Rooney volunteered to jump in and ride shotgun with you the rest of the way.
+00:17:26.253,00:17:30.007,Thought you might need a friend. He'll take you to today's NTSB meeting.
+00:17:30.883,00:17:33.427,Airbus completed their computer simulations as well.
+00:17:33.677,00:17:35.471,"Good. Good, that'll help."
+00:17:35.554,00:17:38.932,There's something else. Arnie Gentile called.
+00:17:39.433,00:17:40.559,He has the ACARS data.
+00:17:41.268,00:17:43.228,The left engine was still operating at idle.
+00:17:43.854,00:17:46.356,Not possible. I felt it go.
+00:17:46.732,00:17:48.442,It was like we were stopped in midair.
+00:17:48.734,00:17:52.696,"Arnie said there was a chance it was sub-idle, that it still could've had thrust."
+00:17:53.947,00:17:56.784,I'm just letting you know since the NTSB already does.
+00:17:58.327,00:17:59.328,Hmm.
+00:18:07.503,00:18:08.587,Is retirement next?
+00:18:10.714,00:18:12.466,What's next for you? What's next?
+00:18:14.009,00:18:15.177,Sully! Over here!
+00:18:16.970,00:18:18.972,"Hey, Larry. Good to see a friendly face."
+00:18:20.599,00:18:22.392,Might be the last one you see today.
+00:18:28.774,00:18:32.444,but our job is to investigate how a plane ended up in the Hudson River.
+00:18:38.325,00:18:40.994,Isn't it a little early in the year to go fishing?
+00:18:41.286,00:18:43.914,"Seeking the facts is hardly fishing, Mr. Skiles."
+00:18:43.997,00:18:45.541,"Okay, then here's the most important fact."
+00:18:45.916,00:18:49.002,There's only two people who know what happened in the cockpit that day and I'm one of them.
+00:18:49.086,00:18:50.629,And we appreciate your perspective.
+00:18:51.547,00:18:53.132,Why do you even think we're here today?
+00:18:54.466,00:18:57.845,It's because Captain Sullenberger did not head back to LaGuardia.
+00:19:00.180,00:19:09.648,"Look, I just finished training on the A320 and I can tell you, the only reason the plane operated as well as it did, that the aircraft could land anywhere, is because Captain Sullenberger turned on the Auxiliary Power Unit."
+00:19:09.731,00:19:11.775,He was simply following the QRH.
+00:19:11.859,00:19:13.527,"No. No, he wasn't."
+00:19:13.777,00:19:15.362,He wasn't following proper procedure at all.
+00:19:15.445,00:19:17.406,"And I know, because I had the QRH in my hands."
+00:19:18.407,00:19:21.368,He switched on the APU immediately after engine rollback.
+00:19:21.702,00:19:24.580,"According to Airbus, that's the 15th thing on the list to do."
+00:19:24.663,00:19:25.664,Fifteenth.
+00:19:26.415,00:19:28.959,"If he had followed the damn rules, we'd all be dead."
+00:19:31.420,00:19:32.671,Maybe that's the part you don't like.
+00:19:33.338,00:19:35.257,You're not used to having answers to your guesses.
+00:19:35.340,00:19:41.930,"Look, look, what Jeff is saying is that I know the A320, what it does and what it doesn't do."
+00:19:42.723,00:19:49.563,I have read countless CVR transcripts of deceased pilots and I have significant accident investigation experience.
+00:19:49.646,00:19:55.569,"And there is no question that you are a talented, dedicated, experienced professional."
+00:19:56.195,00:20:01.950,But all the flights you piloted before January 15th and every crash you investigated are not the purview of this investigation.
+00:20:02.743,00:20:05.078,Only US Airways 1549 matters today.
+00:20:06.413,00:20:08.248,Your union has been advised.
+00:20:08.582,00:20:13.503,ACARS data relayed that the left engine continued to turn throughout the flight.
+00:20:13.670,00:20:15.214,Then the ACARS data is wrong.
+00:20:15.464,00:20:20.636,"The evidence shows that the left engine was at idle or sub-idle, immediately following the bird strike."
+00:20:20.719,00:20:24.181,"You show me the left engine, I'll show you dead birds and no power."
+00:20:24.264,00:20:28.310,The left engine was lost in the crash due to excessive damage on touchdown.
+00:20:28.810,00:20:30.938,But we can circle back to that later.
+00:20:31.230,00:20:42.950,"Let's just assume that it was, as you say, wind and temperature north, northwest, 21 degrees."
+00:20:43.116,00:20:47.246,"Speed and altitude 200 knots at 2,818 feet."
+00:20:47.329,00:20:48.580,-Agree? -Correct.
+00:20:50.874,00:20:58.048,And the resulting computer simulations of US Airways Flight 1549 show that the aviation engineers were correct.
+00:20:58.840,00:21:03.929,There was enough altitude and speed after the bird strike for a successful return to LaGuardia.
+00:21:05.264,00:21:06.223,Successful?
+00:21:06.306,00:21:08.725,The plane landed at LaGuardia.
+00:21:09.184,00:21:10.185,Intact.
+00:21:11.019,00:21:12.020,Undamaged.
+00:21:12.396,00:21:14.231,You got that from one computer simulation?
+00:21:16.191,00:21:17.192,From 20.
+00:21:17.317,00:21:23.448,Including attempts made for Teterboro runways 1-9 and LaGuardia runways 2-2 and 1-3.
+00:21:24.157,00:21:31.123,Every computer simulation with the exact flight parameters demonstrated that a return to LaGuardia was possible.
+00:21:31.540,00:21:32.874,"And not just possible, probable."
+00:21:38.088,00:21:40.132,Does anyone need to hear further computer evidence?
+00:21:43.218,00:21:44.511,Captain Sullenberger?
+00:21:45.637,00:21:46.972,First Officer Skiles?
+00:21:47.514,00:21:48.765,Not at this time.
+00:21:50.017,00:21:53.770,I would like to go over the parameters that were used.
+00:21:57.566,00:22:02.821,"And once the investigation is complete, we'll be able to share the actual computer simulations."
+00:22:02.904,00:22:06.491,"For now, they remain confidential. We cannot afford a leak to the press."
+00:22:08.285,00:22:10.412,There's been far too much talk in the press already.
+00:22:15.125,00:22:23.133,"When the complete cockpit voice recording is compiled, along with ATC and all on-board transcripts combined, we will call you back."
+00:22:24.885,00:22:26.344,"Thank you, gentlemen. Good day."
+00:22:29.181,00:22:30.265,Thank you.
+00:22:37.939,00:22:39.232,They're playing Pacman.
+00:22:39.316,00:22:41.151,You were flying a plane full of human beings.
+00:22:42.611,00:22:45.405,"Somehow, that's not how I remember it."
+00:22:46.698,00:22:49.242,-It just doesn't seem right. -It's because it's not right.
+00:22:50.285,00:22:52.579,"Sully, you did everything you could and it was more than enough."
+00:22:53.580,00:22:54.623,Ask the passengers.
+00:22:55.082,00:22:56.875,Ask your wife and kids. Ask mine.
+00:23:21.608,00:23:24.152,So what was the first thing you heard from the cockpit?
+00:23:24.820,00:23:26.780,-Brace for impact. Yes. -Brace for impact.
+00:23:27.030,00:23:29.699,"Now, ever hear that before coming out of a cockpit?"
+00:23:34.830,00:23:37.290,Ever hear that in any other aspect of your lives?
+00:23:48.510,00:23:50.720,They could take this show away from me.
+00:23:52.722,00:23:54.891,Jeff was relaxed and funny.
+00:23:55.350,00:23:57.394,He should be getting all of our interview requests.
+00:23:57.477,00:24:00.605,Are they paying you for all this media stuff at least?
+00:24:02.023,00:24:03.400,No payment is necessary.
+00:24:03.650,00:24:05.652,"Oh, I wish the bank felt the same way."
+00:24:05.986,00:24:07.237,Why? What do you mean?
+00:24:07.571,00:24:08.572,"Well, it's just..."
+00:24:09.865,00:24:13.326,We got another notice about the space in Butte County.
+00:24:16.580,00:24:19.040,We'll find a tenant. It just takes time.
+00:24:19.124,00:24:21.334,"Yeah, you've been saying that for nine months, Sully."
+00:24:21.418,00:24:22.419,It's still vacant.
+00:24:24.171,00:24:28.633,"It feels like if we lose that space, the next domino to fall is the house."
+00:24:29.885,00:24:32.137,"Lorr, we're not gonna lose the house."
+00:24:36.600,00:24:40.520,and I'm alone and not enough sleep.
+00:24:40.729,00:24:43.398,"Yeah, I know. Not a lot of sleep going on here either."
+00:24:44.191,00:24:45.901,I'm sorry if I'm adding to your stress.
+00:24:45.984,00:24:48.236,But just tell me you'll be back in the air soon.
+00:24:49.029,00:24:52.407,Not until the NTSB is finished with their investigation.
+00:24:52.741,00:24:53.825,We need you flying.
+00:24:56.203,00:25:02.083,my career as a safety expert will end as a website and a business card.
+00:25:02.584,00:25:04.419,I'm more worried about your career as a pilot.
+00:25:08.840,00:25:10.425,What if I did blow this?
+00:25:13.887,00:25:17.015,"What if I did get this wrong, so close to the end of my career?"
+00:25:18.225,00:25:21.228,If I endangered the lives of all those passengers?
+00:25:22.020,00:25:26.191,"Sully, watch the news. You're a hero."
+00:25:26.942,00:25:29.861,"Everyone's gonna have to get used to it, including the NTSB."
+00:25:30.904,00:25:35.408,"Worst case scenario, the NTSB lists me as the probable cause."
+00:25:35.617,00:25:37.869,That's immediate retirement. No pension.
+00:25:39.037,00:25:40.163,My life's work gone.
+00:25:40.247,00:25:43.041,"Okay, you're scaring me now, Sully. What is going on?"
+00:25:48.463,00:25:52.884,And the Airbus simulations say I could've made it back to LaGuardia safely.
+00:25:53.677,00:25:55.095,But that doesn't make sense.
+00:25:55.762,00:25:59.516,Doesn't jibe with everything I felt in the cockpit.
+00:26:00.684,00:26:02.686,"Then why did you do it, Sully?"
+00:26:04.062,00:26:05.730,"What, land in the water?"
+00:26:06.815,00:26:08.858,Wasn't that the most dangerous thing you could have done?
+00:26:16.408,00:26:18.868,"Good afternoon, Gursimran."
+00:26:19.619,00:26:23.331,The tuna basil or the ham and cheddar?
+00:26:23.415,00:26:25.709,"Tuna basil, Mr. Sully. Very fresh."
+00:26:29.754,00:26:31.339,-Thank you. -Be careful up there.
+00:26:31.631,00:26:33.675,Too cold today. Too much cold.
+00:26:36.303,00:26:38.847,When US Air starts flights to Hyderabad.
+00:26:39.514,00:26:42.392,"I will talk to the chairman, see what we can work out."
+00:26:47.188,00:26:49.107,"-It's his birthday! -Come on! No, Mom!"
+00:26:49.190,00:26:50.483,Just a little something.
+00:26:50.567,00:26:52.819,The suitcase is already overstuffed with gifts for Will.
+00:26:52.902,00:26:55.363,It's always fun to get something from the airport.
+00:26:55.447,00:26:57.157,"Feels like you've traveled, too."
+00:26:57.240,00:26:58.658,"Ma, he's turning one."
+00:26:58.867,00:27:01.578,Don't think he'll be discerning what gift came from where.
+00:27:01.661,00:27:02.996,But I will.
+00:27:03.455,00:27:05.040,Maybe a snow globe.
+00:27:05.540,00:27:08.168,Something he'll remember. Something New York.
+00:27:08.251,00:27:09.919,Were you this generous when we were kids?
+00:27:10.420,00:27:13.757,"Okay, sweetheart. I'll get you a snow globe, too."
+00:27:34.861,00:27:36.780,"-Jeff. -Hey, Sully. How are ya?"
+00:27:41.326,00:27:43.912,"-Hey, guys! Jeff! -We're not gonna make it!"
+00:27:43.995,00:27:45.413,"I've been waiting for a year for this trip, Dad."
+00:27:45.497,00:27:47.707,"I'm not gonna miss this flight. Just meet us at the gate, okay?"
+00:27:51.294,00:27:53.880,Altimeter is verified. 3-0-2-3.
+00:27:54.672,00:27:56.299,3-0-2-3.
+00:28:00.053,00:28:01.471,Start checklist complete.
+00:28:05.183,00:28:06.726,You really think they'll release us?
+00:28:07.977,00:28:10.772,I've checked the latest reports. We're clear all the way to Charlotte.
+00:28:12.607,00:28:15.110,Then steaks. Del Frisco's. On me.
+00:28:15.819,00:28:18.363,I've never been. And I hear good things.
+00:28:18.446,00:28:19.447,Oh.
+00:28:20.824,00:28:22.325,The rib eye'll break your heart.
+00:28:23.118,00:28:25.662,"Well, I'm more of a porterhouse man."
+00:28:31.543,00:28:32.836,"-service to Charlotte... -Wait, wait!"
+00:28:35.380,00:28:37.841,Hi. I'm sorry. Spirit sent us.
+00:28:38.049,00:28:40.260,We got canceled and they said that we were re-routed.
+00:28:40.343,00:28:41.469,That you guys had some seats?
+00:28:41.803,00:28:42.846,Flight is closed.
+00:28:42.929,00:28:45.432,"Wait, see that old guy limping up right there?"
+00:28:45.515,00:28:47.934,That's my dad. It's an emergency. He's gotta be on this flight.
+00:28:48.017,00:28:49.602,What kind of emergency?
+00:28:55.066,00:28:56.651,"-ID's please. -Oh, my God!"
+00:28:56.735,00:28:58.862,-How many people are traveling? -Three. Thank you.
+00:28:59.237,00:29:00.780,Nothing together.
+00:29:00.864,00:29:02.407,"That's all right. Hell, I'll fly on the wing."
+00:29:05.118,00:29:09.456,"22A, 6A and 6C."
+00:29:09.539,00:29:11.249,-Thank you. Thank you so much. -Thank you.
+00:29:11.332,00:29:12.292,Thank you.
+00:29:14.794,00:29:17.046,-She gave me the eye. -You charming bastard.
+00:29:17.630,00:29:18.798,-Ahoy. -Welcome aboard.
+00:29:18.882,00:29:19.883,-How's it going? -Lucky you made it.
+00:29:19.966,00:29:21.092,"-Yeah, no kidding. -All right."
+00:29:21.176,00:29:22.385,-Thank you. Sorry. -Thank you!
+00:29:24.888,00:29:26.890,I was up till 3:00. I gotta get some sleep.
+00:29:26.973,00:29:28.057,You can sleep here.
+00:29:28.141,00:29:30.185,Not with you verbally running the course the whole time.
+00:29:36.399,00:29:37.609,Sorry. Excuse me.
+00:29:41.362,00:29:43.114,Here. There you go.
+00:29:43.198,00:29:44.741,"-Thanks. -Yeah, of course."
+00:29:47.327,00:29:48.578,"Hey, guys, I'm in here."
+00:29:48.995,00:29:51.623,I'm so sorry. He likes to throw everything.
+00:29:51.706,00:29:53.708,That's perfect. I like to catch everything.
+00:29:54.626,00:29:55.794,"Hey, little man."
+00:29:55.877,00:29:57.462,I googled you last night.
+00:29:58.421,00:30:01.633,Read all about your company on your website.
+00:30:03.009,00:30:03.843,It's impressive.
+00:30:04.677,00:30:05.678,Thanks.
+00:30:07.305,00:30:10.350,"I thought I was a good bullshitter, but you?"
+00:30:11.100,00:30:12.268,You could go pro.
+00:30:12.560,00:30:14.729,"-Hey. -Oh, I'm only teasing."
+00:30:15.313,00:30:21.986,The site does make it sound like your air safety consulting business has got about 100 employees and headquarters in three states.
+00:30:22.737,00:30:26.699,"Then when I dug a little deeper, I realized it's only you."
+00:30:26.950,00:30:28.493,"Now, go easy."
+00:30:28.910,00:30:30.328,I'm just getting it going.
+00:30:31.496,00:30:33.873,I'm not usually accused of being a bullshitter.
+00:30:34.040,00:30:36.251,"Nah. Don't get me wrong. Actually, it's a compliment."
+00:30:36.334,00:30:38.795,Off that website? I'd hire you.
+00:30:41.172,00:30:45.009,Welcome on-board US Airways Flight 1549 with service to Charlotte.
+00:30:45.093,00:30:48.137,Please review the safety instruction card in the seat back pocket in front of you.
+00:30:48.555,00:30:54.102,It explains the safety features of this aircraft as well as the location and operation of the exit and flotation devices.
+00:30:54.602,00:30:56.980,Your seat cushion serves as a flotation device.
+00:30:57.272,00:31:00.400,"LaGuardia ramp, Cactus 1549. Ready for pushback at gate 21."
+00:31:02.610,00:31:03.820,"Spot 28, ground for taxi."
+00:31:11.744,00:31:13.037,Be sure you turn that off.
+00:31:14.956,00:31:15.999,Tray table up.
+00:31:32.974,00:31:36.311,Just once I'd like to get out of LaGuardia on time.
+00:31:36.936,00:31:39.355,"Well, you know the only way to get out of LaGuardia on time."
+00:31:39.439,00:31:40.690,"Yeah, what's that?"
+00:31:43.234,00:31:44.068,Funny.
+00:31:53.828,00:31:56.789,"Takeoff minimum fuel quantity verify. 19,000 pounds required."
+00:31:57.123,00:32:01.127,"-We got 21.8 on-board. -19,000 pounds required. 21.8 on-board."
+00:32:05.256,00:32:06.925,Cactus 1549. Cleared for takeoff.
+00:32:13.806,00:32:14.849,TO/GA.
+00:32:15.350,00:32:16.309,TO/GA set.
+00:32:41.834,00:32:43.211,"Gear up, please."
+00:32:44.796,00:32:45.880,Gear up.
+00:32:56.557,00:32:57.934,Nice view of the Hudson.
+00:32:58.977,00:33:01.187,I'll never get over how beautiful it is up here.
+00:33:02.563,00:33:04.107,Life's easier in the air.
+00:33:04.649,00:33:06.317,I guess it is.
+00:33:08.903,00:33:09.904,Birds!
+00:33:10.279,00:33:11.155,Whoa.
+00:33:18.746,00:33:19.914,"Oh, shit."
+00:33:20.623,00:33:21.457,"Oh, yeah."
+00:33:34.887,00:33:35.722,It's okay.
+00:33:36.556,00:33:39.475,"Everyone, might be a good idea just to keep your seat belts on."
+00:33:46.190,00:33:47.692,We have both of them rolling back.
+00:33:52.822,00:33:53.781,Ignition start.
+00:34:01.539,00:34:02.665,"Oh, my God."
+00:34:04.125,00:34:05.209,I'm starting the APU.
+00:34:09.922,00:34:11.883,"Just double-check your seat belts, please."
+00:34:18.097,00:34:19.182,Seat belts.
+00:34:23.519,00:34:25.772,-What do you think that was? -I think it was a bird strike.
+00:34:26.898,00:34:28.649,-Then we're going back to LaGuardia. -Yeah.
+00:34:31.819,00:34:32.987,Loss of thrust on both engines.
+00:34:33.571,00:34:35.740,"Mayday, mayday, mayday. This is Cactus 1549."
+00:34:35.823,00:34:36.824,We hit birds.
+00:34:42.705,00:34:44.248,"Okay, you need to return to LaGuardia?"
+00:34:51.631,00:34:52.632,I have an emergency.
+00:34:55.176,00:34:57.095,-What's the report? -Both engines.
+00:34:57.303,00:34:59.097,-What? -Both engines gone. No thrust.
+00:35:02.308,00:35:05.645,All right. LaGuardia says go to runway 1-3.
+00:35:05.978,00:35:08.272,"Tower, stop your departure. Got an emergency returning."
+00:35:08.356,00:35:10.066,"1549, bird strike."
+00:35:10.316,00:35:12.235,He lost both engines. Returning immediately.
+00:35:13.402,00:35:15.488,"He lost thrust in both engines, he said."
+00:35:16.447,00:35:19.700,"Cactus 1549, if we can get it for you, do you wanna try to land runway 1-3?"
+00:35:21.577,00:35:23.496,We are unable. We may end up in the Hudson.
+00:35:25.832,00:35:29.752,"I got an A320 diving for the river. Al, stack all the inbounds to LaGuardia."
+00:35:29.836,00:35:32.713,"Let's put a hold on the tower, please. Come on, guys, stay on point."
+00:35:36.676,00:35:37.677,"Teterboro tower, I need a runway."
+00:35:37.760,00:35:39.887,Cactus 1549 needs to go to the airport right now.
+00:35:40.138,00:35:41.222,"Newark tower, what have you got?"
+00:35:43.015,00:35:45.184,"-You need emergency landing? -Yes. Okay, yeah."
+00:35:45.268,00:35:47.019,Off your right side is Teterboro airport.
+00:35:51.899,00:35:52.984,Shit.
+00:35:55.820,00:35:57.071,Brace for impact.
+00:35:57.280,00:35:58.239,"Oh, my God."
+00:35:58.531,00:35:59.448,What?
+00:36:02.034,00:36:04.287,"Heads down, stay down!"
+00:36:04.954,00:36:06.873,"Brace, brace, brace!"
+00:36:07.165,00:36:09.500,"Heads down, stay down!"
+00:36:13.421,00:36:14.755,We can't make it.
+00:36:16.841,00:36:18.426,"I'm sorry. Say again, Cactus?"
+00:36:23.681,00:36:25.850,"Cactus 1549, radar contact lost."
+00:36:28.227,00:36:31.314,You also got Newark off your two o'clock in about seven miles.
+00:36:39.864,00:36:43.743,"Cactus 1549, if you can, you got runway 2-9 available at Newark."
+00:36:43.826,00:36:45.661,It'll be two o'clock in seven miles.
+00:36:48.372,00:36:49.582,"Please, God."
+00:36:53.836,00:36:54.795,"I'm sorry, Patrick."
+00:36:54.879,00:36:57.632,"No. He's inbound to Newark, I know it. He just went off the box to focus."
+00:36:57.715,00:36:59.508,-Patty. -He'll come back up.
+00:37:00.426,00:37:01.802,He's heading to Teterboro.
+00:37:02.261,00:37:03.721,We need other eyes and ears.
+00:37:04.805,00:37:07.016,"Attention, all aircraft in the vicinity of the GW."
+00:37:11.062,00:37:12.730,we'll see the USS Intrepid.
+00:37:15.316,00:37:18.611,Cactus 1549 is low level above the Hudson.
+00:37:18.986,00:37:22.323,"This is helicopter 1-6-7, Mike Tango. I've got eyes on him."
+00:37:22.782,00:37:25.576,Okay. I got a chopper with visuals. I'm staying on this.
+00:37:26.535,00:37:27.620,He's out there.
+00:37:28.996,00:37:32.208,"He's headed to Newark, seven miles. It's only seven miles."
+00:37:34.001,00:37:38.464,"Cactus 1549, this is departure control. On guard, do you read?"
+00:37:42.301,00:37:44.220,"Cactus 1549, do you read me?"
+00:37:49.809,00:37:51.936,"-KC, take his seat. -Sure."
+00:37:57.650,00:37:58.985,Tester's gonna come down.
+00:37:59.235,00:38:02.238,"Breathalyzer, urine samples, it's standard."
+00:38:03.072,00:38:04.407,His voice was so calm.
+00:38:05.700,00:38:07.702,"When he said the Hudson, I didn't believe it."
+00:38:09.578,00:38:10.997,This isn't happening.
+00:38:12.540,00:38:15.001,"People don't survive water landings, Henry."
+00:38:24.343,00:38:25.428,We're gonna brace.
+00:38:27.096,00:38:27.930,Thirty.
+00:38:29.265,00:38:30.099,Twenty.
+00:38:30.975,00:38:31.976,Ten.
+00:38:36.397,00:38:37.398,I'd better go.
+00:38:39.358,00:38:42.028,I am so sorry. I love you.
+00:38:43.738,00:38:45.406,Yeah. I gotta go.
+00:38:58.919,00:39:06.052,"bound for Charlotte, North Carolina, and then a mid-air disaster struck US Airways Flight 1549."
+00:39:06.135,00:39:09.930,It's possible that birds flew into both of the aircraft engines.
+00:39:10.306,00:39:14.101,The pilot quickly realized he could not return to the airport and land.
+00:39:14.185,00:39:19.190,"His options severely limited, the only place he could go down was the Hudson River."
+00:40:20.584,00:40:22.545,I have an emergency flight control malfunction.
+00:40:22.628,00:40:23.754,"Two, join on me."
+00:40:33.013,00:40:34.223,Get the checklist.
+00:40:37.435,00:40:39.019,"Hold on, we're gonna climb."
+00:40:42.815,00:40:45.818,"Nellis Tower, this is Tasty 1-1 with an emergency flight control malfunction."
+00:40:45.901,00:40:47.111,We need a straight-in approach.
+00:41:01.500,00:41:04.753,"Two, I'm decreasing speed. Clear the board for a damage check."
+00:41:42.583,00:41:44.001,Looks like you're coming in hot.
+00:41:55.763,00:41:56.931,I'm bringing her back.
+00:42:17.576,00:42:19.119,I didn't think we were gonna make it.
+00:42:52.695,00:42:53.821,"-Thanks, Pete. -Thanks, Pete."
+00:42:53.904,00:42:55.030,You got any nuts?
+00:42:55.864,00:42:57.032,-Hey. -Hey.
+00:42:57.116,00:42:58.492,Let me know if you need anything.
+00:43:01.912,00:43:08.002,"is that everyone aboard the plane survived, including two shivering babies who were found in a life raft..."
+00:43:08.085,00:43:09.086,Hey...
+00:43:12.089,00:43:14.425,-Are you the pilot? Sully? -Yeah.
+00:43:14.758,00:43:16.260,"-That is you, right? -Yeah."
+00:43:16.802,00:43:19.638,"Hey, it's a pleasure to meet you. That was..."
+00:43:20.222,00:43:21.932,"That was unreal, what you did the other day."
+00:43:24.518,00:43:30.608,"A real pleasure to meet you. You know, we invented a drink after you as soon as that happened. Ain't that right, Johnny?"
+00:43:30.691,00:43:32.526,"Yeah, you did. In fact, I'll take one."
+00:43:34.486,00:43:40.784,"It's a shot of Grey Goose with a, uh, splash of water. Huh?"
+00:43:47.666,00:43:49.209,To January 15th.
+00:43:50.294,00:43:51.420,Best day of the year.
+00:43:59.261,00:44:01.096,"Sully's here, and he's there!"
+00:44:05.601,00:44:06.644,Sully!
+00:44:20.366,00:44:22.493,"Keep it coming, Paulie. I'll see you on One."
+00:44:28.999,00:44:30.542,"Twenty-one people on-board, Cap."
+00:44:30.626,00:44:32.670,Last report says there's ice out by the GW.
+00:44:32.753,00:44:34.880,"-All right, thanks. Roger that. -All right."
+00:44:34.963,00:44:37.216,"Twenty-one on the TJ, departing Midtown, slip Seven."
+00:44:51.480,00:44:53.232,I cannot believe you have the sack to say that.
+00:44:53.315,00:44:55.317,That's literally like giving the entire city the finger.
+00:44:55.401,00:45:00.114,I'll say it again. Dennis Eckersley is without question the greatest relief pitcher in the history of baseball.
+00:45:00.197,00:45:03.659,Are you blinded by the leg kick? Is that what it is? Or is it the mustache?
+00:45:03.742,00:45:05.828,You're just jealous he was never a Yankee.
+00:45:05.911,00:45:07.996,-Jealous? -Yeah.
+00:45:49.663,00:45:50.956,"-Brace, brace, brace! -It's okay. Let me hold him."
+00:45:51.039,00:45:51.999,Okay.
+00:45:52.082,00:45:53.917,"Heads down, stay down!"
+00:45:54.626,00:45:55.836,"Brace, brace, brace!"
+00:45:58.005,00:45:59.673,"-We're not gonna make it, Uncle Robbie. -It's okay."
+00:46:02.593,00:46:07.055,"-Heads down, stay down! -To the moon and the stars -and all the way back. -And all the way back."
+00:46:07.139,00:46:09.641,"Heads down, stay down!"
+00:46:35.334,00:46:36.502,"What do we do, darling?"
+00:46:51.308,00:46:52.309,"Oh, my God."
+00:46:56.813,00:46:57.731,Evacuate.
+00:47:00.484,00:47:01.568,Evacuate.
+00:47:02.402,00:47:03.779,"Grab your life vests, please."
+00:47:16.333,00:47:17.709,Rob Kolodjay!
+00:47:17.793,00:47:19.628,"-Dad! -Go, go, go!"
+00:47:21.922,00:47:24.633,Everyone! The aft exits are unusable.
+00:47:24.758,00:47:26.969,Move forward to the over-wing exits!
+00:47:27.302,00:47:29.137,And don life vests now!
+00:47:43.277,00:47:45.821,Move forward. Move forward to the right or left exit door.
+00:47:45.904,00:47:47.823,"Jeff! He's back there, can you see him?"
+00:47:48.198,00:47:49.324,Dad!
+00:48:02.671,00:48:05.340,"Sir, evacuate the plane right now! Go!"
+00:48:19.646,00:48:22.774,Calm down. You'll be fine. The rafts are waiting.
+00:48:29.114,00:48:30.157,Hurry up!
+00:48:32.326,00:48:34.620,Here. Gonna be bitter out there.
+00:49:09.404,00:49:10.530,We have to jump.
+00:49:23.168,00:49:26.505,"-You seeing this? -Yeah. Holy Christ, that's a plane."
+00:49:26.588,00:49:29.049,Deploy that man overboard ladder right away.
+00:49:29.132,00:49:30.342,"All right, I'm on it."
+00:49:30.425,00:49:31.551,Shit.
+00:49:32.511,00:49:33.804,"Mayday, mayday, mayday."
+00:49:33.887,00:49:36.807,"Coast Guard sector New York, channel 1-6, Thomas Jefferson."
+00:49:36.890,00:49:39.976,We have a passenger airliner in the north river.
+00:49:40.060,00:49:41.395,We're en route. We will advise.
+00:50:04.084,00:50:06.586,"-We can't leave him there! -Robbie, Robbie. Robbie."
+00:50:06.670,00:50:08.797,"Robbie! The crew will grab him, okay?"
+00:50:08.880,00:50:10.215,"-The crew will get him, okay? -He's in there!"
+00:50:13.802,00:50:15.804,"I'm okay, Mom. I'm okay."
+00:50:19.850,00:50:21.226,-Ma! -Just leave me.
+00:50:21.309,00:50:22.686,Keep moving forward!
+00:50:23.061,00:50:24.438,Follow your instructions.
+00:50:29.109,00:50:31.319,One after another. Keep moving forward. Keep moving forward.
+00:50:34.030,00:50:35.031,Come on. She can't move.
+00:50:43.165,00:50:44.708,Over the wings.
+00:50:46.418,00:50:48.378,"If you have a life vest, put it on!"
+00:50:51.423,00:50:54.593,We got passengers on the wings. Approach with caution.
+00:51:02.601,00:51:03.518,Thank you.
+00:51:15.947,00:51:16.782,Come on!
+00:51:28.001,00:51:29.669,"You're gonna be fine, honey. Go slow."
+00:51:30.295,00:51:34.257,Go slowly. Blanket. Wrap this around her leg. Make it tight.
+00:51:43.517,00:51:45.268,and get some extra life jackets out there.
+00:51:50.649,00:51:52.150,It's all right. We're here.
+00:51:57.823,00:52:00.367,"-Give me a countdown, Victor. -All right."
+00:52:02.202,00:52:04.830,"Three, two..."
+00:52:06.414,00:52:07.916,We're good. We're good.
+00:52:09.501,00:52:10.377,"Come on, buddy."
+00:52:13.421,00:52:15.549,"Hold it right there, baby. Come on."
+00:52:19.469,00:52:21.429,Come on. One at a time.
+00:52:23.682,00:52:25.350,"We're gonna get everybody, guys."
+00:53:00.969,00:53:10.312,"With a water temperature of 36 degrees and a wind chill of minus 5, the surviving passengers of Flight 1549 literally have minutes to live."
+00:53:19.821,00:53:22.115,"If anybody's got any problems, just wait down there."
+00:53:22.198,00:53:24.451,"We got some really good people coming on their way, all right?"
+00:53:46.181,00:53:48.224,"Fifty yards, go!"
+00:54:03.949,00:54:06.993,I got you. You're gonna be okay. All right? Got you.
+00:54:09.955,00:54:11.748,Is anyone still here? Come forward.
+00:54:30.600,00:54:31.726,Captain!
+00:54:32.894,00:54:37.232,"Captain! We have to go! It's time to get off the plane, right now!"
+00:55:39.419,00:55:46.885,Whoever has miraculously survived this plummet from the skies into the icy Hudson has about 300 of New York's finest ready to help them.
+00:55:47.177,00:55:50.221,The only question remaining is will it be too late?
+00:55:50.513,00:55:52.891,"In Manhattan, Bobby Cuza, New York One."
+00:55:57.187,00:55:58.480,We got you.
+00:56:00.607,00:56:01.900,-My hands. -Gotta warm them up.
+00:56:02.650,00:56:03.902,"Get him a blanket, fast."
+00:56:11.743,00:56:13.328,I was sure I was gonna die.
+00:56:13.411,00:56:15.955,"Hey, no one dies today."
+00:56:20.919,00:56:22.045,Give me your hand.
+00:56:28.843,00:56:30.553,"Here you go, Captain. This way."
+00:56:31.805,00:56:32.972,"Give us your hand, sir."
+00:56:33.056,00:56:34.808,"Sully, wrap it around your arms."
+00:56:36.267,00:56:37.602,-Climb out now. -Give me your hand.
+00:56:49.447,00:56:51.324,-Give him some room. -You're welcome.
+00:57:13.555,00:57:14.514,Hello?
+00:57:16.433,00:57:18.560,"Oh, good. Are you still on the 5:50 home?"
+00:57:20.728,00:57:22.814,"I'm okay, not a scratch somehow."
+00:57:23.314,00:57:24.482,Turn on the television.
+00:57:25.108,00:57:26.776,"What do you mean, Turn on the television?"
+00:57:27.402,00:57:28.820,"Lorrie, I can't talk right now."
+00:57:28.903,00:57:31.614,I will call you from the pier when things quiet down.
+00:57:32.991,00:57:34.993,I had to land in the Hudson.
+00:57:39.164,00:57:42.333,"I love you, and I'm okay. Tell the girls I am okay."
+00:57:44.377,00:57:46.171,But I have to go.
+00:57:48.339,00:57:49.674,"Girls, turn on the TV."
+00:57:54.471,00:58:00.560,"after a US Airways Flight crashes into the Hudson River, -sending passengers scrambling for safety. -Oh, my God."
+00:58:22.165,00:58:25.793,"If you have any wet clothing on, take it off and wrap up in a blanket from the Red Cross."
+00:58:36.763,00:58:38.723,"You're gonna be okay. Okay, Lucille?"
+00:58:38.932,00:58:40.975,"I'm gonna take you right to the ambulance, all right?"
+00:58:47.565,00:58:50.318,There's lots of boats! Jeff!
+00:58:58.368,00:59:01.955,"Dan, I need to know who's hurt and how badly, and I need a count."
+00:59:02.038,00:59:03.915,"One hundred and fifty-five, that's my number."
+00:59:03.998,00:59:06.334,-That's passengers and crew. -Okay. How are you?
+00:59:06.417,00:59:09.045,I'll answer that question when we've counted 155.
+00:59:09.128,00:59:10.213,All right.
+00:59:10.588,00:59:11.756,"Honey, it's me."
+00:59:13.550,00:59:15.677,Sort of. I won't be home tonight.
+00:59:17.554,00:59:20.014,"Sherri, I cannot believe I am talking to you."
+00:59:26.479,00:59:31.276,Captain. I'm here to escort you to meet with Mayor Bloomberg and Police Commissioner Raymond Kelly.
+00:59:31.359,00:59:33.236,"If the Mayor wants to say hello, he'll have to come down here."
+00:59:33.319,00:59:36.030,"-We're still working. -Sully, I can keep assembling the count."
+00:59:37.365,00:59:40.326,"Jeff. Jeff, I need a count. We've gotta have a count."
+00:59:40.410,00:59:42.245,"There's no way to get a real count out here, Sully."
+00:59:42.328,00:59:43.329,"Sully, Jeff's right."
+00:59:43.413,00:59:45.456,Let's get you in some dry clothes before you freeze to death.
+00:59:45.540,00:59:48.334,"Captain, what if the Mayor and Chief Kelly come down here to meet with you?"
+00:59:48.418,00:59:51.588,"-Dan, because it was a domestic flight-- -Yeah, we got no manifest."
+00:59:51.671,00:59:54.716,We're gonna have to track the passenger information down one by one.
+00:59:54.799,00:59:55.883,-Can you help? -Yeah.
+00:59:55.967,00:59:58.136,I'm gonna call John Carey. We're gonna get you a count.
+00:59:58.219,01:00:00.805,"But, Sully, listen. You've done enough. Let me take it from here."
+01:00:15.987,01:00:17.905,I was on the other wing. They brought us to Jersey.
+01:00:18.698,01:00:21.326,I couldn't see you. I couldn't find you.
+01:00:21.409,01:00:23.995,I could hear you shouting my name the whole time.
+01:00:24.704,01:00:26.372,I shouted back. I guess the river...
+01:00:31.252,01:00:32.670,"I love you, too."
+01:00:35.632,01:00:43.222,"I mean, the... The plane crashed Are you kidding me?"
+01:00:47.602,01:00:48.811,"Ah, so unbelievable."
+01:01:06.371,01:01:08.998,I've never been so happy to be in New York in my life.
+01:01:21.552,01:01:22.679,"Hey, Patty."
+01:01:22.762,01:01:25.306,Supe sent me looking for you. Everyone's going nuts up top.
+01:01:25.390,01:01:27.684,-Aren't you coming? -I guess you didn't hear.
+01:01:27.767,01:01:30.061,I lost Cactus 1549 in the Hudson.
+01:01:30.436,01:01:34.107,Huh. I guess you haven't heard. He landed the son of a bitch!
+01:01:35.817,01:01:38.111,Everyone's been pulled off. It's a miracle!
+01:01:40.405,01:01:42.490,-They've got to get a TV in here. -Yeah. Seriously.
+01:01:45.243,01:01:46.786,What is my pulse rate?
+01:01:48.037,01:01:49.122,It's 110.
+01:01:50.248,01:01:53.543,My normal resting is 55. 110...
+01:01:54.419,01:01:55.670,That's not good.
+01:01:55.837,01:01:58.256,You are right. 110 is not good.
+01:01:58.589,01:02:01.968,"After what you just went through, 110 is extraordinary."
+01:02:02.176,01:02:03.720,How is Doreen?
+01:02:03.803,01:02:05.555,Fairly severe laceration.
+01:02:05.638,01:02:07.557,But we'll keep her a day or two to stem the infection.
+01:02:07.640,01:02:08.641,But she'll be okay?
+01:02:08.725,01:02:11.060,She'll have a scar and a hell of a story to tell.
+01:02:11.144,01:02:12.228,Although no one'll believe her.
+01:02:12.311,01:02:14.522,"Hell, I'm standing here with you right now and I don't believe it."
+01:02:14.605,01:02:17.442,You landed a plane on the Hudson. Not a scratch on you-- Arnie.
+01:02:18.943,01:02:21.738,"The union is pulling out all the big guns today, huh?"
+01:02:23.448,01:02:24.574,"Talked to Dan Britt, Sully."
+01:02:25.783,01:02:26.659,Got a count.
+01:02:28.119,01:02:29.287,One hundred and fifty-five.
+01:02:32.039,01:02:34.542,-One hundred and fifty-five. -It's official.
+01:02:35.126,01:02:37.086,-One hundred and fifty-five. -One hundred and fifty-five.
+01:02:43.009,01:02:44.218,"Thank you, Arnie."
+01:03:16.751,01:03:18.169,"-Hey, Carl. -Jeff."
+01:03:19.587,01:03:20.797,-Sully. -Carl.
+01:03:21.047,01:03:22.840,Hell of a thing you pulled off out there today.
+01:03:22.924,01:03:24.175,"Well, we're here."
+01:03:24.425,01:03:26.010,It's about all I know at the moment.
+01:03:26.427,01:03:29.847,"Oh, this is Miss May, with the hotel. Wanted to have a quick word with you."
+01:03:29.931,01:03:34.268,"I won't take your time, gentlemen. This is only to say that my staff and I are committed to protecting your privacy."
+01:03:34.352,01:03:36.646,"So, if there's anything I can do at all..."
+01:03:36.729,01:03:39.816,"If it's possible, I'd love to have my uniform dry-cleaned overnight."
+01:03:39.899,01:03:41.567,It's the only clothing that I have.
+01:03:41.651,01:03:42.652,Dry-cleaning?
+01:03:43.027,01:03:45.613,-If it's too much... If it's too late... -Are you kidding?
+01:03:45.696,01:03:48.533,"Captain Sullenberger, I'd give you this whole hotel if I could."
+01:03:51.285,01:03:52.245,"Oh, okay."
+01:03:52.662,01:03:55.665,"Well, thank you, Evelyn. Thank you very much."
+01:03:55.748,01:03:57.500,-Anything for Sully. -Okay.
+01:03:57.583,01:03:58.876,Have a blessed day.
+01:04:01.754,01:04:05.216,-What just happened? -You just got hugged by a total stranger.
+01:04:06.759,01:04:08.135,"Ah, come on, Sully."
+01:04:08.594,01:04:14.433,When's the last time you heard of someone landing a jet plane on the water and everybody lived?
+01:04:17.061,01:04:17.895,Exactly.
+01:04:18.604,01:04:22.108,"I got shaving cream, razor blades, toothpaste."
+01:04:23.609,01:04:25.778,And new clothes.
+01:04:27.029,01:04:28.656,"What, did you think we were ninjas?"
+01:04:29.240,01:04:30.950,Kmart was the only store open.
+01:04:31.033,01:04:32.326,It's Queens. It's 10:00 in the evening.
+01:04:35.997,01:04:36.998,Sully.
+01:04:37.665,01:04:39.333,What are you even still doing in uniform?
+01:04:39.834,01:04:41.544,"Ah. You know, I don't know."
+01:04:41.627,01:04:45.131,"Look, guys. It's been a long day. Why don't you get some rest?"
+01:04:45.631,01:04:49.218,Mike Cleary will be over in the a.m. and make sure you're both doing okay.
+01:04:50.344,01:04:52.096,"-Thank you, Carl. -Yeah, thank you, Captain."
+01:04:53.097,01:04:55.308,"You know, it's been a while since New York had news this good."
+01:04:57.310,01:04:58.394,Especially with an airplane in it.
+01:05:08.613,01:05:09.739,"I'll see you later, Sully."
+01:05:36.098,01:05:45.316,"The perfect timing of the NYPD scuba units and of the ferry boat captains, and of course, the inexplicably precise timing of the pilot."
+01:05:45.608,01:05:51.489,"Captain Sully Sullenberger, who, with almost no time, became a man for all time."
+01:05:51.864,01:05:53.115,This is Kristine Johnson...
+01:05:53.199,01:05:54.116,The timing.
+01:05:54.200,01:05:55.743,...reporting live from the Hudson River.
+01:05:56.827,01:06:01.332,The coast guard released this new video of Flight 1549 making its emergency landing on the Hudson.
+01:06:01.415,01:06:04.085,"Meanwhile, the search is launched for the engine of the aircraft."
+01:06:07.004,01:06:08.255,"Hey, Sully. Let me..."
+01:06:15.805,01:06:16.764,Come on. Answer.
+01:06:18.182,01:06:19.100,Answer.
+01:06:19.642,01:06:23.396,"Larry, the CVR is in two days. How fast can you arrange a favor?"
+01:06:24.230,01:06:25.189,Sully?
+01:06:25.272,01:06:28.943,I know that Airbus has simulations scheduled for the S22 sim at the factory.
+01:06:29.026,01:06:32.530,But that's next week in Toulouse. Can you get them to reschedule?
+01:06:32.613,01:06:33.823,It's 1:30 in the morning.
+01:06:34.115,01:06:38.619,I need you to make it happen before we listen to the CVR. Before our testimony is complete.
+01:06:40.788,01:06:47.003,"I have a right to see the simulations and I have a feeling that with human pilots and not a computer, the results are going to be different."
+01:06:47.378,01:06:49.547,What if they show the exact same result?
+01:06:51.215,01:06:53.092,"If they do, then I'll hand you my wings myself."
+01:06:53.384,01:06:54.760,"It's all about the timing, Larry."
+01:06:54.844,01:06:56.762,You can accomplish anything if you're never in a hurry.
+01:06:57.346,01:06:58.931,I sure as hell agree with that.
+01:06:59.265,01:07:03.102,The CVR is on Wednesday. That's 36 hours. Can you make it happen?
+01:07:03.185,01:07:05.146,I'll try. It's a lot of phone calls to make.
+01:07:05.688,01:07:10.443,"It's already 7:30 in the morning in France, so you better get started. Thank you, Larry. Thank you."
+01:07:29.754,01:07:30.629,"Hey, Lorrie."
+01:07:33.883,01:07:35.843,"Sweetheart, what happened?"
+01:07:37.053,01:07:43.225,"I realized just now, for the first time, that there were..."
+01:07:49.774,01:07:51.233,We almost lost you.
+01:07:52.276,01:07:54.904,"Yeah, but you didn't. I'm right here."
+01:07:56.989,01:07:58.240,How are you holding up?
+01:07:58.824,01:08:00.159,"Oh, I'm holding up."
+01:08:00.659,01:08:02.161,Please tell me this is almost over.
+01:08:03.037,01:08:05.581,-It's almost over. -Okay.
+01:08:05.915,01:08:07.958,"-I love you. -I love you, too."
+01:08:08.626,01:08:10.169,I'll call you when they're done with me.
+01:08:39.573,01:08:41.283,"-Sully. -Let's go, Larry."
+01:08:52.128,01:08:53.796,"-Good morning, Sully. -Jeff."
+01:08:54.755,01:08:57.883,"Good morning, ladies and gentlemen, and welcome. My name is Charles Porter."
+01:08:58.217,01:09:02.888,I've been assigned by the National Transportation Safety Board to conduct this public hearing here today.
+01:09:03.430,01:09:05.057,We have a lot of material to cover.
+01:09:05.891,01:09:11.814,"But before we listen to the cockpit voice recording, and we will be listening to it for the first time along with you, gentlemen."
+01:09:12.356,01:09:20.322,"Per the request of Captain Sullenberger and the union, Airbus has agreed to link us via satellite to today's piloted simulations."
+01:09:20.406,01:09:21.866,"Upload link, please."
+01:09:25.035,01:09:26.871,Won't change my mind about what happened up there.
+01:09:27.746,01:09:29.415,Might change theirs.
+01:09:42.011,01:09:43.804,Number one's rolling back. And number two.
+01:09:45.389,01:09:47.683,-Pilot off. -Flight Director's off.
+01:09:47.766,01:09:48.601,Flight Director is off.
+01:09:48.684,01:09:51.770,"All right. LaGuardia, Cactus 1549, dual engine failure."
+01:09:51.854,01:09:53.189,We have to return to the field.
+01:09:53.272,01:09:55.816,Okay. I'm gonna left turn back to LaGuardia 1-3.
+01:09:58.652,01:10:00.070,It's activated.
+01:10:00.738,01:10:02.156,Runway 1-3.
+01:10:04.241,01:10:05.868,Glide slopes coming in nicely.
+01:10:06.869,01:10:08.537,-Flaps two. -Flaps two.
+01:10:09.955,01:10:11.665,Sink Rate 900.
+01:10:18.672,01:10:23.260,"-Too low, flaps. -Forty, 30, 20..."
+01:10:31.227,01:10:34.063,"Successful landing at LaGuardia, runway 1-3."
+01:10:35.481,01:10:39.652,"For the record, the pilots and the computer sims bear the same result."
+01:10:41.070,01:10:42.780,"Let's try for Teterboro now, please."
+01:10:44.406,01:10:45.908,Upload the second run.
+01:11:14.061,01:11:16.188,-Flaps two. -Flaps two.
+01:11:24.113,01:11:25.489,"Too low, terrain."
+01:11:25.823,01:11:27.199,"Too low, terrain."
+01:11:28.367,01:11:32.121,"Fifty, 40, 30, 20..."
+01:11:48.012,01:11:50.848,We are simply mimicking what the computer already told us.
+01:11:51.974,01:11:55.019,A lot of toes were stepped on in order to set this up for today.
+01:11:56.186,01:12:00.482,"And frankly, I really don't know what you gentlemen plan to gain by it."
+01:12:01.608,01:12:02.985,Can we get serious now?
+01:12:05.362,01:12:06.447,Captain?
+01:12:06.655,01:12:18.334,We've all heard about the computer simulations and now we are watching actual sims. But I can't quite believe you still have not taken into account the human factor.
+01:12:18.876,01:12:22.046,Human piloted simulations showed that you could make it back to the airport.
+01:12:22.629,01:12:23.881,"No, they don't."
+01:12:24.506,01:12:29.803,"These pilots were not behaving like human beings, like people who are experiencing this for the first time."
+01:12:29.887,01:12:31.638,"Well, they may not be reacting like you did."
+01:12:31.722,01:12:34.892,"Immediately after the bird strike, they are turning back for the airport."
+01:12:34.975,01:12:37.102,"Just as in the computer sims, correct?"
+01:12:37.186,01:12:38.187,That is correct.
+01:12:38.479,01:12:41.815,They obviously knew the turn and exactly what heading to fly.
+01:12:42.107,01:12:45.152,They did not run a check. They did not switch on the APU.
+01:12:45.235,01:12:47.154,They had all the same parameters that you faced.
+01:12:47.696,01:12:48.822,No one warned us.
+01:12:50.741,01:12:55.704,"No one said, You are going to lose both engines at a lower altitude than any jet in history."
+01:12:56.663,01:12:57.790,But be cool.
+01:12:58.957,01:13:02.419,Just make a left turn for LaGuardia like you're going back to pick up the milk.
+01:13:03.462,01:13:11.220,"This was dual engine loss at 2,800 feet followed by an immediate water landing with 155 souls on-board."
+01:13:11.553,01:13:15.057,No one has ever trained for an incident like that.
+01:13:15.349,01:13:16.183,No one.
+01:13:17.476,01:13:23.148,"The Teterboro landing, with its unrealistic bank angle, we were not the Thunderbirds up there."
+01:13:23.941,01:13:28.821,I'd like to know how many times the pilot practiced that maneuver before he actually pulled it off.
+01:13:29.613,01:13:32.533,I'm not questioning the pilots. They're good pilots.
+01:13:34.034,01:13:38.622,But they've clearly been instructed to head for the airport immediately after the bird strike.
+01:13:39.498,01:13:42.209,You've allowed no time for analysis or decision-making.
+01:13:42.668,01:13:46.463,"In these simulations, you've taken all of the humanity out of the cockpit."
+01:13:47.673,01:13:51.802,How much time did the pilots spend planning for this event?
+01:13:51.885,01:13:53.303,For these simulations?
+01:13:56.974,01:13:59.059,You are looking for human error.
+01:14:00.686,01:14:02.020,Then make it human.
+01:14:07.317,01:14:09.027,This wasn't a video game.
+01:14:09.820,01:14:11.155,It was life and death.
+01:14:12.030,01:14:13.907,Sully's right. That's worth a few seconds.
+01:14:14.241,01:14:16.326,Please ask how many practice runs they had.
+01:14:25.461,01:14:26.503,Seventeen?
+01:14:28.130,01:14:36.013,The pilot who landed at Teterboro had 17 practice attempts before the simulation we just witnessed.
+01:14:41.101,01:14:43.854,Your reaction decision time will be set at 35 seconds.
+01:14:45.647,01:14:47.357,Thirty-five seconds. That's not enough time.
+01:14:48.525,01:14:52.863,"We only had 208 seconds total, so I'll take it."
+01:14:56.533,01:14:59.119,Now with an added 35-second delay in response time.
+01:15:06.627,01:15:08.545,-Give me 35 seconds. -Thirty-five seconds.
+01:15:16.136,01:15:18.222,-Time's up. -Here we go.
+01:15:19.932,01:15:20.974,Flight path vector.
+01:15:26.813,01:15:28.774,-Going for 1-3. -Okay.
+01:15:47.960,01:15:49.127,"Caution, obstacle."
+01:16:01.640,01:16:02.641,Pull up.
+01:16:03.892,01:16:04.893,Pull up.
+01:16:06.311,01:16:07.521,Pull up.
+01:16:07.938,01:16:09.439,"Too low, terrain."
+01:16:11.984,01:16:13.026,You want some flaps?
+01:16:13.860,01:16:15.028,"Too low, terrain."
+01:16:18.115,01:16:19.616,"Too low, terrain."
+01:16:20.242,01:16:21.618,"Too low, terrain."
+01:16:21.910,01:16:23.078,"Too low, terrain."
+01:16:24.454,01:16:28.458,"Fifty, 40, 30, 20..."
+01:16:42.097,01:16:43.432,Let's try Teterboro.
+01:16:45.642,01:16:46.810,"Upload the link, please."
+01:16:54.901,01:16:56.695,-Thirty-five seconds. -Thirty-five seconds.
+01:17:23.680,01:17:24.973,Way too low.
+01:17:32.731,01:17:33.774,Pull up.
+01:17:35.150,01:17:36.151,Pull up.
+01:17:37.319,01:17:38.153,Pull up.
+01:17:39.696,01:17:40.697,Pull up.
+01:17:44.409,01:17:45.410,Pull up.
+01:17:46.620,01:17:47.621,Pull up.
+01:18:04.763,01:18:06.682,Does anyone need to see more simulations?
+01:18:11.395,01:18:16.066,"Now that we've seen what could have happened, can we, uh, listen to what actually did?"
+01:18:17.025,01:18:19.945,We will look at all the results at a later date.
+01:18:21.488,01:18:22.322,Elizabeth.
+01:18:22.739,01:18:30.497,"For the record, this is the CVR of US Airways Flight 1549, January 15th, 2009."
+01:18:30.580,01:18:32.666,"Gentlemen, headsets."
+01:19:00.277,01:19:01.153,Birds!
+01:19:10.245,01:19:11.246,"Oh, yeah."
+01:19:12.831,01:19:14.541,We got one rolling back.
+01:19:17.878,01:19:19.546,We have both of them rolling back.
+01:19:24.676,01:19:25.594,Ignition start.
+01:19:32.142,01:19:33.602,I'm starting the APU.
+01:19:39.983,01:19:41.818,-My aircraft. -Your aircraft.
+01:19:42.194,01:19:43.361,Get out the QRH.
+01:19:45.030,01:19:46.198,Loss of thrust on both engines.
+01:19:46.281,01:19:48.408,"Mayday, mayday, mayday. This is Cactus 1549."
+01:19:48.992,01:19:50.994,Hit birds. We've lost thrust on both engines.
+01:19:51.077,01:19:52.621,We are turning back towards LaGuardia.
+01:19:54.456,01:19:56.541,-Turn left heading 2-2-0. -2-2-0.
+01:19:56.625,01:19:59.127,-Which engine did you lose? -Both. Both engines.
+01:20:08.136,01:20:10.096,"If fuel remaining, engine mode, select your ignition."
+01:20:10.680,01:20:11.848,-Ignition. -Ignition.
+01:20:11.932,01:20:14.017,"-Thrust levers, confirm idle. -Idle."
+01:20:14.559,01:20:17.145,"Airspeed. Optimum relight, 300 knots."
+01:20:17.354,01:20:19.397,"-We don't have that. -No, we don't."
+01:20:23.193,01:20:24.569,do you wanna try to land runway 1-3?
+01:20:27.072,01:20:28.949,We are unable. We may end up in the Hudson.
+01:20:30.951,01:20:33.119,"Emergency electrical power, emergency generator not online."
+01:20:33.578,01:20:34.579,Online.
+01:20:35.080,01:20:37.332,ATC notified. Squawk 7700.
+01:20:38.041,01:20:39.960,Distress message transmit. We did that.
+01:20:43.672,01:20:44.673,Unable.
+01:20:47.384,01:20:49.010,"FAC 1 off, then on."
+01:21:02.691,01:21:05.777,"Been ten seconds, Captain. Come on. Talk to me."
+01:21:06.778,01:21:10.699,"Cactus 1549, runway four's available if you wanna make left traffic to runway 4."
+01:21:10.782,01:21:12.075,I don't think we can make any runway.
+01:21:12.492,01:21:15.871,"Uh, what about over to our right? Anything in New Jersey? Maybe Teterboro?"
+01:21:18.874,01:21:21.543,"LaGuardia Departure, got an emergency inbound."
+01:21:23.295,01:21:26.965,Cactus 1549 over the GW Bridge. Needs to go to the airport right now.
+01:21:27.048,01:21:28.133,Check. Does he need assistance?
+01:21:28.216,01:21:30.218,Yes. Bird strike. Can I get him in for runway 1?
+01:21:46.151,01:21:47.777,Obstacle. Obstacle.
+01:21:49.195,01:21:50.238,Pull up.
+01:21:50.572,01:21:51.948,Clear of conflict.
+01:21:52.032,01:21:54.409,"No relight after 30 seconds, engine master one and two, confirm off."
+01:21:54.492,01:21:55.410,Off.
+01:21:56.578,01:21:57.913,Wait 30 seconds.
+01:22:00.123,01:22:01.291,"Too low, terrain."
+01:22:02.125,01:22:03.335,"Too low, terrain."
+01:22:04.210,01:22:05.587,"Too low, terrain."
+01:22:13.136,01:22:14.429,This is the captain.
+01:22:15.305,01:22:16.514,Brace for impact.
+01:22:32.155,01:22:33.573,We can't make it.
+01:22:35.700,01:22:36.826,Go ahead. Try number one.
+01:22:38.828,01:22:40.121,No relight.
+01:22:41.289,01:22:42.749,We're gonna end up in the Hudson.
+01:22:59.349,01:23:01.434,"All right, let's put the flaps out. Put the flaps out."
+01:23:01.518,01:23:02.352,Flaps out.
+01:23:04.229,01:23:06.898,You also got Newark off your two o'clock in about seven miles.
+01:23:08.149,01:23:09.526,Two hundred fifty feet in the air.
+01:23:15.699,01:23:18.368,170 knots. Got no power on either one. Try the other one.
+01:23:18.451,01:23:19.744,Try the other one.
+01:23:21.246,01:23:22.414,One hundred and fifty knots.
+01:23:23.164,01:23:25.458,-Got flaps two. You want more? -No. Let's stay at two.
+01:23:27.043,01:23:28.086,It'll be two o'clock in seven miles.
+01:23:28.169,01:23:29.379,You got any ideas?
+01:23:30.880,01:23:32.173,Actually not.
+01:23:33.341,01:23:34.634,Pull up. Pull up.
+01:23:37.512,01:23:38.555,Pull up.
+01:23:39.055,01:23:40.056,Pull up.
+01:23:41.057,01:23:42.267,Pull up.
+01:23:43.059,01:23:43.893,Pull up.
+01:23:48.064,01:23:49.399,We're gonna brace.
+01:23:49.482,01:23:50.483,Pull up.
+01:23:50.942,01:23:52.110,Thirty...
+01:23:56.656,01:23:57.657,Twenty...
+01:23:57.741,01:23:59.159,Pull up.
+01:24:36.738,01:24:38.698,I need to take a quick break.
+01:24:54.005,01:24:55.256,What did you think?
+01:24:56.674,01:24:59.344,Hearing the CVR just now?
+01:25:01.888,01:25:03.014,Let me tell you what I think.
+01:25:06.142,01:25:07.268,I'm just so damn proud.
+01:25:09.187,01:25:11.981,"And you, you were right there, through all that distraction."
+01:25:12.065,01:25:13.274,With so much at stake.
+01:25:16.611,01:25:18.321,We did this together. We were a team.
+01:25:21.074,01:25:22.325,"Thanks, Sully."
+01:25:22.575,01:25:24.702,-We did our job. -We did our job.
+01:25:43.888,01:25:45.515,"Hey, you did good."
+01:25:47.016,01:25:48.935,"All right, folks. I'd like to call this hearing back to order."
+01:25:49.018,01:25:50.270,"If we could settle, please."
+01:25:52.480,01:25:53.731,Take your seats.
+01:26:00.613,01:26:09.247,That is honestly the first time that I have listened to a crash recording while actually sitting with the captain and the first officer.
+01:26:12.000,01:26:13.084,It's extraordinary.
+01:26:15.003,01:26:19.674,"-That was no simulation. -No, it wasn't."
+01:26:21.634,01:26:27.265,"Gentlemen, I want to inform you that the left engine has been recovered."
+01:26:28.433,01:26:30.476,We just received a comprehensive report.
+01:26:33.271,01:26:37.692,There was extensive damage to both the guide vanes and fan blades of the engine.
+01:26:37.942,01:26:44.240,Five compressor blades were fractured and eight variable guide vanes missing.
+01:26:45.575,01:26:46.868,"So, no thrust?"
+01:26:47.410,01:26:53.166,"As you testified, it was completely destroyed. The ACARS data was wrong."
+01:26:58.463,01:27:01.090,I'd like to add something on a personal note.
+01:27:02.008,01:27:21.903,"I can say with absolute confidence that after speaking with the rest of the flight crew, with bird experts, aviation engineers, after running through every scenario, after interviewing each player, there is still an X in this result and it's you, Captain Sullenberger."
+01:27:22.195,01:27:26.658,"Remove you from the equation, and the math just fails."
+01:27:29.160,01:27:30.203,I disagree.
+01:27:32.413,01:27:35.124,It wasn't just me. It was all of us.
+01:27:35.250,01:27:47.053,"It was Jeff and Donna and Sheila and Doreen and all of the passengers, the rescue workers, air traffic control, ferry boat crews and the scuba cops."
+01:27:49.681,01:27:50.598,We all did it.
+01:27:52.433,01:27:53.393,We survived.
+01:27:57.981,01:28:01.901,"First Officer Skiles, is there anything you'd like to add?"
+01:28:01.985,01:28:07.991,Anything you would have done differently if you had to do it again?
+01:28:09.492,01:28:10.410,Yes.
+01:28:11.202,01:28:12.704,I would have done it in July.
+01:29:51.636,01:29:52.553,1C.
+01:29:52.678,01:29:54.847,-25B. -26B.
+01:29:55.181,01:29:56.891,-10B. -9A.
+01:29:56.974,01:30:00.144,-13C. -21A and B.
+01:30:02.897,01:30:17.578,"but when you can put faces to it and not just the 155 faces, but the other faces, the wives, the daughters, the sons, the fathers, the mothers, the brothers, it gets to be a pretty big number pretty quickly."
+01:30:18.162,01:30:19.705,This is your captain speaking.
+01:30:24.252,01:30:29.632,I think today was as much and as good for me and my crew as it was for you.
+01:30:29.841,01:30:39.517,"And because of the events of January 15, 2009, I'm convinced that we will be joined in our hearts and in our minds forever."
+01:31:35.114,01:31:36.949,I am the keeper of the mail.
+01:31:37.200,01:31:41.245,So I read when people from across the country write to us.
+01:31:41.579,01:31:45.041,And I open the letters that come to our house from your families.
+01:31:45.666,01:31:58.471,"And I open the Christmas cards. So, thank you so much for the gratitude that you've expressed to our families and the letters and the cards because they really do make a difference to us as well."
+01:31:58.554,01:31:59.555,"So, thank you."

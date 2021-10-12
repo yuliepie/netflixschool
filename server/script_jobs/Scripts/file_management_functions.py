@@ -124,8 +124,12 @@ def file_unzip_and_vtt_to_csv(input_year):
     file_title = most_recent_fille_path.split('/')[-1]
 
     #  방금 다운로드한 파일을 압축 해제
-    os.makedirs(most_recent_fille_path)
     fantasy_zip = zipfile.ZipFile(most_recent_file)
+    if len(fantasy_zip.namelist()) == 0:
+        os.remove(most_recent_file)
+        print('압축파일이 비었음')
+        return False
+    os.makedirs(most_recent_fille_path)
     fantasy_zip.extractall(most_recent_fille_path)
 
     fantasy_zip.close()
@@ -139,9 +143,10 @@ def file_unzip_and_vtt_to_csv(input_year):
     # 폴더의 파일명 리스트 받기
     file_list = os.listdir(most_recent_fille_path)
     for file in file_list:
+        if len(fantasy_zip.namelist()) != 1:
         # en.vtt가 포함 되어있는 파일들 제거 리스트에 넣기
-        if 'en.vtt' in file:
-            remove_file_list.append(file)
+            if 'en.vtt' in file:
+                remove_file_list.append(file)
     
     # 파일 제거 리스트의 파일들 제거
     for file in remove_file_list:
