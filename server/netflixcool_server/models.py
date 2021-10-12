@@ -1,3 +1,4 @@
+from enum import unique
 from netflixcool_server import db
 
 
@@ -40,7 +41,7 @@ class NetflixContent(db.Model):
     img_path = db.Column(db.String(255), nullable=False)
     word_difficulty_level = db.Column(db.Integer)
     words_per_second = db.Column(db.Float)
-    content_level = db.Column(db.Integer, db.ForeignKey("content_levels.id"))
+    content_level = db.Column(db.Float)
 
     sentences = db.relationship("Sentence", backref="netflix_content", lazy=True)
 
@@ -121,18 +122,6 @@ class ContentType(db.Model):
     name = db.Column(db.String(255), nullable=False)
 
 
-class ContentLevel(db.Model):
-    """
-    Attributes:
-        * level (string) : 컨텐츠 종합 난이도 레벨의 종류 / 숫자로 해도되고 어떤 단어형태로도 가능/ 아직 미정
-    """
-
-    __tablename__ = "content_levels"
-
-    id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
-    level = db.Column(db.String(255), nullable=False)
-
-
 class ContentUniqueWord(db.Model):
     """
     Attributes:
@@ -183,7 +172,7 @@ class ContentWordLevels(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     content_id = db.Column(
-        db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False
+        db.Integer, db.ForeignKey("netflix_contents.id"), nullable=False, unique=True
     )
     level_1 = db.Column(db.Integer, nullable=False)
     level_2 = db.Column(db.Integer, nullable=False)
@@ -192,3 +181,4 @@ class ContentWordLevels(db.Model):
     level_5 = db.Column(db.Integer, nullable=False)
     level_6 = db.Column(db.Integer, nullable=False)
     wps = db.Column(db.Float, nullable=False)
+    wps_weight = db.Column(db.Float, nullable=False)
