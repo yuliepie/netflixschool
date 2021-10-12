@@ -8,9 +8,10 @@ import Home from './pages/Main';
 import Intro from './components/Intro/Intro';
 import Result from './pages/Result';
 import Content from './pages/Content';
-// import Recommendation from './components/Recommendation/Recommendation';
-import TestForm_multipleAnswer from './components/TestPage/TestForm_multipleAnswer';
-
+import Recommendation from './pages/Recommendation';
+import Recommend from './components/Recommendation/Recommend';
+// import TestForm_multipleAnswer from './components/TestPage/TestForm_multipleAnswer';
+import Learning from './pages/Learning';
 
 function App() {
   return (
@@ -21,10 +22,12 @@ function App() {
           <Route path='/test' component={TestReadyPage} />
           <Route path="/dotest" component={TestPage}></Route>
           <Route exact path="/intro" component={Intro} />
-          {/* <Route exact path="/recommendation" component={Recommendation} /> */}
+          <Route exact path="/recommendation" component={Recommendation} />
+          <Route exact path="/recommend" component={Recommend} />
           <Route exact path="/result" component={Result} />
           <Route exact path="/content" component={Content} />
-          <Route exact path="/qqq" component={TestForm_multipleAnswer} />
+          {/* <Route exact path="/qqq" component={TestForm_multipleAnswer} /> */}
+          <Route exact path="/learning" component={Learning} />
           <Route path="/">NOT FOUND</Route>
         </Switch>
       </div>

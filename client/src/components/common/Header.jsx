@@ -32,6 +32,12 @@ export default function Header () {
           <button><Link to='/signup'>회원가입</Link></button>
         </div> */}
       </header1>
+      <header1 className="header">
+            <Link to='/intro'><div><li>소개</li></div></Link>
+            <Link to='/recommendation'><div><li>추천</li></div></Link>
+            <Link to='/learning'><div><li>학습</li></div></Link>
+            <Link to='/test'><div><li>테스트</li></div></Link>
+      </header1>
     </div>
 
 
