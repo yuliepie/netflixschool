@@ -4,9 +4,14 @@ import { useEffect, useState } from "react";
 import { useHistory } from 'react-router-dom';
 import axios from "axios";
 import Slider from '@mui/material/Slider';
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import ContentComponent from "../components/Recommendation/ContentComponent";
-import * as CC from "../components/Recommendation/ContentComponents"
+import ContentComponent from "../components/ContentsRanking/ContentComponent";
+import * as CC from "../components/ContentsRanking/ContentComponents"
 
 
 function valuetext(value){
@@ -15,7 +20,7 @@ function valuetext(value){
 
 const minDistance = 1;
 
-export default function Recommendation () {
+export default function ContentsRanking () {
   const history = useHistory();
 
   const [data ,setData] = useState([]);
@@ -24,12 +29,13 @@ export default function Recommendation () {
   const [hasMore, setHasMore] = useState(true);
   const [totalCount, setTotalCount] = useState(50);
   const [value, setValue] = useState([0, 10]);
+
   
   const limit = 10
   const fetchUrl = `/api/content?offset=${offset}&limit=${limit}&sorting=${sorting}&minlevel=${value[0]}&maxlevel=${value[1]}`
 
   // 콘텐츠 리스트 가져오는 부분
-  const fetchRecommends = () => {
+  const fetchContentsRanking = () => {
     axios.get(fetchUrl)
       .then(response => {
         // console.log(response);
@@ -48,18 +54,14 @@ export default function Recommendation () {
   };
 
   useEffect(() => {
-    fetchRecommends();
+    fetchContentsRanking();
   }, [sorting])
 
-  // 정렬 버튼 눌렀을 때 event
-  const handleSortingClick = () => {
-    if (sorting === 1){
-      setSorting(0)
-    } else {
-      setSorting(1)
-    }
+  // 검색(필터링) 버튼 눌렀을 때 event
+  const handleClick = () => {
     setData([]);
     setOffset(0);
+    console.log(data);
   }
 
   // 슬라이더 움직였을 때 event
@@ -75,30 +77,40 @@ export default function Recommendation () {
     }
   };
 
-  // 검색(필터링) 버튼 눌렀을 때
-  const handleFilteringClick = () => {
-    setSorting(1)
-    setData([]);
-    setOffset(0);
+  // 라디오 버튼 event
+  const handleChangeRadioButton = (event) => {
+    setSorting(event.target.value)
   }
 
   return (
     <CC.Container>
-      <CC.Button onClick={handleSortingClick}>정렬</CC.Button>
-      <Slider
-        value={value}
-        onChange={handleChange}
-        valueLabelDisplay="auto"
-        getAriaValueText={valuetext}
-        color='secondary'
-        max='10'
-        valueLabelDisplay='on'
-        disableSwap
-      />
-      <CC.Button onClick={handleFilteringClick}>확인</CC.Button>
+      <FormControl component="fieldset">
+        <FormLabel component="legend">정렬 방식</FormLabel>
+        <RadioGroup
+          aria-label="sorting"
+          defaultValue="0"
+          name="radio-buttons-group"
+        >
+          <FormControlLabel value={0} control={<Radio />} label="오름차순" onChange={handleChangeRadioButton} />
+          <FormControlLabel value={1} control={<Radio />} label="내림차순" onChange={handleChangeRadioButton} />
+        </RadioGroup>
+      </FormControl>
+      <CC.SliderBox>
+        <Slider
+          value={value}
+          onChange={handleChange}
+          valueLabelDisplay="auto"
+          getAriaValueText={valuetext}
+          color='secondary'
+          max={10}
+          valueLabelDisplay='on'
+          disableSwap
+        />
+      </CC.SliderBox>
+      <CC.Button onClick={handleClick}>확인</CC.Button>
       <InfiniteScroll
         dataLength={data.length}
-        next={fetchRecommends}
+        next={fetchContentsRanking}
         hasMore={hasMore}
         loader={<h4>Loading...</h4>}
         endMessage={
@@ -121,14 +133,6 @@ export default function Recommendation () {
                   content_level={recommend.content_level}
                 />
               </CC.StyledLink>
-            //   <li key={index} className='recommendation'>
-            //     <Link to={{
-            //       pathname : '/recommend',
-            //       state: recommend.id}}>
-            //     <Recommend ></Recommend>
-            //     <img src={recommend.img_path} alt="movie_poster" className='recommendlist_image' />
-            //   </Link>
-            // </li>
           )})}
         </CC.ListWrapper>
       </InfiniteScroll>

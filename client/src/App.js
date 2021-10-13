@@ -8,8 +8,8 @@ import Main from './pages/Main';
 import Intro from './components/Intro/Intro';
 import Result from './pages/Result';
 import Content from './pages/Content';
-import Recommendation from './pages/Recommendation';
-import Recommend from './components/Recommendation/Recommend';
+import ContentsRanking from './pages/ContentsRanking';
+// import Recommend from './components/ContentsRanking/Recommend';
 import Learning from './pages/Learning';
 import ScrollTop from './components/common/ScrollTop'
 import NotFound from './pages/NotFound';
@@ -27,8 +27,8 @@ function App() {
               <Route exact path="/intro" component={Intro} />
               <Route path='/test' component={TestReadyPage} />
               <Route path="/dotest" component={TestPage}></Route>
-              <Route exact path="/recommendation" component={Recommendation} />
-              <Route exact path="/recommend" component={Recommend} />
+              <Route exact path="/contentsranking" component={ContentsRanking} />
+              {/* <Route exact path="/recommend" component={Recommend} /> */}
               <Route exact path="/result" component={Result} />
               <Route exact path="/content" component={Content} />
               <Route exact path="/learning" component={Learning} />

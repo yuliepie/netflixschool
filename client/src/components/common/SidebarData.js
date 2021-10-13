@@ -22,7 +22,7 @@ export const SidebarData = [
     },
     {
         title : "Ranking",
-        path:"/recommendation",
+        path:"/contentsranking",
         icon : <AiIcons.AiOutlineCaretRight />,
         cName:"nav-text"
     },
