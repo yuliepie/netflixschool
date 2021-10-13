@@ -22,13 +22,13 @@ export const SidebarData = [
     },
     {
         title : "Ranking",
-        path:"/ranking",
+        path:"/contentsranking",
         icon : <AiIcons.AiOutlineCaretRight />,
         cName:"nav-text"
     },
     {
         title : "Study",
-        path:"/study",
+        path:"/learning",
         icon : <AiIcons.AiOutlineCaretRight />,
         cName:"nav-text"
     },

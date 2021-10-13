@@ -64,6 +64,6 @@ export const Button = styled.button`
     width: 100px;
 `
 
-export const Input = styled.input`
-
+export const SliderBox = styled.div`
+    width: 30vh;
 `
