@@ -16,13 +16,13 @@ const Container = styled.div`
 `
 
 const SentenceWrapper = styled.div`
-  width: 40%;
-  height: 40%;  
+  width: 70%;
+  height: 70%;  
 `
 
 const QuizWrapper = styled.div`
-  width: 40%;
-  height: 40%;
+  width: 85%;
+  height: 85%;
 `
 
 export default function Learning () {

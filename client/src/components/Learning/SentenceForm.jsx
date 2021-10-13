@@ -1,27 +1,24 @@
 // 객관식 문제 유형
 import styled from 'styled-components';
 
+const Container = styled.div`
+  display: flex;
+  padding-top: 30px;
+  background-color: #dfe6ed;
+`
+
 const Image = styled.img`
-  width: 60%;
-  height: 60%;
+  width: 300px;
+  height: 450px;
   display: block; 
-  margin: 0px auto;
 `;
 
-const Asking = styled.p`
-  font-size: 30px;
-  text-align: center;
-`;
+const TextWrapper = styled.div`
+  margin: 90px 30px 30px 80px;
+  display: flex;
+  flex-direction: column;
+`
 
-const Wrap = styled.div`
-  text-align: center;
-`;
-
-const Reply = styled.div`
-  font-size: 24px;
-  display: inline-block;
-  padding-left: 50px;
-`;
 
 export default function Quizform (
   {
@@ -32,20 +29,18 @@ export default function Quizform (
   ) {
 
   return(
-    <div>
-      <div><img src={img_path} alt='example_image' /></div>
-      <div>
-        <div>
-          <dl>
-            <dt>오늘의 문장</dt>
-            <dd>{sentence}</dd>
-          </dl>
-          <dl>
-            <dt>오늘의 단어</dt>
-            <dd>{word}</dd>
-          </dl>
-        </div>
-      </div>
-    </div>
+    <Container>
+      <Image src={img_path} alt='example_image' />
+      <TextWrapper>
+        <dl>
+          <dt>오늘의 문장</dt>
+          <dd>{sentence}</dd>
+        </dl>
+        <dl>
+          <dt>오늘의 단어</dt>
+          <dd>{word}</dd>
+        </dl>
+      </TextWrapper>
+    </Container>
   )
 }
