@@ -1,36 +1,77 @@
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import axios from 'axios';
 
 import {data} from './Learning.data';
+import Quizform from '../components/Learning/Quizform';
+import SentenceForm from '../components/Learning/SentenceForm';
+import LevelIndicator from '../components/Learning/LevelIndicator';
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #dfe6ed;
+`
+
+const SentenceWrapper = styled.div`
+  width: 40%;
+  height: 40%;  
+`
+
+const QuizWrapper = styled.div`
+  width: 40%;
+  height: 40%;
+`
 
 export default function Learning () {
+  const [learningData, setLearningData] = useState([]);
+  const [currPage, setCurrPage] = useState(0);
+  const [pageCount, setPageCount] = useState(0);
+
+
+  useEffect(() => {
+    (async function() {
+      try {
+        const response = await axios.get(
+          `/api/learning`
+        );
+        console.log('r', response);
+        setLearningData(response.data);
+        setPageCount(response.data.length);
+        console.log(response.data);
+      } catch (e) {
+        console.log(e)
+      }
+    })()
+  },[])
+
+  console.log('l',learningData.length)
   return (
     <div>
-      <div className='box_basic'>
-        <div className='detail_title'>
-          <h2 className='title_name'> Level {data.level} Today's examples</h2>
-        </div>
-        <div className="info_poster"><img src={data.img_path} alt='example_image' /></div>
-        <div className='info_content'>
-        <div className='inner_content'>
-          <dl className='list_content'>
-            <dt>오늘의 문장</dt>
-            <dd>{data.sentence}</dd>
-          </dl>
-          <dl className='list_content'>
-            <dt>오늘의 단어</dt>
-            <dd>{data.word}</dd>
-          </dl>
-        </div>
-        </div>
-      </div>
-      <div className='content_detail'>
-        <dl className='list_content'>
-          <h3>Today's Quiz</h3>
-          <div className="info_poster"><img src={data.file_path} alt='quiz_image' /></div>
-          <dd>{data.question}</dd>
-        </dl>
-      </div>
+      {data && <Container>
+        <LevelIndicator
+          level={`${data[currPage].level}`}
+          currPage={currPage}
+          onClickPage={setCurrPage}
+          pageCount={pageCount}
+        />
+        <SentenceWrapper>
+          <SentenceForm
+            img_path={`${data[currPage].img_path}`}
+            sentence={`${data[currPage].sentence}`}
+            word={`${data[currPage].word}`}
+          />
+        </SentenceWrapper>
+        <QuizWrapper>
+          <Quizform
+            question={`${data[currPage].question}`}
+            file_path={`${data[currPage].file_path}`}
+            // choices={`${data[currPage].choices}`}
+          />
+        </QuizWrapper>
+      </Container>}
     </div>
   )
 }
