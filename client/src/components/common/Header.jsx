@@ -1,7 +1,6 @@
 // 메인 페이지 header
 
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Logo = styled.div`

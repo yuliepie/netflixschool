@@ -1,27 +1,22 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { QuestionData } from './TestQuestions/q_data'
 import TestFormMultipleAnswer from './TestForm_multipleAnswer';
 import axios from 'axios';
-import { IconContext } from 'react-icons';
 
-const TestBox = ({match}) => {
-    const [data, setData] = useState({});
+const TestBox = ({match, history}) => {
     
     const answer = [1,2,3,4]
 
-
-    const handleResult = (e) => {
+    const handleResult = async(e) => {
         e.preventDefault();
 
-        axios.post('/api/test/result', {answer: answer}
-        ).then((response) =>{
-            console.log(response.data)
-            setData(response.data)
-        }).catch(e)(
-            console.log(e)
-        )
+        const response = await axios.post('/api/test/result', {answer: answer})
+        history.push({
+            pathname: "/result",
+            state: {data: response.data}
+        })
     }
 
     const { number } = match.params;
@@ -36,13 +31,7 @@ const TestBox = ({match}) => {
                 <TestFormMultipleAnswer  props = {question}/>
                 <div className="submitBox">
                     <div>
-                        <Link to={{
-                            pathname : '/result',
-                            state:{
-                                data : data
-                            }}}>
-                            <YesBox>Submit</YesBox>
-                        </Link>
+                        <YesBox onClick = {handleResult}>Submit</YesBox>
                     </div>
                 </div>
             </div>

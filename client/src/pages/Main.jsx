@@ -3,7 +3,6 @@
 import React from "react";
 import ImageSlider from "../components/Home/ImageSlider";
 import Header from '../components/common/Header'
-import Footer from '../components/common/Footer'
 
 import { SliderData } from "../components/Home/SliderData";
 import TestIntro from '../components/Home/TestIntro';

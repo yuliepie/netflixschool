@@ -21,9 +21,8 @@ export default function Content ({location}) {
         console.log(e)
       }
     };
-
     callContent();
-  }, []);
+  }, [location]);
 
 
   return (

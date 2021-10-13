@@ -34,11 +34,9 @@ const TestPrecautions = () => {
 
                             <Link to="/dotest">
                                 <YesBox>Yes</YesBox>
-                                {/* <AiFillCheckCircle /> */}
                             </Link>
                             <Link to="/">
                                 <YesBox>No</YesBox>
-                                {/* <MdCancel /> */}
                             </Link>
                         
                     </div>
@@ -51,19 +49,11 @@ const TestPrecautions = () => {
 export default TestPrecautions;
 
 const IntroBlock = styled.div`
-/* 
-    width:600px;
-    height:300px; */
     margin-top: 15%;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    /* position:absolute; */
-    /* left:50%;
-    top:40%; */
-    /* margin-left:-200px; */
-    /* margin-top:-150px; */
 
     h1 {
         font-weight: 300;
@@ -76,13 +66,6 @@ const IntroBlock = styled.div`
 `;
 
 const ReadyBox = styled.div`
-    /* width:600px;
-    height:300px;
-    position:absolute;
-    left:50%;
-    top:70%;
-    margin-left:-290px;
-    margin-top:-150px; */
     flex-direction: row;
     margin-top: 70px;
     text-align: center;
@@ -110,10 +93,3 @@ const YesBox = styled.button`
         color: black;
     }
 `;
-
-// const ButtonBox = styled.button`
-//     display: flex;
-//     /* flex-direction: row; */
-//     border: none;
-//     justify-content: center;
-// `;

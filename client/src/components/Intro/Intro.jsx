@@ -6,9 +6,6 @@ import styled from 'styled-components';
 export default function Intro () {
   return (
     <div >
-      {/* <div>
-        <Logo src = '/img/logo.png' alt='logo' />
-      </div> */}
       <br />
       <br />
       <div>
@@ -42,7 +39,7 @@ export default function Intro () {
               <p>영어 단어의 레벨을 기준으로 작품 대사에서 사용되는 대사의 난이도를 판단하기 위해 여러 검증된 기관의 단어 리스트를 수집했습니다. 해당 리스트에는 각 기관별 레벨로 단어를 나누고 있습니다. </p>
             </AlignCenter>
             <AlignList>
-              <p style ={{fontSize:'18px',  border: "4px dashed", width:'30%'}}>
+              <span style ={{fontSize:'18px',  border: "4px dashed", width:'30%'}}>
                 <p>Oxford</p>
                 <p>Lexile</p>
                 <p>New General Service List</p>
@@ -51,7 +48,7 @@ export default function Intro () {
                 <p>TSL(TOEIC)</p>
                 <p>BSL(Business Service Language)</p>
                 <p>네이버 사전</p>
-              </p>
+              </span>
             </AlignList>
               <p>약 3만개 이상의 단어를 수집하여 난이도 선정의 정확성을 높이고자 하였습니다.</p>
             <br />
@@ -67,11 +64,11 @@ export default function Intro () {
               </p>
             </AlignCenter>
                   <AlignList>
-                    <p style={{fontSize:'18px',  border: "4px dashed", width:'50%'}}>
+                    <span style={{fontSize:'18px',  border: "4px dashed", width:'50%'}}>
                       <p>작품 내 대사들이 사용하는 단어의 난이도와 단어의 사용 빈도수</p>
                       <p>한 문장을 말힐 때 걸리는 시간 - 말의 속도 WPS</p>
                       <div><img src='/img/Wps.png' alt='wps' /></div>
-                    </p>
+                    </span>
                   </AlignList>
                 두가지 기준을 이용하여 작품의 난이도를 결정하였습니다.
           </strong>
@@ -82,11 +79,11 @@ export default function Intro () {
           <strong>
             <h2>B. 데이터 분석</h2>
               <AlignList>
-                <p style={{fontSize:'18px',  border: "4px dashed", width:'30%'}}>
+                <span style={{fontSize:'18px',  border: "4px dashed", width:'30%'}}>
                   <p>작품 대본데이터</p>
                   <p>WPS 수치 데이터</p>
                   <p>다양한 출처의 영어 단어 난이도 데이터</p>
-                </p>
+                </span>
               </AlignList>
             총 세가지 데이터를 이용하여 데이터 분석 과정을 진행했습니다.
             <br />
@@ -106,12 +103,6 @@ export default function Intro () {
     </div>
   )
 }
-
-const Logo = styled.img`
-  margin: 0px auto;
-  display: flex;
-  align-items: center;
-`;
 
 const Image = styled.img`
   margin: 0px auto;

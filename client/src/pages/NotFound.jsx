@@ -21,7 +21,3 @@ const Notbox = styled.div`
     font-size: 30px;
     z-index: 1;
 `;
-
-// const Box = styled.div`
-//     background-color: rgb(1,1,1,0.5);
-// `;

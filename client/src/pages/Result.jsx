@@ -18,13 +18,13 @@ export default function Result ({location}) {
           <section className='recommendation'>
             {data.normal_content.map((result) => {
               return (
-                <li key={result.id} className='recommended_list'>
+                <span key={result.id} className='recommended_list'>
                   <Link to={{
                       pathname : '/content',
                       state:result.id}}>
                     <img src={result.img_path} alt="movie_poster" className='resultlist_image' />
                   </Link>
-                </li>
+                </span>
             )})}
           </section>
         </div>
@@ -35,13 +35,13 @@ export default function Result ({location}) {
           <section className='recommendation'>
             {data.hard_content.map((result) => {
               return (
-                <li key={result.id} className='recommended_list'>
+                <span key={result.id} className='recommended_list'>
                   <Link to={{
                       pathname : '/content',
                       state:result.id}}>
                     <img src={result.img_path} alt="movie_poster" className='resultlist_image' />
                   </Link>
-                </li>
+                </span>
             )})}
           </section>
         </div>
