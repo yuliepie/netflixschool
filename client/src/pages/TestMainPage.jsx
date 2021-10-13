@@ -20,7 +20,7 @@ const TestPage = ({history}) => {
         return () => clearTimeout(timer);
     },[seconds])
 
-    // 테스트 도중 페이지 이탈시 경고
+    // 테스트 시작시 바로 1번 문제로 페이지 전환
     useEffect(() => {
         history.push('/doTest/1')
         // const unblock = history.block('테스트를 끝내겠습니까?');
@@ -32,12 +32,15 @@ const TestPage = ({history}) => {
 
     if (seconds > 0){
         return (
-            <div>
-                <StartBox>테스트 시작까지 남은 시간</StartBox>
+            <StartBox>
                 <div>
-                    <StartBox><h1>{seconds}</h1></StartBox>
+                    <span><span style={{fontSize:'150px', color:'#E82B0C'}}>{seconds}</span> 초 후 테스트가 시작됩니다.</span>
                 </div>
-            </div>
+                <div>
+                    <div></div>
+                </div>
+                
+            </StartBox>
         )
     }
     if (seconds === 0){
@@ -66,10 +69,8 @@ export default TestPage;
 const StartBox = styled.div`
     display: flex;
     text-align: center;
-    margin: 150px auto;
-    color : gray;
-    padding: 1rem;
-    display: flex;
+    margin-top: 20%;
+    color : #002A54;
     justify-content: center;
     font-size: 2rem;
     font-weight: 1000;
@@ -78,10 +79,8 @@ const StartBox = styled.div`
 const TestStart = styled.div`
     display: flex;
     text-align: center;
-    margin: 150px auto;
-    color : red;
-    padding: 1rem;
-    display: flex;
+    margin-top: 20%;
+    color : #E82B0C;
     justify-content: center;
     font-size: 4rem;
     font-weight: 1000;
