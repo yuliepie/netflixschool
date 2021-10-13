@@ -89,6 +89,9 @@ def check_word_type_api(word):
 
 def classify_unlevelled_words(unique_word_counts_df):
     levelled_df = unique_word_counts_df.copy()
+    levelled_df = levelled_df[
+        ~((levelled_df.index.str.len() < 4) & (levelled_df["word_level"].isnull()))
+    ]
     nn_level = levelled_df[levelled_df["word_level"].isnull()]
 
     # First check with nltk synsets
