@@ -1,15 +1,19 @@
-nav {
+.wrapper {
     overflow: hidden;
-    border: 1px solid red;
+    /* background-color: #F2F2F2; */   
 }
 
 nav > div{
     text-align: center;
-    margin-top: 20px;
     float: left;
     width: 10%;
-
-    /* 세로길이 설정 */
-    height: 70px;
-    line-height: 45px;
+    margin-top: 40px;
+    background-color: #DEDDD9;
+    height: 130px;
 }
+
+.question{
+    padding-top: 47px;
+    font-size: 30px;
+    
+  }

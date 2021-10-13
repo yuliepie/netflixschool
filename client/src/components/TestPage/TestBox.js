@@ -1,32 +1,22 @@
-import React, { useState } from 'react';
-import {MdNextPlan, MdDoneOutline} from 'react-icons/md';
-import {IoMdCheckboxOutline} from 'react-icons/io'
+import React  from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { QuestionData } from './TestQuestions/q_data'
 import TestFormMultipleAnswer from './TestForm_multipleAnswer';
 import axios from 'axios';
 
-const TestBox = ({match}) => {
-    const [data, setData] = useState({});
-    const [level, setLevel] = useState({});
+const TestBox = ({match, history}) => {
     
     const answer = [1,2,3,4]
 
-
-    const handleResult = (e) => {
+    const handleResult = async(e) => {
         e.preventDefault();
 
-        axios.post('/api/test/result', {answer: answer}
-        ).then((response) =>{
-            console.log(response.data)
-            setData(response.data)
+        const response = await axios.post('/api/test/result', {answer: answer})
+        history.push({
+            pathname: "/result",
+            state: {data: response.data}
         })
-        // .then(
-        //     console.log(
-        //         'data',data
-        //     )
-        // )
     }
 
     const { number } = match.params;
@@ -38,18 +28,11 @@ const TestBox = ({match}) => {
     if (parseInt(question.question) === 10){
         return(
             <div>
-                <div>
-                    <TestFormMultipleAnswer  props = {question}/>
-                    <IoMdCheckboxOutline size="50" onClick = {handleResult}/>
-                    <NextIcons>
-                        <Link to={{
-                            pathname : '/result',
-                            state:{
-                                data : data
-                            }}}>
-                            <MdDoneOutline size="50" />
-                        </Link>
-                    </NextIcons>
+                <TestFormMultipleAnswer  props = {question}/>
+                <div className="submitBox">
+                    <div>
+                        <YesBox onClick = {handleResult}>Submit</YesBox>
+                    </div>
                 </div>
             </div>
         )
@@ -58,11 +41,11 @@ const TestBox = ({match}) => {
         <div>
             <TestFormMultipleAnswer  props = {question}/>
             <div>
-                <NextIcons>
+                <div className="submitBox">
                     <Link to={`/doTest/${parseInt(question.question)+1}`}>
-                        <IoMdCheckboxOutline size="50" />
+                        <NextBox>Next</NextBox>
                     </Link>
-                </NextIcons>
+                </div>
             </div>
         </div>
     );
@@ -70,10 +53,37 @@ const TestBox = ({match}) => {
 
 export default TestBox;
 
-const NextIcons = styled.div`
-    bottom: 0;
-    padding: 15px 0;
-    text-align: center;
-    width:200px; 
-    margin: 0 auto auto auto;
+const YesBox = styled.button`
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size:30px;
+    background-color: #E82B0C;
+    border-radius : 10px;
+    color: white;
+    width: 9rem;
+    height: 5rem;
+    
+    :hover{
+        background-color: white;
+        cursor: pointer;
+        color: red;
+    }
+`;
+
+
+const NextBox = styled.button`
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size:30px;
+    background-color:black;
+    border-radius : 10px;
+    color: white;
+    width: 9rem;
+    height: 5rem;
+
+    :hover{
+        background-color: white;
+        cursor: pointer;
+        color: black;
+    }
 `;
