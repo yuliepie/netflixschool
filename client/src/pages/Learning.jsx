@@ -21,8 +21,8 @@ const SentenceWrapper = styled.div`
 `
 
 const QuizWrapper = styled.div`
-  width: 85%;
-  height: 85%;
+  width: 100%;
+  height: 100%;
 `
 
 export default function Learning () {
@@ -45,6 +45,7 @@ export default function Learning () {
         console.log(e)
       }
     })()
+    
   },[])
 
   console.log('l',learningData.length)
@@ -68,7 +69,7 @@ export default function Learning () {
           <Quizform
             question={`${data[currPage].question}`}
             file_path={`${data[currPage].file_path}`}
-            // choices={`${data[currPage].choices}`}
+            // choices={`${learningData[currPage].choices}`}
           />
         </QuizWrapper>
       </Container>}

@@ -1,7 +1,8 @@
-// 객관식 문제 유형
 import styled from 'styled-components';
+import Papago from './Papago';
 
 const Container = styled.div`
+  margin: 0 0 0 10%;
   display: flex;
   padding-top: 30px;
   background-color: #dfe6ed;
@@ -19,6 +20,10 @@ const TextWrapper = styled.div`
   flex-direction: column;
 `
 
+const TextTitle = styled.dt`
+  font-size: 22px;
+`
+
 
 export default function Quizform (
   {
@@ -27,17 +32,17 @@ export default function Quizform (
     word
   }
   ) {
-
   return(
     <Container>
       <Image src={img_path} alt='example_image' />
       <TextWrapper>
         <dl>
-          <dt>오늘의 문장</dt>
+          <TextTitle>오늘의 문장</TextTitle>
           <dd>{sentence}</dd>
+          <Papago />
         </dl>
         <dl>
-          <dt>오늘의 단어</dt>
+          <TextTitle>오늘의 단어</TextTitle>
           <dd>{word}</dd>
         </dl>
       </TextWrapper>
