@@ -215,8 +215,20 @@ def get_wps_running_time_for_content(content_id, script_csv):
     )
 
     # 러닝 타임 (sec) 시간 계산
-    running_time = script_csv["end"][len(script_csv) - 1] - script_csv["start"][0]
-    running_time = running_time.total_seconds()
+    start = 0
+    full_running_time = 0
+    for i in range(len(script_csv)):
+        if i == len(script_csv) - 1:
+            full_running_time += (
+                script_csv["end"].loc[i] - script_csv["start"].loc[start]
+            ).total_seconds()
+            break
+        if script_csv["end"].loc[i] > script_csv["end"].loc[i + 1]:
+            full_running_time += (
+                script_csv["end"].loc[i] - script_csv["start"].loc[start]
+            ).total_seconds()
+            start = i + 1
+    running_time = full_running_time
 
     # 필요없는 컬럼 제거
     script_csv = script_csv.drop(columns=["start", "end"])

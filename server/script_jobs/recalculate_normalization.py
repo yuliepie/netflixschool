@@ -1,5 +1,6 @@
 import pandas as pd
 from dotenv import load_dotenv
+import sys
 
 from Scripts import (
     connect_to_db,
@@ -9,8 +10,6 @@ from Scripts import (
 - content_word_levels 테이블에서 각 레벨별 count 값을 가져온 뒤 정규화 시키고 return
 - return : 정규화된 DataFrame
 """
-conn = connect_to_db()
-cursor = conn.cursor()
 
 
 def recalculate_normalization(conn):
@@ -20,7 +19,24 @@ def recalculate_normalization(conn):
     cursor.execute(select_cwl_query)
 
     all_scripts_df = pd.DataFrame(cursor.fetchall())
-    all_scripts_df.set_index("title", inplace=True)
+
+    all_scripts_df = all_scripts_df.rename(
+        columns={
+            0: "id",
+            1: "content_id",
+            2: "level_1",
+            3: "level_2",
+            4: "level_3",
+            5: "level_4",
+            6: "level_5",
+            7: "level_6",
+            8: "wps",
+            9: "wps_weight",
+        }
+    )
+    # all_scripts_df = all_scripts_df.astype({"content_id": int})
+    all_scripts_df.set_index("content_id", inplace=True)
+
     """
         각 level들과 wps 정규화
     """
@@ -32,38 +48,7 @@ def recalculate_normalization(conn):
         all_scripts_df.max() - all_scripts_df.min()
     )
 
-    # """
-    #     각 level들 정규화
-    # """
-    # # content_word_levels 테이블에서 각 레벨의 min, max 값을 가져옴
-    # level_list = []
-    # for i in range(1, 7):
-    #     level_minmax_query = f'select min(level_{i}), max(level_{i}) from content_word_levels'
-    #     cursor.execute(level_minmax_query)
-    #     level_list.append(list(cursor.fetchone()))
-
-    # # 각 레벨들 정규화
-    # # (x - x_min) / (x_max - x_min)
-    # normalization_level_df['level_1'] = (all_scripts_df['level_1'] - level_list[0][0]) / (level_list[0][1] - level_list[0][0])
-    # normalization_level_df['level_2'] = (all_scripts_df['level_2'] - level_list[1][0]) / (level_list[1][1] - level_list[1][0])
-    # normalization_level_df['level_3'] = (all_scripts_df['level_3'] - level_list[2][0]) / (level_list[2][1] - level_list[2][0])
-    # normalization_level_df['level_4'] = (all_scripts_df['level_4'] - level_list[3][0]) / (level_list[3][1] - level_list[3][0])
-    # normalization_level_df['level_5'] = (all_scripts_df['level_5'] - level_list[4][0]) / (level_list[4][1] - level_list[4][0])
-    # normalization_level_df['level_6'] = (all_scripts_df['level_6'] - level_list[5][0]) / (level_list[5][1] - level_list[5][0])
-
-    # """
-    #     WPS 정규화
-    # """
-    # # content_word_levels 테이블에서 WPS의 min, max 값을 가져옴
-    # wps_minmax_query = f'select min(wps), max(wps) from content_word_levels'
-    # cursor.execute(wps_minmax_query)
-
-    # wps_minmax = list(cursor.fetchone())
-
-    # # print(wps_minmax) # min, max 확인용 print 코드
-
-    # # WPS 정규화
-    # normalization_level_df['wps'] = (all_scripts_df['wps'] - wps_minmax[0]) / (wps_minmax[1] - wps_minmax[0])
+    print(normalization_level_df)
 
     """
         모든 레벨 합의 80% 값 계산 및 레벨 분류
@@ -145,37 +130,43 @@ def recalculate_normalization(conn):
         lambda x: wps_result(x["wps"]), axis=1
     )
 
-    # 계산에 사용된 컬럼들 삭제
-    normalization_level_df.drop(columns=["wps"], inplace=True)
-
     """
         netflix_contents 테이블 update
     """
 
     update_nc_query = """
         update 
-            netflix_content 
+            netflix_contents 
         set 
-            word_diffiiculty_level = %s, 
+            word_difficulty_level = %s, 
             words_per_second = %s 
         where
             id = %s
     """
-    for row in normalization_level_df:
-        id = row["content_id"]
+    for index, row in normalization_level_df.iterrows():
+        id = int(index)
         word_level = row["word_level"]
         wps_level = row["wps_level"]
-        cursor.execute(update_nc_query, [word_level, wps_level, id])
+        try:
+            cursor.execute(update_nc_query, [word_level, wps_level, id])
+        except Exception as e:
+            print(row["content_id"])
+            print(int(row["content_id"]))
+            print(e)
+            conn.rollback()
+            cursor.close()
+            conn.close()
+            sys.exit(2)
 
     conn.commit()
     conn.close()
 
-    return normalization_level_df
+    print("Finished recalculating!")
+
+    # return normalization_level_df
 
 
-if __name__ == "__main__":  # 프로그램의 시작점일 때만 아래 코드 실행
-
-    df = pd.read_csv("../../data_preprocessing/script/csv_files/all_scripts.csv")
-    result = recalculate_normalization(conn)
-
-    print(result)
+if __name__ == "__main__":
+    conn = connect_to_db()
+    cursor = conn.cursor()
+    recalculate_normalization(conn)
