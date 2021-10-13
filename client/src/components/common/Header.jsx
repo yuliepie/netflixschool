@@ -32,7 +32,6 @@ const Box = styled.div`
 const Welcome = styled.h1`
   position: relative;
   top : 45%;
-  left: 5%;
   /* transform: translate(-50%, 50%); */
   display: flex;
   text-align: center;
@@ -43,18 +42,13 @@ export default function Header () {
   return (
     <div className = "MainFirst">
       {/* <header1 className="header"> */}
-        <Box>
-          <Logo>
+        <div>
+          {/* <Logo>
             <Link to='/'><Image src = '/img/logo.png' alt='logo' /></Link>
-          </Logo>
+          </Logo> */}
           <Welcome>Welcome to NETFLIX SCHOOL !</Welcome>
 
-        </Box>
-        {/* <h1><Link to='/'>넷플릭스쿨</Link></h1> */}
-        {/* <div className="membership">
-          <button><Link to='/login'>로그인</Link></button>
-          <button><Link to='/signup'>회원가입</Link></button>
-        </div> */}
+        </div>
       {/* </header1> */}
     </div>
   )

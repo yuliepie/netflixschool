@@ -1,12 +1,51 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.components{
+  margin-left: 370px;
+}
+
+.footer {
+  padding: 3rem;
   display: flex;
   flex-direction: column;
 }
 
-/* .MainFirst{
-  border: 0.5rem solid pink;
-  border-radius: 12px;
+.submitBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 } */
+
+.MainFirst{
+  margin: 0;
+  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2021-10-12+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+10.49.11.png');
+  width: 168vh;
+  height: 100vh;
+  background-size: cover;
+  /* border: 0.5rem solid pink;
+  border-radius: 12px; */
+
+  
+}
+
 
 /* .header {
   padding: 1rem 2rem;
@@ -80,18 +119,10 @@ li {
   border-radius: 4px;
 } */
 
-.footer {
-  padding: 3rem;
-  /* background: rgb(32, 32, 32); */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer span {
-  color: black
-}
 
-/* 랜딩페이지
+
+
+랜딩페이지
 .slider {
   position:relative;
   height: 100vh;
@@ -104,7 +135,7 @@ li {
   width: 100%;
   height: 600px;
   border-radius: 10px;
-} */
+} 
 
 .right-arrow {
   position: absolute;
@@ -198,7 +229,38 @@ section {
   grid-template-columns: 50% 50%;
 
   text-align: center;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= */
+/*  content, result  */
+/* ================= */
 
 /* 컨텐츠 상세 페이지 */
 .box_basic {

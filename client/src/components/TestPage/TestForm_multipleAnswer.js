@@ -1,18 +1,20 @@
 // 객관식 문제 유형
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 export default function TestFormMultipleAnswer ({props}) {
-  const questionNumber = parseInt(props.question)
+  // const questionNumber = parseInt(props.question)
 
   return(
     <div>
       <Wrap>
-        <h1>test {questionNumber}</h1>
+        <div><Image src={props.imgPath} alt='questionimg' /></div>
       </Wrap>
-      <div><Image src={props.imgPath} alt='questionimg' /></div>
-      <Asking>{props.koreanSentence}</Asking>
+      
+      <Wrap>
+        <Asking>{props.koreanSentence}</Asking>
+      </Wrap>
       <Wrap>
       {props.choices.map((answ, index) => {
         return (
@@ -44,6 +46,7 @@ const Asking = styled.p`
 `;
 
 const Wrap = styled.div`
+margin-top: 20px;
   text-align: center;
 `;
 

@@ -22,7 +22,7 @@ export default function Result ({location}) {
                   <Link to={{
                       pathname : '/content',
                       state:result.id}}>
-                    <img src={result.image_path} alt="movie_poster" className='resultlist_image' />
+                    <img src={result.img_path} alt="movie_poster" className='resultlist_image' />
                   </Link>
                 </li>
             )})}
@@ -39,7 +39,7 @@ export default function Result ({location}) {
                   <Link to={{
                       pathname : '/content',
                       state:result.id}}>
-                    <img src={result.image_path} alt="movie_poster" className='resultlist_image' />
+                    <img src={result.img_path} alt="movie_poster" className='resultlist_image' />
                   </Link>
                 </li>
             )})}

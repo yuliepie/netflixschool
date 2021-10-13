@@ -5,10 +5,10 @@ import styled from 'styled-components';
 
 export default function Intro () {
   return (
-    <div>
-      <div>
+    <div >
+      {/* <div>
         <Logo src = '/img/logo.png' alt='logo' />
-      </div>
+      </div> */}
       <br />
       <br />
       <div>
