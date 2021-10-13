@@ -1,6 +1,12 @@
 import pandas as pd
-import spacy
 import re
+from nltk.corpus import wordnet
+import requests
+
+
+# ====================
+# HELPERS
+# ====================
 
 
 def removeStopWordsSpacy(sentence, nlp):
@@ -27,11 +33,96 @@ def hyphenateCompounds(sentence, compound_dict):
     return sentence_hyphen
 
 
-def get_unique_word_counts_from_script(script, compound_lemmas):
-    nlp = spacy.load("en_core_web_sm")
-    script["script"] = script["script"].apply(lambda x: removeStopWordsSpacy(x, nlp))
+def convertToHeadForm(word, lemmas_dict, df_word_level):
+    word = str(word)
+    head = lemmas_dict.get(word)
+    # If a lemma word, change to head word in word list
+    if head:
+        return head
+    if word in df_word_level.index:
+        return word
+    else:
+        # Check if adverb
+        if word.endswith("ly"):
+            if word[:-2] in df_word_level.index:
+                return word[:-2]
+            if word.endswith("ily"):
+                if (word[:-3] + "y") in df_word_level.index:
+                    return word[:-3] + "y"
+            if word.endswith("ally"):
+                if (word[:-4]) in df_word_level.index:
+                    return word[:-4]
+            if (word[:-2] + "e") in df_word_level.index:
+                return word[:-2] + "e"
+        return word
 
+
+def check_word_type_api(word):
+    headers = {"User-Agent": "Chrome/66.0.3359.181"}
+
+    keyword = str(word)
+    url = "https://wordtype.org/api/senses?term=" + keyword
+    res = requests.get(url, headers=headers)
+    results = res.json()
+    try:
+        if len(results) == 0:
+            return False
+        # check if any word with correct pos & definition
+        for item in results:
+            if item["pos"] in ["interjection", "abbreviation"]:
+                return False
+        for item in results:
+            if item["pos"] in ["noun", "verb", "adjective", "adverb"]:
+                for sense in item["senses"]:
+                    if (
+                        sense["definition"] != ""
+                        and sense["definition"] != "<missing sense definition>"
+                    ):
+                        return True
+        if word.endswith("s"):
+            return check_word_type_api(word[:-1])
+        else:
+            return False
+    except Exception as e:
+        print("error:", e)
+
+
+def classify_unlevelled_words(unique_word_counts_df):
+    levelled_df = unique_word_counts_df.copy()
+    nn_level = levelled_df[levelled_df["word_level"].isnull()]
+
+    # First check with nltk synsets
+    for index in nn_level.index:
+        if len(wordnet.synsets(str(index))) > 0:
+            levelled_df.loc[index, "word_level"] = 6
+            # TODO: 필요하다면 최고 레벨 수정
+    nn_level = levelled_df[levelled_df["word_level"].isnull()]
+
+    # Then check with API
+    for index in nn_level.index:
+        if check_word_type_api(str(index)) == True:
+            levelled_df.loc[index, "word_level"] = 6
+    nn_level = levelled_df[levelled_df["word_level"].isnull()]
+
+    # Remove remaining NaN words
+    levelled_df = levelled_df.drop(nn_level.index)
+
+    return levelled_df
+
+
+# ===============================
+# Exported content functions
+# ===============================
+
+
+def get_unique_word_counts_from_script(
+    script, nlp, compound_dict, lemmas_dict, df_word_level
+):
     spacey_df = script.copy()
+    spacey_df["script"] = spacey_df["script"].apply(
+        lambda x: removeStopWordsSpacy(x, nlp)
+    )
+
     # Delete words with special characters
     spacey_df["script"] = spacey_df["script"].replace(
         to_replace="[^a-zA-Z ]", value="", regex=True
@@ -40,12 +131,6 @@ def get_unique_word_counts_from_script(script, compound_lemmas):
     spacey_df["script"] = spacey_df["script"].str.lower()
     # drop empty rows
     spacey_df = spacey_df[spacey_df.script.str.len() > 0]
-
-    compound_dict = {}
-    for index, row in compound_lemmas.iterrows():
-        lemmas = row["Lemmas"].split(";")
-        for lemma in lemmas:
-            compound_dict[lemma] = str(index)
 
     spacey_df["script"] = spacey_df["script"].apply(
         lambda x: hyphenateCompounds(x, compound_dict)
@@ -58,69 +143,45 @@ def get_unique_word_counts_from_script(script, compound_lemmas):
     df_script_words = pd.DataFrame(content_word_list)
     df_script_words.rename(columns={0: "word"}, inplace=True)
 
-    counts_df = df_script_words.groupby("word").size().reset_index(name="counts")
-    counts_df.sort_values("counts", ascending=False, inplace=True)
-    counts_df.set_index("word", inplace=True)
+    df_script_words["word"] = df_script_words["word"].apply(
+        lambda x: convertToHeadForm(x, lemmas_dict, df_word_level)
+    )
 
-    return counts_df
+    df_script_words_counts = (
+        df_script_words.groupby(df_script_words["word"])
+        .size()
+        .reset_index(name="counts")
+    )
+    # df_script_words_counts.sort_values("counts", ascending=False, inplace=True)
+    df_script_words_counts.set_index("word", inplace=True)
+
+    return df_script_words_counts
 
 
-def get_word_level_counts_for_content(
-    content_id, df_unique_words, df_word_level, df_lemmas
-):
+def get_word_level_counts_for_content(content_id, df_unique_words, df_word_level):
     """
-    작품 대본을 분석해서 각 레벨별 단어들의 빈도수 df 반환
+    unique_words_df를 받아 각 레벨별 단어들의 빈도수 df 반환
     """
-
-    # 변형어 리스트 불러오기
-    lemmas_dict = {}
-    for index, row in df_lemmas.iterrows():
-        lemmas = row["Lemmas"].split(";")
-        for lemma in lemmas:
-            lemmas_dict[lemma] = str(index)
-
-    def convertToHeadForm(word):
-        word = str(word)
-        head = lemmas_dict.get(word)
-        # If a lemma word, change to head word in word list
-        if head:
-            return head
-        if word in df_word_level.index:
-            return word
-        else:
-            # Check if adverb
-            if word.endswith("ly"):
-                if word[:-2] in df_word_level.index:
-                    return word[:-2]
-                if word.endswith("ily"):
-                    if (word[:-3] + "y") in df_word_level.index:
-                        return word[:-3] + "y"
-                if word.endswith("ally"):
-                    if (word[:-4]) in df_word_level.index:
-                        return word[:-4]
-                if (word[:-2] + "e") in df_word_level.index:
-                    return word[:-2] + "e"
-            return word
-
-    df_unique_words.index = df_unique_words.index.map(convertToHeadForm)
-    df_unique_words_headed = df_unique_words.groupby(df_unique_words.index).sum()
-    df_unique_words_headed.sort_values("counts", ascending=False, inplace=True)
 
     # word_level 컬럼 추가
-    counts_df_headed_joined = df_unique_words_headed.join(df_word_level[["word_level"]])
+    counts_df_headed_joined = df_unique_words.join(df_word_level[["word_level"]])
 
-    """
-    NN 데이터 추가하는 코드 필요
-    data_preprocessing\ipynb\all_scripts\00_word_level_counts.ipynb
-    파일에서 Group by word_level Cell로 이동하면 주석처리 된 코드 확인 가능
-    """
+    # Todo: 해시태그 컬럼들 추가 할것
 
+    # Level NaN인 단어들 유효성 검사 후 처리 (-1)
+    df_unique_words_all_levelled = classify_unlevelled_words(counts_df_headed_joined)
+    # print(df_unique_words_all_levelled)
     # word_level 별 counts의 합계 구하기
-    # Todo: 해시태그 컬럼 추가 할것
+    result = (
+        df_unique_words_all_levelled.drop("row_id", axis=1)
+        .groupby("word_level")
+        .sum("counts")
+        .transpose()
+    )
 
-    result = counts_df_headed_joined.groupby("word_level").sum("counts").transpose()
     result["content_id"] = content_id
     result = result.set_index("content_id")
+
     result = result.rename(
         columns={
             1: "level_1",
@@ -132,7 +193,7 @@ def get_word_level_counts_for_content(
         }
     )
 
-    return (counts_df_headed_joined, result)
+    return (df_unique_words_all_levelled, result)
 
 
 def get_wps_running_time_for_content(content_id, script_csv):
@@ -193,6 +254,9 @@ def get_wps_running_time_for_content(content_id, script_csv):
     return df_result
 
 
+# ========================
+# 여기서부터 필요없음
+# ========================
 def normalize_and_calculate_level(all_scripts_df, level_weights):
     """
     작품의 레벨별 단어빈도수, WPS, 러닝타임 가중치, 단어난이도 가중치를 이용해

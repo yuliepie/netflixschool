@@ -39,9 +39,6 @@ types = ["Movie", "TV Show"]
 for i in range(2):
     curs.execute(sql, (types[i]))
 
-sql = """insert into content_levels (level) values (%s)"""
-for i in range(1, 6):
-    curs.execute(sql, i)
 
 # db 저장
 conn.commit()
