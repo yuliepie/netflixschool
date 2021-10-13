@@ -1,8 +1,7 @@
 import pandas as pd
-import spacy
 import re
 
-from content_functions import *
+from .content_functions import *
 
 
 def spacyValidateSentence(script, nlp):
@@ -49,7 +48,7 @@ def spacyValidateSentence(script, nlp):
     return valid_sents
 
 
-def get_sentences_df(script, compound_dict, unique_word_levels_df, nlp):
+def get_content_sentences_df(script, nlp):
     # Drop:
     # - duplicates
     # - short sentences.
@@ -62,8 +61,6 @@ def get_sentences_df(script, compound_dict, unique_word_levels_df, nlp):
 
     valid_scripts = []
     valid_starts = []
-    valid_words = []
-    valid_levels = []
 
     for index, row in script_csv.iterrows():
         # if sentence contains swearwords, pass
@@ -77,42 +74,46 @@ def get_sentences_df(script, compound_dict, unique_word_levels_df, nlp):
             if (
                 len(sent.split()) > 1
                 and sent[0].isupper()
+                and len(sent) <= 255
                 and sent[-1] in [".", "?", "!"]
                 and not any(char.isdigit() for char in sent)
             ):
                 valid_starts.append(row.start)
                 valid_scripts.append(sent)
-                # ======== sentence to unique words=======
-                sent_refined = removeStopWordsSpacy(sent, nlp)
-                sent_refined = re.sub("[^a-zA-Z ]", "", sent_refined)
-                sent_refined = sent_refined.lower()
-                if len(sent_refined) == 0:
-                    valid_levels.append(-1)
-                    valid_words.append("")
-                    continue
-                sent_refined = hyphenateCompounds(sent, compound_dict)
-                sent_word_list = sent_refined.split()
-                df_sent_words = pd.DataFrame(sent_word_list)
-                df_sent_words.rename(columns={0: "word"}, inplace=True)
-                df_sent_words = (
-                    df_sent_words.groupby("word").size().reset_index(name="counts")
-                )
-                df_sent_words = df_sent_words.join(
-                    unique_word_levels_df[["word_level"]]
-                )
-                df_sent_words.sort_values("word_level", ascending=False)
-                # Get top word and level
-                valid_levels.append(df_sent_words.iloc[0]["word_level"])
-                valid_words.append(df_sent_words.index[0])
 
-    # df contaning valid sentences
     columns = {
         "start": valid_starts,
         "script": valid_scripts,
-        "word": valid_words,
-        "level": valid_levels,
     }
     valid_scripts_df = pd.DataFrame(columns)
     valid_scripts_df.drop_duplicates(subset="script", inplace=True)
 
     return valid_scripts_df
+
+
+def get_sentence_max_level_and_word(
+    sent, nlp, compound_dict, unique_word_levels_df, lemmas_dict, df_word_level
+):
+    sent_refined = removeStopWordsSpacy(sent, nlp)
+    sent_refined = re.sub("[^a-zA-Z ]", "", sent_refined)
+    sent_refined = sent_refined.lower()
+    if len(sent_refined) == 0:
+        return (-1, "")
+    sent_refined = hyphenateCompounds(sent_refined, compound_dict)
+    sent_word_list = sent_refined.split()
+
+    df_sent_words = pd.DataFrame(sent_word_list)
+    df_sent_words.rename(columns={0: "original"}, inplace=True)
+    df_sent_words["Word"] = df_sent_words["original"].apply(
+        lambda x: convertToHeadForm(x, lemmas_dict, df_word_level)
+    )
+    # df_sent_words = df_sent_words.groupby("Word").size().reset_index(name="counts")
+    df_sent_words.set_index("Word", inplace=True)
+    df_sent_words = df_sent_words.join(unique_word_levels_df[["word_level"]])
+    df_sent_words = df_sent_words[~df_sent_words["word_level"].isnull()]
+    df_sent_words.sort_values("word_level", ascending=False)
+    # Get top word and level
+    if len(df_sent_words.index) > 0:
+        return (df_sent_words.iloc[0]["word_level"], df_sent_words.iloc[0]["original"])
+    else:
+        return (-1, "")

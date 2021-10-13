@@ -12,14 +12,15 @@ from Scripts import (
 conn = connect_to_db()
 cursor = conn.cursor()
 
+
 def recalculate_normalization(conn):
 
     # content_word_levels 테이블 전체 select
-    select_cwl_query = 'select * from content_word_levels'
+    select_cwl_query = "select * from content_word_levels"
     cursor.execute(select_cwl_query)
 
     all_scripts_df = pd.DataFrame(cursor.fetchall())
-    all_scripts_df.set_index('title', inplace=True)
+    all_scripts_df.set_index("title", inplace=True)
     """
         각 level들과 wps 정규화
     """
@@ -27,7 +28,9 @@ def recalculate_normalization(conn):
     normalization_level_df = all_scripts_df.copy()
 
     # all_scripts_df 에서 min, max 값을 가져오고, 각 레벨들 정규화
-    normalization_level_df = (all_scripts_df - all_scripts_df.min()) / (all_scripts_df.max() - all_scripts_df.min())
+    normalization_level_df = (all_scripts_df - all_scripts_df.min()) / (
+        all_scripts_df.max() - all_scripts_df.min()
+    )
 
     # """
     #     각 level들 정규화
@@ -38,7 +41,7 @@ def recalculate_normalization(conn):
     #     level_minmax_query = f'select min(level_{i}), max(level_{i}) from content_word_levels'
     #     cursor.execute(level_minmax_query)
     #     level_list.append(list(cursor.fetchone()))
-    
+
     # # 각 레벨들 정규화
     # # (x - x_min) / (x_max - x_min)
     # normalization_level_df['level_1'] = (all_scripts_df['level_1'] - level_list[0][0]) / (level_list[0][1] - level_list[0][0])
@@ -66,15 +69,17 @@ def recalculate_normalization(conn):
         모든 레벨 합의 80% 값 계산 및 레벨 분류
         컬럼명 : word_level
     """
-    level_1 = normalization_level_df['level_1']
-    level_2 = normalization_level_df['level_2']
-    level_3 = normalization_level_df['level_3']
-    level_4 = normalization_level_df['level_4']
-    level_5 = normalization_level_df['level_5']
-    level_6 = normalization_level_df['level_6']
-    normalization_level_df['level_score'] = level_1 + level_2 + level_3 + level_4 + level_5 + level_6
+    level_1 = normalization_level_df["level_1"]
+    level_2 = normalization_level_df["level_2"]
+    level_3 = normalization_level_df["level_3"]
+    level_4 = normalization_level_df["level_4"]
+    level_5 = normalization_level_df["level_5"]
+    level_6 = normalization_level_df["level_6"]
+    normalization_level_df["level_score"] = (
+        level_1 + level_2 + level_3 + level_4 + level_5 + level_6
+    )
 
-    normalization_level_df['80%'] = normalization_level_df['level_score'] * 0.8
+    normalization_level_df["80%"] = normalization_level_df["level_score"] * 0.8
 
     def level_result(_list, percentile):
         sum_after = 0
@@ -90,11 +95,36 @@ def recalculate_normalization(conn):
         if percentile - sum_before < sum_after - percentile:
             level -= 1
         return level
-    
-    normalization_level_df['word_level'] = normalization_level_df.apply(lambda x: level_result([x['level_1'], x['level_2'], x['level_3'], x['level_4'], x['level_5'], x['level_6']], x['80%']), axis=1)
+
+    normalization_level_df["word_level"] = normalization_level_df.apply(
+        lambda x: level_result(
+            [
+                x["level_1"],
+                x["level_2"],
+                x["level_3"],
+                x["level_4"],
+                x["level_5"],
+                x["level_6"],
+            ],
+            x["80%"],
+        ),
+        axis=1,
+    )
 
     # 계산에 사용된 컬럼들 삭제
-    normalization_level_df.drop(columns=['level_1', 'level_2', 'level_3', 'level_4', 'level_5', 'level_6', 'level_score', '80%'], inplace=True)
+    normalization_level_df.drop(
+        columns=[
+            "level_1",
+            "level_2",
+            "level_3",
+            "level_4",
+            "level_5",
+            "level_6",
+            "level_score",
+            "80%",
+        ],
+        inplace=True,
+    )
 
     """
         WPS 레벨 분류
@@ -108,18 +138,20 @@ def recalculate_normalization(conn):
             level = 2
         else:
             level = 3
-        
+
         return level
-    
-    normalization_level_df['wps_level'] = normalization_level_df.apply(lambda x: wps_result(x['wps']), axis=1)
+
+    normalization_level_df["wps_level"] = normalization_level_df.apply(
+        lambda x: wps_result(x["wps"]), axis=1
+    )
 
     # 계산에 사용된 컬럼들 삭제
-    normalization_level_df.drop(columns=['wps'], inplace=True)
+    normalization_level_df.drop(columns=["wps"], inplace=True)
 
     """
         netflix_contents 테이블 update
     """
-    
+
     update_nc_query = """
         update 
             netflix_content 
@@ -130,17 +162,10 @@ def recalculate_normalization(conn):
             id = %s
     """
     for row in normalization_level_df:
-        id = row['content_id']
-        word_level = row['word_level']
-        wps_level = row['wps_level']
-    cursor.execute(
-        update_nc_query,
-        [
-            word_level,
-            wps_level,
-            id
-        ]
-    )
+        id = row["content_id"]
+        word_level = row["word_level"]
+        wps_level = row["wps_level"]
+        cursor.execute(update_nc_query, [word_level, wps_level, id])
 
     conn.commit()
     conn.close()
@@ -148,9 +173,9 @@ def recalculate_normalization(conn):
     return normalization_level_df
 
 
-if __name__ == '__main__':    # 프로그램의 시작점일 때만 아래 코드 실행
+if __name__ == "__main__":  # 프로그램의 시작점일 때만 아래 코드 실행
 
-    df = pd.read_csv('../../data_preprocessing/script/csv_files/all_scripts.csv')
+    df = pd.read_csv("../../data_preprocessing/script/csv_files/all_scripts.csv")
     result = recalculate_normalization(conn)
 
     print(result)

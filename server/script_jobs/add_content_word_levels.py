@@ -34,17 +34,17 @@ words_obj = s3.get_object(Bucket=words_bucket, Key="word_levels.csv")
 word_list_csv = pd.read_csv(words_obj["Body"], index_col="Word")
 # lemmas
 lemmas_obj = s3.get_object(Bucket=words_bucket, Key="ex_lemmas.csv")
-lemmas_csv = pd.read_csv(lemmas_obj["Body"], index_col="Word")
+lemmas_df = pd.read_csv(lemmas_obj["Body"], index_col="Word")
 lemmas_dict = {}
-for index, row in df_lemmas.iterrows():
+for index, row in lemmas_df.iterrows():
     lemmas = row["Lemmas"].split(";")
     for lemma in lemmas:
         lemmas_dict[lemma] = str(index)
 # compound lemmas
 compound_lemmas_obj = s3.get_object(Bucket=words_bucket, Key="compound_lemmas.csv")
-compound_lemmas_csv = pd.read_csv(compound_lemmas_obj["Body"], index_col="Word")
+compound_lemmas_df = pd.read_csv(compound_lemmas_obj["Body"], index_col="Word")
 compound_dict = {}
-for index, row in compound_lemmas_csv.iterrows():
+for index, row in compound_lemmas_df.iterrows():
     lemmas = row["Lemmas"].split(";")
     for lemma in lemmas:
         compound_dict[lemma] = str(index)
