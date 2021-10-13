@@ -131,6 +131,18 @@ def recalculate_normalization(conn):
     )
 
     """
+        word_difficulty_level, wps_level에 식 적용
+        (10 * (word_difficulty_level + wps_level) + word_difficulty_level) * weight(0.10417)
+        컬럼명 : content_level
+    """
+    def calculate_content_level(word_level, wps_level, weight):
+        return ((10 * (word_level + wps_level)) + word_level) * weight
+
+    normalization_level_df["content_level"] = normalization_level_df.apply(
+        lambda x: calculate_content_level(x["word_level"], x["wps_level"], 0.10417)
+    )
+
+    """
         netflix_contents 테이블 update
     """
 
@@ -139,7 +151,8 @@ def recalculate_normalization(conn):
             netflix_contents 
         set 
             word_difficulty_level = %s, 
-            words_per_second = %s 
+            words_per_second = %s,
+            content_level = %s
         where
             id = %s
     """
@@ -147,8 +160,9 @@ def recalculate_normalization(conn):
         id = int(index)
         word_level = row["word_level"]
         wps_level = row["wps_level"]
+        content_level = row["content_level"]
         try:
-            cursor.execute(update_nc_query, [word_level, wps_level, id])
+            cursor.execute(update_nc_query, [word_level, wps_level, content_level, id])
         except Exception as e:
             print(row["content_id"])
             print(int(row["content_id"]))
