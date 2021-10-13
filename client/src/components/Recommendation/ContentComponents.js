@@ -59,3 +59,11 @@ export const Image = styled.img`
     width: 240px;
 `
 
+export const Button = styled.button`
+    height: 100px;
+    width: 100px;
+`
+
+export const Input = styled.input`
+
+`

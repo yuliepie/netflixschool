@@ -1,4 +1,5 @@
-from flask_restx import Resource, Namespace, fields
+from flask import request
+from flask_restx import Resource, Namespace, fields, reqparse
 from netflixcool_server.models import NetflixContent, Sentence, ContentUniqueWord
 from sqlalchemy import and_
 import random
@@ -152,9 +153,23 @@ ranked_contents_fields = content_ns.model(
         "ranked_contents": fields.List(fields.Nested(ranked_content_fields))
     }
 )
-@content_ns.route("/<int:offset>/<int:limit>")
-@content_ns.param("offset", "start row")
-@content_ns.param("limit", "number of rows to return")
+
+parser = reqparse.RequestParser()
+parser.add_argument('offset', type=int)
+parser.add_argument('limit', type=int)
+parser.add_argument('sorting', type=int)
+parser.add_argument('minlevel', type=int)
+parser.add_argument('maxlevel', type=int)
+
+# @content_ns.route("/<int:offset>/<int:limit>/<int:sorting>")
+@content_ns.route("")
+@content_ns.doc(params={
+    'offset': 'start row',
+    'limit': 'number of rows to return',
+    'sorting': 'data sorting, 0: ascending, 1: decending',
+    'minlevel': 'min level for filtering',
+    'maxlevel': 'max level for filtering'
+})
 @content_ns.response(200, "success")
 @content_ns.response(404, "Contents not found")
 class Contents(Resource):
@@ -162,15 +177,30 @@ class Contents(Resource):
 
     @content_ns.doc("GET Ranked Netflix Contents")
     @content_ns.marshal_with(ranked_contents_fields)
-    def get(self, offset, limit):
+    @content_ns.expect(parser)
+    def get(self):
+
+        offset = int(request.args.get('offset'))
+        limit = int(request.args.get('limit'))
+        sorting = int(request.args.get('sorting'))
+        minlevel = int(request.args.get('minlevel'))
+        maxlevel = int(request.args.get('maxlevel'))
 
         # netflix_contents 테이블 select
-        filtered_netflix_contents = NetflixContent.query.filter().order_by(NetflixContent.content_level.desc()).offset(offset).limit(limit)
-        # netflix_contents 테이블의 총 row 개수 select
-        contents_max_count = NetflixContent.query.count()
+        filtered_netflix_contents = NetflixContent.query.filter(NetflixContent.content_level.between(minlevel, maxlevel))
+        if sorting == 0:
+            ordered_netflix_contents = filtered_netflix_contents.order_by(NetflixContent.content_level.asc())
+            print('asc')
+        else:
+            ordered_netflix_contents = filtered_netflix_contents.order_by(NetflixContent.content_level.desc())
+            print('desc')
+        limited_netflix_contents = ordered_netflix_contents.offset(offset).limit(limit)
+
+        # netflix_contents 테이블에서 필터링된 row 개수 select
+        contents_max_count = filtered_netflix_contents.count()
         
         netflix_contents = []
-        for row in filtered_netflix_contents:
+        for row in limited_netflix_contents:
             netflix_contents.append(
                 {
                     "id": row.id,
