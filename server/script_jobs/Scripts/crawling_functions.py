@@ -12,20 +12,52 @@ def crawling_vtt_download(search_title, release_year):
     # selenium option
     options = webdriver.ChromeOptions()
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    options.add_argument('--user-data-dir=user_data')
+    options.add_argument("--user-data-dir=C:/Users/admin/AppData/Local/Google/Chrome/User Data")
+    options.add_argument("--profile-directory=Profile 1")
     options.add_extension('./crawling/extension/dhdgffkkebhmkfjojejmpbldmpobfkfo.zip')
-    options.add_experimental_option('prefs', {'download.default_directory': r'/Users/hanbyul/Desktop/Elice AI Track/1차 팀 프로젝트/Netflixcool/server/script_jobs/crawling/temp_download'})
-    
+
     # TODO 창 숨기는 옵션 추가
     # options.add_argument("headless")
 
 
     # 크롬창 띄우고 확장프로그램 설치 동작
-    driver = webdriver.Chrome('./crawling/chromedriver', options=options)
-    driver.implicitly_wait(2)
-    driver.get('https://greasyfork.org/en/scripts/26654-netflix-subtitle-downloader')
-    sleep(2)
+    # Mac 용
+    # driver = webdriver.Chrome('./crawling/chromedriver', options=options)
+    # 윈도우 용
+    driver = webdriver.Chrome('./crawling/chromedriver.exe', options=options)
 
+    driver.implicitly_wait(2)
+    # driver.get('https://greasyfork.org/en/scripts/26654-netflix-subtitle-downloader')
+    # sleep(2)
+
+    # # 새로 생긴 탭 활성화
+    # driver.switch_to.window(driver.window_handles[-1])
+    # # 경고창을 지우기
+    # driver.close()
+    # # 이전의 탭 활성화
+    # driver.switch_to.window(driver.window_handles[0])
+    # driver.implicitly_wait(2)
+    
+    # # 스크립트 설치 페이지로 이동
+    # driver.find_element_by_css_selector('#install-area > a.install-link').send_keys(Keys.ENTER)
+    # driver.implicitly_wait(2)
+    # sleep(2)
+    # # 새로 생긴 탭 활성화
+    # driver.switch_to.window(driver.window_handles[-1])
+    # driver.implicitly_wait(2)
+    # # 스크립트 설치 버튼 누르기
+    # driver.find_element_by_id('input_JFhfdW5kZWZpbmVk_bu').send_keys(Keys.ENTER)
+    # driver.implicitly_wait(2)
+    # # 이전의 탭 활성화
+    # driver.switch_to.window(driver.window_handles[0])
+    # driver.implicitly_wait(2)
+
+    # justwatch에서 제목과 년도로 검색해서 넷플 id 받기
+
+    print(f'Crawling vtt download - {search_title} Search Netflix_id')
+    # justWatch 메인 페이지로 이동
+    driver.get(f'https://www.justwatch.com/')
+    sleep(2)
     # 새로 생긴 탭 활성화
     driver.switch_to.window(driver.window_handles[-1])
     # 경고창을 지우기
@@ -33,26 +65,6 @@ def crawling_vtt_download(search_title, release_year):
     # 이전의 탭 활성화
     driver.switch_to.window(driver.window_handles[0])
     driver.implicitly_wait(2)
-    
-    # 스크립트 설치 페이지로 이동
-    driver.find_element_by_css_selector('#install-area > a.install-link').send_keys(Keys.ENTER)
-    driver.implicitly_wait(2)
-    sleep(2)
-    # 새로 생긴 탭 활성화
-    driver.switch_to.window(driver.window_handles[-1])
-    driver.implicitly_wait(2)
-    # 스크립트 설치 버튼 누르기
-    driver.find_element_by_id('input_JFhfdW5kZWZpbmVk_bu').send_keys(Keys.ENTER)
-    driver.implicitly_wait(2)
-    # 이전의 탭 활성화
-    driver.switch_to.window(driver.window_handles[0])
-    driver.implicitly_wait(2)
-
-    # justwatch에서 제목과 년도로 검색해서 넷플 id 받기
-
-    print(f'Crawling vtt download - {search_title} Search Netflix_id')
-    # justWatch 메인 페이지로 이동
-    driver.get(f'https://www.justwatch.com/')
     # 검색창에 title year 적기
     driver.find_element_by_css_selector('#app > div.navbar.container-fluid.container-max-width.landing-page > div > div.navbar__wrapper > div.navbar__search > div > ion-searchbar > div > input').send_keys(f'{search_title}')
     driver.implicitly_wait(1)
@@ -102,6 +114,7 @@ def crawling_vtt_download(search_title, release_year):
     mouse_target = driver.find_element_by_css_selector('#appMountPoint > div > div > div.watch-video')
     actions.move_to_element(mouse_target).perform()
 
+    sleep(0.5)
     # 메뉴ㄹ 마우스오버해서 창 메뉴 띄우기
     mouse_target = driver.find_element_by_id('subtitle-downloader-menu')
     actions.move_to_element(mouse_target).perform()
@@ -160,12 +173,16 @@ def crawling_content_detail(justwatch_url, file_name, episode, netflix_id, file_
     # selenium option
     options = webdriver.ChromeOptions()
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    options.add_argument('--user-data-dir=user_data')
+    options.add_argument("--user-data-dir=C:/Users/admin/AppData/Local/Google/Chrome/User Data")
+    options.add_argument("--profile-directory=Profile 1")
 
     # TODO 창 숨기는 옵션 추가
     # options.add_argument("headless")
 
-    driver = webdriver.Chrome('./crawling/chromedriver', options=options)
+    # Mac 용
+    # driver = webdriver.Chrome('./crawling/chromedriver', options=options)
+    # 윈도우 용
+    driver = webdriver.Chrome('./crawling/chromedriver.exe', options=options)
     driver.implicitly_wait(2)
     driver.get(justwatch_url)
     driver.implicitly_wait(2)

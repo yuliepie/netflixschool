@@ -1,0 +1,812 @@
+start,end,script
+00:00:53.428,00:00:56.389,I know you but we've never met.
+00:00:58.183,00:00:59.434,I'm with you...
+00:01:00.769,00:01:02.395,But I don't know your name.
+00:01:05.273,00:01:06.483,I know I'm dreaming.
+00:01:07.317,00:01:09.069,But it feels like more than that.
+00:01:11.488,00:01:12.989,It feels like a memory.
+00:01:16.117,00:01:17.452,How can that be?
+00:01:27.962,00:01:30.381,"March 14th, 2077."
+00:01:31.424,00:01:37.138,"Five years since the mandatory memory wipe, and I'm still haunted by these dreams."
+00:01:40.517,00:01:42.477,Victoria and I were assigned together.
+00:01:43.186,00:01:47.524,"In two weeks, our mission here will be finished, and we'll join the others."
+00:01:48.525,00:01:50.735,"But the questions I ask, she doesn't."
+00:01:51.319,00:01:53.988,"The things I wonder about, she won't."
+00:01:55.657,00:01:59.035,It's been half a century since the scavengers destroyed our moon.
+00:01:59.410,00:02:03.206,"Forced to leave their own dying planet, they came to take ours."
+00:02:04.457,00:02:06.918,"Without the moon, the Earth was thrown into chaos."
+00:02:07.460,00:02:09.587,Earthquakes toppled cities within hours.
+00:02:10.588,00:02:12.757,Tsunamis wiped out what remained.
+00:02:13.466,00:02:15.176,Then came the invasion.
+00:02:16.511,00:02:18.221,We did what we had to do.
+00:02:19.180,00:02:20.515,We used the nukes.
+00:02:22.892,00:02:25.812,"We won the war, but lost the planet."
+00:02:26.604,00:02:27.856,Left it contaminated.
+00:02:28.314,00:02:29.899,Most of it uninhabitable.
+00:02:31.818,00:02:34.696,What remained of humanity had to leave the Earth.
+00:02:36.072,00:02:39.075,"We built the Tet, our mission control."
+00:02:40.034,00:02:45.123,"A temporary space station before the migration to Titan, Saturn's largest moon."
+00:02:45.707,00:02:47.000,Everyone's there now.
+00:02:47.959,00:02:50.169,"Well, almost everyone."
+00:02:51.671,00:02:54.966,"Until our tour is complete, Vika and I do our job."
+00:02:55.800,00:03:00.930,"We protect the hydro rigs, which convert Earth's sea water into fusion energy for the new colony."
+00:03:01.681,00:03:03.850,The survival of humanity depends on it.
+00:03:09.314,00:03:10.690,Thank you for the coffee.
+00:03:10.857,00:03:14.360,Remnants of the scavenger army continue to disrupt the operation.
+00:03:15.236,00:03:19.365,"They attack our drones at night, and try to kill me during the day."
+00:03:20.283,00:03:22.994,"There's still fight in them, but I don't know why."
+00:03:24.537,00:03:26.539,Mission says we have done well.
+00:03:27.457,00:03:29.918,That we are an effective team.
+00:03:40.887,00:03:42.639,Vika's my communications officer.
+00:03:43.306,00:03:44.891,She keeps an eye on me.
+00:03:46.100,00:03:47.810,I handle drone maintenance.
+00:03:48.770,00:03:50.480,The drones watch everything.
+00:03:52.273,00:03:55.777,"Vika can't wait to go. Me, I'm not so sure."
+00:03:57.737,00:04:01.866,"I can't shake the feeling that Earth, in spite of all that's happened..."
+00:04:02.533,00:04:04.661,Earth is still my home.
+00:04:30.728,00:04:32.313,"Jack Harper, Tech-49."
+00:04:59.465,00:05:00.675,"Morning, Bob."
+00:05:10.977,00:05:13.896,"Drone Maintenance Technician 49, hydro rig support."
+00:05:13.980,00:05:15.815,All Bubbleship systems are green.
+00:05:17.025,00:05:18.067,I'm good to go.
+00:05:18.151,00:05:20.445,"Copy, Tech-49, you're cleared. Be careful out there."
+00:05:20.695,00:05:22.488,"-Always am. -No, you're not."
+00:05:22.864,00:05:24.240,You're right.
+00:05:24.699,00:05:25.950,I gotta work on that.
+00:05:35.293,00:05:37.336,"All right, Tet's coming online in 30 seconds."
+00:05:37.420,00:05:39.130,Relaying hydro rig coordinates now.
+00:05:49.932,00:05:50.975,"You got 'em, Bob?"
+00:05:53.978,00:05:55.688,Drone 185 looks good.
+00:06:02.737,00:06:04.447,"Jack, we've got two drones down."
+00:06:05.948,00:06:06.949,Shit.
+00:06:07.116,00:06:08.743,Stand by. Mission coming online.
+00:06:15.708,00:06:16.834,"Morning, boss."
+00:06:18.336,00:06:20.463,"Tower 49, this is Mission Control."
+00:06:20.546,00:06:22.548,How y'all doing this lovely morning?
+00:06:22.799,00:06:24.342,"Another day in paradise, Sally."
+00:06:24.634,00:06:26.385,Uploading data now.
+00:06:27.178,00:06:30.598,"49 mission log. Day 1642, hydro rig support."
+00:06:30.723,00:06:32.809,-I have two-- -You have two drones offline.
+00:06:32.892,00:06:34.477,Perimeter's compromised.
+00:06:34.811,00:06:36.854,"Copy that, relaying to Tech. Stand by."
+00:06:38.731,00:06:42.235,"Jack, 166 is down in Grid 37."
+00:06:43.236,00:06:44.362,Linking to beacon now.
+00:06:44.779,00:06:46.364,You'll go there first.
+00:06:47.115,00:06:48.950,Got it. On my way.
+00:06:54.455,00:06:56.499,Can you plug that hole with Drone 109?
+00:06:56.582,00:06:58.709,"Negative, 109 is in the dock."
+00:06:58.793,00:07:00.086,Still waiting for parts.
+00:07:00.378,00:07:02.547,Jack better find those drones and get 'em flying.
+00:07:02.630,00:07:04.799,Those rigs can't be exposed overnight.
+00:07:05.842,00:07:06.843,Copy that.
+00:07:32.201,00:07:33.995,Jack has fixed all the drones recently.
+00:07:34.078,00:07:37.832,"And if we had the parts that we've been asking for, we wouldn't be running a skeleton crew down here."
+00:07:37.915,00:07:40.126,Understood. We're doing the best we can.
+00:07:40.209,00:07:41.461,Are you an effective team?
+00:07:42.003,00:07:43.504,We are an effective team.
+00:07:48.009,00:07:52.930,Your directive today is to rehabilitate 166 and find 172.
+00:07:53.222,00:07:57.351,"Get 'em flying by sundown, and I'll buy you two a round of drinks when you get up to the Tet."
+00:07:57.435,00:08:00.771,"You better be ready, Sally. Two weeks now, we're keeping track."
+00:08:02.648,00:08:03.524,Okay.
+00:08:05.526,00:08:07.570,"Come on, Bob. Work with me, here, buddy."
+00:08:15.411,00:08:16.662,Tech-49?
+00:08:18.039,00:08:19.207,Tech-49?
+00:08:22.877,00:08:25.338,"-Jack? -Copy, Tower."
+00:08:25.421,00:08:27.256,What happened? I lost you for a second.
+00:08:27.882,00:08:28.966,Really?
+00:08:44.815,00:08:45.816,There it is.
+00:08:46.692,00:08:48.444,I've got multiple scav kills.
+00:08:48.903,00:08:50.905,Drone 166 put up a hell of a fight.
+00:08:52.114,00:08:53.115,Got any movement?
+00:08:53.616,00:08:59.038,"No sign of scavenger activity, but I've got limited visibility here, Jack, due to low angle of Mission."
+00:09:00.540,00:09:01.916,I'm coming in hot.
+00:09:29.277,00:09:31.862,Starting repairs. Watch my back.
+00:09:33.906,00:09:35.199,I always do.
+00:09:57.930,00:09:59.807,"You know, I read about this game."
+00:10:03.060,00:10:04.645,It was played right here.
+00:10:05.938,00:10:07.440,The last Super Bowl.
+00:10:07.523,00:10:08.899,Please don't tell me it was a classic.
+00:10:09.317,00:10:10.526,A classic game.
+00:10:12.987,00:10:13.988,Down by four.
+00:10:16.490,00:10:20.161,The ball was on the 50-yard line.
+00:10:20.620,00:10:21.912,Seconds left on the clock.
+00:10:24.290,00:10:27.960,"The ball is snapped, and the QB fumbles."
+00:10:30.129,00:10:31.422,Disaster.
+00:10:32.673,00:10:34.258,Looks like the game is over.
+00:10:36.469,00:10:38.304,I'm reading the whole central core off-alignment.
+00:10:38.387,00:10:40.139,You don't have the necessary tools down there.
+00:10:40.222,00:10:41.891,And a new fuel cell is not going to fix that.
+00:10:45.436,00:10:47.021,-But this QB runs back... -Jack.
+00:10:47.104,00:10:48.397,...and picks up his own fumble.
+00:10:48.481,00:10:49.649,"Hold on, what did you just do?"
+00:10:49.732,00:10:52.193,There's a wall of linebackers closing in on him.
+00:10:54.278,00:10:58.658,"So, he throws a long ball with no idea who is at the other end."
+00:10:59.325,00:11:00.576,A Hail Mary.
+00:11:02.953,00:11:06.791,"Eighty-thousand people on their feet, watching this ball sail through the air."
+00:11:08.542,00:11:11.128,Downfield is a rookie.
+00:11:12.046,00:11:13.964,"Wide receiver, third string."
+00:11:14.673,00:11:16.801,He just leaps out of the pack.
+00:11:18.427,00:11:20.137,Touchdown!
+00:11:46.080,00:11:47.373,"It's okay, Vika."
+00:11:48.249,00:11:49.667,It's just a dog.
+00:11:58.926,00:12:00.594,"Now, go on. You gotta get out of here."
+00:12:03.305,00:12:05.057,Get out of here! Go!
+00:12:42.761,00:12:44.013,You're welcome.
+00:12:47.600,00:12:49.935,166 is back online.
+00:12:58.527,00:13:00.237,Two drones shot down today.
+00:13:00.321,00:13:02.573,Ten fuel cells stolen in just over a month.
+00:13:02.656,00:13:04.617,These scavs are getting bolder.
+00:13:07.620,00:13:10.581,"Once we're gone, they'll have nothing but dust and radiation."
+00:13:13.125,00:13:14.543,We won the war.
+00:13:15.878,00:13:17.296,Now we have to leave.
+00:13:19.757,00:13:21.300,"Two more weeks, Jack."
+00:13:21.967,00:13:24.053,Then we'll be on our way to Titan.
+00:13:25.804,00:13:26.805,Yep.
+00:13:28.098,00:13:29.850,That drone is out there somewhere.
+00:13:32.228,00:13:33.646,We just have to find it.
+00:13:34.396,00:13:37.316,"Without a beacon, that's like finding a needle in a haystack."
+00:15:29.720,00:15:32.973,"Tower, I've located 172."
+00:15:34.350,00:15:36.060,Down a sinkhole.
+00:15:36.685,00:15:38.479,"No visual, but I can hear it."
+00:15:38.896,00:15:41.106,"Tet's so far off angle, I can barely see you."
+00:15:41.190,00:15:42.191,How's it look?
+00:15:43.609,00:15:44.818,"It's good, it's good."
+00:15:45.069,00:15:46.904,There's no sign of scav activity on top.
+00:15:50.866,00:15:52.952,"After that, you're on your own."
+00:16:13.138,00:16:17.184,Jack has located drone 172. Engaged in recovery now.
+00:16:17.476,00:16:20.604,Requesting backup to his location ASAP.
+00:16:49.591,00:16:51.760,I've got a visual on Drone 172.
+00:17:59.953,00:18:01.580,What the hell?
+00:18:05.834,00:18:07.169,Shit.
+00:19:03.100,00:19:04.184,Ha!
+00:19:47.019,00:19:47.895,Jack!
+00:20:19.176,00:20:20.886,"Tech-49, Jack Harper."
+00:20:24.181,00:20:25.599,"Jack Harper, Tech-49!"
+00:20:28.018,00:20:29.019,Hey!
+00:21:15.315,00:21:16.566,"Oh, no."
+00:21:19.278,00:21:22.447,Come on. Not my goddamn bike!
+00:22:31.224,00:22:38.982,"For the ashes of his fathers And the temples of his Gods Yep, I'll be right there."
+00:22:58.668,00:23:00.545,-Can it fly? -Barely.
+00:23:01.838,00:23:04.424,"And without armor, she's a sitting duck."
+00:23:05.509,00:23:08.678,"Well, I'll talk to Sally about that shielding in the morning."
+00:23:08.762,00:23:10.013,-Okay. -Again.
+00:23:15.769,00:23:18.105,"What, Jack Harper?"
+00:23:26.780,00:23:28.156,Where did you get this?
+00:23:28.782,00:23:29.991,It was growing in...
+00:23:45.340,00:23:46.591,"Come on, Jack, you know the regulations."
+00:23:46.675,00:23:50.804,"I know you think I'm a stickler, but you have no idea what kind of toxins could be in something like that."
+00:23:52.139,00:23:53.140,"It's a flower, Vika."
+00:23:53.223,00:23:54.391,"Yeah, that's not the point."
+00:23:55.058,00:23:59.312,"It's that we are so close to the end, and the last thing that we need is you putting it all at risk."
+00:24:01.314,00:24:02.440,Okay.
+00:24:06.528,00:24:11.408,"Every day, you have to go down there and see what was lost."
+00:24:13.493,00:24:15.537,"But we've done our job, Jack."
+00:24:19.666,00:24:21.126,It's time to go.
+00:24:27.841,00:24:30.886,I don't think they were trying to kill me today.
+00:24:31.553,00:24:32.804,The scavs.
+00:24:38.226,00:24:39.728,They were trying to catch me.
+00:24:44.691,00:24:46.443,"Well, they can't have you."
+00:25:03.585,00:25:04.794,Come on.
+00:26:01.977,00:26:04.688,"You should come with me sometime, before we leave."
+00:26:06.648,00:26:09.276,There's a place I found I'd like to show you.
+00:26:17.826,00:26:19.411,"Oh. Hey, hey!"
+00:27:41.409,00:27:42.869,"Oh, my God."
+00:27:56.007,00:27:57.550,It's offline permanently.
+00:28:00.553,00:28:02.639,I need to know exactly what happened.
+00:28:05.600,00:28:07.227,and got it into the suction.
+00:28:10.688,00:28:14.609,"Tower, I've got a rogue signal in Grid 37. Are you seeing this?"
+00:28:15.068,00:28:16.361,Yes.
+00:28:18.822,00:28:20.115,It's not one of ours.
+00:28:20.365,00:28:24.411,"Jack, the signal is being directed off-planet."
+00:28:25.245,00:28:26.371,On my way.
+00:28:27.664,00:28:31.960,"Tower, our logs show you are missing an additional nine fuel cells."
+00:28:32.043,00:28:33.086,Can you confirm?
+00:28:33.169,00:28:34.879,"Negative, Mission, that number is ten."
+00:28:35.797,00:28:37.799,Drone 172 was lost last night.
+00:28:38.425,00:28:41.177,109 is combat-ready as soon as we get that shielding.
+00:28:42.303,00:28:44.139,We can cover the remaining rigs with drones in the field.
+00:28:44.222,00:28:45.265,I've run the numbers.
+00:28:45.348,00:28:47.392,"We'll do the numbers up here, Tower."
+00:28:47.475,00:28:49.728,I'm tasking the drones to defensive positions.
+00:28:50.645,00:28:51.646,Copy.
+00:28:51.730,00:28:55.066,Our job is to run those rigs. Your directive is to protect them.
+00:28:55.150,00:28:58.278,We cannot afford to lose another. Do you copy?
+00:28:58.903,00:28:59.904,Copy.
+00:29:00.196,00:29:02.031,Are you and Jack an effective team?
+00:29:02.157,00:29:03.324,"Damn right, we are."
+00:29:13.585,00:29:14.878,Jack?
+00:29:15.503,00:29:17.630,You're right on top of it. Do you have a visual?
+00:29:19.924,00:29:20.842,Jack?
+00:29:21.509,00:29:23.178,"Yeah, I got it."
+00:31:08.575,00:31:10.493,They have some kind of a repeater.
+00:31:11.953,00:31:15.748,The scavs are using the building as an antenna.
+00:31:16.249,00:31:17.333,Can you decrypt?
+00:31:24.632,00:31:25.884,Grid 17.
+00:31:26.467,00:31:27.969,It's a goddamn homing beacon.
+00:31:28.386,00:31:29.470,Grid 17.
+00:31:29.888,00:31:31.055,What the hell is out there?
+00:31:34.976,00:31:36.895,Nothing. It's the middle of nowhere.
+00:31:38.146,00:31:39.480,What is going on?
+00:31:40.231,00:31:43.151,"Why would the scavs send a signal off-planet, Jack?"
+00:31:46.070,00:31:47.363,I'm shutting it down.
+00:32:00.460,00:32:03.254,"Tech-49, check your course. You're headed right for the border."
+00:32:04.464,00:32:07.342,That radiation will cook you from the inside before you know it.
+00:32:12.680,00:32:16.309,I'm gonna do a perimeter check before I head home.
+00:32:17.977,00:32:19.312,I may go off-comm.
+00:32:20.355,00:32:22.607,"Jack, we should keep in contact. Just let me know where you are."
+00:32:24.317,00:32:25.652,Do you copy?
+00:32:27.153,00:32:28.613,"Jack, do you copy?"
+00:32:36.955,00:32:38.247,"That's right, Bob."
+00:32:39.666,00:32:41.209,You know where we're going.
+00:34:23.061,00:34:24.187,You gonna miss me?
+00:34:33.696,00:34:35.364,I'm gonna miss this place.
+00:34:37.075,00:34:38.409,It would have been great.
+00:34:46.751,00:34:48.002,It would have been great.
+00:35:57.488,00:35:59.198,An object came down in 17.
+00:35:59.323,00:36:00.783,That's the beacon coordinates.
+00:36:00.867,00:36:01.909,Exactly.
+00:36:01.993,00:36:03.828,I saw it. Some sort of vessel.
+00:36:03.911,00:36:05.580,"Jack, Mission's almost offline."
+00:36:05.663,00:36:06.956,I'm en route now.
+00:36:08.249,00:36:10.668,"Mission, we have an unidentified object impact in 17."
+00:36:10.835,00:36:13.087,It came down at coordinates sent by a scav beacon.
+00:36:13.171,00:36:14.255,My tech's en route now.
+00:36:14.338,00:36:18.718,"Tower, we're going offline soon, but drones are already mobile and executing."
+00:36:18.801,00:36:20.386,Have your tech stand down.
+00:36:20.803,00:36:21.929,Copy.
+00:36:22.680,00:36:24.807,"Jack, Mission wants you to stand down. The drones will handle it."
+00:36:26.767,00:36:28.686,"With Tet offline, we need our eyes on this."
+00:36:29.187,00:36:30.855,I want to know this site is secure.
+00:36:34.150,00:36:36.360,"Sally, my tech's concerned about the security of the site."
+00:36:36.444,00:36:38.738,"Tower, you have lost enough assets for today."
+00:36:38.821,00:36:41.032,Keep your tech out of there. Do you copy?
+00:36:41.115,00:36:42.617,"Copy, Command, I'm..."
+00:36:47.705,00:36:50.833,"Jack, Command wants you to stand down. The drones will handle this."
+00:36:53.044,00:36:54.128,Jack.
+00:36:54.212,00:36:56.297,I don't have eyes on you. Command's offline.
+00:36:57.048,00:36:59.342,"Vika, I think it's one of ours."
+00:37:02.470,00:37:04.055,This thing is ancient. It looks...
+00:37:05.014,00:37:06.057,Pre-war.
+00:37:06.390,00:37:08.434,"The scavs brought this thing down, Jack."
+00:37:08.768,00:37:10.186,There's no sign of scavs.
+00:37:10.269,00:37:11.729,"Technician, this is your Control."
+00:37:11.812,00:37:14.774,I'm ordering you to pull out and return to the tower immediately.
+00:37:16.484,00:37:17.735,Touching down.
+00:38:04.573,00:38:07.201,"Tower, we have got survivors."
+00:38:08.953,00:38:12.123,"There are four... Check it, five survivors."
+00:38:13.624,00:38:14.834,They are human.
+00:38:47.616,00:38:48.826,Stand down!
+00:38:49.035,00:38:50.953,"Vika, the drones are firing on survivors."
+00:38:51.037,00:38:52.246,"Jack, the Tet's offline."
+00:38:54.707,00:38:55.791,Stand down!
+00:39:23.110,00:39:24.236,Back off!
+00:40:31.303,00:40:32.638,Open the door.
+00:40:35.641,00:40:36.725,Vika!
+00:40:53.284,00:40:54.743,Get the med kit!
+00:41:08.966,00:41:10.092,This has to be reported.
+00:41:10.176,00:41:13.220,Be sure to report that the drones killed the crew from one of our own ships.
+00:41:13.596,00:41:14.805,See what Command makes of that.
+00:41:22.730,00:41:24.899,It's breathing fluid. Just let her get it out.
+00:42:04.021,00:42:05.856,Here. You're still dehydrated.
+00:42:21.455,00:42:22.831,Where are we?
+00:42:23.958,00:42:26.168,"I'm Victoria, this is Jack."
+00:42:35.177,00:42:36.470,I'm Julia.
+00:42:38.722,00:42:43.727,"I'm sorry for what I have to tell you, but you were in a crash."
+00:42:45.396,00:42:46.855,Your ship came down.
+00:42:48.274,00:42:50.401,Jack managed to pull you from the wreckage.
+00:42:52.194,00:42:53.696,But none of your crew survived.
+00:43:01.954,00:43:03.038,What do you mean?
+00:43:03.747,00:43:05.416,You're the only one that made it.
+00:43:08.961,00:43:10.337,I'm sorry.
+00:43:17.928,00:43:20.264,You've been in delta sleep for a long time.
+00:43:23.142,00:43:25.311,Some disorientation is normal.
+00:43:25.728,00:43:26.895,How long?
+00:43:31.400,00:43:32.776,Sixty years.
+00:43:33.152,00:43:34.320,At least.
+00:43:45.748,00:43:47.124,I have to get back to our ship.
+00:43:54.089,00:43:56.925,It's too dangerous down there. You need to rest.
+00:44:07.728,00:44:08.896,Vika...
+00:44:11.690,00:44:13.025,Don't touch me.
+00:44:17.071,00:44:21.241,Your ship's re-entry was triggered by a beacon from the surface.
+00:44:23.035,00:44:24.244,Do you know anything about that?
+00:44:33.837,00:44:35.297,What was your mission?
+00:44:37.883,00:44:39.009,It's classified.
+00:44:39.468,00:44:40.844,"Well, we have no record of an Odyssey..."
+00:44:40.928,00:44:43.681,I can't tell you anything until I get the flight recorder from my ship.
+00:44:44.223,00:44:47.476,"Julia, a lot has changed in 60 years."
+00:44:55.192,00:44:59.154,"While you were in delta sleep, Earth was attacked."
+00:45:00.906,00:45:02.282,Call them scavs.
+00:45:04.118,00:45:07.621,"They destroyed our moon and with that, half the planet."
+00:45:10.290,00:45:11.792,Then they invaded.
+00:45:12.543,00:45:16.338,"We won the war, but Earth was ruined."
+00:45:17.756,00:45:20.050,Everyone's on Titan now. It's a moon of Saturn.
+00:45:20.134,00:45:24.096,"Or on the space station, getting ready to go."
+00:45:26.390,00:45:29.017,We're here for security and drone maintenance.
+00:45:31.770,00:45:33.105,We're the mop-up crew.
+00:45:55.252,00:45:56.753,You've lost people.
+00:45:58.755,00:45:59.715,Everything.
+00:46:03.051,00:46:05.053,"If you want to be alone, we understand."
+00:46:17.816,00:46:20.777,The drones killed her entire crew.
+00:46:24.448,00:46:25.616,If I hadn't gotten there...
+00:46:25.699,00:46:27.117,I want her gone first thing.
+00:46:27.409,00:46:28.494,Vika...
+00:46:30.412,00:46:32.998,Do you have any memories before the mission?
+00:46:35.250,00:46:36.877,Before the security wipe?
+00:46:39.379,00:46:41.173,Our job is not to remember.
+00:46:43.509,00:46:44.635,Remember?
+00:46:45.469,00:46:46.887,Do you remember her?
+00:46:52.184,00:46:53.185,Jack...
+00:46:54.311,00:46:57.564,That was a scav beacon that brought her down.
+00:46:59.566,00:47:01.443,We don't know who she is.
+00:47:03.862,00:47:05.197,Or what she is.
+00:47:08.450,00:47:09.993,Let's just get through the night.
+00:47:10.911,00:47:11.912,Okay?
+00:47:50.784,00:47:52.077,You fly that thing?
+00:47:54.288,00:47:55.289,Yes.
+00:47:59.376,00:48:00.752,What happens now?
+00:48:03.589,00:48:05.257,The Tet will be online soon.
+00:48:05.882,00:48:08.468,Victoria will report your rescue.
+00:48:09.970,00:48:11.680,And they'll send someone down for you.
+00:48:13.515,00:48:14.766,From the Tet?
+00:48:16.018,00:48:17.144,Yes.
+00:48:21.064,00:48:23.233,I need to get the flight recorder from my ship.
+00:48:24.901,00:48:26.903,"The scavs, they move at night."
+00:48:28.030,00:48:30.616,-They could be all over it by now. -I need to know what happened.
+00:48:34.077,00:48:35.662,You need to know what happened.
+00:48:37.623,00:48:38.707,Please.
+00:49:02.606,00:49:03.690,Jack?
+00:49:04.232,00:49:06.068,"Jack, what are you doing?"
+00:49:06.318,00:49:07.819,"Vika, she's a flight officer."
+00:49:07.903,00:49:10.405,She wants to see her ship and secure the flight recorder.
+00:49:11.198,00:49:12.783,"Now, you would want the same thing."
+00:49:16.787,00:49:18.413,I can't protect you.
+00:49:21.958,00:49:23.377,"No, I understand."
+00:49:26.421,00:49:27.714,This one's on me.
+00:50:11.299,00:50:12.551,I couldn't save them.
+00:50:24.521,00:50:26.148,Jack. Jack!
+00:50:31.069,00:50:32.279,"Jack, can you hear me?"
+00:51:05.896,00:51:07.439,"All right, it's time to go."
+00:51:07.689,00:51:08.774,Jack.
+00:51:09.900,00:51:11.109,I found it.
+00:51:23.455,00:51:24.498,Jack!
+00:52:30.313,00:52:32.899,"Tower 49, how are y'all this lovely morning?"
+00:52:33.692,00:52:35.277,Another day in paradise.
+00:52:37.237,00:52:38.238,Sally...
+00:52:39.573,00:52:47.747,Jack took a pre-dawn patrol and went off-comm...
+00:52:50.166,00:52:52.502,Near the Canyons in 17.
+00:52:53.378,00:53:02.053,"Now, I know we're low on drones, but, erm, requesting one to sweep the area."
+00:53:05.473,00:53:06.850,Just a quick scout.
+00:53:07.851,00:53:12.397,"Copy 49, tasking 185 to Grid 22."
+00:53:50.685,00:54:14.626,"For the ashes of his fathers And the temples of his Gods I've been watching you, Jack."
+00:54:16.127,00:54:17.504,You're curious.
+00:54:18.672,00:54:20.674,What are you looking for in those books?
+00:54:22.300,00:54:24.219,Do they bring back old memories?
+00:54:25.261,00:54:26.888,You won't get anything from me.
+00:54:27.764,00:54:29.432,My memory has been wiped to protect...
+00:54:29.516,00:54:31.810,The security of the mission. Yes.
+00:54:33.937,00:54:38.149,"You can't have your precious memory falling into the wrong hands, now, can you?"
+00:54:39.693,00:54:40.860,Tell me.
+00:54:41.361,00:54:45.407,Have you ever met a scav up close?
+00:54:47.534,00:54:50.787,Of course not. You just repair drones.
+00:54:52.080,00:54:53.999,Don't go into the radiation zone.
+00:54:55.291,00:54:57.460,Don't ask too many questions.
+00:54:58.628,00:55:02.716,Not part of the job description.
+00:55:04.092,00:55:05.093,Lights.
+00:55:29.325,00:55:30.869,"We're not alien, Jack."
+00:55:31.828,00:55:32.954,We're human.
+00:55:34.164,00:55:36.791,"Of course, for us, being human is a problem."
+00:55:42.213,00:55:43.590,Old stealth fighter tech.
+00:55:43.673,00:55:45.300,Shields us from your scanners.
+00:55:45.967,00:55:47.302,Vocal scrambling.
+00:55:53.975,00:55:57.020,"Well, most of the time."
+00:55:57.937,00:56:00.607,"-The drones are programmed-- -To kill humans, Jack."
+00:56:01.024,00:56:03.443,You saw what they did to those sleep pods.
+00:56:04.444,00:56:07.906,You almost got yourself blown to bits protecting that woman.
+00:56:13.161,00:56:14.454,Why did you do that?
+00:56:15.914,00:56:17.123,Anyone would have.
+00:56:17.707,00:56:18.958,Anyone.
+00:56:20.585,00:56:21.586,Interesting.
+00:56:23.880,00:56:25.298,The drone will track him here.
+00:56:27.926,00:56:30.553,He thinks I'm a fool for having brought you here.
+00:56:37.268,00:56:39.062,I hope you prove him wrong.
+00:56:50.698,00:56:53.284,"Mission, I'm picking up a bio trail somewhere near the west canyons."
+00:56:53.368,00:56:54.828,Can you confirm the sequence?
+00:56:54.911,00:56:56.121,Stand by.
+00:56:58.289,00:57:00.291,DNA confirmed. It's Jack.
+00:57:05.380,00:57:07.674,Everything good between you two?
+00:57:08.091,00:57:09.300,Of course.
+00:57:09.592,00:57:11.719,You're still an effective team?
+00:57:12.220,00:57:13.471,We're great.
+00:57:15.598,00:57:16.683,Never better.
+00:57:19.352,00:57:21.438,"So, we decided, What the hell?"
+00:57:21.521,00:57:23.314,We've got to throw the long ball.
+00:57:24.274,00:57:27.193,It took us decades just to crack the GPS codes.
+00:57:27.902,00:57:29.696,That's how you brought down the Odyssey.
+00:57:32.740,00:57:33.741,Why?
+00:57:39.164,00:57:40.915,Very hard to come by.
+00:57:43.209,00:57:44.836,Did you like the show last night?
+00:57:48.673,00:57:50.800,That was just one fuel cell.
+00:57:52.218,00:57:58.349,"Imagine what ten of them will do, with a core of weapons-grade plutonium."
+00:57:59.642,00:58:05.690,"We have a nuke, and we have a drone to carry it, but we can't access it."
+00:58:06.524,00:58:07.942,It doesn't know who we are.
+00:58:10.278,00:58:11.863,"But it knows you, Jack."
+00:58:19.454,00:58:21.539,We need you to program the drone.
+00:58:22.916,00:58:25.210,Have it carry our nuke up to the Tet.
+00:58:31.508,00:58:32.884,End this war.
+00:58:37.013,00:58:38.473,There are people up there.
+00:58:40.892,00:58:41.893,Sergeant.
+00:58:42.352,00:58:44.812,Program the drone to return to the Tet.
+00:58:46.731,00:58:48.608,It needs to go right to the center.
+00:58:51.277,00:58:52.570,Screw you.
+00:58:55.615,00:58:56.616,We haven't got time for this.
+00:59:22.475,00:59:23.518,Hey. Hey!
+00:59:35.488,00:59:36.489,No.
+01:00:41.304,01:00:43.681,"Mission, 185 just went off-grid."
+01:00:43.765,01:00:45.808,"Copy, Tower, we're seeing the same thing."
+01:00:45.892,01:00:48.019,Permission to task two additional drones?
+01:00:49.312,01:00:52.607,"If one drone is here, more will come."
+01:00:53.816,01:00:55.693,And they won't stop until they find me.
+01:00:56.527,01:00:58.363,They'll turn this place to dust.
+01:00:59.489,01:01:02.116,"But if you let us go, I'll call them off."
+01:01:07.330,01:01:08.539,It's your only chance.
+01:01:23.638,01:01:25.056,I've been to your...
+01:01:26.265,01:01:28.017,Radiation zones.
+01:01:29.519,01:01:34.357,"If you're looking for the truth, that's where you'll find it."
+01:01:48.621,01:01:51.749,You've risked all our lives. Everything.
+01:01:52.542,01:01:54.460,What makes you think he's different?
+01:01:56.629,01:01:57.755,She does.
+01:02:58.107,01:02:59.442,You can call off the search.
+01:03:02.445,01:03:05.072,Tasking the other drones back to rig support.
+01:03:28.971,01:03:30.640,Where are we going now?
+01:03:33.309,01:03:34.519,Who are you?
+01:03:37.939,01:03:39.440,What aren't you telling me?
+01:03:41.067,01:03:42.527,"Jack, I..."
+01:03:42.610,01:03:44.278,What were you doing on the Odyssey?
+01:03:45.363,01:03:46.697,What was your mission?
+01:03:50.326,01:03:52.328,It was a research flight to Titan.
+01:03:52.912,01:03:54.205,My first.
+01:03:55.039,01:03:57.083,That's what it was supposed to be.
+01:04:00.044,01:04:04.090,"Six weeks to launch, deep space scanners picked up an alien object."
+01:04:04.841,01:04:06.801,We were reassigned to investigate.
+01:04:08.135,01:04:09.512,They put us all in delta.
+01:04:09.595,01:04:13.057,They must have woken you and Victoria first.
+01:04:18.104,01:04:19.105,What?
+01:04:19.397,01:04:23.067,"That object was the Tet, Jack."
+01:04:24.277,01:04:26.904,The Tet was our mission.
+01:04:30.700,01:04:32.368,That's impossible.
+01:04:33.870,01:04:35.162,That's impossible!
+01:04:36.038,01:04:37.707,Who are you?
+01:04:41.085,01:04:42.503,I'm your wife.
+01:04:47.758,01:04:52.013,"I don't know what happened, but you're not who you think you are."
+01:05:00.897,01:05:02.315,"Jack, we were here."
+01:05:04.442,01:05:08.487,"You asked me to meet you, brought me up on top of the world."
+01:05:14.160,01:05:16.287,I could tell you were nervous that day.
+01:05:17.496,01:05:19.248,"It was right here, Jack."
+01:05:24.879,01:05:28.257,"You said, Look through here..."
+01:05:34.055,01:05:35.556,And I held up a ring.
+01:05:56.452,01:05:57.578,And you said...
+01:05:57.954,01:05:59.163,Yes.
+01:06:06.671,01:06:07.964,There you are.
+01:06:10.841,01:06:12.301,There you are.
+01:06:37.159,01:06:38.160,Hi.
+01:06:38.536,01:06:39.787,Hello.
+01:06:43.082,01:06:44.041,Come on.
+01:07:50.816,01:07:53.402,Do not report to Mission until I get back. Do you copy?
+01:07:55.738,01:07:57.031,Do you copy?
+01:08:14.298,01:08:16.425,"Vika, open the door."
+01:08:16.801,01:08:18.344,Stay away from me.
+01:08:20.221,01:08:21.722,I don't want to hear it.
+01:08:22.223,01:08:25.559,"It's not safe here, and we need to leave, now."
+01:08:29.480,01:08:30.815,It was always her.
+01:08:34.318,01:08:35.444,Wasn't it?
+01:08:36.737,01:08:37.822,Vika...
+01:08:43.619,01:08:45.204,She's my wife.
+01:09:01.011,01:09:03.139,"Mission, this is Tower 49."
+01:09:05.307,01:09:06.308,No.
+01:09:07.226,01:09:09.270,I'm having a problem with my technician.
+01:09:09.353,01:09:11.147,"No, you don't know what you're doing."
+01:09:11.230,01:09:12.898,He found a survivor at the crash site.
+01:09:12.982,01:09:13.983,You've gotta listen to me.
+01:09:14.066,01:09:19.071,"She's impeding his abilities, and he's unfit for service."
+01:09:19.446,01:09:20.823,"No, no, no."
+01:09:24.118,01:09:26.036,Are you still an effective team?
+01:09:26.954,01:09:28.164,Vika...
+01:09:28.289,01:09:29.915,"Open the goddamn door, Vika!"
+01:09:30.416,01:09:31.458,No.
+01:09:35.838,01:09:37.631,We are not an effective team.
+01:09:59.820,01:10:00.946,"Vika, please."
+01:10:01.363,01:10:02.865,We have to go now.
+01:10:03.199,01:10:05.451,"I'm not... I'm not going anywhere with you, Jack."
+01:10:05.534,01:10:08.996,There's a place I know. We'll be safe.
+01:10:09.955,01:10:11.248,I'm going to Titan.
+01:10:13.959,01:10:14.960,There is no Titan.
+01:10:15.920,01:10:17.379,They lied to us.
+01:10:19.924,01:10:23.677,"Vika, please, there are things..."
+01:10:24.178,01:10:25.471,Things you need to know.
+01:10:25.554,01:10:26.931,I don't want to know!
+01:10:31.769,01:10:32.770,Jack...
+01:11:12.601,01:11:16.105,"Hi, Jack. I don't believe we've had the pleasure."
+01:11:17.898,01:11:19.149,What have you done?
+01:11:19.483,01:11:23.195,You can't blame yourself for this. Drones are unreliable.
+01:11:23.404,01:11:25.114,Sometimes things go wrong.
+01:11:26.323,01:11:27.574,Go wrong?
+01:11:30.869,01:11:32.162,You killed her.
+01:11:32.371,01:11:34.581,"I know, it's tragic."
+01:11:34.999,01:11:36.834,She was a wonderful person.
+01:11:37.418,01:11:39.962,"Jack, we want to bring you in."
+01:11:41.171,01:11:45.217,I've been authorized to tell you we're going to assign you a new mission.
+01:11:45.926,01:11:47.553,You and the survivor.
+01:11:54.393,01:11:57.396,There's a lot of interest up here. Bring her up.
+01:11:57.771,01:12:00.399,"We can debrief, then anything's possible."
+01:12:01.734,01:12:03.736,"It's time to come home, Jack."
+01:12:05.279,01:12:06.488,Jack?
+01:12:07.489,01:12:08.574,Jack?
+01:12:19.960,01:12:20.961,Jack...
+01:12:23.714,01:12:25.049,I'm sorry.
+01:12:37.686,01:12:38.687,Hang on.
+01:13:00.042,01:13:01.043,Lightning.
+01:13:01.543,01:13:02.544,That's the plan.
+01:13:38.288,01:13:39.373,We need cover.
+01:13:39.873,01:13:40.916,There.
+01:15:28.524,01:15:30.192,-Are you okay? -No.
+01:15:41.161,01:15:42.663,"Don't worry, we're staying out of there."
+01:15:52.256,01:15:53.257,Are we gonna die?
+01:15:53.423,01:15:54.424,No!
+01:15:57.970,01:15:58.971,Maybe.
+01:16:00.264,01:16:01.598,Jack!
+01:16:41.513,01:16:43.140,Son of a bitch.
+01:16:51.565,01:16:52.566,Wait here.
+01:18:12.479,01:18:13.605,Hey!
+01:18:14.564,01:18:15.691,Wait!
+01:18:16.566,01:18:17.609,Wait!
+01:18:18.276,01:18:19.403,Hey!
+01:18:38.213,01:18:39.506,Drop your weapon!
+01:18:55.272,01:18:56.648,It's okay.
+01:19:00.402,01:19:01.570,Don't move!
+01:19:05.282,01:19:07.868,We have to shut that drone down.
+01:19:10.245,01:19:11.246,Stop moving!
+01:20:19.314,01:20:20.440,It's okay.
+01:20:42.003,01:20:43.213,Julia.
+01:20:45.632,01:20:46.800,Julia!
+01:20:57.978,01:20:59.229,Don't touch me.
+01:21:17.622,01:21:18.957,Hold on.
+01:21:19.624,01:21:21.084,Just hold on.
+01:21:52.365,01:21:55.118,"Jack Harper, Tech-52."
+01:23:04.938,01:23:06.106,Hey.
+01:23:06.773,01:23:08.024,There you are.
+01:23:12.404,01:23:13.822,What happened? Are you okay?
+01:23:14.489,01:23:16.866,That bogey came across the border and then I lost you.
+01:23:20.286,01:23:21.287,False alarm.
+01:23:26.084,01:23:27.210,I should get back out there.
+01:23:28.044,01:23:30.130,"You come all the way home, and I don't get a kiss?"
+01:23:42.017,01:23:43.518,What's going on up there?
+01:23:45.311,01:23:46.730,I was thinking...
+01:23:48.440,01:23:50.150,Why don't you come down with me?
+01:23:50.942,01:23:52.318,To the surface?
+01:23:53.778,01:23:55.363,We could go right now.
+01:23:58.283,01:23:59.325,Yeah.
+01:24:00.118,01:24:01.453,Are you serious?
+01:24:02.120,01:24:04.330,You won't believe what's down there.
+01:24:09.169,01:24:10.420,Jack...
+01:24:11.713,01:24:13.339,You know the regulations.
+01:24:14.466,01:24:15.550,Yes.
+01:24:17.552,01:24:20.305,Can we not do this again? I'm done talking about it.
+01:24:23.808,01:24:25.060,Okay.
+01:25:14.025,01:25:15.527,This is gonna hurt.
+01:25:26.955,01:25:28.665,"Hell of a day, huh, Bob?"
+01:26:54.876,01:26:56.419,You always loved this song.
+01:27:00.840,01:27:02.050,I'm not him.
+01:27:05.386,01:27:06.721,I know I'm not.
+01:27:10.558,01:27:12.060,But I've loved you...
+01:27:15.104,01:27:16.940,For as long as I can remember.
+01:27:18.816,01:27:20.652,I don't know how else to say it.
+01:27:26.741,01:27:28.409,You know what you said to me once?
+01:27:30.995,01:27:34.082,"You said when it was all over, you'd build me a house on a lake."
+01:27:37.961,01:27:41.089,We'd grow old and fat together.
+01:27:43.174,01:27:44.550,And we would fight.
+01:27:45.969,01:27:47.470,Maybe drink too much.
+01:27:55.478,01:27:57.563,And then we would die...
+01:27:59.357,01:28:01.484,And be buried in a meadow by the lake.
+01:28:04.654,01:28:06.698,And the world would forget about us.
+01:28:11.286,01:28:13.079,But we would always have each other.
+01:28:16.916,01:28:18.126,I remember.
+01:28:20.295,01:28:22.297,"Those memories are yours, Jack."
+01:28:24.465,01:28:25.675,They're ours.
+01:28:28.011,01:28:29.012,They are you.
+01:29:31.282,01:29:32.492,Good morning.
+01:29:38.831,01:29:40.875,I wanted to spend the rest of my life here.
+01:29:43.211,01:29:44.253,You still can.
+01:29:48.508,01:29:49.717,I have to go.
+01:29:50.885,01:29:52.720,Those people need my help.
+01:30:00.103,01:30:01.771,We'll come back when it's over.
+01:30:04.023,01:30:05.191,Promise me.
+01:30:07.568,01:30:09.153,We'll come back when it's over.
+01:30:46.482,01:30:48.234,You had me worried for a second.
+01:30:50.111,01:30:51.904,I thought you weren't coming back.
+01:30:55.074,01:30:56.701,"Well, I had to prove him wrong."
+01:31:00.037,01:31:01.247,You look like shit.
+01:31:04.250,01:31:05.793,You should see the other guy.
+01:31:06.043,01:31:09.547,"If I had told you what you'd find out there, you would have thought I was crazy."
+01:31:11.132,01:31:12.425,I still do.
+01:31:14.677,01:31:15.720,Malcolm Beech.
+01:31:16.053,01:31:17.054,Julia Harper.
+01:31:25.688,01:31:26.814,Come on.
+01:31:34.864,01:31:35.948,somewhere near the west canyons.
+01:31:36.032,01:31:37.450,Can you confirm the sequence?
+01:31:40.494,01:31:42.371,"DNA confirmed, it's Jack."
+01:31:47.001,01:31:49.003,"Copy, Tower. We're seeing the same thing."
+01:31:59.597,01:32:03.226,I'd been in the army less than a year when that unholy Tet arrived.
+01:32:05.186,01:32:06.729,I saw the moon get taken out.
+01:32:07.313,01:32:09.065,Right up there in the night sky.
+01:32:11.484,01:32:12.610,I couldn't believe it.
+01:32:14.487,01:32:16.572,"After that, nature took over."
+01:32:18.324,01:32:23.537,"There's bedrock around Chicago, so we were spared the worst of the waves and the quakes."
+01:32:26.040,01:32:27.750,Most people just starved.
+01:32:29.710,01:32:31.754,Then the Tet sent troop ships down.
+01:32:32.964,01:32:37.343,"The doors opened, and out you came."
+01:32:39.428,01:32:41.347,Astronaut Jack Harper.
+01:32:43.349,01:32:44.767,Thousands of you.
+01:32:47.853,01:32:49.105,Memory wiped.
+01:32:51.274,01:32:52.525,Programmed to kill.
+01:32:54.652,01:32:59.532,They had taken one of our best and turned him against us.
+01:33:03.369,01:33:04.578,No soul.
+01:33:07.164,01:33:08.374,No humanity.
+01:33:12.586,01:33:13.713,The Tet.
+01:33:15.464,01:33:17.049,What a brilliant machine.
+01:33:18.926,01:33:22.263,Feeding off one planet after another for energy.
+01:33:24.140,01:33:26.767,Phase Two was drones.
+01:33:27.435,01:33:28.686,Repairmen.
+01:33:29.812,01:33:35.359,Fifty years of watching those hydro rigs suck our planet dry.
+01:33:38.195,01:33:43.576,"Then one day, I saw you set down."
+01:33:45.244,01:33:46.620,Another drone to fix.
+01:33:48.622,01:33:51.959,But in the rubble that day was a book.
+01:33:53.753,01:33:55.171,You picked it up.
+01:33:56.088,01:33:57.256,You studied it.
+01:33:59.800,01:34:02.845,And I thought I saw a way.
+01:34:05.639,01:34:11.020,"When you stepped in front of that drone and saved her, I knew."
+01:34:12.480,01:34:14.648,You were in there somewhere.
+01:34:16.233,01:34:19.028,I just had to find a way to bring you back.
+01:34:45.262,01:34:46.889,Eyes on it. Steady.
+01:34:49.809,01:34:51.227,"Come on, you're making it nervous."
+01:34:55.022,01:34:56.941,That is one pissed-off weapon.
+01:34:58.359,01:35:00.903,"No, it's just a machine."
+01:35:04.907,01:35:06.367,I'm the weapon.
+01:35:21.215,01:35:25.761,"Oh, I would love to be there to see that thing's face when this goes off."
+01:35:26.554,01:35:28.222,That would be a one-way trip.
+01:35:28.889,01:35:32.059,"Yeah, but it'd be worth it."
+01:35:50.828,01:35:52.413,"Welcome back, Commander."
+01:36:33.329,01:36:34.538,Open the doors!
+01:37:00.731,01:37:01.732,Shit!
+01:37:02.024,01:37:03.025,Spread out!
+01:38:45.628,01:38:47.880,"Come on, you son of a bitch!"
+01:40:51.003,01:40:52.129,Jack.
+01:40:58.552,01:40:59.845,I'm okay.
+01:41:20.783,01:41:21.992,The drone.
+01:41:22.785,01:41:24.119,Send the drone.
+01:41:28.916,01:41:30.125,It's gone.
+01:41:32.753,01:41:34.338,I thought we had it.
+01:41:36.089,01:41:37.424,I really did.
+01:41:39.343,01:41:41.053,I can take the bomb myself.
+01:41:41.970,01:41:43.096,Ah...
+01:41:44.097,01:41:46.183,You know it will swat you like a fly.
+01:41:47.100,01:41:48.310,Not if I go.
+01:41:51.522,01:41:52.731,No.
+01:41:54.107,01:41:55.859,She asked you to bring me up.
+01:41:58.111,01:41:59.321,So bring me up.
+01:42:02.658,01:42:04.117,We'll go together.
+01:42:20.509,01:42:22.135,It reminds me of home.
+01:42:33.146,01:42:34.314,Ready?
+01:43:12.728,01:43:13.770,Jack.
+01:43:18.317,01:43:19.526,Dream of us.
+01:44:26.635,01:44:27.970,for the Odyssey mission.
+01:44:28.428,01:44:30.472,"3 May, 2017."
+01:44:31.098,01:44:32.307,"Okay, Bob."
+01:44:33.600,01:44:34.893,Ready for space?
+01:44:52.160,01:44:54.204,Thank you for that fantastic wake-up call.
+01:44:54.788,01:44:56.164,Pre-rendezvous checks complete.
+01:44:56.248,01:44:58.917,"Electrical guidance and nav systems, all good."
+01:44:59.793,01:45:02.796,"Range behind object, 250 clicks..."
+01:45:03.171,01:45:06.466,"12 below V-bar, closure rate 200 kilometers per hour."
+01:45:10.012,01:45:12.973,"After 39 days of sleep, sounds like you're ready to go."
+01:45:13.724,01:45:15.142,"Oh, I'm ready to go."
+01:45:17.602,01:45:20.689,"and co-speed at 50 kilometer range, where you'll hold."
+01:45:21.481,01:45:25.318,Copy. We'll hold 50 clicks from object for sensor scan and evaluation.
+01:45:26.319,01:45:27.529,Targets look good.
+01:45:27.988,01:45:31.158,"Initiating burn in three, two, one..."
+01:45:31.324,01:45:32.367,Ignition.
+01:45:37.748,01:45:40.208,Are you reading any output from the object?
+01:45:40.542,01:45:41.543,Negative.
+01:45:41.626,01:45:43.295,Zero heat. No EMR.
+01:45:44.296,01:45:45.630,There's no sign of life.
+01:45:45.714,01:45:47.382,How is the rest of the crew doing?
+01:45:47.883,01:45:50.177,Co-pilot Victoria Olsen should be up here shortly.
+01:45:50.260,01:45:53.055,The rest of the crew remains in delta sleep.
+01:45:53.889,01:45:55.015,Copy that.
+01:45:55.098,01:45:57.267,You missed a hell of a game last night.
+01:45:57.726,01:46:00.729,What did I tell you guys? No spoilers about last night's game.
+01:46:00.812,01:46:02.898,I'm looking forward to watching it when I get back.
+01:46:03.356,01:46:04.983,"You're not talking about football already, are you?"
+01:46:07.778,01:46:09.946,How are you doing this lovely morning?
+01:46:10.155,01:46:11.782,Another day in paradise.
+01:46:13.241,01:46:14.242,Hey.
+01:46:19.247,01:46:20.248,One for history.
+01:46:38.517,01:46:39.684,"Hello, Sally."
+01:46:41.394,01:46:43.230,"It's a busy morning, huh?"
+01:46:43.730,01:46:46.399,"I'm picking up a second passenger, Jack."
+01:46:50.362,01:46:55.826,"It's Julia Rusakova, the female survivor from the crashed module."
+01:46:56.743,01:46:58.453,State your intention.
+01:46:59.704,01:47:02.666,"Deliver the survivor, as requested."
+01:47:03.708,01:47:05.210,We are...
+01:47:07.420,01:47:09.131,A more effective team.
+01:47:10.841,01:47:12.425,Proceed to entry.
+01:47:20.600,01:47:27.023,"The last burn was spot-on to give us a 50-click hold from object, but radar range still decreasing."
+01:47:27.440,01:47:29.609,We're accelerating toward the object.
+01:47:30.402,01:47:31.945,We're going to need full OMS burn to pull away.
+01:47:32.028,01:47:33.572,-Initiate now. -Entering target.
+01:47:36.116,01:47:37.492,-Gimbals set. -Target's good.
+01:47:37.576,01:47:38.493,Arm forward engines.
+01:47:38.827,01:47:40.245,-Engines on. -Ready?
+01:47:40.412,01:47:41.621,Let's go.
+01:47:51.298,01:47:53.550,"Mission, we're in full OMS burn, trying to back out."
+01:47:54.634,01:47:55.886,There's a lot of vibration.
+01:47:57.304,01:47:58.680,We're not getting away from this thing.
+01:47:58.889,01:48:01.474,"Odyssey, telemetry shows structural overstress."
+01:48:01.558,01:48:03.685,Knock off the burn. Do you copy?
+01:48:04.144,01:48:05.145,Cutting off burn.
+01:48:07.856,01:48:09.191,Mission.
+01:48:10.150,01:48:11.443,-Mission? -Mission?
+01:48:11.776,01:48:12.861,Sally?
+01:48:14.112,01:48:15.739,Increased acceleration toward the object.
+01:48:16.156,01:48:18.033,Estimated contact within two minutes.
+01:48:23.788,01:48:25.540,I'm going to eject the sleep module.
+01:48:26.458,01:48:28.418,It's programmed for reinsertion into Earth orbit.
+01:48:28.501,01:48:30.962,I'll fly Command module out if I break free.
+01:48:31.671,01:48:33.423,-I want you back there now. -Absolutely not.
+01:48:33.506,01:48:35.842,"-That's an order! -Jack, no, we're a team."
+01:49:04.120,01:49:05.580,Dream of us.
+01:49:47.122,01:49:48.123,Jack...
+01:50:08.893,01:50:10.228,Entering at headway.
+01:50:29.956,01:50:31.708,Don't go all shaky on me.
+01:51:08.244,01:51:11.498,your respiration and heart rate have increased.
+01:51:12.791,01:51:15.001,"I'm just excited to finally meet you, Sally."
+01:51:15.460,01:51:20.006,There's been a pattern of insubordinate behavior recently.
+01:51:21.466,01:51:22.759,Yeah.
+01:51:23.551,01:51:24.969,I feel bad about that.
+01:51:26.679,01:51:30.475,"Voice analysis indicates you are lying to me, Jack."
+01:51:30.642,01:51:32.060,Tell me why you are here.
+01:51:32.519,01:51:33.978,You have five seconds.
+01:51:41.444,01:51:43.113,I want Julia to live.
+01:51:44.948,01:51:46.825,I want our species to survive.
+01:51:49.661,01:51:51.079,This is the only way.
+01:51:57.335,01:52:00.255,Proceed to landing. Atmosphere provided.
+01:53:15.330,01:53:16.331,Come on.
+01:53:25.215,01:53:27.759,but I'd like to tell you about something I read.
+01:53:29.177,01:53:35.058,"A story from Rome, a city you destroyed."
+01:53:36.643,01:53:37.936,It's a classic.
+01:53:39.187,01:53:45.652,"There was a guy, Horatius, held the bridge alone against a whole army."
+01:53:46.486,01:53:51.157,"And what Horatius said was, How can a man die better..."
+01:53:53.868,01:53:55.620,She doesn't have to die.
+01:53:56.079,01:53:57.580,"Everybody dies, Sally."
+01:53:58.623,01:53:59.999,The thing is to die well.
+01:54:10.426,01:54:13.263,that's not the survivor you promised me.
+01:54:14.514,01:54:16.015,"No, it's not."
+01:54:39.080,01:54:45.712,"What Horatius said was, How can a man die better..."
+01:54:48.006,01:54:54.345,Than facing fearful odds Drones! Get inside! Get inside!
+01:55:00.143,01:55:08.318,And the temples of his Gods I am your God.
+01:55:20.955,01:55:22.206,"Fuck you, Sally."
+01:56:20.264,01:56:22.850,Three years have passed since I saw your face.
+01:56:24.852,01:56:28.189,"I wonder if I come to you at night, in dreams."
+01:56:29.399,01:56:32.068,"In the day, as memories."
+01:56:34.153,01:56:37.615,Do I haunt your hours the way you haunted mine?
+01:56:40.451,01:56:43.871,And I wonder if you see me when you look at her.
+01:56:56.342,01:56:57.635,"Mommy, look."
+01:57:06.185,01:57:07.854,they are made of the love we share.
+01:57:11.607,01:57:13.151,Undimmed by time.
+01:57:15.028,01:57:16.612,Unbound by death.
+01:57:35.048,01:57:38.342,"For three years, I searched for the house he built."
+01:57:40.470,01:57:41.679,I knew it had to be out there.
+01:57:45.725,01:57:47.143,Because I know him.
+01:57:55.860,01:57:57.195,I am him.
+01:58:00.073,01:58:01.074,Who's that?
+01:58:09.582,01:58:10.917,I am Jack Harper.
+01:58:13.461,01:58:14.629,And I am home.

@@ -5,6 +5,8 @@ import zipfile
 import shutil
 import pandas as pd
 import boto3
+from time import sleep
+
 
 s3 = boto3.resource("s3")
 
@@ -122,15 +124,17 @@ def file_unzip_and_vtt_to_csv(input_year):
     
     # 압축 파일 제목 받기
     file_title = most_recent_fille_path.split('/')[-1]
-
     #  방금 다운로드한 파일을 압축 해제
     fantasy_zip = zipfile.ZipFile(most_recent_file)
     if len(fantasy_zip.namelist()) == 0:
-        os.remove(most_recent_file)
         print('압축파일이 비었음')
+        fantasy_zip.close()
+        os.remove(most_recent_file)
         return False
+    
     os.makedirs(most_recent_fille_path)
     fantasy_zip.extractall(most_recent_fille_path)
+
 
     fantasy_zip.close()
 
