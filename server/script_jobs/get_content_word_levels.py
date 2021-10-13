@@ -45,10 +45,12 @@ if len(sys.argv) == 2 and sys.argv[1] == "all":
 select_netflix = "SELECT nc.id, nc.title, nc.release_year FROM netflix_contents nc"
 where_no_word_levels = """ INNER JOIN content_word_levels cwl ON nc.id = cwl.content_id WHERE cwl.level_1 = -1
 """
+top100 = " LIMIT 100"
 
 select_query = select_netflix
 if not update_all:
     select_query = select_query + where_no_word_levels
+select_query = select_query + top100
 
 cursor.execute(select_query)
 contents_to_update = list(cursor.fetchall())

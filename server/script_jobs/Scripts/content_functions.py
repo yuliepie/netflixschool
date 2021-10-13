@@ -2,6 +2,7 @@ import pandas as pd
 import re
 from nltk.corpus import wordnet
 import requests
+import sys
 
 
 # ====================
@@ -63,6 +64,9 @@ def check_word_type_api(word):
     keyword = str(word)
     url = "https://wordtype.org/api/senses?term=" + keyword
     res = requests.get(url, headers=headers)
+    if res.status_code != 200:
+        print("API Status code not 200.")
+        sys.exit(2)
     results = res.json()
     try:
         if len(results) == 0:
@@ -84,7 +88,9 @@ def check_word_type_api(word):
         else:
             return False
     except Exception as e:
-        print("error:", e)
+        print("Wordtype API Error")
+        print(e)
+        sys.exit(2)
 
 
 def classify_unlevelled_words(unique_word_counts_df):
