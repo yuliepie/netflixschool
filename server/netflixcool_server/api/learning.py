@@ -1,5 +1,5 @@
 from flask_restx import Resource, Namespace, fields
-from netflixcool_server.models import TestQuestion, Sentence
+from netflixcool_server.models import TestQuestion, Sentence, NetflixContent
 from  sqlalchemy.sql.expression import func
 from datetime import date
 
@@ -13,6 +13,7 @@ learning_fields = learning_ns.model(
     {
         "level": fields.Integer,
         "sentence_id": fields.Integer,
+        "img_path": fields.String,
         "sentence": fields.String,
         "word": fields.String,
         "question_id": fields.Integer,
@@ -45,12 +46,14 @@ class Learning(Resource):
         for i in range(1, 7):
             sentence = Sentence.query.filter(Sentence.level == i).order_by(func.rand()).first()
             question = TestQuestion.query.filter(TestQuestion.level == i).order_by(func.rand()).first()
+            content = NetflixContent.query.filter(NetflixContent.id == sentence.content_id).one()
             # print(int(date.today().strftime('%Y%m%d')))
             
             learning.append(
                 {
                     "level": i,
                     "sentence_id": sentence.id,
+                    "img_path": content.img_path,
                     "sentence": sentence.sentence,
                     "word": sentence.word,
                     "question_id": question.id,
