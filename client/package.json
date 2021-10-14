@@ -24,9 +24,11 @@
     "react-scroll-motion": "^0.2.1",
     "react-slick": "^0.28.1",
     "react-spring": "9.1.2",
+    "react-wordcloud": "^1.2.7",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1",
+    "wordcloud": "^1.2.2",
     "yarn": "^1.22.15"
   },
   "scripts": {
