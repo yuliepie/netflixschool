@@ -16,8 +16,9 @@ const Container = styled.div`
 `
 
 const SentenceWrapper = styled.div`
-  width: 70%;
-  height: 70%;  
+  
+  width: 100%;
+  height: 100%;
 `
 
 const QuizWrapper = styled.div`
@@ -47,8 +48,9 @@ export default function Learning () {
     })()
     
   },[])
-
+  console.log('data',data)
   console.log('l',learningData.length)
+
   return (
     <div>
       {data && <Container>
@@ -69,7 +71,8 @@ export default function Learning () {
           <Quizform
             question={`${data[currPage].question}`}
             file_path={`${data[currPage].file_path}`}
-            // choices={`${learningData[currPage].choices}`}
+            // choices={`${data[currPage].choices}`}  
+            answer={`${data[currPage].answer}`}
           />
         </QuizWrapper>
       </Container>}
