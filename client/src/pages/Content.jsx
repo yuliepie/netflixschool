@@ -122,33 +122,33 @@ export default function Content ({location}) {
           <BackImage>
             <Wrapper2>
               <Title className='box_basic'>
-                <h2 className='title_name_en'>{content_detail.title_en}</h2>
-                <h3 className='title_name_kr'>{content_detail.title_kr}</h3>
+                <h2 className='title_name_en'>{content.title_en}</h2>
+                <h3 className='title_name_kr'>{content.title_kr}</h3>
               </Title>
               <ContentInfoWrapper>
                 <DetailInfo className='box_basic'>
-                  <div className="info_poster"><img src={content_detail.img_path} alt='movie_poster' /></div>
+                  <div className="info_poster"><img src={content.img_path} alt='movie_poster' /></div>
                   <div className='info_content'>
                   <ContentInfo className='inner_content'>
                     <dl className='list_content'>
                       <dt>개봉연도</dt>
-                      <dd>{content_detail.release_year}</dd>
+                      <dd>{content.release_year}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>장르</dt>
-                      <dd>{content_detail.genre}</dd>
+                      <dd>{content.genre}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>등급</dt>
-                      <dd>{isNaN(content_detail.age_rating) ?   "전체연령가" : `${content_detail.age_rating} 세 이용가`}</dd>
+                      <dd>{isNaN(content.age_rating) ?   "전체연령가" : `${content.age_rating} 세 이용가`}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>감독</dt>
-                      <dd>{content_detail.director}</dd>
+                      <dd>{content.director}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>러닝타임</dt>
-                      <dd>{content_detail.running_time}</dd>
+                      <dd>{content.running_time}</dd>
                     </dl>
                   </ContentInfo>
                   </div>
