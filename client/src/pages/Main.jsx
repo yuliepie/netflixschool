@@ -31,7 +31,7 @@ const Ranking = () => {
   return(
     <>
       <h1>랭킹페이지</h1> 
-      <Link to ="/ranking">
+      <Link to ="/ContentsRanking">
         <BsBoxArrowInRight className="gotoPage" size='15rem' color='black'/>
       </Link>
     </>
@@ -42,7 +42,7 @@ const Learning = () => {
   return(
     <>
       <h1>학습페이지</h1> 
-      <Link to ="/ranking">
+      <Link to ="/learning">
         <BsBoxArrowInRight className="gotoPage" size='15rem' color='white'/>
       </Link>
     </>
