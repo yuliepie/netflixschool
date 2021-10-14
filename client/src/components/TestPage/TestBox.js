@@ -77,25 +77,25 @@ const TestBox = ({ match, history }) => {
         choice={choice}
       />
       <div>
-        <div>
+        <ButtonWrapper>
           {parseInt(question.question) === 10 ? (
-            <ButtonWrapper>
-              <Link to={`/doTest/${parseInt(question.question) - 1}`}>
-                <PreviousBox number={number}>Previous</PreviousBox>
-              </Link>
-              <YesBox onClick={handleResult}>Submit</YesBox>
-            </ButtonWrapper>
+            <YesBox
+              disabled={choice[number - 1] !== 'None' ? false : true}
+              onClick={handleResult}
+            >
+              Submit
+            </YesBox>
           ) : (
-            <ButtonWrapper>
-              <Link to={`/doTest/${parseInt(question.question) - 1}`}>
-                <PreviousBox number={number}>Previous</PreviousBox>
-              </Link>
-              <Link to={`/doTest/${parseInt(question.question) + 1}`}>
-                <NextBox number={number}>Next</NextBox>
-              </Link>
-            </ButtonWrapper>
+            <Link to={`/doTest/${parseInt(question.question) + 1}`}>
+              <NextBox
+                disabled={choice[number - 1] !== 'None' ? false : true}
+                number={number}
+              >
+                Next
+              </NextBox>
+            </Link>
           )}
-        </div>
+        </ButtonWrapper>
       </div>
     </Container>
   );
@@ -110,7 +110,6 @@ const Container = styled.div`
 `;
 
 const ButtonWrapper = styled.div`
-  margin-top: 40px;
   width: 80%;
   display: flex;
   flex-direction: row;
@@ -119,13 +118,14 @@ const ButtonWrapper = styled.div`
 `;
 
 const YesBox = styled.button`
-  padding: 10px 20px;
-  font-size: 30px;
+  padding: 0px 10px;
+  font-size: 25px;
   background-color: #e82b0c;
   border-radius: 10px;
   color: white;
-  width: 9rem;
-  height: 5rem;
+  width: 150px;
+  height: 55px;
+  opacity: ${(props) => (props.disabled ? '0.5' : '1')};
 
   :hover {
     background-color: white;
@@ -135,30 +135,15 @@ const YesBox = styled.button`
 `;
 
 const NextBox = styled.button`
-  padding: 10px 10px;
-  font-size: 30px;
+  padding: 0px 10px;
+  font-size: 25px;
   background-color: black;
   border-radius: 10px;
   color: white;
-  width: 9rem;
-  height: 5rem;
-
-  :hover {
-    background-color: white;
-    cursor: pointer;
-    color: black;
-  }
-`;
-
-const PreviousBox = styled.button`
-  padding: 10px 10px;
-  font-size: 30px;
-  background-color: black;
-  border-radius: 10px;
-  color: white;
-  width: 9rem;
-  height: 5rem;
-  display: ${(props) => (props.number === '1' ? 'none' : 'content')};
+  width: 150px;
+  height: 55px;
+  opacity: ${(props) => (props.disabled ? '0.5' : '1')};
+  box-shadow: 1px 1px 1px 1px gray;
 
   :hover {
     background-color: white;

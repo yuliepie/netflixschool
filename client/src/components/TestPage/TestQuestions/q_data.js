@@ -19,9 +19,10 @@ export const QuestionData = {
   1: {
     id: 'int',
     question: '1',
-    type: 'int',
+    type: 1,
     imgPath: '/img/Disenchantment_statue.png',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    koreanSentence:
+      'Oog, silly me. Its just a [\u00A0\u00A0\u00A0\u00a0\u00a0\u00a0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0] of Pendergast...',
     choices: [
       { choice: 'status' },
       { choice: 'standard' },
@@ -34,7 +35,7 @@ export const QuestionData = {
   2: {
     id: 'int',
     question: '2',
-    type: 'int',
+    type: 1,
     imgPath: '/img/GoodPlace_awful.png',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -49,7 +50,7 @@ export const QuestionData = {
   3: {
     id: 'int',
     question: '3',
-    type: 'int',
+    type: 2,
     imgPath: '/img/Heroin(e)_judgment.png',
     koreanSentence:
       '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.',
@@ -65,7 +66,7 @@ export const QuestionData = {
   4: {
     id: 'int',
     question: '4',
-    type: 'int',
+    type: 1,
     imgPath: '/img/FYRE_paid_off.png',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -80,7 +81,7 @@ export const QuestionData = {
   5: {
     id: 'int',
     question: '5',
-    type: 'int',
+    type: 1,
     imgPath: '/img/Suits_raiders.png',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -95,7 +96,7 @@ export const QuestionData = {
   6: {
     id: 'int',
     question: '6',
-    type: 'int',
+    type: 1,
     imgPath: '/img/Q_hopely_1.png',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -110,7 +111,7 @@ export const QuestionData = {
   7: {
     id: 'int',
     question: '7',
-    type: 'int',
+    type: 1,
     imgPath: '/img/Qdadad2.jpg',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -125,7 +126,7 @@ export const QuestionData = {
   8: {
     id: 'int',
     question: '8',
-    type: 'int',
+    type: 1,
     imgPath: '/img/Qasdad3.jpg',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -140,7 +141,7 @@ export const QuestionData = {
   9: {
     id: 'int',
     question: '9',
-    type: 'int',
+    type: 2,
     imgPath: '/img/Qasdad4.jpg',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
@@ -155,7 +156,7 @@ export const QuestionData = {
   10: {
     id: 'int',
     question: '10',
-    type: 'int',
+    type: 2,
     imgPath: '/img/Qasdad5.jpg',
     koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
