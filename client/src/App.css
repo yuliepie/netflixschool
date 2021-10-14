@@ -321,6 +321,14 @@ dd {
 
 /* 결과 페이지 */
 .box_list {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 94%;
+  height: 50%;
+  background-color: #BFBAB0;
+  margin-bottom: 2rem;
+  overflow : scroll;
 }
 .recommended_list img{
   width: 280px;
@@ -334,11 +342,20 @@ dd {
 
 .recommendation {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-columns: 24% 24% 24% 24% 24%;
 }
 
+.recommendBox{
+  background-color: gray;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
 
-
+/* .recommend{
+  padding-left: 1rem;
+}
+ */
 
 
 
