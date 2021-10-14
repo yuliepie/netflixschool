@@ -13,6 +13,8 @@ learning_fields = learning_ns.model(
     {
         "level": fields.Integer,
         "sentence_id": fields.Integer,
+        "title_en": fields.String,
+        "title_kr": fields.String,
         "img_path": fields.String,
         "sentence": fields.String,
         "word": fields.String,
@@ -53,6 +55,8 @@ class Learning(Resource):
                 {
                     "level": i,
                     "sentence_id": sentence.id,
+                    "title_en": content.title_en,
+                    "title_kr": content.title_kr,
                     "img_path": content.img_path,
                     "sentence": sentence.sentence,
                     "word": sentence.word,
