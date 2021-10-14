@@ -1,0 +1,2349 @@
+politically		C1			
+establishment		C1	noun	work	
+assert		C1	verb	communication	
+notify		C1	verb	communication	
+conclude	END	C1	verb	communication	
+joint	PLACE	C1	noun	homes and buildings	
+rip-off		C1	noun	money	
+observe	NOTICE	C1	verb	people: actions	
+undertake	DO	C1	verb	people: actions	
+resume		C1	verb	people: actions	
+insert	PUT INTO	C1	verb		
+insert	ADD TO WRITING	C1	verb		
+unwind	RELAX	C1	verb		
+occupation	HOBBY	C1	noun		
+specification		C1	noun		
+clarification		C1	noun		
+garment		C1	noun		
+duration		C1	noun		
+merit		C1	noun		
+nature	TYPE	C1	noun		
+permit	MAKE POSSIBLE	C1	verb		
+acknowledge	SAY RECEIVED	C1	verb		
+aid		C1	verb		
+comprise	CONSIST	C1	verb		
+comprise	FORM	C1	verb		
+desire		C1	verb		
+employ	USE	C1	verb		
+engage		C1	verb		
+enhance		C1	verb		
+evaluate		C1	verb		
+facilitate		C1	verb		
+perceive	THINK	C1	verb		
+rectify		C1	verb		
+render	GIVE	C1	verb		
+oblige		C1	verb		
+junk		C1	noun		
+birth	BEGINNING	C1	noun		
+kill	CAUSE PAIN	C1	verb		
+disapproval		C1	noun	people: personality	
+dismissal	JOB	C1	noun	work	
+installation	SOFTWARE	C1	noun	technology	
+interaction		C1	noun	communication	
+reconstruction	BUILD AGAIN	C1	noun	homes and buildings	
+unwillingness		C1	noun	people: personality	
+disorder	ILLNESS	C1	noun	body and health	
+disrespect		C1	noun	people: personality	
+import	PRODUCT	C1	noun	shopping	
+mislead		C1	verb	communication	
+reassure		C1	verb	communication	
+reconstruct	BUILD AGAIN	C1	verb	people: actions	
+unfold	OPEN	C1	verb	people: actions	
+refusal		C1	noun	communication	
+assurance	PROMISE	C1	noun	communication	
+allowance	MONEY	C1	noun	money	
+reminder		C1	noun	communication	
+leader	FIRST	C1	noun	shopping	
+adviser		C1	noun	work	
+miner		C1	noun	work	
+striker		C1	noun	work	
+well-being		C1	noun	body and health	
+funding		C1	noun	money	
+sewing		C1	noun	people: actions	
+illustration		C1	noun	arts and media	
+allegation		C1	noun	communication	
+demonstration	PROOF	C1	noun	communication	
+suspicion	THINK GUILTY	C1	noun	crime	
+supervision		C1	noun	people: actions	
+demonstration	SHOWING	C1	noun	people: actions	
+constitution	LAWS	C1	noun	politics	
+qualification	SUCCESS	C1	noun	shopping	
+congestion		C1	noun	travel	
+operation	ORGANIZATION	C1	noun	work	
+therapist		C1	noun	homes and buildings	
+optimist		C1	noun	people: personality	
+socialist		C1	noun	politics	
+archaeologist		C1	noun	work	
+obesity		C1	noun	body and health	
+prosperity		C1	noun	money	
+sensitivity	KIND	C1	noun	people: personality	
+sensitivity	EASILY UPSET	C1	noun	people: personality	
+hospitality		C1	noun	relationships	
+capacity	JOB	C1	noun	work	
+summarize		C1	verb	communication	
+blindness	NOT SEEING	C1	noun	body and health	
+nervousness		C1	noun	people: personality	
+rudeness		C1	noun	people: personality	
+selfishness		C1	noun	people: personality	
+shyness		C1	noun	people: personality	
+predator		C1	noun	animals	
+successor	PERSON	C1	noun	work	
+supervisor		C1	noun	work	
+scholarship		C1	noun	education	
+sponsorship		C1	noun	money	
+leadership	QUALITY	C1	noun	people: personality	
+abortion		C1	noun	body and health	
+beak		C1	noun	animals	
+horn	ANIMAL	C1	noun	animals	
+mammal		C1	noun	animals	
+pony		C1	noun	animals	
+reptile		C1	noun	animals	
+extra	ACTOR	C1	noun	arts and media	
+index		C1	noun	arts and media	
+sketch	PICTURE	C1	noun	arts and media	
+tune	MUSICAL NOTES	C1	noun	arts and media	
+cinema	ART	C1	noun	arts and media	
+coverage	REPORT	C1	noun	arts and media	
+techno		C1	noun	arts and media	
+subtitles		C1	noun	arts and media	
+run	PUBLISH	C1	verb	arts and media	
+butt		C1	noun	body and health	
+gene		C1	noun	body and health	
+organ	BODY	C1	noun	body and health	
+pulse		C1	noun	body and health	
+side effect	MEDICINE	C1	noun	body and health	
+spine		C1	noun	body and health	
+vein		C1	noun	body and health	
+vein		C1	noun	body and health	
+cholesterol		C1	noun	body and health	
+digestion		C1	noun	body and health	
+health care		C1	noun	body and health	
+posture		C1	noun	body and health	
+stamina		C1	noun	body and health	
+deodorant		C1	noun	body and health	
+pregnancy		C1	noun	body and health	
+carry	DISEASE	C1	verb	body and health	
+digest	FOOD	C1	verb	body and health	
+infect	DISEASE	C1	verb	body and health	
+twist	INJURE	C1	verb	body and health	
+relax	LESS STIFF	C1	verb	body and health	
+starve		C1	verb	body and health	
+stocking		C1	noun	clothes	
+undershirt		C1	noun	clothes	
+veil	MATERIAL	C1	noun	clothes	
+trousers		C1	noun	clothes	
+look	FASHION	C1	noun	clothes	
+character	WRITING	C1	noun	communication	
+claim	STATEMENT	C1	noun	communication	
+mark	SYMBOL	C1	noun	communication	
+memo		C1	noun	communication	
+slogan		C1	noun	communication	
+jargon		C1	noun	communication	
+language	TYPE OF WORDS	C1	noun	communication	
+slang		C1	noun	communication	
+appeal	REQUEST	C1	verb	communication	
+attack	CRITICIZE	C1	verb	communication	
+clarify		C1	verb	communication	
+illustrate	DIAGRAM	C1	verb	communication	
+illustrate	EXPLAIN	C1	verb	communication	
+instruct	ORDER	C1	verb	communication	
+interpret	DECIDE MEANING	C1	verb	communication	
+invite	ASK OFFICIALLY	C1	verb	communication	
+motivate	ENTHUSIASTIC	C1	verb	communication	
+skip	AVOID	C1	verb	communication	
+support	PROVE	C1	verb	communication	
+quote	REPEAT	C1	verb	communication	
+quote	GIVE EXAMPLE	C1	verb	communication	
+volunteer		C1	verb	communication	
+defend	LAW	C1	verb	crime	
+smuggle		C1	verb	crime	
+angle	SPACE	C1	noun	describing things	
+strip		C1	noun	describing things	
+length	BOOK, ETC.	C1	noun	describing things	
+dissertation		C1	noun	education	
+scholar	KNOWLEDGEABLE PERSON	C1	noun	education	
+term	SCHOOL	C1	noun	education	
+date	FRUIT	C1	noun	food and drink	
+feast		C1	noun	food and drink	
+pastry	CAKE	C1	noun	food and drink	
+spirit	DRINK	C1	noun	food and drink	
+mustard		C1	noun	food and drink	
+pastry	MIXTURE	C1	noun	food and drink	
+appetite	FOOD	C1	noun	food and drink	
+cereal	PLANT	C1	noun	food and drink	
+beat	MIX	C1	verb	food and drink	
+sip		C1	verb	food and drink	
+landmark	PLACE	C1	noun	homes and buildings	
+lounge		C1	noun	homes and buildings	
+mansion		C1	noun	homes and buildings	
+staircase		C1	noun	homes and buildings	
+premises		C1	noun	homes and buildings	
+crash	BUSINESS	C1	noun	money	
+deposit	BANK	C1	noun	money	
+deposit	RENT	C1	noun	money	
+dime		C1	noun	money	
+fund	MONEY	C1	noun	money	
+loss	MONEY	C1	noun	money	
+sector		C1	noun	money	
+subsidy		C1	noun	money	
+cover	FINANCIAL	C1	noun	money	
+interest	MONEY CHARGED	C1	noun	money	
+interest	MONEY EARNED	C1	noun	money	
+expenses		C1	noun	money	
+savings	AMOUNT	C1	noun	money	
+crash	MONEY	C1	verb	money	
+compensate	MONEY	C1	verb	money	
+cover	FINANCIAL PROTECTION	C1	verb	money	
+cover	MONEY	C1	verb	money	
+deposit		C1	verb	money	
+fund		C1	verb	money	
+tax		C1	verb	money	
+borrow	MONEY	C1	verb	money	
+habitat		C1	noun	natural world	
+iceberg	ICE	C1	noun	natural world	
+log		C1	noun	natural world	
+palm	TREE	C1	noun	natural world	
+palm	TREE	C1	noun	natural world	
+spring	WATER	C1	noun	natural world	
+state	COUNTRY	C1	noun	natural world	
+stretch		C1	noun	natural world	
+vine		C1	noun	natural world	
+straw		C1	noun	natural world	
+tobacco		C1	noun	natural world	
+settle	DUST/SAND, ETC.	C1	verb	natural world	
+launch	PLAN	C1	noun	people: actions	
+march		C1	noun	people: actions	
+move	ACTION	C1	noun	people: actions	
+capture		C1	noun	people: actions	
+consumption		C1	noun	people: actions	
+escape	GETTING OUT	C1	noun	people: actions	
+campaign		C1	verb	people: actions	
+march	WALK IN ORGANIZED EVENT	C1	verb	people: actions	
+march	WALK WITH REGULAR STEPS	C1	verb	people: actions	
+opt		C1	verb	people: actions	
+pose	BE STILL	C1	verb	people: actions	
+consume	USE RESOURCE	C1	verb	people: actions	
+grasp	HOLD	C1	verb	people: actions	
+imitate		C1	verb	people: actions	
+impose	CREATE RULE	C1	verb	people: actions	
+impose	FORCE	C1	verb	people: actions	
+inspect		C1	verb	people: actions	
+monitor		C1	verb	people: actions	
+occupy	CONTROL	C1	verb	people: actions	
+omit		C1	verb	people: actions	
+push	ENCOURAGE	C1	verb	people: actions	
+resist	FIGHT	C1	verb	people: actions	
+restrain		C1	verb	people: actions	
+restrict		C1	verb	people: actions	
+sacrifice		C1	verb	people: actions	
+scan	READ	C1	verb	people: actions	
+simplify		C1	verb	people: actions	
+sow		C1	verb	people: actions	
+spread	ARRANGE	C1	verb	people: actions	
+trace	FIND	C1	verb	people: actions	
+trace	ORIGIN	C1	verb	people: actions	
+flee		C1	verb	people: actions	
+shift	MOVE	C1	verb	people: actions	
+elegance		C1	noun	people: appearance	
+race	PEOPLE	C1	noun	people: appearance	
+resemble		C1	verb	people: appearance	
+brain	INTELLIGENCE	C1	noun	people: personality	
+bully		C1	noun	people: personality	
+character	INTERESTING PERSON	C1	noun	people: personality	
+extrovert		C1	noun	people: personality	
+legend	FAME	C1	noun	people: personality	
+scar	MIND	C1	noun	people: personality	
+type	PARTICULAR QUALITY	C1	noun	people: personality	
+control	CALM	C1	noun	people: personality	
+discipline	SELF CONTROL	C1	noun	people: personality	
+distress	UPSET	C1	noun	people: personality	
+drive	ENERGY	C1	noun	people: personality	
+hatred		C1	noun	people: personality	
+initiative	ABILITY	C1	noun	people: personality	
+self-esteem		C1	noun	people: personality	
+shame	BAD FEELING	C1	noun	people: personality	
+strength	BEING BRAVE	C1	noun	people: personality	
+will	WHAT SOMEONE WANTS	C1	noun	people: personality	
+bear	ACCEPT	C1	verb	people: personality	
+corrupt		C1	verb	people: personality	
+irritate		C1	verb	people: personality	
+return	DO THE SAME	C1	verb	people: personality	
+declaration		C1	noun	politics	
+republic		C1	noun	politics	
+defense	MILITARY	C1	noun	politics	
+power	POLITICS	C1	noun	politics	
+unit	PEOPLE	C1	noun	relationships	
+rear		C1	verb	relationships	
+launch	PRODUCT	C1	noun	shopping	
+market	BUYING GROUP	C1	noun	shopping	
+stroke	SWIMMING	C1	noun	shopping	
+triumph	SUCCESS	C1	noun	shopping	
+win		C1	noun	shopping	
+eliminate	COMPETITION	C1	verb	shopping	
+stock		C1	verb	shopping	
+machinery		C1	noun	technology	
+spam		C1	noun	technology	
+language	COMPUTERS	C1	noun	technology	
+scan	COMPUTER	C1	verb	technology	
+car	TRAIN	C1	noun	travel	
+itinerary		C1	noun	travel	
+shuttle		C1	noun	travel	
+tank	VEHICLE	C1	noun	travel	
+vacancy	ROOM	C1	noun	travel	
+course	ROUTE	C1	noun	travel	
+diesel		C1	noun	travel	
+track	TRAINS	C1	noun	travel	
+commute		C1	verb	travel	
+drop	TAKE	C1	verb	travel	
+bid	OFFER	C1	noun	work	
+board	ORGANIZATION	C1	noun	work	
+counterpart		C1	noun	work	
+enterprise	BUSINESS	C1	noun	work	
+executive		C1	noun	work	
+perk		C1	noun	work	
+superior		C1	noun	work	
+takeover		C1	noun	work	
+technician		C1	noun	work	
+trade	AREA OF BUSINESS	C1	noun	work	
+trainee		C1	noun	work	
+vacancy	JOB	C1	noun	work	
+labor	WORK	C1	noun	work	
+labor	WORKERS	C1	noun	work	
+service	WORK	C1	noun	work	
+rank		C1	noun	work	
+personnel		C1	noun	work	
+appoint		C1	verb	work	
+serve	WORK	C1	verb	work	
+bribe		C1	noun	money	
+dismissal	IDEA	C1	noun		
+inconvenience		C1	noun		
+interference	SITUATION	C1	noun		
+distraction	FUN	C1	noun		
+disruption		C1	noun		
+distraction	NO ATTENTION	C1	noun		
+installation	EQUIPMENT	C1	noun		
+integration		C1	noun		
+inclusion		C1	noun		
+inability		C1	noun		
+reorganize		C1	verb		
+replacement	PROCESS	C1	noun		
+redevelopment		C1	noun		
+discontent		C1	noun		
+discrimination		C1	noun		
+disorder	BAD BEHAVIOR	C1	noun		
+displacement		C1	noun		
+discomfort	SITUATION	C1	noun		
+discriminate	TREAT UNFAIRLY	C1	verb		
+dismiss	NOT CONSIDER	C1	verb		
+displace		C1	verb		
+distort		C1	verb		
+inaccuracy		C1	noun		
+injustice		C1	noun		
+insight		C1	noun		
+invade	PLACE	C1	verb		
+integrate		C1	verb		
+interfere	CAUSE PROBLEMS	C1	verb		
+misfortune		C1	noun		
+misuse		C1	noun		
+misbehave		C1	verb		
+misuse		C1	verb		
+readjust	SMALL CHANGE	C1	verb		
+recharge		C1	verb		
+recreate		C1	verb		
+redevelop		C1	verb		
+reinforce	OPINION	C1	verb		
+restart		C1	verb		
+restart		C1	verb		
+reconsider		C1	verb		
+relocate		C1	verb		
+rethink		C1	verb		
+uncertainty		C1	noun		
+unload	SHIP/AIRCRAFT	C1	verb		
+uncover		C1	verb		
+variable		C1	noun		
+arrival	NEW PERSON/THING	C1	noun		
+renewal	AGREEMENT	C1	noun		
+acquaintance		C1	noun		
+appliance		C1	noun		
+annoyance		C1	noun		
+relevance		C1	noun		
+significance		C1	noun		
+acceptance		C1	noun		
+attendance	NUMBER	C1	noun		
+attendance	REGULARLY	C1	noun		
+disturbance	INTERRUPTION	C1	noun		
+contestant		C1	noun		
+participant		C1	noun		
+occurrence	EVENT	C1	noun		
+competence		C1	noun		
+innocence	NOT GUILTY	C1	noun		
+occurrence	EXISTENCE	C1	noun		
+listener		C1	noun		
+programmer		C1	noun		
+provider		C1	noun		
+ruler	LEADER	C1	noun		
+walker		C1	noun		
+crossing	TRIP BY WATER	C1	noun		
+shortcoming		C1	noun		
+understanding	AGREEMENT	C1	noun		
+housing		C1	noun		
+mining		C1	noun		
+networking		C1	noun		
+planning	DEVELOPMENT	C1	noun		
+accusation		C1	noun		
+assumption		C1	noun		
+audition		C1	noun		
+complication	DIFFICULTY	C1	noun		
+condition	AGREEMENT	C1	noun		
+convention	MEETING	C1	noun		
+equation		C1	noun		
+explosion	INCREASE	C1	noun		
+federation		C1	noun		
+foundation	ORGANIZATION	C1	noun		
+motivation	REASON	C1	noun		
+negotiation		C1	noun		
+observation	REMARK	C1	noun		
+operation	PLANNED ACTIVITY	C1	noun		
+precaution		C1	noun		
+projection	CALCULATION	C1	noun		
+proposition		C1	noun		
+administration	ORGANIZING	C1	noun		
+aggression		C1	noun		
+caution	CARE	C1	noun		
+civilization	WAY OF LIFE	C1	noun		
+completion		C1	noun		
+conservation	NOT WASTE	C1	noun		
+corruption	BAD BEHAVIOR	C1	noun		
+corruption	MAKE DISHONEST	C1	noun		
+cultivation		C1	noun		
+definition	IMAGE	C1	noun		
+direction	CONTROL	C1	noun		
+distribution	SUPPLYING	C1	noun		
+domination		C1	noun		
+erosion	PHYSICAL DAMAGE	C1	noun		
+extinction		C1	noun		
+foundation	START	C1	noun		
+industrialization		C1	noun		
+isolation	SEPARATE	C1	noun		
+operation	WORK	C1	noun		
+opposition	DISAGREEMENT	C1	noun		
+organization	ARRANGEMENT	C1	noun		
+orientation	POSITION	C1	noun		
+perfection		C1	noun		
+preservation		C1	noun		
+projection	IMAGE	C1	noun		
+radiation		C1	noun		
+regulation	CONTROL	C1	noun		
+renovation		C1	noun		
+speculation		C1	noun		
+vegetation		C1	noun		
+vision	ABILITY TO PLAN	C1	noun		
+action	LEGAL PROCESS	C1	noun		
+adaptation		C1	noun		
+alteration		C1	noun		
+auction		C1	noun		
+cancellation		C1	noun		
+collaboration		C1	noun		
+convention	CUSTOM	C1	noun		
+emission		C1	noun		
+evaluation		C1	noun		
+exaggeration		C1	noun		
+exploration		C1	noun		
+generalization		C1	noun		
+indication	EXIST	C1	noun		
+innovation		C1	noun		
+inspection	OFFICIAL	C1	noun		
+liberation		C1	noun		
+limitation	RULE	C1	noun		
+migration		C1	noun		
+modification		C1	noun		
+nomination		C1	noun		
+progression		C1	noun		
+provision		C1	noun		
+restriction	LIMIT	C1	noun		
+simulation		C1	noun		
+substitution		C1	noun		
+transaction		C1	noun		
+transformation		C1	noun		
+introduction	FIRST EXPERIENCE	C1	noun		
+realization	NOTICING	C1	noun		
+mechanism	PART OF EQUIPMENT	C1	noun		
+mechanism	SYSTEM	C1	noun		
+environmentalist		C1	noun		
+authority	OFFICIAL	C1	noun		
+mentality		C1	noun		
+minority	PEOPLE	C1	noun		
+necessity	SOMETHING NEEDED	C1	noun		
+humanity	ALL PEOPLE	C1	noun		
+liability	RESPONSIBILITY	C1	noun		
+necessity	NEED	C1	noun		
+productivity		C1	noun		
+purity		C1	noun		
+rarity		C1	noun		
+reliability		C1	noun		
+security	SAFE SITUATION	C1	noun		
+simplicity		C1	noun		
+solidarity		C1	noun		
+stability		C1	noun		
+suitability		C1	noun		
+unity		C1	noun		
+capability		C1	noun		
+probability		C1	noun		
+liability	TROUBLE	C1	noun		
+generalize		C1	verb		
+authorize		C1	verb		
+minimize		C1	verb		
+privatize		C1	verb		
+movement	GROUP	C1	noun		
+settlement	AGREEMENT	C1	noun		
+harassment		C1	noun		
+recruitment		C1	noun		
+amendment		C1	noun		
+awareness		C1	noun		
+closeness	NEAR	C1	noun		
+closeness	RELATIONSHIP	C1	noun		
+coolness	COLD	C1	noun		
+effectiveness		C1	noun		
+fairness		C1	noun		
+loneliness		C1	noun		
+readiness	WILLING	C1	noun		
+richness		C1	noun		
+usefulness		C1	noun		
+consciousness	AWARE	C1	noun		
+administrator		C1	noun		
+emperor		C1	noun		
+warrior		C1	noun		
+leadership	JOB	C1	noun		
+ownership		C1	noun		
+hardship		C1	noun		
+membership	PEOPLE	C1	noun		
+readership		C1	noun		
+discovery	THING/PERSON	C1	noun		
+accessory		C1	noun		
+agency	ORGANIZATION	C1	noun		
+agenda	MEETING	C1	noun		
+aid	EQUIPMENT	C1	noun		
+ally	PERSON	C1	noun		
+amateur	HOBBY	C1	noun		
+amateur	NO SKILL	C1	noun		
+angle	DIRECTION	C1	noun		
+angle	WAY OF THINKING	C1	noun		
+asset	USEFUL	C1	noun		
+attorney		C1	noun		
+avenue	STREET	C1	noun		
+basis	REASON	C1	noun		
+basis	BEGINNING	C1	noun		
+bid	ATTEMPT	C1	noun		
+blank	SPACE	C1	noun		
+boundary	LINE	C1	noun		
+boundary	LIMIT	C1	noun		
+bracket	GROUP	C1	noun		
+breakdown	FAILURE	C1	noun		
+bubble		C1	noun		
+burden		C1	noun		
+call	VISIT	C1	noun		
+campaign	ACTIVITIES	C1	noun		
+campaign	WAR	C1	noun		
+cause	PRINCIPLE	C1	noun		
+charge	CRIME	C1	noun		
+chore		C1	noun		
+clutch	ENGINE	C1	noun		
+code	RULES	C1	noun		
+column	NUMBERS/WORDS	C1	noun		
+comfort	PLEASANT THING	C1	noun		
+command	COMPUTER	C1	noun		
+commodity		C1	noun		
+complaint	ANNOYING THING	C1	noun		
+component	MACHINE	C1	noun		
+component	FEATURE	C1	noun		
+convenience	HELPFUL THING	C1	noun		
+criterion		C1	noun		
+critic	NOT APPROVE	C1	noun		
+cut	REDUCTION	C1	noun		
+cutback		C1	noun		
+debut		C1	noun		
+defect		C1	noun		
+deficit		C1	noun		
+delegate		C1	noun		
+deputy		C1	noun		
+design	DRAWING	C1	noun		
+destiny	FUTURE	C1	noun		
+developer	PRODUCTS	C1	noun		
+directory		C1	noun		
+divide		C1	noun		
+dock		C1	noun		
+domain		C1	noun		
+draft	COLD AIR	C1	noun		
+drawback		C1	noun		
+dump	WASTE	C1	noun		
+empire	COUNTRIES	C1	noun		
+empire	BUSINESSES	C1	noun		
+equivalent		C1	noun		
+exhibit		C1	noun		
+exterior		C1	noun		
+faculty	GROUP	C1	noun		
+fair	SHOW	C1	noun		
+figure	AMOUNT	C1	noun		
+flaw		C1	noun		
+fleet	SHIPS	C1	noun		
+fleet	VEHICLES	C1	noun		
+footstep		C1	noun		
+format		C1	noun		
+formula	METHOD	C1	noun		
+formula	STATEMENT	C1	noun		
+function	EVENT	C1	noun		
+gadget		C1	noun		
+garden	PUBLIC PLACE	C1	noun		
+gathering		C1	noun		
+genius	PERSON	C1	noun		
+gerund		C1	noun		
+gesture	MOVEMENT	C1	noun		
+gesture	ACTION	C1	noun		
+giant	IMAGINARY MAN	C1	noun		
+gift	ABILITY	C1	noun		
+glimpse		C1	noun		
+hazard		C1	noun		
+heading		C1	noun		
+historian		C1	noun		
+home	FOR CARE	C1	noun		
+idol	PERSON	C1	noun		
+implication	EFFECT	C1	noun		
+initiative	NEW ACTION	C1	noun		
+instance	EXAMPLE	C1	noun		
+instrument	TOOL	C1	noun		
+jam	BLOCK	C1	noun		
+journal	MAGAZINE	C1	noun		
+jury	COMPETITION	C1	noun		
+king	BEST PERSON	C1	noun		
+knob		C1	noun		
+ladder	JOBS	C1	noun		
+landmark	BUILDING	C1	noun		
+lawn		C1	noun		
+layout		C1	noun		
+level	RANK	C1	noun		
+line	PRODUCT	C1	noun		
+luxury	EXPENSIVE THING	C1	noun		
+mat		C1	noun		
+ministry		C1	noun		
+mode		C1	noun		
+move	PLACE CHANGE	C1	noun		
+myth	FALSE IDEA	C1	noun		
+nap		C1	noun		
+newsletter		C1	noun		
+nickname		C1	noun		
+norm	SOCIETY	C1	noun		
+notion		C1	noun		
+obstacle	DIFFICULTY	C1	noun		
+obstacle	THING	C1	noun		
+outlet	CHEAP STORE	C1	noun		
+outlet	ELECTRICAL CONNECTION	C1	noun		
+overview	DESCRIPTION	C1	noun		
+overview	KNOWLEDGE	C1	noun		
+panel	PEOPLE	C1	noun		
+peasant		C1	noun		
+peek		C1	noun		
+peer		C1	noun		
+permit		C1	noun		
+perspective	WAY OF THINKING	C1	noun		
+phenomenon		C1	noun		
+philosophy	WAY OF THINKING	C1	noun		
+policy	AGREEMENT	C1	noun		
+portion	PART	C1	noun		
+power	COUNTRY	C1	noun		
+principle	IDEA	C1	noun		
+print	PICTURE	C1	noun		
+privilege	OPPORTUNITY	C1	noun		
+profile	PUBLIC IMAGE	C1	noun		
+proportion	PART OF TOTAL	C1	noun		
+push	ENCOURAGEMENT	C1	noun		
+pyramid		C1	noun		
+race	EFFORT	C1	noun		
+raise		C1	noun		
+rate	SPEED	C1	noun		
+ratio		C1	noun		
+rectangle		C1	noun		
+reign		C1	noun		
+riot		C1	noun		
+risk	SOMETHING BAD	C1	noun		
+rival		C1	noun		
+role model		C1	noun		
+runway		C1	noun		
+sack		C1	noun		
+saint		C1	noun		
+secretary	COMMITTEE	C1	noun		
+serial		C1	noun		
+setback		C1	noun		
+sketch	ACTING	C1	noun		
+slot	HOLE	C1	noun		
+slot	TIME	C1	noun		
+source	PERSON	C1	noun		
+spectrum	ALL POSSIBILITIES	C1	noun		
+sphere		C1	noun		
+spokesman		C1	noun		
+spokesperson		C1	noun		
+stand	FOR SELLING/SHOWING	C1	noun		
+star	BEST	C1	noun		
+statistic		C1	noun		
+status symbol		C1	noun		
+stereotype		C1	noun		
+strength	GOOD QUALITIES	C1	noun		
+stroll		C1	noun		
+summit	MOUNTAIN	C1	noun		
+surge		C1	noun		
+surgeon		C1	noun		
+tactic		C1	noun		
+tailpipe		C1	noun		
+tendency		C1	noun		
+thrill		C1	noun		
+tip	END	C1	noun		
+toast	DRINK	C1	noun		
+token	LOVE/THANKS	C1	noun		
+tool	SOMETHING HELPFUL	C1	noun		
+top	LID	C1	noun		
+trek		C1	noun		
+twist		C1	noun		
+verdict	OPINION	C1	noun		
+version	DESCRIPTION	C1	noun		
+viewpoint		C1	noun		
+walk	PATH	C1	noun		
+aid	SUPPLIES	C1	noun		
+applause		C1	noun		
+archaeology		C1	noun		
+brass	METAL	C1	noun		
+coal	FUEL	C1	noun		
+consent		C1	noun		
+contact	TOUCH	C1	noun		
+cover	FROM WEATHER/ATTACK	C1	noun		
+crawl	SWIMMING	C1	noun		
+day care		C1	noun		
+dedication		C1	noun		
+destiny	POWER	C1	noun		
+excess		C1	noun		
+exposure		C1	noun		
+friction		C1	noun		
+geology		C1	noun		
+glamour		C1	noun		
+globalization		C1	noun		
+glory	PRAISE	C1	noun		
+glory	QUALITY	C1	noun		
+grace	MOVEMENT	C1	noun		
+greed		C1	noun		
+hate		C1	noun		
+hygiene		C1	noun		
+jealousy		C1	noun		
+junk mail		C1	noun		
+literacy		C1	noun		
+logic		C1	noun		
+neglect		C1	noun		
+nutrition		C1	noun		
+office	JOB	C1	noun		
+ozone		C1	noun		
+paradise		C1	noun		
+power	STRENGTH	C1	noun		
+praise		C1	noun		
+prestige		C1	noun		
+protein		C1	noun		
+retail		C1	noun		
+safety	HOW SAFE	C1	noun		
+scope	AMOUNT	C1	noun		
+slavery		C1	noun		
+smog		C1	noun		
+solitude		C1	noun		
+soy		C1	noun		
+status		C1	noun		
+stress	IMPORTANCE	C1	noun		
+teamwork		C1	noun		
+time	IN A PLACE	C1	noun		
+tuition		C1	noun		
+usage	AMOUNT	C1	noun		
+abuse	WRONG ACTION	C1	noun		
+context	LANGUAGE	C1	noun		
+controversy		C1	noun		
+deduction	AMOUNT	C1	noun		
+deficiency	FAULT	C1	noun		
+density		C1	noun		
+fabric		C1	noun		
+gain	SOMETHING OBTAINED	C1	noun		
+gain	INCREASE	C1	noun		
+origin	COUNTRY/RACE, ETC.	C1	noun		
+pressure	LIQUID/GAS	C1	noun		
+privilege	ADVANTAGE	C1	noun		
+revenue		C1	noun		
+sacrifice		C1	noun		
+self		C1	noun		
+spirit	NOT BODY	C1	noun		
+texture		C1	noun		
+trial	TEST	C1	noun		
+usage	WORDS	C1	noun		
+bacteria		C1	noun		
+fumes		C1	noun		
+odds	PROBABILITY	C1	noun		
+crawl	SPEED	C1	noun		
+downside		C1	noun		
+drop	DISTANCE	C1	noun		
+flair	ABILITY	C1	noun		
+hunger	WISH	C1	noun		
+idea	AIM	C1	noun		
+note	FEELING	C1	noun		
+outlook	FUTURE	C1	noun		
+price	RESULT	C1	noun		
+toll	MONEY	C1	noun		
+vocabulary	LANGUAGE	C1	noun		
+way	MANNER	C1	noun		
+agree	BE THE SAME	C1	verb		
+arise		C1	verb		
+beware		C1	verb		
+collaborate		C1	verb		
+comply		C1	verb		
+daydream		C1	verb		
+deteriorate		C1	verb		
+emerge	BECOME KNOWN	C1	verb		
+exist	LIVE	C1	verb		
+feed	EAT FOOD	C1	verb		
+function	OPERATE	C1	verb		
+hop	MOVE QUICKLY	C1	verb		
+mingle	TALK	C1	verb		
+plunge	BECOME LOWER	C1	verb		
+proceed	CONTINUE	C1	verb		
+search	FIND ANSWER	C1	verb		
+serve	BE USEFUL	C1	verb		
+spy	INFORMATION	C1	verb		
+stand	NOT BE DESTROYED	C1	verb		
+thrive		C1	verb		
+wait	NOT DO SOMETHING	C1	verb		
+abandon	STOP DOING	C1	verb		
+absorb	REMEMBER	C1	verb		
+accomplish		C1	verb		
+acknowledge	ACCEPT	C1	verb		
+address	DEAL WITH	C1	verb		
+alarm		C1	verb		
+allocate		C1	verb		
+allow	TIME/MONEY	C1	verb		
+anticipate		C1	verb		
+apply	USE	C1	verb		
+assign		C1	verb		
+associate	TWO THINGS/PEOPLE	C1	verb		
+assure	MAKE CERTAIN	C1	verb		
+attain		C1	verb		
+block	CANNOT SEE	C1	verb		
+bully		C1	verb		
+cap		C1	verb		
+classify		C1	verb		
+compile		C1	verb		
+complicate		C1	verb		
+compliment		C1	verb		
+concern	WORRY	C1	verb		
+conclude	DECIDE	C1	verb		
+consider	FACTS	C1	verb		
+constitute		C1	verb		
+consult	GET INFORMATION	C1	verb		
+consult	DISCUSS	C1	verb		
+convey		C1	verb		
+cover	REPORT	C1	verb		
+cultivate	GROW	C1	verb		
+cure	PROBLEM	C1	verb		
+demonstrate	SHOW HOW	C1	verb		
+detect		C1	verb		
+determine	FIND	C1	verb		
+determine	DECIDE	C1	verb		
+digest	INFORMATION	C1	verb		
+direct	ORGANIZE	C1	verb		
+distribute	SUPPLY	C1	verb		
+divide	NUMBERS	C1	verb		
+doubt	NOT BELIEVE	C1	verb		
+draft		C1	verb		
+dump	GET RID OF	C1	verb		
+eliminate	GET RID OF	C1	verb		
+enclose	BE ALL AROUND	C1	verb		
+enforce		C1	verb		
+enrich		C1	verb		
+envision		C1	verb		
+exceed	BE MORE	C1	verb		
+exclude	KEEP OUT	C1	verb		
+exclude	NOT INCLUDE	C1	verb		
+exhaust		C1	verb		
+fascinate		C1	verb		
+feed	SUPPLY	C1	verb		
+fill	JOB	C1	verb		
+fit	SUITABLE	C1	verb		
+follow	BE INTERESTED	C1	verb		
+foresee		C1	verb		
+gather	BELIEVE	C1	verb		
+grasp	UNDERSTAND	C1	verb		
+group		C1	verb		
+head	FRONT/TOP	C1	verb		
+hit	REACH	C1	verb		
+hold	JOB	C1	verb		
+imprison		C1	verb		
+indicate	SHOW	C1	verb		
+infect	COMPUTER	C1	verb		
+label	INFORMATION	C1	verb		
+make	SUITABLE	C1	verb		
+manage	ORGANIZE	C1	verb		
+match	BE AS GOOD AS	C1	verb		
+meet	BE ENOUGH	C1	verb		
+modify		C1	verb		
+motivate	CAUSE	C1	verb		
+neglect	NOT GIVE ATTENTION	C1	verb		
+nominate		C1	verb		
+number	GIVE A NUMBER	C1	verb		
+offer	AGREE TO PAY	C1	verb		
+outnumber		C1	verb		
+outrage		C1	verb		
+outweigh		C1	verb		
+overdo		C1	verb		
+overload	TOO FULL	C1	verb		
+overtake	BIGGER	C1	verb		
+overwhelm		C1	verb		
+picture		C1	verb		
+possess		C1	verb		
+presume		C1	verb		
+produce	SHOW	C1	verb		
+prolong		C1	verb		
+promote	ENCOURAGE	C1	verb		
+pursue		C1	verb		
+rate		C1	verb		
+receive	REACT	C1	verb		
+refresh		C1	verb		
+regulate	ACTIVITY/PROCESS	C1	verb		
+regulate	SPEED/TEMPERATURE	C1	verb		
+renovate		C1	verb		
+resolve		C1	verb		
+restore	MAKE EXIST	C1	verb		
+reverse		C1	verb		
+review	CONSIDER	C1	verb		
+rush	FORCE ACTION	C1	verb		
+scare	FRIGHTEN	C1	verb		
+see	HAPPEN	C1	verb		
+shield		C1	verb		
+shoot	MOVIE	C1	verb		
+spare	GIVE	C1	verb		
+split	SHARE	C1	verb		
+spoil	CHILD	C1	verb		
+stand	ACCEPT	C1	verb		
+suppose	LIKELY	C1	verb		
+suspend	STOP	C1	verb		
+threaten	DAMAGE	C1	verb		
+trigger		C1	verb		
+underestimate	PERSON	C1	verb		
+undergo		C1	verb		
+verify		C1	verb		
+accelerate	HAPPEN	C1	verb		
+accumulate		C1	verb		
+allow	MAKE POSSIBLE	C1	verb		
+applaud	CLAP	C1	verb		
+bet		C1	verb		
+broaden		C1	verb		
+cater		C1	verb		
+conquer		C1	verb		
+contradict	SAY SOMEONE IS WRONG	C1	verb		
+contribute	WRITE	C1	verb		
+deepen	KNOWLEDGE	C1	verb		
+deliver	ACHIEVE	C1	verb		
+differentiate	SEE DIFFERENCE	C1	verb		
+diminish		C1	verb		
+dominate	BE IMPORTANT	C1	verb		
+donate	BLOOD/ORGANS	C1	verb		
+exaggerate		C1	verb		
+fit	SAME	C1	verb		
+jam	STUCK	C1	verb		
+judge	COMPETITION	C1	verb		
+lengthen		C1	verb		
+lessen		C1	verb		
+negotiate		C1	verb		
+overestimate		C1	verb		
+rank		C1	verb		
+refresh		C1	verb		
+rehearse		C1	verb		
+run	WORKING	C1	verb		
+shift	CHANGE	C1	verb		
+shine	REFLECT	C1	verb		
+shorten		C1	verb		
+show	EASY TO SEE	C1	verb		
+soak	MAKE WET	C1	verb		
+spin	TURN	C1	verb		
+sue		C1	verb		
+swap		C1	verb		
+transmit	RADIO/TELEVISION	C1	verb		
+unite		C1	verb		
+wave	MOVE SIDE TO SIDE	C1	verb		
+weaken	LOSE POWER	C1	verb		
+prostitute		C1	noun		
+pub		C1	noun		
+torture	BORING/UNPLEASANT	C1	noun		
+rebellion		C1	noun		
+bribe		C1	verb		
+insane	STUPID	C1	adjective		
+notwithstanding		C1	adverb		
+presently		C1	adverb		
+ill	BAD	C1	adjective		
+relative		C1	adjective		
+utmost	EMPHASIS	C1	adjective		
+somewhat		C1	adverb		
+thereby		C1	adverb		
+big	SUCCESSFUL	C1	adjective		
+gross	UNPLEASANT	C1	adjective		
+heavenly		C1	adjective		
+hot	EXCITING	C1	adjective		
+unaffordable		C1	adjective	money	
+uncomfortable	EMBARRASSED	C1	adjective	people: personality	
+impersonal		C1	adjective	people: personality	
+unconventional		C1	adjective	people: personality	
+insignificant		C1	adjective	describing things	
+unspoiled		C1	adjective	describing things	
+unmarried		C1	adjective	relationships	
+inedible		C1	adjective	food and drink	
+insensitive		C1	adjective	people: personality	
+interactive	COMMUNICATION	C1	adjective	communication	
+dishonestly		C1	adverb	people: personality	
+undoubtedly		C1	adverb	communication	
+unreasonably		C1	adverb	people: personality	
+unwillingly		C1	adverb	people: personality	
+inadequate	NOT GOOD	C1	adjective	describing things	
+inadequate	NOT ENOUGH	C1	adjective	describing things	
+inferior		C1	adjective	describing things	
+inconsiderate		C1	adjective	people: personality	
+insecure	WORRIED	C1	adjective	people: personality	
+comparable		C1	adjective	describing things	
+noticeable		C1	adjective	describing things	
+pleasurable		C1	adjective	describing things	
+portable		C1	adjective	describing things	
+reputable		C1	adjective	describing things	
+payable	TO BE PAID	C1	adjective	money	
+payable	FOR PERSON	C1	adjective	money	
+clinical	MEDICAL	C1	adjective	body and health	
+minimal		C1	adjective	describing things	
+hysterical		C1	adjective	people: personality	
+liberal	SOCIETY	C1	adjective	people: personality	
+natural	FROM BIRTH	C1	adjective	people: personality	
+rational		C1	adjective	people: personality	
+liberal	POLITICS	C1	adjective	politics	
+well-educated		C1	adjective	education	
+well-qualified		C1	adjective	education	
+gifted		C1	adjective	people: personality	
+narrow-minded		C1	adjective	people: personality	
+open-minded		C1	adjective	people: personality	
+well-balanced	PERSON	C1	adjective	people: personality	
+overworked		C1	adjective	work	
+competent		C1	adjective	people: personality	
+graceful	MOVEMENT/SHAPE	C1	adjective	describing things	
+respectful		C1	adjective	people: personality	
+thoughtful	CAREFULLY CONSIDERING	C1	adjective	people: personality	
+compatible	EQUIPMENT	C1	adjective	technology	
+genetic		C1	adjective	body and health	
+therapeutic	HEALTH	C1	adjective	body and health	
+authentic		C1	adjective	describing things	
+scenic		C1	adjective	describing things	
+heroic	BRAVE	C1	adjective	people: personality	
+idealistic		C1	adjective	people: personality	
+magnetic	PERSONALITY	C1	adjective	people: personality	
+sparkling	SPECIAL	C1	adjective	describing things	
+staggering		C1	adjective	describing things	
+frustrating		C1	adjective	people: personality	
+outgoing	FRIENDLY	C1	adjective	people: personality	
+overwhelming		C1	adjective	people: personality	
+repetitive		C1	adjective	describing things	
+active	VOLCANO	C1	adjective	natural world	
+imaginative	CREATIVE	C1	adjective	people: personality	
+protective	WANTING TO PROTECT	C1	adjective	people: personality	
+supportive		C1	adjective	people: personality	
+talkative		C1	adjective	people: personality	
+tasteless	FOOD	C1	adjective	food and drink	
+restless	NOT STILL	C1	adjective	people: personality	
+speechless		C1	adjective	people: personality	
+naturally	LIFE	C1	adverb	body and health	
+highly	VERY	C1	adverb	communication	
+incidentally		C1	adverb	communication	
+precisely	AGREEMENT	C1	adverb	communication	
+truly	SINCERELY	C1	adverb	communication	
+barely		C1	adverb	describing things	
+sufficiently		C1	adverb	describing things	
+racially		C1	adverb	people: appearance	
+openly		C1	adverb	people: personality	
+reluctantly		C1	adverb	people: personality	
+rudely		C1	adverb	people: personality	
+sensibly		C1	adverb	people: personality	
+technologically		C1	adverb	technology	
+conscious	AWAKE	C1	adjective	body and health	
+disastrous		C1	adjective	describing things	
+fabulous		C1	adjective	describing things	
+luxurious		C1	adjective	describing things	
+monotonous		C1	adjective	describing things	
+numerous		C1	adjective	describing things	
+simultaneous		C1	adjective	describing things	
+spacious		C1	adjective	describing things	
+tedious		C1	adjective	describing things	
+prosperous		C1	adjective	money	
+conscientious		C1	adjective	people: personality	
+courageous		C1	adjective	people: personality	
+self-conscious		C1	adjective	people: personality	
+chatty	WRITING	C1	adjective	communication	
+bulky		C1	adjective	describing things	
+filthy	DIRTY	C1	adjective	describing things	
+shabby	MESSY	C1	adjective	describing things	
+stormy	ARGUING	C1	adjective	describing things	
+fatty		C1	adjective	food and drink	
+rocky	WITH ROCKS	C1	adjective	natural world	
+chatty	PERSON	C1	adjective	people: personality	
+sporty		C1	adjective	shopping	
+sexual	MALE OR FEMALE	C1	adjective	people: appearance	
+dry	HAIR/SKIN	C1	adjective	body and health	
+dumb	NOT TALKING	C1	adjective	body and health	
+bump	BODY	C1	noun	body and health	
+germ	DISEASE	C1	noun	body and health	
+anyhow	CHANGING STATEMENT	C1	adverb	communication	
+well	CONSIDERABLY	C1	adverb	communication	
+bracket	SYMBOL	C1	noun	communication	
+guideline		C1	noun	communication	
+material	INFORMATION	C1	noun	communication	
+target	CRITICISM	C1	noun	communication	
+serial	CRIME	C1	adjective	crime	
+abnormal		C1	adjective	describing things	
+average	NOT EXCELLENT	C1	adjective	describing things	
+bare	NOT COVERED	C1	adjective	describing things	
+delicate	NEEDING CARE	C1	adjective	describing things	
+dull	NOT BRIGHT	C1	adjective	describing things	
+fake		C1	adjective	describing things	
+good	LARGE	C1	adjective	describing things	
+harsh	TOO STRONG	C1	adjective	describing things	
+immense		C1	adjective	describing things	
+intense	EXTREME	C1	adjective	describing things	
+middle	NOT HIGH OR LOW	C1	adjective	describing things	
+mild	SLIGHT	C1	adjective	describing things	
+moderate		C1	adjective	describing things	
+mundane		C1	adjective	describing things	
+scarce		C1	adjective	describing things	
+solid	NOT LIQUID/GAS	C1	adjective	describing things	
+splendid		C1	adjective	describing things	
+state-of-the-art		C1	adjective	describing things	
+terrific	LARGE/SERIOUS	C1	adjective	describing things	
+tranquil		C1	adjective	describing things	
+alongside	NEXT TO	C1	adverb	describing things	
+beyond	PLACE	C1	adverb	describing things	
+high	AMOUNT/LEVEL	C1	adverb	describing things	
+little	NOT ENOUGH	C1	adverb	describing things	
+this		C1	adverb	describing things	
+dry	WINE	C1	adjective	food and drink	
+rare	MEAT	C1	adjective	food and drink	
+stale		C1	adjective	food and drink	
+complex	BUILDINGS	C1	noun	homes and buildings	
+infrastructure		C1	noun	homes and buildings	
+affluent		C1	adjective	money	
+bankrupt		C1	adjective	money	
+gross	TOTAL	C1	adjective	money	
+overdrawn		C1	adjective	money	
+well-off		C1	adjective	money	
+asset	WORTH MONEY	C1	noun	money	
+stock market		C1	noun	money	
+lose	MONEY	C1	verb	money	
+ecology		C1	noun	natural world	
+hunt		C1	noun	people: actions	
+alert		C1	adjective	people: personality	
+antisocial	PERSON	C1	adjective	people: personality	
+cool	CALM	C1	adjective	people: personality	
+corrupt		C1	adjective	people: personality	
+devastated		C1	adjective	people: personality	
+distant	NOT FRIENDLY	C1	adjective	people: personality	
+FALSE	NOT SINCERE	C1	adjective	people: personality	
+genuine	SINCERE	C1	adjective	people: personality	
+harsh	CRUEL	C1	adjective	people: personality	
+keen	INTERESTED	C1	adjective	people: personality	
+knowledgeable		C1	adjective	people: personality	
+low	UNHAPPY	C1	adjective	people: personality	
+modest	NOT PROUD	C1	adjective	people: personality	
+naive		C1	adjective	people: personality	
+noble	GOOD	C1	adjective	people: personality	
+particular	NOT EASILY SATISFIED	C1	adjective	people: personality	
+self-centered		C1	adjective	people: personality	
+sincere	HONEST	C1	adjective	people: personality	
+stable	PERSON	C1	adjective	people: personality	
+trustworthy		C1	adjective	people: personality	
+enterprise	QUALITY	C1	noun	people: personality	
+fuss		C1	noun	people: personality	
+diplomatic	GOVERNMENTS	C1	adjective	politics	
+left-wing		C1	adjective	politics	
+away	SPORTS	C1	adverb	shopping	
+down	NOT WORKING	C1	adjective	technology	
+handheld		C1	adjective	technology	
+smart	TECHNOLOGY	C1	adjective	technology	
+bound	DIRECTION	C1	adjective	travel	
+aboard		C1	adverb	travel	
+turn	CORNER	C1	noun	travel	
+executive		C1	adjective	work	
+recruit		C1	verb	work	
+inevitable		C1	adjective		
+invaluable		C1	adjective		
+unavailable	CANNOT DO SOMETHING	C1	adjective		
+unavoidable		C1	adjective		
+undeniable		C1	adjective		
+unthinkable		C1	adjective		
+unprofessional		C1	adjective		
+disadvantaged		C1	adjective		
+disgusted		C1	adjective		
+unjustified		C1	adjective		
+unnoticed		C1	adjective		
+unqualified		C1	adjective		
+unrelated		C1	adjective		
+unsolved		C1	adjective		
+untouched		C1	adjective		
+unwanted		C1	adjective		
+insufficient		C1	adjective		
+unhelpful	NOT IMPROVE	C1	adjective		
+reassuring		C1	adjective		
+reproduction	COPY	C1	noun		
+unattractive	NOT INTERESTING	C1	adjective		
+unproductive		C1	adjective		
+incredibly	DIFFICULT TO BELIEVE	C1	adverb		
+indirectly		C1	adverb		
+inevitably		C1	adverb		
+informally		C1	adverb		
+uncomfortably		C1	adverb		
+unnecessarily		C1	adverb		
+unquestionably		C1	adverb		
+unsuccessfully		C1	adverb		
+dismiss	MAKE LEAVE	C1	verb		
+imperfect		C1	adjective		
+inappropriate		C1	adjective		
+indirect	NOT CONNECTED	C1	adjective		
+inefficient		C1	adjective		
+integral		C1	adjective		
+misinform		C1	verb		
+reproduce	COPY	C1	verb		
+reproduce	REPEAT	C1	verb		
+uncommon		C1	adjective		
+unforeseen		C1	adjective		
+unpaid	NOT PAID	C1	adjective		
+unpaid	WORK FOR FREE	C1	adjective		
+unpleasant	DIFFICULT	C1	adjective		
+unreal		C1	adjective		
+unsafe	DANGEROUS	C1	adjective		
+unsafe	IN DANGER	C1	adjective		
+untrue		C1	adjective		
+acceptable	ALLOWED	C1	adjective		
+affordable		C1	adjective		
+changeable		C1	adjective		
+hospitable		C1	adjective		
+liable	RESPONSIBLE	C1	adjective		
+notable		C1	adjective		
+profitable	USEFUL	C1	adjective		
+renewable	ENERGY	C1	adjective		
+sustainable	CONTINUE	C1	adjective		
+sustainable	ENVIRONMENT	C1	adjective		
+variable		C1	adjective		
+analytical		C1	adjective		
+bilingual		C1	adjective		
+brutal		C1	adjective		
+central	CITY	C1	adjective		
+central	ORGANIZATION	C1	adjective		
+confidential		C1	adjective		
+electrical	SUPPLY	C1	adjective		
+federal		C1	adjective		
+horizontal		C1	adjective		
+influential		C1	adjective		
+municipal		C1	adjective		
+musical	ABILITY	C1	adjective		
+nutritional		C1	adjective		
+occasional		C1	adjective		
+postal		C1	adjective		
+practical	POSSIBLE	C1	adjective		
+practical	SUITABLE	C1	adjective		
+radical	CHANGE	C1	adjective		
+sensational	SHOCKING	C1	adjective		
+statistical		C1	adjective		
+verbal	WORDS	C1	adjective		
+vertical		C1	adjective		
+virtual	ALMOST	C1	adjective		
+vocational		C1	adjective		
+dominant	IMPORTANT	C1	adjective		
+reluctant		C1	adjective		
+tolerant		C1	adjective		
+accepted		C1	adjective		
+acclaimed		C1	adjective		
+alleged		C1	adjective		
+biased		C1	adjective		
+frustrated		C1	adjective		
+furnished		C1	adjective		
+genetically modified		C1	adjective		
+industrialized		C1	adjective		
+isolated	FAR AWAY	C1	adjective		
+isolated	ALONE	C1	adjective		
+overcrowded		C1	adjective		
+prejudiced		C1	adjective		
+privileged	ADVANTAGE	C1	adjective		
+prolonged		C1	adjective		
+restricted		C1	adjective		
+troubled		C1	adjective		
+well-equipped		C1	adjective		
+well-informed		C1	adjective		
+fruitful		C1	adjective		
+shameful		C1	adjective		
+thankful		C1	adjective		
+edible		C1	adjective		
+eligible		C1	adjective		
+feasible		C1	adjective		
+visible	OBVIOUS	C1	adjective		
+chaotic		C1	adjective		
+electric	EXCITING	C1	adjective		
+ethnic		C1	adjective		
+heroic	TRYING HARD	C1	adjective		
+linguistic		C1	adjective		
+magnetic	INFORMATION	C1	adjective		
+problematic		C1	adjective		
+specific	EXACT	C1	adjective		
+strategic		C1	adjective		
+therapeutic	RELAXED	C1	adjective		
+convincing		C1	adjective		
+forthcoming	OFFERED	C1	adjective		
+gripping		C1	adjective		
+never-ending		C1	adjective		
+opening		C1	adjective		
+promising		C1	adjective		
+refreshing	DIFFERENT	C1	adjective		
+refreshing	FEEL BETTER	C1	adjective		
+rewarding		C1	adjective		
+soaring		C1	adjective		
+time-consuming		C1	adjective		
+upcoming		C1	adjective		
+rating		C1	noun		
+distribution	SHARING	C1	noun		
+fascination		C1	noun		
+promotion	ENCOURAGE	C1	noun		
+diversity		C1	noun		
+addictive		C1	adjective		
+administrative		C1	adjective		
+aggressive	DETERMINED	C1	adjective		
+comparative		C1	adjective		
+comprehensive		C1	adjective		
+conservative	SOCIETY	C1	adjective		
+conservative	POLITICS	C1	adjective		
+constructive		C1	adjective		
+decisive	AFFECTING	C1	adjective		
+distinctive		C1	adjective		
+excessive		C1	adjective		
+exclusive	NOT SHARED	C1	adjective		
+exhaustive		C1	adjective		
+imaginative	UNUSUAL	C1	adjective		
+informative		C1	adjective		
+innovative		C1	adjective		
+persuasive		C1	adjective		
+primitive	NOT DEVELOPED	C1	adjective		
+primitive	BASIC	C1	adjective		
+progressive	GRADUAL	C1	adjective		
+selective		C1	adjective		
+subjective		C1	adjective		
+countless		C1	adjective		
+helpless		C1	adjective		
+homeless		C1	adjective		
+pointless		C1	adjective		
+priceless	IMPORTANT	C1	adjective		
+broadly		C1	adverb		
+closely	VERY NEAR	C1	adverb		
+closely	CAREFULLY	C1	adverb		
+commonly		C1	adverb		
+comprehensively		C1	adverb		
+continually		C1	adverb		
+easily	LIKELY	C1	adverb		
+equally	SAME AMOUNTS	C1	adverb		
+equally	SAME DEGREE	C1	adverb		
+exclusively		C1	adverb		
+formally	OFFICIALLY	C1	adverb		
+formally	POLITELY	C1	adverb		
+happily	LUCKY	C1	adverb		
+historically		C1	adverb		
+hourly		C1	adverb		
+immediately	NEXT TO	C1	adverb		
+immensely		C1	adverb		
+inappropriately		C1	adverb		
+individually		C1	adverb		
+intensively		C1	adverb		
+interestingly		C1	adverb		
+internally		C1	adverb		
+jointly		C1	adverb		
+lightly	NOT MUCH	C1	adverb		
+likely		C1	adverb		
+magnificently		C1	adverb		
+modestly	BY SMALL AMOUNT	C1	adverb		
+mysteriously		C1	adverb		
+neatly		C1	adverb		
+notably		C1	adverb		
+noticeably		C1	adverb		
+objectively		C1	adverb		
+officially		C1	adverb		
+partially		C1	adverb		
+poorly		C1	adverb		
+publicly		C1	adverb		
+purely		C1	adverb		
+radically		C1	adverb		
+randomly		C1	adverb		
+realistically	SEEM REAL	C1	adverb		
+remarkably		C1	adverb		
+repeatedly		C1	adverb		
+respectively		C1	adverb		
+satisfactorily		C1	adverb		
+seemingly		C1	adverb		
+similarly		C1	adverb		
+sincerely	EMPHASIS	C1	adverb		
+solely		C1	adverb		
+specifically	PARTICULAR PURPOSE	C1	adverb		
+specifically	EXACTLY	C1	adverb		
+subsequently		C1	adverb		
+substantially		C1	adverb		
+supposedly		C1	adverb		
+technically	SCIENCE/INDUSTRY	C1	adverb		
+thankfully		C1	adverb		
+ultimately	FINALLY	C1	adverb		
+understandably		C1	adverb		
+universally		C1	adverb		
+utterly		C1	adverb		
+generous	LARGE	C1	adjective		
+hilarious		C1	adjective		
+humorous		C1	adjective		
+notorious		C1	adjective		
+nutritious		C1	adjective		
+prestigious		C1	adjective		
+rebellious		C1	adjective		
+bloody	VIOLENT	C1	adjective		
+chilly		C1	adjective		
+filthy	OFFENSIVE	C1	adjective		
+grumpy		C1	adjective		
+lengthy		C1	adjective		
+sleepy	PLACE	C1	adjective		
+slippery		C1	adjective		
+adult	NOT A CHILD	C1	adjective		
+alarming		C1	adjective		
+amateur		C1	adjective		
+ample		C1	adjective		
+antisocial	BEHAVIOR	C1	adjective		
+apparent	SEEMS TRUE	C1	adjective		
+bad	PAINFUL	C1	adjective		
+bare	NO CLOTHES	C1	adjective		
+cheap	LOW QUALITY	C1	adjective		
+civil		C1	adjective		
+clear	NOT BLOCKED	C1	adjective		
+close	SIMILAR	C1	adjective		
+concrete	CERTAIN	C1	adjective		
+considerate		C1	adjective		
+continual		C1	adjective		
+corporate		C1	adjective		
+cosmopolitan		C1	adjective		
+customary		C1	adjective		
+cutting-edge		C1	adjective		
+dark	BAD	C1	adjective		
+day-to-day		C1	adjective		
+dedicated	GIVING TIME/ENERGY	C1	adjective		
+deprived		C1	adjective		
+deserted		C1	adjective		
+devastating	SHOCKING	C1	adjective		
+direct	CLEAR	C1	adjective		
+distinct	DIFFERENT	C1	adjective		
+distinct	CLEAR	C1	adjective		
+distressed		C1	adjective		
+down-to-earth		C1	adjective		
+downward		C1	adjective		
+drastic		C1	adjective		
+dual		C1	adjective		
+empty	NO MEANING	C1	adjective		
+equivalent		C1	adjective		
+excess		C1	adjective		
+extinct		C1	adjective		
+fair	AVERAGE	C1	adjective		
+feminine		C1	adjective		
+fit	SUITABLE	C1	adjective		
+formal	SCHOOL	C1	adjective		
+formal	OFFICIAL	C1	adjective		
+foul	UNPLEASANT	C1	adjective		
+fresh	NOT TIRED	C1	adjective		
+gentle	SLOPE	C1	adjective		
+grand		C1	adjective		
+gray	WEATHER	C1	adjective		
+gross	SERIOUS	C1	adjective		
+hard	UNPLEASANT	C1	adjective		
+harsh	UNPLEASANT	C1	adjective		
+hectic		C1	adjective		
+holy		C1	adjective		
+honored		C1	adjective		
+hostile	UNFRIENDLY	C1	adjective		
+hostile	DIFFICULT	C1	adjective		
+idle	NOT WORKING	C1	adjective		
+imaginary		C1	adjective		
+immediate	CLOSEST	C1	adjective		
+just		C1	adjective		
+justified		C1	adjective		
+juvenile		C1	adjective		
+keen	VERY GOOD	C1	adjective		
+legendary	FAMOUS	C1	adjective		
+legendary	ANCIENT	C1	adjective		
+long-time		C1	adjective		
+lost	NEW SITUATION	C1	adjective		
+low	NOT IMPORTANT	C1	adjective		
+masculine		C1	adjective		
+mass	LARGE NUMBER	C1	adjective		
+middle-class		C1	adjective		
+mistaken		C1	adjective		
+moral	BEHAVIOR	C1	adjective		
+multiple		C1	adjective		
+mutual	OPINION	C1	adjective		
+mutual	FRIEND/INTEREST	C1	adjective		
+naked	NOT HIDDEN	C1	adjective		
+neutral	INDEPENDENT	C1	adjective		
+neutral	COLOR	C1	adjective		
+noble	SOCIAL GROUP	C1	adjective		
+nonexistent		C1	adjective		
+obese		C1	adjective		
+obligatory	REQUIRED	C1	adjective		
+obsolete		C1	adjective		
+outside	DIFFERENT ORGANIZATION	C1	adjective		
+preliminary		C1	adjective		
+prior	BEFORE	C1	adjective		
+prominent	IMPORTANT	C1	adjective		
+random	CHANCE	C1	adjective		
+respective		C1	adjective		
+retail		C1	adjective		
+rough	DANGEROUS	C1	adjective		
+sacred	HOLY	C1	adjective		
+safe	WITHOUT RISK	C1	adjective		
+secure	COMPUTER	C1	adjective		
+sharp	CLEAR	C1	adjective		
+sheer	EXTREME	C1	adjective		
+sheer	LARGE	C1	adjective		
+skillful	DONE WELL	C1	adjective		
+smart	STYLISH	C1	adjective		
+smooth	PROCESS	C1	adjective		
+sole		C1	adjective		
+stable	SITUATION	C1	adjective		
+steady	NOT CHANGING	C1	adjective		
+steep	LARGE	C1	adjective		
+stuck	NOT CONTINUE	C1	adjective		
+subsequent		C1	adjective		
+superior	BETTER	C1	adjective		
+superior	HIGHER	C1	adjective		
+supreme		C1	adjective		
+ultimate	FINAL	C1	adjective		
+underpaid		C1	adjective		
+upper-class		C1	adjective		
+upward		C1	adjective		
+vague	NOT CLEAR	C1	adjective		
+voluntary		C1	adjective		
+weak	LIKELY TO FAIL	C1	adjective		
+widespread		C1	adjective		
+alongside	WITH	C1	adverb		
+behind	SLOWER	C1	adverb		
+between	SPACE	C1	adverb		
+between	TIME	C1	adverb		
+downward		C1	adverb		
+drastically		C1	adverb		
+exceptionally		C1	adverb		
+forward	PROGRESS	C1	adverb		
+hence		C1	adverb		
+namely		C1	adverb		
+nonetheless		C1	adverb		
+off	DISTANCE/TIME	C1	adverb		
+otherwise	DIFFERENTLY	C1	adverb		
+sharp		C1	adverb		
+throughout		C1	adverb		
+upward		C1	adverb		
+vice versa		C1	adverb		
+aid	HELP	C1	noun		
+alert		C1	noun		
+bronze	PRIZE	C1	noun		
+bump	SURFACE	C1	noun		
+elite		C1	noun		
+exhaust	GAS	C1	noun		
+exhaust	PIPE	C1	noun		
+fall	DEFEAT	C1	noun		
+fiction	NOT TRUE	C1	noun		
+fright		C1	noun		
+the middle class		C1	noun		
+moral	LESSON	C1	noun		
+note	NOTICE	C1	noun		
+ounce	MEASUREMENT	C1	noun		
+outcome		C1	noun		
+recovery	SITUATION	C1	noun		
+sequence	MOVIE	C1	noun		
+shift	CHANGE	C1	noun		
+specialty		C1	noun		
+the upper class		C1	noun		
+alternate		C1	verb		
+bear	HAVE	C1	verb		
+consider	MAY BE TRUE	C1	verb		
+crowd		C1	verb		
+dictate		C1	verb		
+dissolve	END	C1	verb		
+divide	DISAGREE	C1	verb		
+embrace	ACCEPT	C1	verb		
+evolve		C1	verb		
+exhibit	SHOW OBJECTS	C1	verb		
+grade	LEVEL	C1	verb		
+grade	SCORE	C1	verb		
+host		C1	verb		
+impact		C1	verb		
+last	BE ENOUGH	C1	verb		
+measure	BE SIZE	C1	verb		
+narrow	MAKE SMALLER	C1	verb		
+place	SITUATION	C1	verb		
+puzzle		C1	verb		
+rule	CONTROL	C1	verb		
+set	LEVEL	C1	verb		
+surge		C1	verb		
+survey	QUESTION	C1	verb		
+survey	EXAMINE	C1	verb		
+workshop		C1	noun	education	
+withdraw	MONEY	C1	verb	money	
+wit		C1	noun	people: personality	
+workplace		C1	noun	work	
+witch		C1	noun		
+youngster		C1	noun		
+worse		C1	noun		
+withdraw	REMOVE	C1	verb		
+worship	RELIGION	C1	verb		
+worsen		C1	verb		
+worthy	DESERVING RESPECT	C1	adjective		
+workforce	COMPANY	C1	noun	work	
+worthless	NOT IMPORTANT	C1	adjective		
+wisely		C1	adverb		
+working-class		C1	adjective		
+wrong	NOT SUITABLE	C1	adjective		
+yet	IN THE FUTURE	C1	adverb		
+the working class		C1	noun		
+worship	ADMIRE	C1	verb		
+yield	TRAFFIC	C1	verb		
+much	A LOT OF	C1	determiner	describing things	
+one	ANY PERSON	C1	pronoun		
+oneself		C1	pronoun		
+throughout	EVERYWHERE	C1	preposition	describing things	
+versus	AGAINST	C1	preposition	shopping	
+some	NOT USING NAME	C1	determiner		
+after	DESPITE	C1	preposition		
+amid	WHILE	C1	preposition		
+among	DIVIDE	C1	preposition		
+behind	CAUSING	C1	preposition		
+beyond	INVOLVING MORE	C1	preposition		
+for	RESPONSIBILITY	C1	preposition		
+for	COMPARE	C1	preposition		
+of	RELATING TO	C1	preposition		
+of	BEFORE	C1	preposition		
+toward	POSITION	C1	preposition		
+toward	PURPOSE	C1	preposition		
+versus	COMPARED WITH	C1	preposition		
+such		C1	pronoun		
+within	INSIDE	C1	preposition		
+I/we understand (that)...		C1	phrase	communication	
+how come		C1	phrase	communication	
+dozens		C1	phrase	describing things	
+be on the ball	IDIOM	C1	phrase	people: personality	
+as a consequence		C1	phrase		
+of little/no consequence		C1	phrase		
+in the event of sth		C1	phrase		
+I trust (that)		C1	phrase		
+be a joke		C1	phrase		
+be a pain in the neck	IDIOM	C1	phrase		
+be in luck		C1	phrase		
+Master's (degree)		C1	phrase	education	
+the opposition		C1	phrase	politics	
+catch your breath		C1	phrase	body and health	
+a call for sth		C1	phrase	communication	
+take issue (with sb/sth)		C1	phrase	communication	
+How dare she/you, etc.		C1	phrase	communication	
+talk business/politics, etc.		C1	phrase	communication	
+make yourself understood		C1	phrase	communication	
+raise your voice		C1	phrase	communication	
+to say the least		C1	phrase	communication	
+needless to say		C1	phrase	communication	
+safe to say		C1	phrase	communication	
+take it from me		C1	phrase	communication	
+take issue (with sb/sth)		C1	phrase	communication	
+share your problems/thoughts/ideas, etc.		C1	phrase	communication	
+make yourself understood		C1	phrase	communication	
+out of season		C1	phrase	food and drink	
+funds		C1	phrase	money	
+make ends meet	IDIOM	C1	phrase	money	
+lay sth down/in/on, etc.		C1	phrase	people: actions	
+put something into practice		C1	phrase	people: actions	
+squeeze through/past, etc.		C1	phrase	people: actions	
+throw sth in/on, etc.		C1	phrase	people: actions	
+bubble (over) with confidence/enthusiasm, etc.		C1	phrase	people: personality	
+on the road		C1	phrase	travel	
+a skeleton crew/staff/service		C1	phrase	work	
+the cleaner's		C1	phrase		
+call a meeting		C1	phrase		
+on location		C1	phrase		
+hold a conversation		C1	phrase		
+be authorized to do sth		C1	phrase		
+the leadership		C1	phrase		
+at/on an angle		C1	phrase		
+on the basis of sth		C1	phrase		
+a bit of a surprise/problem/mess, etc.		C1	phrase		
+bit by bit		C1	phrase		
+have an ear for sth		C1	phrase		
+in any event		C1	phrase		
+the focus of sth		C1	phrase		
+the foot of sth		C1	phrase		
+set foot in/on sth		C1	phrase		
+in the form of sth		C1	phrase		
+at a glance		C1	phrase		
+at hand		C1	phrase		
+be in sb's hands		C1	phrase		
+a host of sth		C1	phrase		
+all hours		C1	phrase		
+crack a joke		C1	phrase		
+exceed the speed limit		C1	phrase		
+on loan		C1	phrase		
+the labor market		C1	phrase		
+miles		C1	phrase		
+put/set sb's mind at ease		C1	phrase		
+put your mind to it		C1	phrase		
+be of two minds		C1	phrase		
+come to mind		C1	phrase		
+mouth of a river		C1	phrase		
+the object of sth		C1	phrase		
+have no option (but to do sth)		C1	phrase		
+first-/second-/third-rate		C1	phrase		
+in the region of sth		C1	phrase		
+mouth of a river		C1	phrase		
+the root of sth		C1	phrase		
+on show		C1	phrase		
+on site		C1	phrase		
+two-star/three-star, etc.		C1	phrase		
+step by step		C1	phrase		
+put a stop to sth		C1	phrase		
+in store		C1	phrase		
+out of tune		C1	phrase		
+in tune		C1	phrase		
+beat around the bush	IDIOM	C1	phrase		
+around the clock	IDIOM	C1	phrase		
+be a far cry from sth	IDIOM	C1	phrase		
+keep an eye out for sb/sth	IDIOM	C1	phrase		
+turn a blind eye (to sth)	IDIOM	C1	phrase		
+be in the public eye	IDIOM	C1	phrase		
+go hand in hand	IDIOM	C1	phrase		
+in safe hands	IDIOM	C1	phrase		
+lose your head	IDIOM	C1	phrase		
+a fine line	IDIOM	C1	phrase		
+keep a low profile	IDIOM	C1	phrase		
+from scratch	IDIOM	C1	phrase		
+to make a long story short	IDIOM	C1	phrase		
+a rule of thumb	IDIOM	C1	phrase		
+put/set sb's mind at ease		C1	phrase		
+for good		C1	phrase		
+there's no harm in doing sth		C1	phrase		
+be bad/good news for sb		C1	phrase		
+in reverse		C1	phrase		
+the opposite sex		C1	phrase		
+sb's travels		C1	phrase		
+running water		C1	phrase		
+new blood	IDIOM	C1	phrase		
+face the music	IDIOM	C1	phrase		
+no doubt		C1	phrase		
+at the expense of sth		C1	phrase		
+in the hope that/of		C1	phrase		
+on the increase		C1	phrase		
+take the liberty of doing sth		C1	phrase		
+a sleepless night		C1	phrase		
+a passion for sth		C1	phrase		
+out of the blue	IDIOM	C1	phrase		
+on the grounds of/that		C1	phrase		
+by no means; not by any means		C1	phrase		
+by means of		C1	phrase		
+the people		C1	phrase		
+get a grip (on yourself)	IDIOM	C1	phrase		
+it would appear (that)		C1	phrase		
+come easily/naturally		C1	phrase		
+come first		C1	phrase		
+come to mind		C1	phrase		
+when it comes to sth/doing sth		C1	phrase		
+(be) concentrated around/in/on, etc.		C1	phrase		
+dare sb to do sth		C1	phrase		
+fall flat		C1	phrase		
+happen to do sth		C1	phrase		
+as it happens		C1	phrase		
+know what you are talking about		C1	phrase		
+wait and see		C1	phrase		
+be to blame		C1	phrase		
+bring sth to an end		C1	phrase		
+capture sb's attention/ imagination/ interest		C1	phrase		
+divert sb's attention/thoughts, etc.		C1	phrase		
+exceed sb's expectations		C1	phrase		
+exceed the speed limit		C1	phrase		
+have anything/nothing/something against sb/sth		C1	phrase		
+hold an opinion/belief/view		C1	phrase		
+hold a conversation		C1	phrase		
+hold sb's attention/interest		C1	phrase		
+be intended for		C1	phrase		
+be lacking in sth		C1	phrase		
+make time		C1	phrase		
+make it (big)		C1	phrase		
+make yourself at home		C1	phrase		
+make a note of sth		C1	phrase		
+be meant for sb/sth		C1	phrase		
+present a problem/conflict/danger, etc.		C1	phrase		
+put sb in a difficult position		C1	phrase		
+put your mind to it		C1	phrase		
+put a stop to sth		C1	phrase		
+satisfy conditions/needs/requirements, etc.		C1	phrase		
+say sth to yourself		C1	phrase		
+like I said		C1	phrase		
+sad to say		C1	phrase		
+be suited to/for sth		C1	phrase		
+take effect		C1	phrase		
+take your time		C1	phrase		
+take the initiative		C1	phrase		
+take the liberty of doing sth		C1	phrase		
+take sth personally		C1	phrase		
+take care of sth/doing sth		C1	phrase		
+urge sb to do sth		C1	phrase		
+to make a long story short	IDIOM	C1	phrase		
+keep sb posted	IDIOM	C1	phrase		
+easier said than done	IDIOM	C1	phrase		
+crack a joke		C1	phrase		
+rip sth out/off/from, etc.		C1	phrase		
+tear sth out of/off/down, etc.		C1	phrase		
+bend over backwards	IDIOM	C1	phrase		
+stick up for sb/sth		C1	phrasal verb	communication	
+I/he/she, etc. couldn't care less		C1	phrase	communication	
+how/what/why, etc. on earth?		C1	phrase	communication	
+how come		C1	phrase	communication	
+mess around		C1	phrasal verb	people: actions	
+be on the ball	IDIOM	C1	phrase	people: personality	
+in accordance with sth		C1	phrase		
+as yet		C1	phrase		
+as a consequence		C1	phrase		
+feel compelled to do sth		C1	phrase		
+endeavor to do sth		C1	phrase		
+be glad of sth		C1	phrase		
+in the event of sth		C1	phrase		
+of little/no consequence		C1	phrase		
+sincere apologies/thanks, etc.		C1	phrase		
+check sth out or check out sth	INFORMATION	C1	phrasal verb		
+check sth out or check out sth	GO TO SEE	C1	phrasal verb		
+hold on	CONFUSED/SURPRISED	C1	phrasal verb		
+like crazy		C1	phrase		
+grab sb's attention		C1	phrase		
+be in luck		C1	phrase		
+like crazy		C1	phrase		
+be lost without sb/sth		C1	phrase		
+or other		C1	phrase		
+or other		C1	phrase		
+the same old story/thing/people, etc.		C1	phrase		
+about/high time		C1	phrase		
+be a pain in the neck	IDIOM	C1	phrase		
+the dawn of sth		C1	phrase		
+needless to say		C1	phrase	communication	
+certainly not		C1	phrase	communication	
+definitely not		C1	phrase	communication	
+comparatively cheap/easy/little, etc.		C1	phrase	describing things	
+on the air		C1	phrase	arts and media	
+on the air		C1	phrase	arts and media	
+come around	BECOME CONSCIOUS	C1	phrasal verb	body and health	
+catch your breath		C1	phrase	body and health	
+a history of sth		C1	phrase	body and health	
+be getting at sth		C1	phrasal verb	communication	
+get back to sb		C1	phrasal verb	communication	
+move on	NEW SUBJECT	C1	phrasal verb	communication	
+put sth forward or put forward sth		C1	phrasal verb	communication	
+run down sb/sth or run sb/sth down		C1	phrasal verb	communication	
+all things considered		C1	phrase	communication	
+too bad		C1	phrase	communication	
+before you know it		C1	phrase	communication	
+broken English/Spanish, etc.		C1	phrase	communication	
+compare notes		C1	phrase	communication	
+all things considered		C1	phrase	communication	
+on hold		C1	phrase	communication	
+How dare she/you, etc.		C1	phrase	communication	
+in a sense		C1	phrase	communication	
+in short		C1	phrase	communication	
+it's just as well		C1	phrase	communication	
+before you know it		C1	phrase	communication	
+strong language		C1	phrase	communication	
+to say the least		C1	phrase	communication	
+take it from me		C1	phrase	communication	
+certainly/definitely not		C1	phrase	communication	
+compare notes		C1	phrase	communication	
+on hold		C1	phrase	communication	
+safe to say		C1	phrase	communication	
+all/just the same		C1	phrase	communication	
+I'll/we'll see		C1	phrase	communication	
+in a sense		C1	phrase	communication	
+in short		C1	phrase	communication	
+speak for sb		C1	phrase	communication	
+strong language		C1	phrase	communication	
+all things considered		C1	phrase	communication	
+too bad		C1	phrase	communication	
+raise your voice		C1	phrase	communication	
+know sth inside out	IDIOM	C1	phrase	communication	
+know sth inside out	IDIOM	C1	phrase	communication	
+at the very least		C1	phrase	describing things	
+a good deal		C1	phrase	describing things	
+a good deal		C1	phrase	describing things	
+at the very least		C1	phrase	describing things	
+high in sth		C1	phrase	food and drink	
+out of season		C1	phrase	food and drink	
+put sth aside		C1	phrasal verb	money	
+break even		C1	phrase	money	
+break even		C1	phrase	money	
+make ends meet	IDIOM	C1	phrase	money	
+make ends meet	IDIOM	C1	phrase	money	
+back out		C1	phrasal verb	people: actions	
+clean up (sth) or clean (sth) up	MAKE CLEAN	C1	phrasal verb	people: actions	
+clean up (sth) or clean (sth) up	REMOVE POLLUTION	C1	phrasal verb	people: actions	
+clear sth away or clear away sth		C1	phrasal verb	people: actions	
+close off sth or close sth off		C1	phrasal verb	people: actions	
+cover sth up or cover up sth		C1	phrasal verb	people: actions	
+cut out sth or cut sth out	SHAPE	C1	phrasal verb	people: actions	
+devote yourself to sth		C1	phrasal verb	people: actions	
+get (sb/sth) out		C1	phrasal verb	people: actions	
+hold sb/sth back	PREVENT MOVEMENT	C1	phrasal verb	people: actions	
+keep sb/sth from doing sth		C1	phrasal verb	people: actions	
+kick sb out		C1	phrasal verb	people: actions	
+look over sth or look sth over		C1	phrasal verb	people: actions	
+tear up sth or tear sth up		C1	phrasal verb	people: actions	
+bounce along/around/into, etc.		C1	phrase	people: actions	
+brush sth away/off, etc.		C1	phrase	people: actions	
+divide sth (up) among/between sb		C1	phrase	people: actions	
+put something into practice		C1	phrase	people: actions	
+stroll along/down/through, etc.		C1	phrase	people: actions	
+toss (a coin)		C1	phrase	people: actions	
+come across	SEEM	C1	phrasal verb	people: personality	
+settle in		C1	phrasal verb	people: personality	
+take to sb/sth		C1	phrasal verb	people: personality	
+be good company		C1	phrase	people: personality	
+be good company		C1	phrase	people: personality	
+sb's strong point		C1	phrase	people: personality	
+sb's strong point		C1	phrase	people: personality	
+the vote		C1	phrase	politics	
+relate to sb		C1	phrasal verb	relationships	
+stick by sb		C1	phrasal verb	relationships	
+come up	COMPUTER	C1	phrasal verb	technology	
+on the road		C1	phrase	travel	
+be on a committee/panel, etc.		C1	phrase	work	
+incapable of sth/doing sth		C1	phrase		
+the unemployed		C1	phrase		
+conventional wisdom		C1	phrase		
+return to normal		C1	phrase		
+personal hygiene		C1	phrase		
+accustomed to sth/doing sth		C1	phrase		
+attached to sb/sth		C1	phrase		
+be concerned with sth		C1	phrase		
+be inclined to think/believe/agree, etc.		C1	phrase		
+be satisfied that		C1	phrase		
+tell the difference		C1	phrase		
+dependent on/upon sth		C1	phrase		
+a further 10/100, etc.		C1	phrase		
+the best/cheapest/worst, etc. possible		C1	phrase		
+a burning issue/question		C1	phrase		
+burning ambition/desire, etc.		C1	phrase		
+running water		C1	phrase		
+course of action		C1	phrase		
+in association with		C1	phrase		
+exceed sb's expectations		C1	phrase		
+have no hesitation in/about doing sth		C1	phrase		
+limitations		C1	phrase		
+be in a position to do sth		C1	phrase		
+be in position		C1	phrase		
+put sb in a difficult position		C1	phrase		
+a reflection of sth		C1	phrase		
+be a rarity		C1	phrase		
+prospective buyers/employers/parents, etc.		C1	phrase		
+the homeless		C1	phrase		
+regardless of		C1	phrase		
+a sleepless night		C1	phrase		
+not nearly (as/so)		C1	phrase		
+take sth personally		C1	phrase		
+account for sth	FORM PART OF	C1	phrasal verb		
+bounce back	SUCCESSFUL AGAIN	C1	phrasal verb		
+brush up (on) sth		C1	phrasal verb		
+build (sth) up or build up (sth)		C1	phrasal verb		
+bump into sb		C1	phrasal verb		
+call off sth or call sth off	STOP	C1	phrasal verb		
+call on sb to do sth		C1	phrasal verb		
+catch on	BECOME POPULAR	C1	phrasal verb		
+catch up (sb) or catch (sb) up	BE AS GOOD AS	C1	phrasal verb		
+cater to sb/sth		C1	phrasal verb		
+check (up) on sth		C1	phrasal verb		
+come off		C1	phrasal verb		
+come on	START	C1	phrasal verb		
+come over	MOVE TOWARD	C1	phrasal verb		
+come over sb		C1	phrasal verb		
+come under sth	LIST	C1	phrasal verb		
+come under sth	EXPERIENCE	C1	phrasal verb		
+come up	OPPORTUNITY	C1	phrasal verb		
+come up	PROBLEM	C1	phrasal verb		
+come up against sth		C1	phrasal verb		
+cut across sth	GROUP	C1	phrasal verb		
+cut out sth or cut sth out	STOP EATING	C1	phrasal verb		
+derive (sth) from sth		C1	phrasal verb		
+dispose of sth		C1	phrasal verb		
+do away with sth		C1	phrasal verb		
+draw on sth		C1	phrasal verb		
+draw sth up or draw up sth		C1	phrasal verb		
+dwell on/upon sth		C1	phrasal verb		
+fit in with sth	SUCCESSFUL PART	C1	phrasal verb		
+get into sth	BE INTERESTED	C1	phrasal verb		
+get out	DIFFERENT PLACES	C1	phrasal verb		
+get (sb) through sth		C1	phrasal verb		
+get through to sb		C1	phrasal verb		
+head off		C1	phrasal verb		
+hold back sth or hold sth back	NOT TELL	C1	phrasal verb		
+insist on sth		C1	phrasal verb		
+kick in		C1	phrasal verb		
+lay sth out or lay out sth	EXPLAIN	C1	phrasal verb		
+lay sth out or lay out sth	ARRANGE	C1	phrasal verb		
+lie ahead		C1	phrasal verb		
+line sb/sth up		C1	phrasal verb		
+look on/upon sb/sth as sth		C1	phrasal verb		
+look up		C1	phrasal verb		
+move on	NEW ACTIVITY	C1	phrasal verb		
+put sth together or put together sth	PREPARE	C1	phrasal verb		
+relate to sb/sth		C1	phrasal verb		
+run on sth		C1	phrasal verb		
+rush into sth		C1	phrasal verb		
+scare sb/sth away/off or scare away/off sb/sth		C1	phrasal verb		
+scare sb away/off or scare away/off sb		C1	phrasal verb		
+set back sb/sth or set sb/sth back		C1	phrasal verb		
+settle down	MAKE HOME	C1	phrasal verb		
+shake up sth or shake sth up		C1	phrasal verb		
+stand up to sb/sth		C1	phrasal verb		
+start out		C1	phrasal verb		
+stay away (from sth)		C1	phrasal verb		
+stay out of sth		C1	phrasal verb		
+stem from sth		C1	phrasal verb		
+store up sth	REMEMBER	C1	phrasal verb		
+take on sth or take sth on		C1	phrasal verb		
+throw yourself into sth		C1	phrasal verb		
+by all accounts		C1	phrase		
+after all		C1	phrase		
+have anything/nothing/something against sb/sth		C1	phrase		
+long ago		C1	phrase		
+ahead of time/schedule		C1	phrase		
+with the aid of sth		C1	phrase		
+after all		C1	phrase		
+all hours		C1	phrase		
+all at once		C1	phrase		
+be all very well		C1	phrase		
+be all set		C1	phrase		
+let alone		C1	phrase		
+alternate days/weeks/years, etc.		C1	phrase		
+anywhere near sth		C1	phrase		
+as it happens		C1	phrase		
+as many as		C1	phrase		
+at the expense of sth		C1	phrase		
+at a glance		C1	phrase		
+at hand		C1	phrase		
+at random		C1	phrase		
+at times		C1	phrase		
+at first sight		C1	phrase		
+back road/street		C1	phrase		
+lose your balance		C1	phrase		
+strike a balance		C1	phrase		
+bear left/right		C1	phrase		
+behind the times		C1	phrase		
+the next best thing		C1	phrase		
+(have) the best of both worlds		C1	phrase		
+the blind		C1	phrase		
+(have) the best of both worlds		C1	phrase		
+in bulk		C1	phrase		
+the bulk of sth		C1	phrase		
+by all accounts		C1	phrase		
+by and large		C1	phrase		
+by law		C1	phrase		
+by no means; not by any means		C1	phrase		
+by way of sth		C1	phrase		
+call a meeting		C1	phrase		
+take care of sth/doing sth		C1	phrase		
+know/say for certain		C1	phrase		
+class sb/sth as sth		C1	phrase		
+crystal clear		C1	phrase		
+be/come close to doing sth		C1	phrase		
+be close to sth		C1	phrase		
+to the contrary		C1	phrase		
+contrary to sth		C1	phrase		
+course of action		C1	phrase		
+during/in/over the course of sth		C1	phrase		
+a matter of course		C1	phrase		
+the cream of sth		C1	phrase		
+crystal clear		C1	phrase		
+days		C1	phrase		
+the old days		C1	phrase		
+be dead set against sth/doing sth		C1	phrase		
+deadly dull/serious, etc.		C1	phrase		
+dedicate your life/yourself to sth		C1	phrase		
+put sb in a difficult position		C1	phrase		
+direct sth against/at/toward, etc. sb/sth		C1	phrase		
+do your utmost		C1	phrase		
+drive sb to sth; drive sb to do sth		C1	phrase		
+be due for sth		C1	phrase		
+with all due respect		C1	phrase		
+take effect		C1	phrase		
+have little/no effect		C1	phrase		
+the elderly		C1	phrase		
+bring sth to an end		C1	phrase		
+have had enough		C1	phrase		
+establish communication/relations, etc.		C1	phrase		
+establish sb/sth as sth		C1	phrase		
+even so		C1	phrase		
+better/faster/happier, etc. than ever		C1	phrase		
+every now and then		C1	phrase		
+do everything in your power to do sth		C1	phrase		
+how far		C1	phrase		
+far from it		C1	phrase		
+far from sth		C1	phrase		
+feel compelled to do sth		C1	phrase		
+filter down/in/through, etc.		C1	phrase		
+first and foremost		C1	phrase		
+at first sight		C1	phrase		
+come first		C1	phrase		
+fall flat		C1	phrase		
+for good		C1	phrase		
+for life		C1	phrase		
+for long		C1	phrase		
+for the most part		C1	phrase		
+first and foremost		C1	phrase		
+foul language		C1	phrase		
+free from/of sth		C1	phrase		
+from the 1870s/March/6:30 pm, etc. onward		C1	phrase		
+fulfill a duty/promise/responsibility, etc.		C1	phrase		
+fulfill an ambition/dream/goal, etc.		C1	phrase		
+fulfill a function/need/role, etc.		C1	phrase		
+fulfill criteria/requirements, etc.		C1	phrase		
+gather speed/momentum/support, etc.		C1	phrase		
+get rid of sb		C1	phrase		
+get sth straight		C1	phrase		
+keep sb going		C1	phrase		
+grab the opportunity/chance		C1	phrase		
+in your heart		C1	phrase		
+on hold		C1	phrase		
+the home of sth/sb		C1	phrase		
+make yourself at home		C1	phrase		
+broaden/expand/widen your horizons		C1	phrase		
+on the horizon		C1	phrase		
+a hot issue/topic		C1	phrase		
+how far		C1	phrase		
+in accordance with sth		C1	phrase		
+in association with		C1	phrase		
+in bulk		C1	phrase		
+in any event		C1	phrase		
+in the form of sth		C1	phrase		
+in your heart		C1	phrase		
+in the hope that/of		C1	phrase		
+be in sb's interest		C1	phrase		
+in (the) light of sth		C1	phrase		
+in moderation		C1	phrase		
+in the region of sth		C1	phrase		
+in reserve		C1	phrase		
+in no time		C1	phrase		
+in tune		C1	phrase		
+in turn		C1	phrase		
+in turn		C1	phrase		
+in vain		C1	phrase		
+in no way/not in any way		C1	phrase		
+in the same way		C1	phrase		
+in store		C1	phrase		
+take the initiative		C1	phrase		
+be in sb's interest		C1	phrase		
+I/you/we, etc. will just have to do sth		C1	phrase		
+keep track		C1	phrase		
+keep your word		C1	phrase		
+keep sb going		C1	phrase		
+keep pace with sb/sth		C1	phrase		
+be key to sth		C1	phrase		
+know what you are talking about		C1	phrase		
+the labor market		C1	phrase		
+land in/on, etc.		C1	phrase		
+foul language		C1	phrase		
+by and large		C1	phrase		
+by law		C1	phrase		
+leave sb doing sth		C1	phrase		
+let alone		C1	phrase		
+for life		C1	phrase		
+in (the) light of sth		C1	phrase		
+like I said		C1	phrase		
+linens		C1	phrase		
+for long		C1	phrase		
+long ago		C1	phrase		
+lose your balance		C1	phrase		
+as many as		C1	phrase		
+a matter of course		C1	phrase		
+it's only a matter of time		C1	phrase		
+may as well do sth		C1	phrase		
+in moderation		C1	phrase		
+for the most part		C1	phrase		
+not much of a sth		C1	phrase		
+(all) to myself		C1	phrase		
+anywhere near sth		C1	phrase		
+nowhere near		C1	phrase		
+nerves		C1	phrase		
+get on sb's nerves		C1	phrase		
+the next best thing		C1	phrase		
+no doubt		C1	phrase		
+no ... whatsoever		C1	phrase		
+the norm		C1	phrase		
+not a/one		C1	phrase		
+make a note of sth		C1	phrase		
+stop at nothing		C1	phrase		
+nothing of the sort/kind		C1	phrase		
+on short notice		C1	phrase		
+every now and then		C1	phrase		
+the old days		C1	phrase		
+on the basis of sth		C1	phrase		
+on the grounds of/that		C1	phrase		
+on hold		C1	phrase		
+on the horizon		C1	phrase		
+on the increase		C1	phrase		
+on loan		C1	phrase		
+on location		C1	phrase		
+on show		C1	phrase		
+on the side		C1	phrase		
+on site		C1	phrase		
+all at once		C1	phrase		
+from the 1870s/March/6:30 pm, etc. onward		C1	phrase		
+open to discussion/suggestions, etc.		C1	phrase		
+have a high/low opinion of sb/sth		C1	phrase		
+be opposed to sth		C1	phrase		
+the opposite sex		C1	phrase		
+other than		C1	phrase		
+other than that		C1	phrase		
+out of tune		C1	phrase		
+keep pace with sb/sth		C1	phrase		
+for the most part		C1	phrase		
+place an advertisement/order, etc.		C1	phrase		
+make a point of doing sth		C1	phrase		
+the poor		C1	phrase		
+be populated		C1	phrase		
+pose a danger/problem/threat, etc.		C1	phrase		
+do everything in your power to do sth		C1	phrase		
+good/bad press		C1	phrase		
+prior to sth		C1	phrase		
+be a question of		C1	phrase		
+at random		C1	phrase		
+the rear		C1	phrase		
+in reserve		C1	phrase		
+with all due respect		C1	phrase		
+return to normal		C1	phrase		
+the rich		C1	phrase		
+get rid of sb		C1	phrase		
+have a/no right to do sth		C1	phrase		
+room for improvement		C1	phrase		
+be/lie in ruins		C1	phrase		
+sad to say		C1	phrase		
+a safe place; somewhere safe		C1	phrase		
+in the same way		C1	phrase		
+save sb (from) doing sth		C1	phrase		
+wait and see		C1	phrase		
+you see		C1	phrase		
+set foot in/on sth		C1	phrase		
+be all set		C1	phrase		
+shed tears		C1	phrase		
+on short notice		C1	phrase		
+on the side		C1	phrase		
+at first sight		C1	phrase		
+to do so		C1	phrase		
+even so		C1	phrase		
+so as not to do sth		C1	phrase		
+solid gold/silver/wood, etc.		C1	phrase		
+be/have something to do with sth/sb		C1	phrase		
+no sooner ... than		C1	phrase		
+to spare		C1	phrase		
+up to speed		C1	phrase		
+exceed the speed limit		C1	phrase		
+stand at sth		C1	phrase		
+stop at nothing		C1	phrase		
+get sth straight		C1	phrase		
+not think straight		C1	phrase		
+strike a balance		C1	phrase		
+subject to sth		C1	phrase		
+suppose/supposing (that)		C1	phrase		
+a sure thing		C1	phrase		
+be sure to do sth		C1	phrase		
+shed tears		C1	phrase		
+tell the difference		C1	phrase		
+that's that		C1	phrase		
+that is (to say)		C1	phrase		
+every now and then		C1	phrase		
+the next best thing		C1	phrase		
+a sure thing		C1	phrase		
+think of sb/sth as sth		C1	phrase		
+think twice		C1	phrase		
+not think twice		C1	phrase		
+not think straight		C1	phrase		
+at times		C1	phrase		
+make time		C1	phrase		
+it's only a matter of time		C1	phrase		
+take your time		C1	phrase		
+behind the times		C1	phrase		
+in no time		C1	phrase		
+tin can		C1	phrase		
+to cap it off		C1	phrase		
+to the contrary		C1	phrase		
+to spare		C1	phrase		
+keep track		C1	phrase		
+turn 16/21/57, etc.		C1	phrase		
+in turn		C1	phrase		
+in turn		C1	phrase		
+think twice		C1	phrase		
+not think twice		C1	phrase		
+be of two minds		C1	phrase		
+be unique to sb/sth		C1	phrase		
+up to speed		C1	phrase		
+do your utmost		C1	phrase		
+in vain		C1	phrase		
+in the same way		C1	phrase		
+in no way/not in any way		C1	phrase		
+by way of sth		C1	phrase		
+get/have your (own) way		C1	phrase		
+may/might as well do sth		C1	phrase		
+it's just as well		C1	phrase		
+be all very well		C1	phrase		
+no ... whatsoever		C1	phrase		
+around the clock	IDIOM	C1	phrase		
+at face value	IDIOM	C1	phrase		
+bend over backwards	IDIOM	C1	phrase		
+beat around the bush	IDIOM	C1	phrase		
+look on the bright side	IDIOM	C1	phrase		
+with flying colors	IDIOM	C1	phrase		
+keep your cool	IDIOM	C1	phrase		
+easier said than done	IDIOM	C1	phrase		
+(take) the easy way out	IDIOM	C1	phrase		
+easier said than done	IDIOM	C1	phrase		
+at face value	IDIOM	C1	phrase		
+face the music	IDIOM	C1	phrase		
+be a far cry from sth	IDIOM	C1	phrase		
+a fine line	IDIOM	C1	phrase		
+with flying colors	IDIOM	C1	phrase		
+from scratch	IDIOM	C1	phrase		
+get a grip (on yourself)	IDIOM	C1	phrase		
+go hand in hand	IDIOM	C1	phrase		
+in a nutshell	IDIOM	C1	phrase		
+in safe hands	IDIOM	C1	phrase		
+on the job	IDIOM	C1	phrase		
+keep a low profile	IDIOM	C1	phrase		
+keep your cool	IDIOM	C1	phrase		
+look on the bright side	IDIOM	C1	phrase		
+lose your head	IDIOM	C1	phrase		
+keep a low profile	IDIOM	C1	phrase		
+new blood	IDIOM	C1	phrase		
+in a nutshell	IDIOM	C1	phrase		
+on the job	IDIOM	C1	phrase		
+on track	IDIOM	C1	phrase		
+out of the blue	IDIOM	C1	phrase		
+be in the public eye	IDIOM	C1	phrase		
+a rule of thumb	IDIOM	C1	phrase		
+in safe hands	IDIOM	C1	phrase		
+to make a long story short	IDIOM	C1	phrase		
+look on the bright side	IDIOM	C1	phrase		
+the last/final straw	IDIOM	C1	phrase		
+on track	IDIOM	C1	phrase		
+at face value	IDIOM	C1	phrase		
+(take) the easy way out	IDIOM	C1	phrase		
+the military		C1	phrase		
+conventional wisdom		C1	phrase		
+as yet		C1	phrase		
+give sb your word		C1	phrase	communication	
+take sb's word for it		C1	phrase	communication	
+wrongly accused/convicted/imprisoned, etc.		C1	phrase		
+write sth up or write up sth		C1	phrasal verb		
+with all due respect		C1	phrase		
+with the aid of sth		C1	phrase		
+keep your word		C1	phrase		
+can work sth; know how to work sth		C1	phrase		
+(have) the best of both worlds		C1	phrase		
+yet again		C1	phrase		
+with flying colors	IDIOM	C1	phrase		

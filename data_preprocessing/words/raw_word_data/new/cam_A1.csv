@@ -1,0 +1,782 @@
+clothes		A1		clothes	
+twelve		A1			
+two	NUMBER	A1			
+to	INFINITIVE	A1			
+twenty	NUMBER	A1			
+three		A1			
+thirteen		A1			
+ten		A1			
+sixteen		A1			
+six		A1			
+seventeen		A1			
+one		A1			
+seven		A1			
+nineteen		A1			
+second	AFTER FIRST	A1			
+nine		A1			
+fourteen		A1			
+four		A1			
+five		A1			
+fifteen		A1			
+eleven		A1			
+and	NUMBERS	A1			
+eighteen		A1			
+as	JOB	A1		work	
+eight		A1			
+or	POSSIBILITIES	A1		communication	
+but		A1		communication	
+because		A1		communication	
+and	AFTER	A1		communication	
+and	ALSO	A1		communication	
+picnic		A1	noun	food and drink	
+dining room		A1	noun	homes and buildings	
+come	MOVE TO SPEAKER	A1	verb	people: actions	
+beard		A1	noun	people: appearance	
+address	ELECTRONIC	A1	noun	technology	
+clock		A1	noun		
+afternoon		A1	noun		
+finish	END	A1	verb		
+have	BE ILL	A1	verb	body and health	
+OK	NOT SICK/UPSET, ETC.	A1	adjective	body and health	
+gray	COLOR	A1	adjective	describing things	
+happy	PLEASED	A1	adjective	people: personality	
+wrong	NOT CORRECT	A1	adjective		
+come	ARRIVE	A1	verb		
+understand	KNOW MEANING	A1	verb		
+very	EMPHASIS	A1	adverb	communication	
+dark	NOT PALE	A1	adjective	describing things	
+favorite		A1	adjective	people: personality	
+short	TIME	A1	adjective		
+meal		A1	noun	food and drink	
+desk		A1	noun	homes and buildings	
+shower	WASH	A1	noun	people: actions	
+baby	CHILD	A1	noun	people: appearance	
+basketball		A1	noun	shopping	
+classroom		A1	noun		
+tomorrow	DAY AFTER TODAY	A1	noun		
+eat	HAVE MEAL	A1	verb		
+tooth	IN MOUTH	A1	noun	body and health	
+write	PRODUCE	A1	verb		
+good	HIGH QUALITY	A1	adjective	describing things	
+good	KIND	A1	adjective	people: personality	
+tall	GREATER HEIGHT	A1	adjective		
+glass	CONTAINER	A1	noun	food and drink	
+bookcase		A1	noun	homes and buildings	
+world	THE EARTH	A1	noun	natural world	
+watch	LOOK AT	A1	verb	people: actions	
+tennis		A1	noun	shopping	
+child		A1	noun		
+e-mail	SYSTEM	A1	noun		
+knife		A1	noun	food and drink	
+chair		A1	noun	homes and buildings	
+bath		A1	noun	people: actions	
+adult		A1	noun	people: appearance	
+baseball		A1	noun	shopping	
+city		A1	noun		
+today	THIS DAY	A1	noun		
+die	STOP LIVING	A1	verb		
+nose	ON FACE	A1	noun	body and health	
+work	DO JOB	A1	verb		
+good	PLEASANT	A1	adjective	describing things	
+good	SUCCESSFUL	A1	adjective	people: personality	
+slow	NOT FAST	A1	adjective		
+cup	DRINKING CONTAINER	A1	noun	food and drink	
+bedroom		A1	noun	homes and buildings	
+winter		A1	noun	natural world	
+walk		A1	verb	people: actions	
+business	SELLING	A1	noun	shopping	
+cell phone		A1	noun		
+dancing		A1	noun		
+begin	START TO HAPPEN	A1	verb		
+travel	MAKE JOURNEY	A1	verb		
+no	NEGATIVE ANSWER	A1	adverb	communication	
+close	NEAR	A1	adjective	describing things	
+short	LENGTH/DISTANCE/HEIGHT	A1	adjective		
+mouth		A1	noun	body and health	
+cracker		A1	noun	food and drink	
+bathroom	ROOM	A1	noun	homes and buildings	
+wind		A1	noun	natural world	
+visit	SEE A PERSON	A1	verb	people: actions	
+sport	GAME	A1	noun	shopping	
+board	CLASSROOM	A1	noun		
+quarter	TIME	A1	noun		
+teach	GIVE LESSONS	A1	verb		
+sorry	APOLOGY	A1	adjective	communication	
+clean	NOT DIRTY	A1	adjective	describing things	
+young		A1	adjective	people: appearance	
+same	NOT ANOTHER	A1	adjective		
+zoo		A1	noun	animals	
+coffee shop		A1	noun	food and drink	
+address	BUILDING DETAILS	A1	noun	homes and buildings	
+town	PLACE	A1	noun	natural world	
+stop	FINISH	A1	verb	people: actions	
+game	ACTIVITY/SPORT	A1	noun	shopping	
+refrigerator		A1	noun		
+year	TWELVE MONTHS	A1	noun		
+people		A1	noun		
+swim		A1	verb		
+good	PLEASED	A1	adjective	communication	
+brown		A1	adjective	describing things	
+small	YOUNG	A1	adjective	people: appearance	
+safe	NOT IN DANGER	A1	adjective		
+sheep		A1	noun	animals	
+leg		A1	noun	body and health	
+café		A1	noun	food and drink	
+have	EAT/DRINK	A1	verb	food and drink	
+summer		A1	noun	natural world	
+start	BEGIN	A1	verb	people: actions	
+football	BALL	A1	noun	shopping	
+doctor		A1	noun		
+weekend		A1	noun		
+foot	BODY PART	A1	noun	body and health	
+study	SCHOOL/COLLEGE	A1	verb		
+dear	IN LETTERS	A1	adjective	communication	
+blue	COLOR	A1	adjective	describing things	
+slim	THIN	A1	adjective	people: appearance	
+right	CORRECT	A1	adjective		
+yesterday		A1	adverb		
+pig		A1	noun	animals	
+head	BODY	A1	noun	body and health	
+week	MONDAY TO FRIDAY	A1	noun		
+face	HEAD	A1	noun	body and health	
+sing		A1	verb		
+talk	SAY	A1	verb	communication	
+black	COLOR	A1	adjective	describing things	
+old	AGE	A1	adjective	people: appearance	
+ready	PREPARED	A1	adjective		
+why	ASK ABOUT REASON	A1	adverb		
+pet		A1	noun	animals	
+hand	BODY PART	A1	noun	body and health	
+bean		A1	noun	food and drink	
+tomato		A1	noun	food and drink	
+weather	WIND, RAIN, ETC.	A1	noun	natural world	
+smoke		A1	verb	people: actions	
+doll		A1	noun	shopping	
+nationality		A1	noun		
+where		A1	adverb		
+horse		A1	noun	animals	
+learn	GET KNOWLEDGE	A1	verb	education	
+tea	DRINK	A1	noun	food and drink	
+water	LIQUID	A1	noun	natural world	
+see	USE EYES	A1	verb	people: actions	
+box	CONTAINER	A1	noun	shopping	
+television	EQUIPMENT	A1	noun		
+week	SEVEN DAYS	A1	noun		
+Wednesday		A1	noun		
+eye	BODY PART	A1	noun	body and health	
+ride		A1	verb		
+well	HEALTHY	A1	adjective	body and health	
+big	SIZE	A1	adjective	describing things	
+old	EXISTED MANY YEARS	A1	adjective	people: appearance	
+quick	FAST	A1	adjective		
+class	LESSON	A1	noun	education	
+potato		A1	noun	food and drink	
+snow		A1	noun	natural world	
+run	MOVE FAST	A1	verb	people: actions	
+bookstore		A1	noun	shopping	
+station	BUILDING	A1	noun		
+waitress		A1	noun		
+TV		A1	noun		
+ear	BODY PART	A1	noun	body and health	
+remember	IN YOUR MIND	A1	verb		
+good	HEALTHY	A1	adjective	body and health	
+best	BETTER THAN ALL	A1	adjective	describing things	
+little	YOUNG	A1	adjective	people: appearance	
+open	DOING BUSINESS	A1	adjective		
+when		A1	adverb		
+fish	ANIMAL	A1	noun	animals	
+Thursday		A1	noun		
+photo		A1	noun	arts and media	
+play	CHILDREN	A1	verb		
+funny	MAKING YOU LAUGH	A1	adjective	people: personality	
+bottom	LOWEST PART	A1	noun	describing things	
+new	NOT KNOWN BEFORE	A1	adjective		
+too	ALSO	A1	adverb		
+Mr.		A1	noun		
+homework		A1	noun	education	
+pizza		A1	noun	food and drink	
+rain		A1	noun	natural world	
+open	NOT CLOSED	A1	verb	people: actions	
+bat	STICK	A1	noun	shopping	
+animal	NOT A HUMAN	A1	noun	animals	
+shopping		A1	noun		
+ticket		A1	noun		
+Tuesday		A1	noun		
+body	PERSON	A1	noun	body and health	
+practice		A1	verb		
+word	LANGUAGE UNIT	A1	noun	communication	
+fine	WELL	A1	adjective	body and health	
+bad	UNPLEASANT	A1	adjective	describing things	
+fat		A1	adjective	people: appearance	
+only		A1	adjective		
+well	IN A GOOD WAY	A1	adverb		
+dog		A1	noun	animals	
+test	EXAM	A1	noun	education	
+lunch		A1	noun	food and drink	
+village		A1	noun	natural world	
+kick	HIT	A1	verb	people: actions	
+bag		A1	noun	shopping	
+teacher		A1	noun		
+swimming pool		A1	noun		
+tonight		A1	adverb		
+Miss		A1	noun		
+university		A1	noun	education	
+orange	FRUIT	A1	noun	food and drink	
+grass		A1	noun	natural world	
+meet	COME TOGETHER	A1	verb	people: actions	
+ball	ROUND OBJECT	A1	noun	shopping	
+conversation		A1	noun	communication	
+waiter		A1	noun		
+thing	OBJECT	A1	noun		
+time	PARTICULAR POINT	A1	noun		
+arm	BODY	A1	noun	body and health	
+play	SPORTS	A1	verb		
+sentence	WORD GROUP	A1	noun	communication	
+new	DIFFERENT	A1	adjective		
+up	VERTICAL	A1	adverb		
+Mrs.		A1	noun		
+cow		A1	noun	animals	
+subject	STUDY	A1	noun	education	
+juice		A1	noun	food and drink	
+tree		A1	noun	natural world	
+help	DO PART OF WORK	A1	verb	people: actions	
+family	RELATED PEOPLE	A1	noun	relationships	
+eraser		A1	noun		
+supermarket		A1	noun		
+Sunday		A1	noun		
+page	PAPER	A1	noun	arts and media	
+pay	GIVE MONEY	A1	verb		
+hungry		A1	adjective	food and drink	
+long	TIME	A1	adjective		
+music	SOUNDS	A1	noun	arts and media	
+question	ASKING	A1	noun	communication	
+cat		A1	noun	animals	
+student		A1	noun	education	
+ice cream		A1	noun	food and drink	
+river		A1	noun	natural world	
+hear	RECEIVE SOUND	A1	verb	people: actions	
+wife		A1	noun	relationships	
+wine		A1	noun	food and drink	
+store	PLACE TO BUY	A1	noun		
+September		A1	noun		
+newspaper	TO READ	A1	noun	arts and media	
+paint	MAKE PICTURE	A1	verb		
+famous		A1	adjective	people: personality	
+late	NEAR THE END	A1	adjective		
+tomorrow		A1	adverb		
+television	PROGRAMS	A1	noun	arts and media	
+bird		A1	noun	animals	
+lesson	TEACHING PERIOD	A1	noun	education	
+fruit		A1	noun	food and drink	
+plant		A1	noun	natural world	
+finish	COMPLETE	A1	verb	people: actions	
+son		A1	noun	relationships	
+beer		A1	noun	food and drink	
+restaurant		A1	noun		
+school	PLACE	A1	noun		
+movie	PICTURE	A1	noun	arts and media	
+meet	INTRODUCE	A1	verb		
+really	VERY GREAT	A1	adverb	communication	
+late	AFTER	A1	adjective		
+today	THIS DAY	A1	adverb		
+smoking		A1	noun	people: actions	
+pencil		A1	noun	communication	
+dictionary		A1	noun	education	
+food		A1	noun	food and drink	
+place	SOMEWHERE	A1	noun	natural world	
+close	DOOR/WINDOW	A1	verb	people: actions	
+sister		A1	noun	relationships	
+work	JOB	A1	noun	work	
+problem	DIFFICULT SITUATION	A1	noun		
+Saturday		A1	noun		
+guitar		A1	noun	arts and media	
+leave	GO AWAY	A1	verb		
+number	TELEPHONE	A1	noun	communication	
+interesting		A1	adjective	people: personality	
+hot	VERY WARM	A1	adjective		
+there	DIRECTION	A1	adverb		
+writing	SKILL	A1	noun	communication	
+radio	EQUIPMENT	A1	noun	arts and media	
+pen		A1	noun	communication	
+phone		A1	noun		
+group	MUSIC	A1	noun	arts and media	
+know	HAVE INFORMATION	A1	verb		
+note	LETTER	A1	noun	communication	
+exciting		A1	adjective	people: personality	
+hard	DIFFICULT	A1	adjective		
+there	PLACE	A1	adverb		
+reading		A1	noun	communication	
+picture	DRAWING, ETC.	A1	noun	arts and media	
+number	SHOWING SOMETHING	A1	noun	communication	
+course	CLASSES	A1	noun	education	
+egg	FOOD	A1	noun	food and drink	
+park		A1	noun	natural world	
+choose		A1	verb	people: actions	
+party	EVENT	A1	noun	relationships	
+work	PLACE	A1	noun	work	
+person	HUMAN	A1	noun		
+then	NEXT	A1	adverb		
+computer		A1	noun	technology	
+class	TEACHING GROUP	A1	noun	education	
+drink	LIQUID	A1	noun	food and drink	
+flower		A1	noun	natural world	
+change	START SOMETHING NEW	A1	verb	people: actions	
+parent		A1	noun	relationships	
+job	PAID EMPLOYMENT	A1	noun	work	
+part	PIECE	A1	noun		
+paint		A1	noun		
+camera		A1	noun	arts and media	
+feel	EXPERIENCE	A1	verb		
+name	CALL	A1	noun	communication	
+boring		A1	adjective	people: personality	
+sun		A1	noun	natural world	
+first	BEFORE	A1	adjective		
+color	APPEARANCE	A1	noun	describing things	
+dinner		A1	noun	food and drink	
+beach		A1	noun	natural world	
+catch	TAKE HOLD	A1	verb	people: actions	
+mother		A1	noun	relationships	
+holiday	NO WORK/SCHOOL	A1	noun	work	
+pair	TWO PEOPLE	A1	noun		
+October		A1	noun		
+book	FOR READING	A1	noun	arts and media	
+eat	SWALLOW FOOD	A1	verb		
+message	INFORMATION	A1	noun	communication	
+beautiful	ATTRACTIVE	A1	adjective	people: appearance	
+warm	TEMPERATURE	A1	adjective	natural world	
+fast		A1	adjective		
+then	AT THAT TIME	A1	adverb		
+CD player		A1	noun	technology	
+night	EVENING	A1	noun		
+draw	PICTURE	A1	verb		
+floor	SURFACE	A1	noun	homes and buildings	
+cold	TEMPERATURE	A1	adjective		
+only	NOT MORE	A1	adverb		
+paper	FLAT MATERIAL	A1	noun	describing things	
+coffee		A1	noun	food and drink	
+money		A1	noun	money	
+wash	CLEAN THING	A1	verb	people: actions	
+mom		A1	noun	relationships	
+catch	TRAVEL	A1	verb	travel	
+number	SYMBOL	A1	noun		
+November		A1	noun		
+band		A1	noun	arts and media	
+drive	USE VEHICLE	A1	verb		
+letter	MESSAGE	A1	noun	communication	
+beautiful	PLEASANT	A1	adjective	describing things	
+poor	NO MONEY	A1	adjective	money	
+easy		A1	adjective		
+sometimes		A1	adverb		
+player	SPORT/GAME	A1	noun	shopping	
+speak	SAY WORDS	A1	verb	communication	
+cheese		A1	noun	food and drink	
+bank	MONEY	A1	noun	money	
+take	GO WITH SOMEONE	A1	verb	people: actions	
+friend	PERSON YOU LIKE	A1	noun	relationships	
+go	MOVE/TRAVEL	A1	verb	travel	
+month	FOUR WEEKS	A1	noun		
+often	REGULARLY	A1	adverb		
+glass	SUBSTANCE	A1	noun	describing things	
+chocolate	FOOD	A1	noun	food and drink	
+dollar		A1	noun	money	
+use	PURPOSE	A1	verb	people: actions	
+husband		A1	noun	relationships	
+go	DO SOMETHING	A1	verb	travel	
+movie theater		A1	noun		
+noise		A1	noun		
+ad		A1	noun	arts and media	
+drink	LIQUID	A1	verb		
+language	ENGLISH/SPANISH/JAPANESE, ETC.	A1	noun	communication	
+better	HIGHER STANDARD	A1	adjective	describing things	
+difficult	NOT EASY	A1	adjective		
+p.m.		A1	adverb		
+dad		A1	noun	relationships	
+read	WORDS	A1	verb	communication	
+cake	FOOD	A1	noun	food and drink	
+home		A1	noun	homes and buildings	
+take	CARRY	A1	verb	people: actions	
+father		A1	noun	relationships	
+fly	TRAVEL	A1	verb	travel	
+month	PART OF YEAR	A1	noun		
+night	DARK PERIOD	A1	noun		
+dance		A1	verb		
+better	HEALTHY	A1	adjective	body and health	
+outside	NOT IN BUILDING	A1	adverb	describing things	
+sweet	TASTE	A1	adjective	food and drink	
+cheap		A1	adjective		
+cross	MARK	A1	noun	communication	
+ask	QUESTION	A1	verb	communication	
+breakfast		A1	noun	food and drink	
+bed	FOR SLEEP	A1	noun	homes and buildings	
+show	MAKE SEEN	A1	verb	people: actions	
+daughter		A1	noun	relationships	
+vacation		A1	noun	travel	
+minute	60 SECONDS	A1	noun		
+morning	PART OF DAY	A1	noun		
+cook		A1	verb		
+different	NOT THE SAME	A1	adjective	describing things	
+down	SURFACE	A1	adverb	describing things	
+be	POSITION	A1	verb	describing things	
+busy	PLACE	A1	adjective		
+now	AT PRESENT	A1	adverb		
+answer	REACT	A1	verb	communication	
+banana		A1	noun	food and drink	
+window	GLASS	A1	noun	homes and buildings	
+make	PRODUCE	A1	verb	people: actions	
+brother		A1	noun	relationships	
+road	FOR DRIVING	A1	noun	travel	
+kind		A1	noun		
+Monday		A1	noun		
+visit	SEE A PLACE	A1	verb		
+closed	BUSINESS/STORE	A1	adjective	shopping	
+below	POSITION	A1	adverb	describing things	
+all right	WITHOUT PROBLEMS	A1	adjective		
+not	NEGATIVE WORD/S	A1	adverb		
+answer	REACTION	A1	noun	communication	
+tell	SPEAK	A1	verb	communication	
+apple		A1	noun	food and drink	
+wall		A1	noun	homes and buildings	
+give	PROVIDE	A1	verb	people: actions	
+birthday		A1	noun	relationships	
+train		A1	noun	travel	
+hour	60 MINUTES	A1	noun		
+May		A1	noun		
+send	MAIL	A1	verb		
+jeans		A1	noun	clothes	
+tired	WANTING REST	A1	adjective	people: personality	
+back	RETURNING	A1	adverb	describing things	
+expensive		A1	adjective		
+not	AFTER BE/CAN, ETC.	A1	adverb		
+wear	CLOTHES	A1	verb	clothes	
+March		A1	noun		
+need	MUST HAVE	A1	verb		
+glasses		A1	noun	clothes	
+excited		A1	adjective	people: personality	
+above	HIGHER POSITION	A1	adverb	describing things	
+possible	CAN HAPPEN	A1	adjective		
+never	NOT EVER	A1	adverb		
+pants		A1	noun	clothes	
+speak	LANGUAGE	A1	verb	communication	
+sugar		A1	noun	food and drink	
+toilet	CONTAINER	A1	noun	homes and buildings	
+find	DISCOVER WHEN SEARCHING	A1	verb	people: actions	
+think	OPINION	A1	verb	people: personality	
+taxi		A1	noun	travel	
+hotel		A1	noun		
+how	QUANTITY	A1	adverb		
+see	MEET	A1	verb	communication	
+soup		A1	noun	food and drink	
+table	FURNITURE	A1	noun	homes and buildings	
+do	ACTION	A1	verb	people: actions	
+think	BELIEVE TO BE TRUE	A1	verb	people: personality	
+subway	TRAIN	A1	noun	travel	
+hospital		A1	noun		
+life	TIME	A1	noun		
+love	ROMANCE	A1	verb		
+watch		A1	noun	clothes	
+important	VALUABLE	A1	adjective	describing things	
+yellow		A1	adjective	describing things	
+closed	NOT OPEN	A1	adjective		
+say	SPEAK	A1	verb	communication	
+salt		A1	noun	food and drink	
+shower	BATHROOM EQUIPMENT	A1	noun	homes and buildings	
+color	APPEARANCE	A1	verb	people: actions	
+want		A1	verb	people: personality	
+street		A1	noun	travel	
+group	SET	A1	noun		
+June		A1	noun		
+love	FRIENDS/FAMILY	A1	verb		
+T-shirt		A1	noun	clothes	
+the Internet		A1	noun	technology	
+white	COLOR	A1	adjective	describing things	
+here	THIS PLACE	A1	adverb		
+Friday		A1	noun		
+get	OBTAIN	A1	verb		
+orange		A1	adjective	describing things	
+early	BEGINNING	A1	adverb		
+know	ASK FOR INFORMATION	A1	verb	communication	
+rice		A1	noun	food and drink	
+room	PART OF BUILDING	A1	noun	homes and buildings	
+clean	REMOVE DIRT	A1	verb	people: actions	
+love	LIKE SOMETHING	A1	verb	people: personality	
+stop	PLACE	A1	noun	travel	
+factory		A1	noun		
+July		A1	noun		
+have	POSSESS	A1	verb		
+skirt		A1	noun	clothes	
+great	EXCELLENT	A1	adjective	describing things	
+small	LITTLE	A1	adjective	describing things	
+busy	PERSON	A1	adjective	work	
+hard	USING EFFORT	A1	adverb		
+meat		A1	noun	food and drink	
+living room		A1	noun	homes and buildings	
+enjoy	PLEASURE	A1	verb	people: personality	
+car	ROAD	A1	noun	travel	
+end	FINAL PART	A1	noun		
+invite	SOCIAL	A1	verb	communication	
+milk		A1	noun	food and drink	
+museum		A1	noun	homes and buildings	
+carry	HOLD	A1	verb	people: actions	
+like	ENJOY	A1	verb	people: personality	
+plane		A1	noun	travel	
+example	TYPICAL CASE	A1	noun		
+January		A1	noun		
+get	RECEIVE	A1	verb		
+shoe		A1	noun	clothes	
+red	COLOR	A1	adjective	describing things	
+first	BEFORE	A1	adverb		
+fish	FOOD	A1	noun	food and drink	
+kitchen		A1	noun	homes and buildings	
+fun	PLEASURE	A1	noun	people: personality	
+bus		A1	noun	travel	
+e-mail	MESSAGE	A1	noun		
+February		A1	noun		
+check	MARK	A1	verb		
+nice	PLEASANT	A1	adjective	describing things	
+best	MOST	A1	adverb		
+shirt		A1	noun	clothes	
+butter		A1	noun	food and drink	
+key	FOR LOCKS	A1	noun	homes and buildings	
+wait	STAY	A1	verb	people: actions	
+hair	ON HEAD	A1	noun	people: appearance	
+boat		A1	noun	travel	
+day	24 HOURS	A1	noun		
+evening		A1	noun		
+buy		A1	verb		
+new	RECENTLY CREATED	A1	adjective	describing things	
+a.m.		A1	adverb		
+bread		A1	noun	food and drink	
+house		A1	noun	homes and buildings	
+look	SEARCH	A1	verb	people: actions	
+woman		A1	noun	people: appearance	
+bike	BICYCLE	A1	noun	travel	
+date	PARTICULAR DAY	A1	noun		
+December		A1	noun		
+long	DISTANCE	A1	adjective	describing things	
+together	WITH EACH OTHER	A1	adverb	relationships	
+always	EVERY TIME	A1	adverb		
+jacket		A1	noun	clothes	
+vegetable		A1	noun	food and drink	
+garden	LAND	A1	noun	homes and buildings	
+look	SEE	A1	verb	people: actions	
+man	MALE	A1	noun	people: appearance	
+Web site		A1	noun	technology	
+dance	MOVING	A1	noun		
+August		A1	noun		
+stay	NOT LEAVE	A1	verb		
+coat		A1	noun	clothes	
+little	SMALL	A1	adjective	describing things	
+also		A1	adverb		
+hat		A1	noun	clothes	
+April		A1	noun		
+sleep	NOT AWAKE	A1	verb		
+boot		A1	noun	clothes	
+yes	ANSWER	A1	adverb	communication	
+light	PALE	A1	adjective	describing things	
+sad		A1	adjective	people: personality	
+again	ONE MORE TIME	A1	adverb		
+dress		A1	noun	clothes	
+sandwich		A1	noun	food and drink	
+farm		A1	noun	homes and buildings	
+listen	HEAR	A1	verb	people: actions	
+girl		A1	noun	people: appearance	
+DVD		A1	noun	technology	
+credit card		A1	noun		
+plate		A1	noun	food and drink	
+door		A1	noun	homes and buildings	
+come	GO WITH SOMEONE	A1	verb	people: actions	
+boy		A1	noun	people: appearance	
+CD		A1	noun	technology	
+country	POLITICAL UNIT	A1	noun		
+age	HOW OLD	A1	noun		
+sit	BODY POSITION	A1	verb		
+blouse		A1	noun	clothes	
+yes	AGREE	A1	adverb	communication	
+green	COLOR	A1	adjective	describing things	
+nice	KIND	A1	adjective	people: personality	
+about		A1	adverb		
+good afternoon		A1	exclamation	communication	
+in	INSIDE	A1	preposition	describing things	
+an		A1	determiner		
+between	SPACE	A1	preposition	describing things	
+a	ONE	A1	determiner		
+what	QUESTION	A1	pronoun		
+all right		A1	exclamation	communication	
+from	ORIGIN	A1	preposition	describing things	
+all	WHOLE TIME	A1	determiner		
+you	PERSON/PEOPLE ADDRESSED	A1	pronoun		
+a	ANY/EVERY	A1	determiner		
+we	GROUP	A1	pronoun		
+all	EVERY ONE	A1	determiner	communication	
+from	STARTING PLACE	A1	preposition	describing things	
+a	TYPE	A1	determiner		
+who	NAME	A1	pronoun		
+behind	BACK	A1	preposition	describing things	
+at	PLACE	A1	preposition	describing things	
+a	NOT PARTICULAR	A1	determiner		
+us		A1	pronoun		
+do	QUESTIONS/NEGATIVES	A1	auxiliary verb		
+they	GROUP	A1	pronoun		
+them	GROUP	A1	pronoun		
+that	ALREADY MENTIONED	A1	pronoun		
+that	CAN BE SEEN	A1	pronoun		
+she		A1	pronoun		
+it	THING	A1	pronoun		
+me		A1	pronoun		
+I		A1	pronoun		
+about	SUBJECT	A1	preposition	communication	
+it	SUBJECT/OBJECT	A1	pronoun		
+some	UNKNOWN AMOUNT	A1	determiner	describing things	
+other	ADDITIONAL	A1	determiner	describing things	
+will	ABLE/WILLING	A1	modal verb		
+him		A1	pronoun		
+no	NOT ANY	A1	determiner	describing things	
+cannot		A1	modal verb		
+her		A1	pronoun		
+much	QUESTION	A1	determiner	describing things	
+can	ABILITY	A1	modal verb	people: actions	
+can	POSSIBILITY	A1	modal verb		
+he		A1	pronoun		
+more	GREATER AMOUNT	A1	determiner	describing things	
+your	PERSON/PEOPLE ADDRESSED	A1	determiner		
+each		A1	pronoun		
+which		A1	determiner		
+anything	NO MATTER WHICH	A1	pronoun		
+more	IN ADDITION	A1	determiner	describing things	
+many	LARGE NUMBER	A1	determiner	describing things	
+what	QUESTION	A1	determiner		
+anything	IN QUESTIONS/NEGATIVES	A1	pronoun		
+any	SOME	A1	determiner	describing things	
+this	CAN BE SEEN	A1	determiner		
+to	TELLING THE TIME	A1	preposition		
+every	EACH	A1	determiner	describing things	
+those		A1	determiner		
+with	TOGETHER	A1	preposition		
+this	ALREADY MENTIONED	A1	determiner		
+than	COMPARING	A1	preposition		
+any	NOT IMPORTANT WHICH	A1	determiner	describing things	
+this	TIME	A1	determiner		
+until	TIME	A1	preposition		
+these		A1	determiner		
+past	TIME	A1	preposition		
+something	THING	A1	pronoun	describing things	
+their	BELONGING TO GROUP	A1	determiner		
+on	DAY/DATE	A1	preposition		
+some	NOT ALL	A1	pronoun	describing things	
+the	PLACE	A1	determiner		
+of	BELONG	A1	preposition		
+some	UNKNOWN AMOUNT	A1	pronoun	describing things	
+the	ONLY ONE	A1	determiner		
+in	DURING	A1	preposition		
+the	PARTICULAR	A1	determiner		
+from	DISTANCE	A1	preposition		
+can	OFFER	A1	modal verb	communication	
+with	HAVING	A1	preposition	describing things	
+can	REQUEST	A1	modal verb	communication	
+under	LOWER POSITION	A1	preposition	describing things	
+that	ALREADY MENTIONED	A1	determiner		
+from	TIME	A1	preposition		
+thanks	THANK YOU	A1	exclamation	communication	
+oh	EXPRESS EMOTION	A1	exclamation	communication	
+on	SURFACE	A1	preposition	describing things	
+my		A1	determiner		
+between	TIME	A1	preposition		
+well	EXPRESSING DOUBT	A1	exclamation	communication	
+to	PLACE	A1	preposition	describing things	
+that	CAN BE SEEN	A1	determiner		
+for	TIME/DISTANCE	A1	preposition		
+its		A1	determiner		
+before	EARLIER	A1	preposition		
+thank you	GRATEFUL	A1	exclamation	communication	
+please		A1	exclamation	communication	
+on	CONNECTED	A1	preposition	describing things	
+our		A1	determiner		
+for	GIVEN/USED	A1	preposition		
+OK	AGREEING	A1	exclamation	communication	
+oh	NEW IDEA	A1	exclamation	communication	
+of	NUMBER	A1	preposition	describing things	
+between	INVOLVE	A1	preposition	shopping	
+hi		A1	exclamation	communication	
+hello	ON PHONE	A1	exclamation	communication	
+of	CONTAINING	A1	preposition	describing things	
+his		A1	determiner		
+at	E-MAIL ADDRESS	A1	preposition		
+goodbye		A1	exclamation	communication	
+hello	GREETING	A1	exclamation	communication	
+of	AMOUNT	A1	preposition	describing things	
+her		A1	determiner		
+at	DIRECTION	A1	preposition		
+bye		A1	exclamation	communication	
+good night		A1	exclamation	communication	
+near	DISTANCE	A1	preposition	describing things	
+every	HOW OFTEN	A1	determiner		
+at	TIME	A1	preposition		
+good morning		A1	exclamation	communication	
+into	IN	A1	preposition	describing things	
+each		A1	determiner		
+after	TIME/EVENT	A1	preposition		
+both		A1	determiner		
+good evening		A1	exclamation	communication	
+inside		A1	preposition	describing things	
+not very good/tall/happy, etc.		A1	phrase		
+the present		A1	phrase		
+things		A1	phrase		
+one/two/three, etc. o'clock		A1	phrase		
+There is/are/was, etc.		A1	phrase		
+be ... years old		A1	phrase	people: appearance	
+Street		A1	phrase		
+next week/year/Monday, etc.		A1	phrase		
+very much		A1	phrase	describing things	
+more beautiful/difficult/easily, etc.		A1	phrase		
+Road		A1	phrase		
+Excuse me	ATTRACTING ATTENTION	A1	phrase	communication	
+too small/hard/much, etc.		A1	phrase	describing things	
+last night		A1	phrase		
+in the morning		A1	phrase		
+good for you		A1	phrase	body and health	
+the same		A1	phrase	describing things	
+last week/year/Monday, etc.		A1	phrase		
+be called sth		A1	phrase		
+(Good) morning		A1	phrase	communication	
+very much		A1	phrase	describing things	
+for example		A1	phrase	communication	
+a lot		A1	phrase	describing things	
+I am Spanish/a teacher, etc.		A1	phrase		
+Would you like ...?		A1	phrase	communication	
+wash up		A1	phrasal verb	people: actions	
+a lot/lots		A1	phrase	describing things	
+come from swh/sth		A1	phrasal verb		
+the radio		A1	phrase	arts and media	
+there is/there are/there was, etc.		A1	phrase	describing things	
+do the cleaning/cooking, etc.		A1	phrase	people: actions	
+would like sth/to do sth		A1	phrase	communication	
+wake (sb) up or wake up (sb)		A1	phrasal verb	people: actions	
+Don't worry (about sth)		A1	phrase	communication	
+go out	LEAVE	A1	phrasal verb	people: actions	
+see you soon		A1	phrase	communication	
+get (sb) up		A1	phrasal verb	people: actions	
+the movies		A1	phrase	arts and media	
+see you later/soon/tomorrow, etc.		A1	phrase	communication	
+see you		A1	phrase	communication	
+it rains/it is raining		A1	phrase	natural world	
+of course		A1	phrase	communication	
+how many		A1	phrase	communication	
+see you later		A1	phrase	communication	
+happy birthday/New Year, etc.		A1	phrase	communication	
+Would you like...?		A1	phrase	communication	
+How are you?		A1	phrase	communication	
+live in/at, etc.		A1	phrase	homes and buildings	
+Don't forget...		A1	phrase	communication	
+for example		A1	phrase	communication	
+(that's) fine		A1	phrase	communication	
+of course		A1	phrase	communication	
+as well		A1	phrase	communication	
+what does sb do?		A1	phrase	work	
+get here/there/home/to work, etc.		A1	phrase	travel	
+take a picture/photo(graph)		A1	phrase	people: actions	
+get a bus/train/taxi, etc.		A1	phrase	travel	
+put sth down/in/on, etc.		A1	phrase	people: actions	
+go shopping		A1	phrase	shopping	
+need to do sth		A1	phrase		
+would like sth/to do sth		A1	phrase	people: personality	
+as well (as)		A1	phrase		

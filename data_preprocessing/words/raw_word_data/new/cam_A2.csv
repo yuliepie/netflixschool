@@ -1,0 +1,1564 @@
+couch		A2		homes and buildings	
+million		A2			
+seventy		A2			
+zero	NUMBER	A2			
+and	AFTER VERB	A2		communication	
+as	BECAUSE	A2		communication	
+or	NOT EITHER	A2		communication	
+so	SENTENCE BEGINNING	A2		communication	
+as	LIKE	A2			
+before	EARLIER	A2			
+eighth		A2			
+eighty		A2			
+fifth		A2			
+fifty		A2			
+forty	NUMBER	A2			
+fourth		A2			
+hundred		A2			
+if	DEPENDING	A2			
+ninety		A2			
+ninth		A2			
+seventh		A2			
+sixth		A2			
+sixty		A2			
+so	REASON	A2			
+that	INTRODUCE PART	A2			
+third		A2			
+thirty		A2			
+thousand		A2			
+to	REASON	A2			
+to	INSTEAD OF VERB	A2			
+when	AT WHAT TIME	A2			
+where	POSITION	A2			
+while	DURING	A2			
+advertisement		A2	noun	arts and media	
+exam		A2	noun	education	
+graduate		A2	noun	education	
+place	HOME	A2	noun	homes and buildings	
+guy		A2	noun	people: appearance	
+kid		A2	noun	people: appearance	
+granddad		A2	noun	relationships	
+grandma		A2	noun	relationships	
+grandpa		A2	noun	relationships	
+granny		A2	noun	relationships	
+telephone		A2	verb		
+minute	SHORT TIME	A2	noun		
+dancer		A2	noun	arts and media	
+painter		A2	noun	arts and media	
+player	MUSIC	A2	noun	arts and media	
+poster		A2	noun	arts and media	
+sweater		A2	noun	clothes	
+teenager		A2	noun	people: appearance	
+beginner		A2	noun	people: personality	
+customer		A2	noun	shopping	
+runner		A2	noun	shopping	
+winner		A2	noun	shopping	
+MP3 player		A2	noun	technology	
+player	MACHINE	A2	noun	technology	
+printer		A2	noun	technology	
+speaker	EQUIPMENT	A2	noun	technology	
+passenger		A2	noun	travel	
+scooter		A2	noun	travel	
+cleaner	PERSON	A2	noun	work	
+farmer		A2	noun	work	
+manager		A2	noun	work	
+worker	IN COMPANY	A2	noun	work	
+painting	PICTURE	A2	noun	arts and media	
+painting	ACTIVITY	A2	noun	arts and media	
+meeting		A2	noun	communication	
+spelling		A2	noun	communication	
+writing	TEXT	A2	noun	communication	
+apartment building		A2	noun	homes and buildings	
+banking	MONEY MANAGEMENT	A2	noun	money	
+walking		A2	noun	people: actions	
+fishing		A2	noun	shopping	
+running	SPORT	A2	noun	shopping	
+sailing		A2	noun	shopping	
+camping		A2	noun	travel	
+sightseeing		A2	noun	travel	
+identification	DOCUMENT	A2	noun	communication	
+information		A2	noun	communication	
+invitation	SOCIAL	A2	noun	communication	
+examination	TEST	A2	noun	education	
+competition	EVENT	A2	noun	shopping	
+occupation	JOB	A2	noun	work	
+tourist		A2	noun	travel	
+electricity		A2	noun	technology	
+elevator		A2	noun	homes and buildings	
+visitor		A2	noun	travel	
+baby	ANIMAL	A2	noun	animals	
+bear		A2	noun	animals	
+chicken	BIRD	A2	noun	animals	
+dinosaur		A2	noun	animals	
+duck		A2	noun	animals	
+elephant		A2	noun	animals	
+insect		A2	noun	animals	
+lion		A2	noun	animals	
+monkey		A2	noun	animals	
+mouse	ANIMAL	A2	noun	animals	
+rabbit		A2	noun	animals	
+rat		A2	noun	animals	
+snake		A2	noun	animals	
+cartoon	FILM	A2	noun	arts and media	
+cartoon	DRAWING	A2	noun	arts and media	
+channel	TV	A2	noun	arts and media	
+clown		A2	noun	arts and media	
+comic		A2	noun	arts and media	
+concert		A2	noun	arts and media	
+dance	OCCASION	A2	noun	arts and media	
+drum		A2	noun	arts and media	
+instrument	MUSIC	A2	noun	arts and media	
+keyboard	MUSICAL INSTRUMENT	A2	noun	arts and media	
+magazine		A2	noun	arts and media	
+photograph		A2	noun	arts and media	
+piano		A2	noun	arts and media	
+play	ACTING	A2	noun	arts and media	
+program	TV/RADIO	A2	noun	arts and media	
+show	ENTERTAINMENT	A2	noun	arts and media	
+song		A2	noun	arts and media	
+stage	THEATER	A2	noun	arts and media	
+star	PERFORMER	A2	noun	arts and media	
+violin		A2	noun	arts and media	
+art	PAINTINGS/DRAWINGS, ETC.	A2	noun	arts and media	
+dance	ACTIVITY	A2	noun	arts and media	
+hip-hop		A2	noun	arts and media	
+jazz		A2	noun	arts and media	
+newspaper	PAPER	A2	noun	arts and media	
+photography		A2	noun	arts and media	
+pop		A2	noun	arts and media	
+rap		A2	noun	arts and media	
+rock	MUSIC	A2	noun	arts and media	
+opera		A2	noun	arts and media	
+accident	BAD EVENT	A2	noun	body and health	
+back	BODY	A2	noun	body and health	
+brain	BODY PART	A2	noun	body and health	
+cold	ILLNESS	A2	noun	body and health	
+finger	ON HAND	A2	noun	body and health	
+headache		A2	noun	body and health	
+heart	ORGAN	A2	noun	body and health	
+neck	PART OF BODY	A2	noun	body and health	
+stomach		A2	noun	body and health	
+toe	ON FOOT	A2	noun	body and health	
+blood	RED LIQUID	A2	noun	body and health	
+health		A2	noun	body and health	
+bandage		A2	noun	body and health	
+birth	BABY	A2	noun	body and health	
+medicine	SUBSTANCE	A2	noun	body and health	
+pain	PHYSICAL	A2	noun	body and health	
+stomachache		A2	noun	body and health	
+toothache		A2	noun	body and health	
+do	HEALTHY/HAPPY	A2	verb	body and health	
+hurt	BE PAINFUL	A2	verb	body and health	
+catch	ILLNESS	A2	verb	body and health	
+have	BABY	A2	verb	body and health	
+belt	CLOTHING	A2	noun	clothes	
+bracelet		A2	noun	clothes	
+cap		A2	noun	clothes	
+earring		A2	noun	clothes	
+glove		A2	noun	clothes	
+necklace		A2	noun	clothes	
+pocket	IN CLOTHING	A2	noun	clothes	
+raincoat		A2	noun	clothes	
+ring	JEWELRY	A2	noun	clothes	
+scarf		A2	noun	clothes	
+sneaker		A2	noun	clothes	
+sock		A2	noun	clothes	
+suit		A2	noun	clothes	
+swimsuit		A2	noun	clothes	
+tie	CLOTHES	A2	noun	clothes	
+umbrella		A2	noun	clothes	
+jewelry		A2	noun	clothes	
+shorts		A2	noun	clothes	
+sunglasses		A2	noun	clothes	
+tights		A2	noun	clothes	
+capital letter		A2	noun	communication	
+card	GREETINGS	A2	noun	communication	
+check	MARK	A2	noun	communication	
+document	OFFICIAL INFORMATION	A2	noun	communication	
+envelope		A2	noun	communication	
+file	INFORMATION	A2	noun	communication	
+form	DOCUMENT	A2	noun	communication	
+ID card		A2	noun	communication	
+letter	SYMBOL	A2	noun	communication	
+license		A2	noun	communication	
+list		A2	noun	communication	
+notebook		A2	noun	communication	
+notice	SIGN	A2	noun	communication	
+offer	SAYING YOU WILL DO/GIVE	A2	noun	communication	
+postcard		A2	noun	communication	
+sign	NOTICE	A2	noun	communication	
+stamp		A2	noun	communication	
+story	DESCRIPTION	A2	noun	communication	
+verb		A2	noun	communication	
+advice		A2	noun	communication	
+grammar		A2	noun	communication	
+mail	LETTERS	A2	noun	communication	
+mail	SYSTEM	A2	noun	communication	
+news	INFORMATION	A2	noun	communication	
+chat		A2	noun	communication	
+ID		A2	noun	communication	
+vocabulary		A2	noun	communication	
+directions		A2	noun	communication	
+answer	DOOR/TELEPHONE	A2	noun	communication	
+chat	TALK	A2	verb	communication	
+pray	TO GOD	A2	verb	communication	
+ask	INVITE	A2	verb	communication	
+describe		A2	verb	communication	
+discuss		A2	verb	communication	
+give	TELL	A2	verb	communication	
+mean	MEANING	A2	verb	communication	
+print	WRITING/IMAGES	A2	verb	communication	
+put	WRITE	A2	verb	communication	
+thank		A2	verb	communication	
+agree	SAME OPINION	A2	verb	communication	
+answer	DOOR/PHONE	A2	verb	communication	
+explain		A2	verb	communication	
+guess	ANSWER/OPINION	A2	verb	communication	
+offer	SAY YOU WILL DO	A2	verb	communication	
+read	SAY	A2	verb	communication	
+shout		A2	verb	communication	
+spell		A2	verb	communication	
+police		A2	noun	crime	
+centimeter		A2	noun	describing things	
+circle	SHAPE	A2	noun	describing things	
+degree	TEMPERATURE	A2	noun	describing things	
+gram		A2	noun	describing things	
+kilo		A2	noun	describing things	
+kilogram		A2	noun	describing things	
+kilometer		A2	noun	describing things	
+liter		A2	noun	describing things	
+meter		A2	noun	describing things	
+pair	TWO THINGS	A2	noun	describing things	
+pair	TWO PARTS	A2	noun	describing things	
+piece	PART	A2	noun	describing things	
+piece	SINGLE THING	A2	noun	describing things	
+size	MEASURE	A2	noun	describing things	
+square	SHAPE	A2	noun	describing things	
+star	SHAPE	A2	noun	describing things	
+black		A2	noun	describing things	
+cream	COLOR	A2	noun	describing things	
+blue		A2	noun	describing things	
+brown		A2	noun	describing things	
+gray		A2	noun	describing things	
+green		A2	noun	describing things	
+orange	COLOR	A2	noun	describing things	
+pink		A2	noun	describing things	
+purple		A2	noun	describing things	
+red		A2	noun	describing things	
+size	AMOUNT	A2	noun	describing things	
+temperature	HEAT	A2	noun	describing things	
+yellow		A2	noun	describing things	
+left	LEFT SIDE	A2	noun	describing things	
+right	DIRECTION	A2	noun	describing things	
+blackboard		A2	noun	education	
+diploma		A2	noun	education	
+exercise	PRACTICE	A2	noun	education	
+grade	SCHOOL	A2	noun	education	
+mark	SCORE	A2	noun	education	
+project	SCHOOL WORK	A2	noun	education	
+schedule	SCHOOL/COLLEGE	A2	noun	education	
+schoolchild		A2	noun	education	
+semester		A2	noun	education	
+year	PERIOD OF STUDY	A2	noun	education	
+chemistry		A2	noun	education	
+gym	CLASS	A2	noun	education	
+history	SUBJECT	A2	noun	education	
+math		A2	noun	education	
+physics		A2	noun	education	
+school	TIME	A2	noun	education	
+science	STUDY OF NATURAL THINGS	A2	noun	education	
+college		A2	noun	education	
+fail	EXAM	A2	verb	education	
+pass	SUCCEED	A2	verb	education	
+bar	DRINKING PLACE	A2	noun	food and drink	
+barbecue	PARTY	A2	noun	food and drink	
+bottle		A2	noun	food and drink	
+bowl		A2	noun	food and drink	
+burger		A2	noun	food and drink	
+cafeteria		A2	noun	food and drink	
+can		A2	noun	food and drink	
+cookie	FOOD	A2	noun	food and drink	
+course	MEAL	A2	noun	food and drink	
+dish	CONTAINER	A2	noun	food and drink	
+dish	FOOD	A2	noun	food and drink	
+drink	ALCOHOL	A2	noun	food and drink	
+fork		A2	noun	food and drink	
+grape		A2	noun	food and drink	
+main course		A2	noun	food and drink	
+menu	FOOD	A2	noun	food and drink	
+mug		A2	noun	food and drink	
+mushroom		A2	noun	food and drink	
+potato chip		A2	noun	food and drink	
+slice		A2	noun	food and drink	
+snack		A2	noun	food and drink	
+soft drink		A2	noun	food and drink	
+spoon		A2	noun	food and drink	
+stove		A2	noun	food and drink	
+cream	FOOD	A2	noun	food and drink	
+fast food		A2	noun	food and drink	
+garlic		A2	noun	food and drink	
+ham		A2	noun	food and drink	
+honey		A2	noun	food and drink	
+jam	SWEET FOOD	A2	noun	food and drink	
+lemonade		A2	noun	food and drink	
+mineral water		A2	noun	food and drink	
+pasta		A2	noun	food and drink	
+pepper	POWDER	A2	noun	food and drink	
+toast	BREAD	A2	noun	food and drink	
+candy		A2	noun	food and drink	
+carrot	VEGETABLE	A2	noun	food and drink	
+cereal	BREAKFAST FOOD	A2	noun	food and drink	
+cola		A2	noun	food and drink	
+curry		A2	noun	food and drink	
+dessert		A2	noun	food and drink	
+lemon		A2	noun	food and drink	
+lunchtime		A2	noun	food and drink	
+mango		A2	noun	food and drink	
+melon		A2	noun	food and drink	
+oil	FOR COOKING	A2	noun	food and drink	
+onion		A2	noun	food and drink	
+pear		A2	noun	food and drink	
+salad		A2	noun	food and drink	
+sauce		A2	noun	food and drink	
+sausage		A2	noun	food and drink	
+steak		A2	noun	food and drink	
+supper		A2	noun	food and drink	
+yogurt		A2	noun	food and drink	
+sweets		A2	noun	food and drink	
+bake		A2	verb	food and drink	
+roast		A2	verb	food and drink	
+apartment		A2	noun	homes and buildings	
+armchair		A2	noun	homes and buildings	
+blanket	FOR BED	A2	noun	homes and buildings	
+board	INFORMATION	A2	noun	homes and buildings	
+bookshelf		A2	noun	homes and buildings	
+cabinet		A2	noun	homes and buildings	
+castle		A2	noun	homes and buildings	
+ceiling	ROOM	A2	noun	homes and buildings	
+center	PLACE	A2	noun	homes and buildings	
+curtain		A2	noun	homes and buildings	
+drawer		A2	noun	homes and buildings	
+entrance	DOOR	A2	noun	homes and buildings	
+exit	WAY OUT	A2	noun	homes and buildings	
+floor	BUILDING	A2	noun	homes and buildings	
+garage	BUILDING	A2	noun	homes and buildings	
+gate	STRUCTURE	A2	noun	homes and buildings	
+gym	BUILDING	A2	noun	homes and buildings	
+hall	BUILDING	A2	noun	homes and buildings	
+hall	ENTRANCE	A2	noun	homes and buildings	
+lamp		A2	noun	homes and buildings	
+library		A2	noun	homes and buildings	
+light	EQUIPMENT	A2	noun	homes and buildings	
+mirror		A2	noun	homes and buildings	
+office	MEDICAL	A2	noun	homes and buildings	
+office	INFORMATION	A2	noun	homes and buildings	
+pillow	FOR BED	A2	noun	homes and buildings	
+post office		A2	noun	homes and buildings	
+restroom		A2	noun	homes and buildings	
+roof		A2	noun	homes and buildings	
+seat	SIT	A2	noun	homes and buildings	
+shelf		A2	noun	homes and buildings	
+sink		A2	noun	homes and buildings	
+sofa		A2	noun	homes and buildings	
+towel	FOR DRYING	A2	noun	homes and buildings	
+washing machine		A2	noun	homes and buildings	
+yard	AREA	A2	noun	homes and buildings	
+furniture		A2	noun	homes and buildings	
+heat		A2	noun	homes and buildings	
+carpet		A2	noun	homes and buildings	
+stairs		A2	noun	homes and buildings	
+cent		A2	noun	money	
+euro		A2	noun	money	
+wallet		A2	noun	money	
+cash	NOTES/COINS	A2	noun	money	
+borrow	GET	A2	verb	money	
+change	MONEY	A2	verb	money	
+rent	PAY TO USE	A2	verb	money	
+area	REGION	A2	noun	natural world	
+field	LAND	A2	noun	natural world	
+hill		A2	noun	natural world	
+island		A2	noun	natural world	
+lake		A2	noun	natural world	
+mountain		A2	noun	natural world	
+star	OBJECT IN SPACE	A2	noun	natural world	
+storm		A2	noun	natural world	
+thunderstorm		A2	noun	natural world	
+view	THINGS YOU SEE	A2	noun	natural world	
+air	GAS	A2	noun	natural world	
+geography		A2	noun	natural world	
+gold		A2	noun	natural world	
+ice		A2	noun	natural world	
+nature	LIFE	A2	noun	natural world	
+silver		A2	noun	natural world	
+sky		A2	noun	natural world	
+water	OCEAN/LAKE	A2	noun	natural world	
+cloud	WATER	A2	noun	natural world	
+desert		A2	noun	natural world	
+fall	TIME OF YEAR	A2	noun	natural world	
+fog		A2	noun	natural world	
+forest		A2	noun	natural world	
+sea		A2	noun	natural world	
+spring	SEASON	A2	noun	natural world	
+woods	GROUP OF TREES	A2	noun	natural world	
+ocean		A2	noun	natural world	
+snow	WEATHER	A2	verb	natural world	
+grow	PLANT	A2	verb	natural world	
+kick	HIT	A2	noun	people: actions	
+kiss		A2	noun	people: actions	
+walk	TRIP	A2	noun	people: actions	
+help	WHEN SOMEONE HELPS	A2	noun	people: actions	
+hiking		A2	noun	people: actions	
+practice	REPEATING	A2	noun	people: actions	
+use	USING	A2	noun	people: actions	
+fall	MOVE DOWN	A2	verb	people: actions	
+jump	INTO AIR	A2	verb	people: actions	
+laugh		A2	verb	people: actions	
+lie	BODY	A2	verb	people: actions	
+point	SHOW	A2	verb	people: actions	
+sit	MOVE BODY	A2	verb	people: actions	
+stand	RISE	A2	verb	people: actions	
+add	PUT WITH	A2	verb	people: actions	
+add	CALCULATE	A2	verb	people: actions	
+bring	TAKE WITH YOU	A2	verb	people: actions	
+brush	CLEAN/ARRANGE	A2	verb	people: actions	
+collect	KEEP	A2	verb	people: actions	
+complete	MAKE WHOLE	A2	verb	people: actions	
+complete	FINISH	A2	verb	people: actions	
+copy	PRODUCE	A2	verb	people: actions	
+cover	PUT	A2	verb	people: actions	
+do	MAKE	A2	verb	people: actions	
+find	DISCOVER UNEXPECTEDLY	A2	verb	people: actions	
+get	BRING	A2	verb	people: actions	
+give	PUT NEAR	A2	verb	people: actions	
+hear	LISTEN	A2	verb	people: actions	
+hit	WITH HAND/OBJECT	A2	verb	people: actions	
+hold	IN HAND	A2	verb	people: actions	
+join	DO TOGETHER	A2	verb	people: actions	
+leave	FORGET	A2	verb	people: actions	
+leave	PUT	A2	verb	people: actions	
+leave	FOR SOMEONE	A2	verb	people: actions	
+leave	NOT USE ALL	A2	verb	people: actions	
+lend	GIVE	A2	verb	people: actions	
+lose	NOT FIND	A2	verb	people: actions	
+make	PERFORM	A2	verb	people: actions	
+miss	NOT GO	A2	verb	people: actions	
+open	CONTAINER/PACKAGE, ETC.	A2	verb	people: actions	
+repair	FIX	A2	verb	people: actions	
+return	PUT BACK	A2	verb	people: actions	
+spend	TIME	A2	verb	people: actions	
+check	EXAMINE	A2	verb	people: actions	
+climb	PERSON	A2	verb	people: actions	
+cross	OTHER SIDE	A2	verb	people: actions	
+cut	USE KNIFE	A2	verb	people: actions	
+decide	CHOOSE	A2	verb	people: actions	
+delay	MAKE HAPPEN LATER	A2	verb	people: actions	
+end		A2	verb	people: actions	
+fill	MAKE FULL	A2	verb	people: actions	
+follow	GO	A2	verb	people: actions	
+help	PROVIDE WHAT IS NEEDED	A2	verb	people: actions	
+hurry		A2	verb	people: actions	
+improve		A2	verb	people: actions	
+join	BECOME A MEMBER	A2	verb	people: actions	
+jump	GO OVER	A2	verb	people: actions	
+kiss		A2	verb	people: actions	
+mix	COMBINE SUBSTANCES	A2	verb	people: actions	
+move	CHANGE POSITION	A2	verb	people: actions	
+paint	COVER SURFACE	A2	verb	people: actions	
+prepare	GET READY	A2	verb	people: actions	
+pull	MOVE TOWARD YOU	A2	verb	people: actions	
+push	MOVE SOMEONE/SOMETHING	A2	verb	people: actions	
+share	HAVE AT SAME TIME	A2	verb	people: actions	
+share	DIVIDE	A2	verb	people: actions	
+shut	CLOSE	A2	verb	people: actions	
+throw	IN AIR	A2	verb	people: actions	
+try	ATTEMPT	A2	verb	people: actions	
+turn	CHANGE DIRECTION	A2	verb	people: actions	
+comb		A2	noun	people: appearance	
+makeup		A2	noun	people: appearance	
+perfume		A2	noun	people: appearance	
+shampoo		A2	noun	people: appearance	
+soul	MUSIC	A2	noun	people: personality	
+cry	PRODUCE TEARS	A2	verb	people: personality	
+worry	FEEL ANXIOUS	A2	verb	people: personality	
+believe	TRUE	A2	verb	people: personality	
+bother	ANNOY	A2	verb	people: personality	
+hate		A2	verb	people: personality	
+miss	FEEL SAD	A2	verb	people: personality	
+prefer	CHOOSE	A2	verb	people: personality	
+hope	WANT TO HAPPEN	A2	verb	people: personality	
+capital		A2	noun	politics	
+king	RULER	A2	noun	politics	
+president		A2	noun	politics	
+aunt		A2	noun	relationships	
+boyfriend		A2	noun	relationships	
+cousin		A2	noun	relationships	
+girlfriend	PARTNER	A2	noun	relationships	
+girlfriend	FRIEND	A2	noun	relationships	
+grandchild		A2	noun	relationships	
+granddaughter		A2	noun	relationships	
+grandfather		A2	noun	relationships	
+grandmother		A2	noun	relationships	
+grandparent		A2	noun	relationships	
+grandson		A2	noun	relationships	
+guest	VISITOR	A2	noun	relationships	
+member		A2	noun	relationships	
+neighbor	LIVING NEAR	A2	noun	relationships	
+roommate		A2	noun	relationships	
+uncle		A2	noun	relationships	
+board	GAMES	A2	noun	shopping	
+board game		A2	noun	shopping	
+card	GAME	A2	noun	shopping	
+department store		A2	noun	shopping	
+game	OCCASION	A2	noun	shopping	
+goal	POINT	A2	noun	shopping	
+goal	AREA	A2	noun	shopping	
+hobby		A2	noun	shopping	
+market	PLACE	A2	noun	shopping	
+match	COMPETITION	A2	noun	shopping	
+playground		A2	noun	shopping	
+pool	SWIM	A2	noun	shopping	
+puzzle		A2	noun	shopping	
+quiz	GAME	A2	noun	shopping	
+race	RUNNING, RIDING, ETC.	A2	noun	shopping	
+racket	SPORT	A2	noun	shopping	
+skateboard		A2	noun	shopping	
+toy		A2	noun	shopping	
+video game		A2	noun	shopping	
+badminton		A2	noun	shopping	
+chess		A2	noun	shopping	
+cricket	SPORT	A2	noun	shopping	
+football	GAME	A2	noun	shopping	
+golf		A2	noun	shopping	
+hockey		A2	noun	shopping	
+ice hockey		A2	noun	shopping	
+rugby		A2	noun	shopping	
+soccer		A2	noun	shopping	
+table tennis		A2	noun	shopping	
+volleyball		A2	noun	shopping	
+come	BE AVAILABLE	A2	verb	shopping	
+file	COMPUTER	A2	noun	technology	
+keyboard	COMPUTER	A2	noun	technology	
+laptop		A2	noun	technology	
+machine		A2	noun	technology	
+menu	COMPUTING	A2	noun	technology	
+model	DESIGN	A2	noun	technology	
+mouse	COMPUTER	A2	noun	technology	
+page	WEB SITE	A2	noun	technology	
+PC		A2	noun	technology	
+program	COMPUTER	A2	noun	technology	
+site	INTERNET	A2	noun	technology	
+video	SHORT FILM	A2	noun	technology	
+Web page		A2	noun	technology	
+IT		A2	noun	technology	
+software		A2	noun	technology	
+memory	COMPUTING	A2	noun	technology	
+work	OPERATE	A2	verb	technology	
+airplane		A2	noun	travel	
+airport		A2	noun	travel	
+bicycle		A2	noun	travel	
+bus station		A2	noun	travel	
+bus stop		A2	noun	travel	
+driver's license		A2	noun	travel	
+exit	ROAD	A2	noun	travel	
+flight	JOURNEY	A2	noun	travel	
+gas station		A2	noun	travel	
+guest	HOTEL	A2	noun	travel	
+guidebook		A2	noun	travel	
+helicopter		A2	noun	travel	
+highway		A2	noun	travel	
+map		A2	noun	travel	
+motorcycle		A2	noun	travel	
+parking lot		A2	noun	travel	
+path	TRACK	A2	noun	travel	
+platform	TRAIN	A2	noun	travel	
+platform	TRAIN	A2	noun	travel	
+railroad		A2	noun	travel	
+ship		A2	noun	travel	
+suitcase		A2	noun	travel	
+tire		A2	noun	travel	
+traffic light		A2	noun	travel	
+tram		A2	noun	travel	
+trip		A2	noun	travel	
+way	ROUTE	A2	noun	travel	
+air	AIRCRAFT	A2	noun	travel	
+gas	LIQUID FUEL	A2	noun	travel	
+luggage		A2	noun	travel	
+traffic	VEHICLES	A2	noun	travel	
+adventure		A2	noun	travel	
+tour		A2	noun	travel	
+camp		A2	verb	travel	
+fly	MOVE THROUGH AIR	A2	verb	travel	
+stay	LIVE	A2	verb	travel	
+stop	BUS/TRAIN	A2	verb	travel	
+take	TRAVEL	A2	verb	travel	
+ride	TRAVEL	A2	verb	travel	
+boss		A2	noun	work	
+business	ORGANIZATION	A2	noun	work	
+businessman		A2	noun	work	
+businesswoman		A2	noun	work	
+company	BUSINESS	A2	noun	work	
+day	WORK HOURS	A2	noun	work	
+guide	PERSON	A2	noun	work	
+job	PIECE OF WORK	A2	noun	work	
+secretary	IN OFFICE	A2	noun	work	
+build		A2	verb	work	
+cigarette		A2	noun	body and health	
+alcohol		A2	noun	food and drink	
+champagne		A2	noun	food and drink	
+cathedral		A2	noun	homes and buildings	
+church		A2	noun	homes and buildings	
+mosque		A2	noun	homes and buildings	
+principal		A2	noun		
+difference	WAY	A2	noun		
+driver		A2	noun		
+partner	PERSON YOU DO SOMETHING WITH	A2	noun		
+photographer		A2	noun		
+ruler	FOR MEASURING	A2	noun		
+singer		A2	noun		
+mechanic		A2	noun		
+plastic		A2	noun		
+climbing		A2	noun		
+cooking		A2	noun		
+singing		A2	noun		
+skateboarding		A2	noun		
+skating		A2	noun		
+skiing		A2	noun		
+snowboarding		A2	noun		
+surfing		A2	noun		
+swimming		A2	noun		
+drawing		A2	noun		
+artist		A2	noun		
+dentist		A2	noun		
+receptionist		A2	noun		
+comparative		A2	noun		
+superlative		A2	noun		
+appointment		A2	noun		
+department		A2	noun		
+actor		A2	noun		
+adjective		A2	noun		
+adverb		A2	noun		
+alarm clock		A2	noun		
+album	BOOK	A2	noun		
+answer	TEST	A2	noun		
+backpack		A2	noun		
+balloon		A2	noun		
+barbecue	EQUIPMENT	A2	noun		
+bathing suit		A2	noun		
+battery		A2	noun		
+bill		A2	noun		
+block	DISTANCE	A2	noun		
+block	AREA	A2	noun		
+body	DEAD	A2	noun		
+box	SQUARE SPACE	A2	noun		
+break	STOP	A2	noun		
+bridge	STRUCTURE	A2	noun		
+brush		A2	noun		
+calendar	DAYS	A2	noun		
+call	TELEPHONE	A2	noun		
+case	CONTAINER	A2	noun		
+center	MIDDLE	A2	noun		
+century		A2	noun		
+check	REQUEST FOR PAYMENT	A2	noun		
+chef		A2	noun		
+class	STANDARD	A2	noun		
+classmate		A2	noun		
+click		A2	noun		
+closet		A2	noun		
+club	GROUP	A2	noun		
+colleague		A2	noun		
+contact	PERSON	A2	noun		
+cook		A2	noun		
+corner		A2	noun		
+crowd		A2	noun		
+deck	CARDS	A2	noun		
+diary		A2	noun		
+digital camera		A2	noun		
+disco		A2	noun		
+discount		A2	noun		
+dream	SLEEP	A2	noun		
+dresser		A2	noun		
+end	FARTHEST PART	A2	noun		
+engine		A2	noun		
+engineer		A2	noun		
+fact	TRUE THING	A2	noun		
+fan	PERSON	A2	noun		
+first name		A2	noun		
+folder	FOR PAPERS	A2	noun		
+friend	INTERNET	A2	noun		
+gift	THING GIVEN	A2	noun		
+grocery store		A2	noun		
+housewife		A2	noun		
+idea	SUGGESTION	A2	noun		
+key	ANSWERS	A2	noun		
+kite		A2	noun		
+last name		A2	noun		
+level	ABILITY	A2	noun		
+line	LONG MARK	A2	noun		
+mistake	WRONG ACTION	A2	noun		
+model	COPY	A2	noun		
+moment	SHORT TIME	A2	noun		
+noun		A2	noun		
+nurse		A2	noun		
+office	PLACE	A2	noun		
+omelet		A2	noun		
+order	REQUEST	A2	noun		
+passport		A2	noun		
+pen pal		A2	noun		
+pilot		A2	noun		
+plan	ARRANGEMENT	A2	noun		
+policeman		A2	noun		
+police officer		A2	noun		
+police station		A2	noun		
+policewoman		A2	noun		
+present	SOMETHING GIVEN	A2	noun		
+price	COST	A2	noun		
+prize		A2	noun		
+purse		A2	noun		
+quarter	FOURTH PART	A2	noun		
+queen		A2	noun		
+question	EXAM	A2	noun		
+reason	WHY	A2	noun		
+receipt	PIECE OF PAPER	A2	noun		
+report card		A2	noun		
+salesperson		A2	noun		
+screen		A2	noun		
+second	PART OF MINUTE	A2	noun		
+set	GROUP	A2	noun		
+shop		A2	noun		
+side	PART	A2	noun		
+side	SURFACE	A2	noun		
+side	EDGE	A2	noun		
+skate		A2	noun		
+sort	TYPE	A2	noun		
+square	PLACE	A2	noun		
+stadium		A2	noun		
+surprise	EVENT	A2	noun		
+text	CELL PHONE	A2	noun		
+textbook		A2	noun		
+text message		A2	noun		
+theater		A2	noun		
+thing	ACTIVITY	A2	noun		
+thing	FACT	A2	noun		
+toothbrush		A2	noun		
+top	HIGHEST PART	A2	noun		
+tour guide		A2	noun		
+type	SIMILAR	A2	noun		
+uniform		A2	noun		
+wastebasket		A2	noun		
+way	METHOD	A2	noun		
+weekday		A2	noun		
+wheel	ON VEHICLE	A2	noun		
+workbook		A2	noun		
+biology		A2	noun		
+chicken	MEAT	A2	noun		
+cycling		A2	noun		
+east	DIRECTION	A2	noun		
+handball		A2	noun		
+jelly		A2	noun		
+leather		A2	noun		
+luck	CHANCE	A2	noun		
+magic	SPECIAL POWERS	A2	noun		
+magic	ENTERTAINMENT	A2	noun		
+mail	E-MAIL	A2	noun		
+midnight		A2	noun		
+noon		A2	noun		
+north	DIRECTION	A2	noun		
+soap	FOR WASHING	A2	noun		
+south	DIRECTION	A2	noun		
+time	MINUTES/DAYS/YEARS	A2	noun		
+tonight		A2	noun		
+west	DIRECTION	A2	noun		
+wool		A2	noun		
+work	ACTIVITY	A2	noun		
+building		A2	noun		
+chain	METAL RINGS	A2	noun		
+change	DIFFERENCE	A2	noun		
+change	SOMETHING NEW	A2	noun		
+cost	MONEY	A2	noun		
+danger	POSSIBILITY OF HARM	A2	noun		
+day	LIGHT HOURS	A2	noun		
+delay	LONG WAIT	A2	noun		
+exercise	PHYSICAL ACTIVITY	A2	noun		
+fashion	POPULAR STYLE	A2	noun		
+fire	FLAMES	A2	noun		
+high school		A2	noun		
+history	PAST	A2	noun		
+plural		A2	noun		
+rent		A2	noun		
+rest	RELAX	A2	noun		
+sound		A2	noun		
+space	EMPTY PLACE	A2	noun		
+telephone		A2	noun		
+time	OCCASION	A2	noun		
+video	MAGNETIC STRIP	A2	noun		
+white		A2	noun		
+pajamas		A2	noun		
+scissors		A2	noun		
+singular		A2	noun		
+swim		A2	noun		
+arrive	REACH A PLACE	A2	verb		
+chat	COMMUNICATE ONLINE	A2	verb		
+close	PUBLIC PLACE	A2	verb		
+drink	ALCOHOL	A2	verb		
+grow	DEVELOP	A2	verb		
+happen	HAVE EXISTENCE	A2	verb		
+happen	RESULT	A2	verb		
+matter		A2	verb		
+return	GO BACK	A2	verb		
+stand	VERTICAL	A2	verb		
+stop	PAUSE	A2	verb		
+think	CONSIDER DOING	A2	verb		
+believe	THINK	A2	verb		
+complete	WRITE	A2	verb		
+contact		A2	verb		
+cost	MONEY	A2	verb		
+e-mail		A2	verb		
+forget	NOT BRING	A2	verb		
+hurt	CAUSE PAIN	A2	verb		
+include		A2	verb		
+keep	HAVE	A2	verb		
+keep	STAY	A2	verb		
+know	BE ABLE	A2	verb		
+miss	TOO LATE	A2	verb		
+prefer	WANT	A2	verb		
+receive	GET	A2	verb		
+repeat	SAY AGAIN	A2	verb		
+save	KEEP	A2	verb		
+see	ON TV, ETC.	A2	verb		
+sell	FOR MONEY	A2	verb		
+sell	OFFER	A2	verb		
+serve	PROVIDE FOOD/DRINK	A2	verb		
+spend	MONEY	A2	verb		
+take	NEEDS TIME	A2	verb		
+take	DIRECTIONS	A2	verb		
+take	HEALTH	A2	verb		
+teach	SHOW HOW TO	A2	verb		
+text		A2	verb		
+visit	INTERNET	A2	verb		
+win	PRIZE	A2	verb		
+begin	START TO DO	A2	verb		
+break	SEPARATE	A2	verb		
+break	NOT WORK	A2	verb		
+call	TELEPHONE	A2	verb		
+change	DIFFERENT	A2	verb		
+change	CLOTHES	A2	verb		
+change	JOURNEY	A2	verb		
+click	COMPUTER	A2	verb		
+download		A2	verb		
+dream	SLEEP	A2	verb		
+dress	PUT ON CLOTHES	A2	verb		
+dry		A2	verb		
+earn	RECEIVE	A2	verb		
+enter	PLACE	A2	verb		
+know	BE CERTAIN	A2	verb		
+open	STORE, ETC.	A2	verb		
+order	REQUEST	A2	verb		
+pack		A2	verb		
+park		A2	verb		
+play	MAKE MUSIC	A2	verb		
+play	RADIO, CD, ETC.	A2	verb		
+prepare	MAKE FOOD	A2	verb		
+record	STORE SOUND/PICTURES	A2	verb		
+rent	PAY TO LIVE IN	A2	verb		
+save	MONEY	A2	verb		
+save	COMPUTER	A2	verb		
+steal		A2	verb		
+surf		A2	verb		
+understand	KNOW WHY/HOW	A2	verb		
+win	COMPETITION	A2	verb		
+write	COMMUNICATE	A2	verb		
+war	FIGHTING	A2	noun		
+kill		A2	verb		
+fantastic		A2	adjective	describing things	
+OK	ALLOWED	A2	adjective	communication	
+sure	AGREEMENT	A2	adverb	communication	
+yes	DISAGREE	A2	adverb	communication	
+awesome	GOOD	A2	adjective	describing things	
+cool	GOOD	A2	adjective	describing things	
+OK	GOOD	A2	adjective	describing things	
+golden	METAL	A2	adjective	natural world	
+mad	ANGRY	A2	adjective	people: personality	
+fun		A2	adjective		
+OK		A2	adverb		
+unfortunately		A2	adverb	communication	
+unhappy	SAD	A2	adjective	people: personality	
+comfortable	CLOTHES/FURNITURE	A2	adjective	describing things	
+available	ABLE TO GET	A2	adjective	shopping	
+musical	RELATED TO MUSIC	A2	adjective	arts and media	
+national		A2	adjective	politics	
+digital	SYSTEM	A2	adjective	technology	
+advanced	HIGHER LEVEL	A2	adjective	describing things	
+fried		A2	adjective	food and drink	
+grilled		A2	adjective	food and drink	
+interested		A2	adjective	people: personality	
+pleased	HAPPY	A2	adjective	people: personality	
+surprised		A2	adjective	people: personality	
+worried		A2	adjective	people: personality	
+married	WITH WIFE/HUSBAND	A2	adjective	relationships	
+useful		A2	adjective	describing things	
+wonderful		A2	adjective	describing things	
+careful		A2	adjective	people: personality	
+electric	EQUIPMENT	A2	adjective	technology	
+amazing	GOOD	A2	adjective	describing things	
+good-looking		A2	adjective	people: appearance	
+attractive	BEAUTIFUL	A2	adjective	people: appearance	
+actually	TRUTH	A2	adverb	communication	
+badly	VERY MUCH	A2	adverb	communication	
+badly	VERY SERIOUSLY	A2	adverb	communication	
+certainly	NO DOUBT	A2	adverb	communication	
+certainly	AGREE	A2	adverb	communication	
+clearly	EASY	A2	adverb	communication	
+especially		A2	adverb	communication	
+really	EMPHASIZING	A2	adverb	communication	
+badly	LOW QUALITY	A2	adverb	describing things	
+exactly	COMPLETELY CORRECT	A2	adverb	describing things	
+dangerous		A2	adjective	people: personality	
+healthy	WELL	A2	adjective	body and health	
+healthy	GOOD	A2	adjective	body and health	
+dirty		A2	adjective	describing things	
+thirsty		A2	adjective	food and drink	
+cloudy		A2	adjective	natural world	
+foggy		A2	adjective	natural world	
+sunny		A2	adjective	natural world	
+windy		A2	adjective	natural world	
+lazy	PERSON	A2	adjective	people: personality	
+all right	WELL	A2	adjective	body and health	
+fit		A2	adjective	body and health	
+sick		A2	adjective	body and health	
+how	HEALTH	A2	adverb	body and health	
+warm	CLOTHES	A2	adjective	clothes	
+on	WEAR	A2	adverb	clothes	
+long	MANY WORDS	A2	adjective	communication	
+short	WORDS	A2	adjective	communication	
+sorry	SYMPATHY	A2	adjective	communication	
+anyway	DESPITE	A2	adverb	communication	
+anyway	CHANGE SUBJECT	A2	adverb	communication	
+back	REPLY	A2	adverb	communication	
+maybe	SUGGEST	A2	adverb	communication	
+no	AGREE	A2	adverb	communication	
+right	IN SPEECH	A2	adverb	communication	
+so	VERY	A2	adverb	communication	
+well	TO A GREAT DEGREE	A2	adverb	communication	
+average	USUAL	A2	adjective	describing things	
+awful	BAD	A2	adjective	describing things	
+back	AT BACK	A2	adjective	describing things	
+bad	LOW QUALITY	A2	adjective	describing things	
+bright	COLOR	A2	adjective	describing things	
+broken	DAMAGED	A2	adjective	describing things	
+clear	TRANSPARENT	A2	adjective	describing things	
+cream		A2	adjective	describing things	
+deep	TOP TO BOTTOM	A2	adjective	describing things	
+double		A2	adjective	describing things	
+excellent		A2	adjective	describing things	
+extra		A2	adjective	describing things	
+fine	GOOD ENOUGH	A2	adjective	describing things	
+gold	COLOR	A2	adjective	describing things	
+golden	COLOR	A2	adjective	describing things	
+good	SUITABLE	A2	adjective	describing things	
+great	LARGE	A2	adjective	describing things	
+hard	SOLID	A2	adjective	describing things	
+heavy	WEIGHING A LOT	A2	adjective	describing things	
+high	TALL	A2	adjective	describing things	
+horrible		A2	adjective	describing things	
+indoor		A2	adjective	describing things	
+large		A2	adjective	describing things	
+left		A2	adjective	describing things	
+left-hand		A2	adjective	describing things	
+light	NOT HEAVY	A2	adjective	describing things	
+loud		A2	adjective	describing things	
+low	AMOUNT/LEVEL	A2	adjective	describing things	
+old	FROM THE PAST	A2	adjective	describing things	
+perfect	WITHOUT FAULT	A2	adjective	describing things	
+pink		A2	adjective	describing things	
+pleasant		A2	adjective	describing things	
+purple		A2	adjective	describing things	
+right	DIRECTION	A2	adjective	describing things	
+right-hand		A2	adjective	describing things	
+round		A2	adjective	describing things	
+silver		A2	adjective	describing things	
+single	FOR ONE	A2	adjective	describing things	
+soft	NOT HARD	A2	adjective	describing things	
+soft	SMOOTH	A2	adjective	describing things	
+special	VERY GOOD	A2	adjective	describing things	
+square		A2	adjective	describing things	
+straight	NOT CURVING	A2	adjective	describing things	
+terrible		A2	adjective	describing things	
+thin	NOT THICK	A2	adjective	describing things	
+whole		A2	adjective	describing things	
+wide	DISTANCE	A2	adjective	describing things	
+worse	MORE UNPLEASANT	A2	adjective	describing things	
+worst		A2	adjective	describing things	
+above	MORE	A2	adverb	describing things	
+across		A2	adverb	describing things	
+anywhere	ANY PLACE	A2	adverb	describing things	
+around	TO/IN A PLACE	A2	adverb	describing things	
+away	DISTANCE FROM	A2	adverb	describing things	
+down	LOWER POSITION	A2	adverb	describing things	
+else	IN ADDITION	A2	adverb	describing things	
+in	INTO A SPACE	A2	adverb	describing things	
+inside	CONTAINER	A2	adverb	describing things	
+left		A2	adverb	describing things	
+less		A2	adverb	describing things	
+most	MORE	A2	adverb	describing things	
+outside	NEAR	A2	adverb	describing things	
+over	MORE THAN	A2	adverb	describing things	
+right	DIRECTION	A2	adverb	describing things	
+half	PART	A2	noun	describing things	
+fresh	NOT OLD	A2	adjective	food and drink	
+red	WINE	A2	adjective	food and drink	
+roast		A2	adjective	food and drink	
+white	WINE	A2	adjective	food and drink	
+downstairs		A2	adverb	homes and buildings	
+upstairs		A2	adverb	homes and buildings	
+free	NO COST	A2	adjective	money	
+rich	MONEY	A2	adjective	money	
+free	NO COST	A2	adverb	money	
+check	MONEY	A2	noun	money	
+dry	NOT WET	A2	adjective	natural world	
+dry	NO RAIN	A2	adjective	natural world	
+gold	METAL	A2	adjective	natural world	
+wet	WEATHER	A2	adjective	natural world	
+aged		A2	adjective	people: appearance	
+black	PEOPLE	A2	adjective	people: appearance	
+blond		A2	adjective	people: appearance	
+fair	HAIR/SKIN	A2	adjective	people: appearance	
+pretty	WOMAN	A2	adjective	people: appearance	
+red	HAIR	A2	adjective	people: appearance	
+strong	PHYSICALLY POWERFUL	A2	adjective	people: appearance	
+thin	NOT FAT	A2	adjective	people: appearance	
+afraid	FEAR	A2	adjective	people: personality	
+angry		A2	adjective	people: personality	
+crazy	STUPID	A2	adjective	people: personality	
+glad	HAPPY	A2	adjective	people: personality	
+good	BEHAVIOR	A2	adjective	people: personality	
+happy	SATISFIED	A2	adjective	people: personality	
+kind		A2	adjective	people: personality	
+polite		A2	adjective	people: personality	
+poor	SYMPATHY	A2	adjective	people: personality	
+upset		A2	adjective	people: personality	
+well-known		A2	adjective	people: personality	
+close	FRIENDLY	A2	adjective	relationships	
+single	NOT MARRIED	A2	adjective	relationships	
+football	SOCCER	A2	noun	shopping	
+team	SPORT	A2	noun	shopping	
+broken	NOT WORKING	A2	adjective	technology	
+online		A2	adjective	technology	
+off	NOT OPERATING	A2	adverb	technology	
+online		A2	adverb	technology	
+lift		A2	noun	travel	
+busy	TIME	A2	adjective	work	
+off	NOT AT WORK	A2	adverb	work	
+Dr.		A2	noun	work	
+staff		A2	noun	work	
+international		A2	adjective		
+unusual		A2	adjective		
+available	NOT BUSY	A2	adjective		
+normal		A2	adjective		
+crowded		A2	adjective		
+dressed	WEARING CLOTHES	A2	adjective		
+further		A2	adjective		
+better	WELL	A2	adverb		
+later	IN THE FUTURE	A2	adverb		
+plastic		A2	adjective		
+missing	LOST	A2	adjective		
+beginning		A2	noun		
+activity	EVENT	A2	noun		
+negative	GRAMMAR	A2	adjective		
+daily	EVERY DAY	A2	adjective		
+weekly		A2	adjective		
+carefully		A2	adverb		
+clearly	NOT CONFUSED	A2	adverb		
+daily		A2	adverb		
+easily	NO DIFFICULTY	A2	adverb		
+finally	AFTER A LONG TIME	A2	adverb		
+immediately	NOW	A2	adverb		
+nearly	ALMOST	A2	adverb		
+possibly	NOT CERTAIN	A2	adverb		
+probably		A2	adverb		
+quickly	FAST SPEED	A2	adverb		
+quickly	SOON	A2	adverb		
+slowly		A2	adverb		
+usually		A2	adverb		
+various		A2	adjective		
+lucky		A2	adjective		
+noisy		A2	adjective		
+adult	FOR ADULTS	A2	adjective		
+all right	PERMISSION	A2	adjective		
+alone	WITHOUT PEOPLE	A2	adjective		
+big	IMPORTANT	A2	adjective		
+clear	EASY TO UNDERSTAND	A2	adjective		
+correct	ACCURATE	A2	adjective		
+dark	NO LIGHT	A2	adjective		
+dead	NOT ALIVE	A2	adjective		
+early	BEGINNING	A2	adjective		
+east		A2	adjective		
+empty	NOTHING INSIDE	A2	adjective		
+final	LAST	A2	adjective		
+first	IMPORTANT	A2	adjective		
+foreign	OF ANOTHER COUNTRY	A2	adjective		
+free	NOT BUSY	A2	adjective		
+friendly		A2	adjective		
+full	NO MORE POSSIBLE	A2	adjective		
+full	COMPLETE	A2	adjective		
+full	A LOT	A2	adjective		
+half-price		A2	adjective		
+heavy	HOW MUCH	A2	adjective		
+last	MOST RECENT	A2	adjective		
+last	ONE BEFORE PRESENT	A2	adjective		
+last	FINAL	A2	adjective		
+latest		A2	adjective		
+lost	PERSON	A2	adjective		
+magic	ENTERTAINMENT	A2	adjective		
+modern	NEW	A2	adjective		
+next	AFTER	A2	adjective		
+next	NEAR	A2	adjective		
+north		A2	adjective		
+open	NOT CLOSED	A2	adjective		
+own	BELONGING	A2	adjective		
+popular	LIKED	A2	adjective		
+quick	SHORT TIME	A2	adjective		
+quiet	NOT NOISY	A2	adjective		
+quiet	NOT BUSY	A2	adjective		
+ready	AVAILABLE	A2	adjective		
+real	NOT IMAGINED	A2	adjective		
+real	NOT FALSE	A2	adjective		
+regular	USUAL	A2	adjective		
+safe	NOT DANGEROUS	A2	adjective		
+simple	EASY	A2	adjective		
+singular		A2	adjective		
+small	NOT IMPORTANT	A2	adjective		
+south		A2	adjective		
+strange	UNUSUAL	A2	adjective		
+sure	CERTAIN	A2	adjective		
+sweet	ATTRACTIVE	A2	adjective		
+tall	HOW HIGH	A2	adjective		
+TRUE	NOT FALSE	A2	adjective		
+west		A2	adjective		
+wet	WATER	A2	adjective		
+wild	ANIMAL	A2	adjective		
+wooden		A2	adjective		
+after		A2	adverb		
+afterward		A2	adverb		
+again	AS BEFORE	A2	adverb		
+ago		A2	adverb		
+all	COMPLETELY	A2	adverb		
+almost		A2	adverb		
+already	BEFORE NOW	A2	adverb		
+always	UNTIL NOW	A2	adverb		
+always	FOREVER	A2	adverb		
+anymore		A2	adverb		
+anywhere	IN QUESTIONS/NEGATIVES	A2	adverb		
+away	SOMEWHERE ELSE	A2	adverb		
+before		A2	adverb		
+downtown		A2	adverb		
+early	BEFORE	A2	adverb		
+east		A2	adverb		
+else	DIFFERENT	A2	adverb		
+else	OTHER	A2	adverb		
+enough	NECESSARY AMOUNT	A2	adverb		
+even	SURPRISE	A2	adverb		
+ever	AT ANY TIME	A2	adverb		
+everywhere		A2	adverb		
+far	DISTANCE	A2	adverb		
+fast	QUICKLY	A2	adverb		
+half price		A2	adverb		
+here	GIVING	A2	adverb		
+home	TO PLACE	A2	adverb		
+how	WAY	A2	adverb		
+however	DESPITE THIS	A2	adverb		
+instead		A2	adverb		
+just	RECENTLY	A2	adverb		
+just	ALMOST NOW	A2	adverb		
+late	AFTER	A2	adverb		
+long	TIME	A2	adverb		
+long	TIME	A2	adverb		
+maybe	POSSIBLY	A2	adverb		
+next		A2	adverb		
+north		A2	adverb		
+not	AFTER HOPE/SUSPECT, ETC.	A2	adverb		
+now	IMMEDIATELY	A2	adverb		
+off	REMOVED	A2	adverb		
+once	ONE TIME	A2	adverb		
+only	NO ONE/NOTHING ELSE	A2	adverb		
+out	SOCIAL ACTIVITY	A2	adverb		
+out	NOT THERE	A2	adverb		
+perhaps		A2	adverb		
+quite	VERY	A2	adverb		
+so	MENTIONED EARLIER	A2	adverb		
+somewhere	PLACE	A2	adverb		
+soon	AFTER SHORT PERIOD	A2	adverb		
+south		A2	adverb		
+still	CONTINUING	A2	adverb		
+straight	LINE	A2	adverb		
+then	RESULT	A2	adverb		
+there	GIVING	A2	adverb		
+twice		A2	adverb		
+up	HIGHER POSITION	A2	adverb		
+west		A2	adverb		
+wrong	NOT CORRECT	A2	adverb		
+yet	UNTIL NOW	A2	adverb		
+yet	NOW	A2	adverb		
+bottom	FLAT SURFACE	A2	noun		
+Ms.		A2	noun		
+time	PERIOD	A2	noun		
+town	NEARBY PLACE	A2	noun		
+wood	MATERIAL	A2	noun		
+do	SPORT, ETC.	A2	verb		
+cool		A2	exclamation	communication	
+hey		A2	exclamation	communication	
+OK	ACTION	A2	exclamation	communication	
+right		A2	exclamation	communication	
+thank you	ACCEPT/REFUSE	A2	exclamation	communication	
+wow		A2	exclamation	communication	
+yeah		A2	exclamation	communication	
+OK	UNDERSTAND	A2	exclamation		
+on	RECORDING	A2	preposition	arts and media	
+no	SIGNS	A2	determiner	communication	
+welcome		A2	exclamation	communication	
+could	REQUEST	A2	modal verb	communication	
+will	ASK	A2	modal verb	communication	
+at	CAUSE	A2	preposition	communication	
+for	MEANING	A2	preposition	communication	
+to	RECEIVING	A2	preposition	communication	
+another	ADDITIONAL	A2	determiner	describing things	
+enough	NECESSARY AMOUNT	A2	determiner	describing things	
+less		A2	determiner	describing things	
+most	ALMOST ALL	A2	determiner	describing things	
+other	PART OF SET	A2	determiner	describing things	
+several		A2	determiner	describing things	
+across		A2	preposition	describing things	
+after	PAST A PLACE	A2	preposition	describing things	
+after	ORDER	A2	preposition	describing things	
+against	TOUCHING	A2	preposition	describing things	
+around	IN A CIRCLE/CIRCULAR MOVEMENT	A2	preposition	describing things	
+around	TO OR IN A PLACE	A2	preposition	describing things	
+around	APPROXIMATELY	A2	preposition	describing things	
+before	PLACE	A2	preposition	describing things	
+between	AMOUNT	A2	preposition	describing things	
+down	LOWER POSITION	A2	preposition	describing things	
+down	ALONG	A2	preposition	describing things	
+from	MATERIAL	A2	preposition	describing things	
+in	PART OF	A2	preposition	describing things	
+next to		A2	preposition	describing things	
+of	POSITION	A2	preposition	describing things	
+of	SHOW	A2	preposition	describing things	
+on	DIRECTIONS	A2	preposition	describing things	
+on	PLACE	A2	preposition	describing things	
+opposite		A2	preposition	describing things	
+out of	NO LONGER IN PLACE	A2	preposition	describing things	
+outside		A2	preposition	describing things	
+over	MORE THAN	A2	preposition	describing things	
+past	POSITION	A2	preposition	describing things	
+through	ONE SIDE TO ANOTHER	A2	preposition	describing things	
+under	LESS THAN	A2	preposition	describing things	
+without	NOT HAVING	A2	preposition	describing things	
+everything		A2	pronoun	describing things	
+less		A2	pronoun	describing things	
+most	ALMOST ALL	A2	pronoun	describing things	
+nothing	NOT ANYTHING	A2	pronoun	describing things	
+other	BELONGING TO GROUP	A2	pronoun	describing things	
+for	PAYMENT	A2	preposition	shopping	
+on	TRAVEL	A2	preposition	travel	
+including		A2	preposition		
+be	CONTINUE	A2	auxiliary verb		
+be	PASSIVE	A2	auxiliary verb		
+have		A2	auxiliary verb		
+a	AMOUNTS	A2	determiner		
+a	AN ACTION	A2	determiner		
+a	TWO NOUNS	A2	determiner		
+a	UNIT	A2	determiner		
+a	WITH FRACTION	A2	determiner		
+a	PERIOD OF TIME	A2	determiner		
+all	WHOLE AMOUNT	A2	determiner		
+another	DIFFERENT	A2	determiner		
+much	NEGATIVE	A2	determiner		
+one	PARTICULAR PERSON/THING	A2	determiner		
+the	BEFORE SUPERLATIVES, ETC.	A2	determiner		
+congratulations		A2	exclamation		
+can	PERMISSION	A2	modal verb		
+could	PAST ABILITY	A2	modal verb		
+may	POSSIBLY HAPPEN	A2	modal verb		
+might	POSSIBLY HAPPEN	A2	modal verb		
+must	NECESSARY	A2	modal verb		
+should	ADVICE	A2	modal verb		
+will	FUTURE	A2	modal verb		
+will	IF	A2	modal verb		
+against	COMPETING	A2	preposition		
+along	DIRECTION	A2	preposition		
+between	CONNECT	A2	preposition		
+between	SEPARATE	A2	preposition		
+by	DO	A2	preposition		
+by	HOW	A2	preposition		
+by	NOT LATER THAN	A2	preposition		
+during	THROUGH	A2	preposition		
+during	AT SOME TIME IN	A2	preposition		
+except	NOT INCLUDING	A2	preposition		
+for	PURPOSE	A2	preposition		
+for	GET	A2	preposition		
+for	OCCASION	A2	preposition		
+for	AT A TIME	A2	preposition		
+for	BECAUSE OF	A2	preposition		
+for	TOWARD	A2	preposition		
+in	USING TIME	A2	preposition		
+into	CHANGE	A2	preposition		
+like	SIMILAR	A2	preposition		
+minus		A2	preposition		
+of	COMPARING	A2	preposition		
+on	TIME/MONEY	A2	preposition		
+over	COVERING	A2	preposition		
+per		A2	preposition		
+plus		A2	preposition		
+since		A2	preposition		
+than	WITH MORE/LESS	A2	preposition		
+till		A2	preposition		
+up	HIGHER POSITION	A2	preposition		
+with	USING	A2	preposition		
+anybody	IN QUESTIONS/NEGATIVES	A2	pronoun		
+anyone	IN QUESTIONS/NEGATIVES	A2	pronoun		
+everybody		A2	pronoun		
+everyone		A2	pronoun		
+hers		A2	pronoun		
+herself	REFLEXIVE	A2	pronoun		
+himself	REFLEXIVE	A2	pronoun		
+his		A2	pronoun		
+it	TIME/WEATHER	A2	pronoun		
+itself	REFLEXIVE	A2	pronoun		
+mine		A2	pronoun		
+myself	REFLEXIVE	A2	pronoun		
+nobody		A2	pronoun		
+no one		A2	pronoun		
+one	PARTICULAR PERSON/THING	A2	pronoun		
+ours		A2	pronoun		
+ourselves	REFLEXIVE	A2	pronoun		
+somebody		A2	pronoun		
+someone		A2	pronoun		
+that	REFERRING BACK	A2	pronoun		
+that	REFERRING TO SOMETHING	A2	pronoun		
+theirs		A2	pronoun		
+themselves	REFLEXIVE	A2	pronoun		
+this	ALREADY MENTIONED	A2	pronoun		
+this	CAN BE SEEN	A2	pronoun		
+this	THING HAPPENING	A2	pronoun		
+which	CHOICE	A2	pronoun		
+which	REFERRING TO SOMETHING	A2	pronoun		
+who	REFERRING TO SOMEONE	A2	pronoun		
+you	PEOPLE GENERALLY	A2	pronoun		
+yours	PERSON/PEOPLE ADDRESSED	A2	pronoun		
+yourself	PERSON/PEOPLE ADDRESSED	A2	pronoun		
+No problem.	WILL DO	A2	phrase	communication	
+No problem.	FRIENDLY ANSWER	A2	phrase	communication	
+Take care!		A2	phrase	communication	
+Guess what?		A2	phrase	communication	
+a bit		A2	phrase	describing things	
+can't wait		A2	phrase	people: personality	
+sb will kill sb		A2	phrase		
+best wishes		A2	phrase	communication	
+Excuse me	SAYING SORRY	A2	phrase	communication	
+Excuse me	PLEASE REPEAT	A2	phrase	communication	
+give sb a call/ring		A2	phrase	communication	
+would love sth/to do sth		A2	phrase	communication	
+would love to (do sth)		A2	phrase	communication	
+I mean		A2	phrase	communication	
+the back		A2	phrase	describing things	
+hot chocolate		A2	phrase	food and drink	
+give a party		A2	phrase	people: actions	
+have a talk/meeting/appointment, etc.		A2	phrase	people: actions	
+make sure		A2	phrase	people: actions	
+enjoy yourself		A2	phrase	people: personality	
+the Web		A2	phrase	technology	
+on foot		A2	phrase	travel	
+go to the bathroom		A2	phrase		
+all kinds of sth		A2	phrase		
+a sheet of paper/glass, etc.		A2	phrase		
+the east		A2	phrase		
+the north		A2	phrase		
+the south		A2	phrase		
+the west		A2	phrase		
+have fun/a good time/a problem, etc.		A2	phrase		
+be made from/(out) of sth		A2	phrase		
+don't need to do sth/needn't do sth		A2	phrase		
+take an exam		A2	phrase		
+God		A2	phrase		
+How do you do?		A2	phrase	communication	
+Take care!		A2	phrase	communication	
+No problem.		A2	phrase	communication	
+No problem.		A2	phrase	communication	
+your big brother/sister		A2	phrase	relationships	
+classical music		A2	phrase	arts and media	
+pleased to meet you		A2	phrase	communication	
+Really?		A2	phrase	communication	
+break your arm/leg, etc.		A2	phrase	body and health	
+a broken arm/leg, etc.		A2	phrase	body and health	
+a change of clothes		A2	phrase	clothes	
+call back (sb) or call (sb) back		A2	phrasal verb	communication	
+How/What about?	SUGGESTION	A2	phrase	communication	
+I'm afraid...		A2	phrase	communication	
+all the best		A2	phrase	communication	
+that's all right		A2	phrase	communication	
+as well as		A2	phrase	communication	
+all the best		A2	phrase	communication	
+of course not		A2	phrase	communication	
+Oh dear!		A2	phrase	communication	
+details		A2	phrase	communication	
+don't you?/do you?/doesn't she?/does she?, etc.		A2	phrase	communication	
+Do you mind ...?		A2	phrase	communication	
+Help!		A2	phrase	communication	
+How about...?		A2	phrase	communication	
+if not		A2	phrase	communication	
+if you like		A2	phrase	communication	
+instructions		A2	phrase	communication	
+let sb know		A2	phrase	communication	
+let's		A2	phrase	communication	
+let sb know (sth)		A2	phrase	communication	
+What is sb/sth like?		A2	phrase	communication	
+if you like		A2	phrase	communication	
+love/(with) love/all my love/lots of love		A2	phrase	communication	
+pleased to meet you		A2	phrase	communication	
+Do you mind ...?		A2	phrase	communication	
+I don't mind		A2	phrase	communication	
+never mind		A2	phrase	communication	
+never mind		A2	phrase	communication	
+no thanks		A2	phrase	communication	
+Oh no!		A2	phrase	communication	
+not too		A2	phrase	communication	
+notes		A2	phrase	communication	
+of course not		A2	phrase	communication	
+a pity		A2	phrase	communication	
+and so on		A2	phrase	communication	
+or something (like that)		A2	phrase	communication	
+such a(n)		A2	phrase	communication	
+such as		A2	phrase	communication	
+I suppose		A2	phrase	communication	
+tell sb to do sth		A2	phrase	communication	
+no thanks		A2	phrase	communication	
+not too		A2	phrase	communication	
+by the way		A2	phrase	communication	
+you're welcome		A2	phrase	communication	
+What about ...?		A2	phrase	communication	
+why don't you?/ why not do sth?		A2	phrase	communication	
+would love sth		A2	phrase	communication	
+would love to (do sth)		A2	phrase	communication	
+you're welcome		A2	phrase	communication	
+at least		A2	phrase	describing things	
+not (too) bad		A2	phrase	describing things	
+by the way		A2	phrase	describing things	
+a few		A2	phrase	describing things	
+in front of sth/sb		A2	phrase	describing things	
+in front of sb/sth		A2	phrase	describing things	
+at least		A2	phrase	describing things	
+a little bit		A2	phrase	describing things	
+too much/so much		A2	phrase	describing things	
+not bad		A2	phrase	describing things	
+pale blue/green/yellow, etc.		A2	phrase	describing things	
+quite a few/a lot		A2	phrase	describing things	
+be born		A2	phrase	education	
+a dance/language/riding, etc. school		A2	phrase	education	
+the dishes		A2	phrase	food and drink	
+the country		A2	phrase	natural world	
+the moon		A2	phrase	natural world	
+bring back sth or bring sth back		A2	phrasal verb	people: actions	
+come back		A2	phrasal verb	people: actions	
+come in	ENTER	A2	phrasal verb	people: actions	
+find out (sth) or find (sth) out		A2	phrasal verb	people: actions	
+give back sth or give sth back		A2	phrasal verb	people: actions	
+go in		A2	phrasal verb	people: actions	
+lie down		A2	phrasal verb	people: actions	
+pick up sb/sth or pick sb/sth up	LIFT	A2	phrasal verb	people: actions	
+pick up sb/sth or pick sb/sth up	GET	A2	phrasal verb	people: actions	
+put on sth or put sth on	MAKEUP	A2	phrasal verb	people: actions	
+put on sth or put sth on	MUSIC/MOVIE	A2	phrasal verb	people: actions	
+go running/swimming, etc.		A2	phrase	people: actions	
+keep sth in/on, etc.		A2	phrase	people: actions	
+make sure (that)		A2	phrase	people: actions	
+grow up		A2	phrasal verb	people: personality	
+a shame		A2	phrase	people: personality	
+get along		A2	phrasal verb	relationships	
+be crazy about sb/sth		A2	phrase	relationships	
+old friend		A2	phrase	relationships	
+for sale		A2	phrase	shopping	
+for sale		A2	phrase	shopping	
+the net		A2	phrase	technology	
+get back		A2	phrasal verb	travel	
+get off (sth)		A2	phrasal verb	travel	
+get on (sth)		A2	phrasal verb	travel	
+take off	FLY	A2	phrasal verb	travel	
+on foot		A2	phrase	travel	
+spare time		A2	phrase	work	
+as usual		A2	phrase		
+get married		A2	phrase		
+I/you/he, etc. had better do sth		A2	phrase		
+as much/quickly/soon, etc. as possible		A2	phrase		
+belong to sb		A2	phrasal verb		
+fill in/out sth or fill sth in/out		A2	phrasal verb		
+look after sb/sth		A2	phrasal verb		
+put on sth or put sth on	CLOTHES	A2	phrasal verb		
+take off sth or take sth off	REMOVE	A2	phrasal verb		
+try on sth or try sth on		A2	phrasal verb		
+turn off sth or turn sth off		A2	phrasal verb		
+turn on sth or turn sth on		A2	phrasal verb		
+be able to do sth		A2	phrase		
+all sorts of sth		A2	phrase		
+all the time		A2	phrase		
+all over		A2	phrase		
+as ... as		A2	phrase		
+as much/quickly/soon, etc. as possible		A2	phrase		
+as usual		A2	phrase		
+be bad for sb/sth		A2	phrase		
+have/has been to		A2	phrase		
+become available/rich/a writer, etc.		A2	phrase		
+best wishes		A2	phrase		
+these days		A2	phrase		
+one day		A2	phrase		
+each other		A2	phrase		
+first (of all) or first off		A2	phrase		
+follow a street/road/path, etc.		A2	phrase		
+the front	MOST IMPORTANT SIDE	A2	phrase		
+the front	FORWARD PART	A2	phrase		
+the future		A2	phrase		
+get married		A2	phrase		
+be going to do/be sth		A2	phrase		
+be going to do sth		A2	phrase		
+go to the bathroom		A2	phrase		
+happy to do sth		A2	phrase		
+have (got) to do sth		A2	phrase		
+have (got) to do sth		A2	phrase		
+here you are/here it is, etc.		A2	phrase		
+(by) herself		A2	phrase		
+(by) himself		A2	phrase		
+look nice/strange, etc.		A2	phrase		
+the matter		A2	phrase		
+the middle		A2	phrase		
+at the moment		A2	phrase		
+any more		A2	phrase		
+(the) most attractive/important/popular, etc.		A2	phrase		
+(by) myself		A2	phrase		
+or not		A2	phrase		
+if not		A2	phrase		
+just now		A2	phrase		
+on sale		A2	phrase		
+one day		A2	phrase		
+or not		A2	phrase		
+each other		A2	phrase		
+(by) ourselves		A2	phrase		
+part of sth		A2	phrase		
+the past		A2	phrase		
+plan to do sth		A2	phrase		
+remember to do sth		A2	phrase		
+the rest		A2	phrase		
+on sale		A2	phrase		
+the same		A2	phrase		
+sell for/at sth		A2	phrase		
+as soon as possible		A2	phrase		
+all sorts of sth		A2	phrase		
+sound good/interesting/strange, etc.		A2	phrase		
+studies		A2	phrase		
+(by) themselves		A2	phrase		
+these days		A2	phrase		
+all the time		A2	phrase		
+from ... to ...		A2	phrase		
+up the street/road, etc.		A2	phrase		
+a variety of sth/sb		A2	phrase		
+without sb		A2	phrase		
+your world		A2	phrase		
+be wrong		A2	phrase		
+(by) yourself		A2	phrase		
