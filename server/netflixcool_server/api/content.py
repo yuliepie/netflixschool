@@ -23,8 +23,8 @@ content_unique_words_fields = content_ns.model(
     "content_unique_words",
     {
         "id": fields.Integer,
-        "word": fields.String,
-        "frequency": fields.Integer
+        "text": fields.String,
+        "value": fields.Integer
     }
 )
 
@@ -102,8 +102,8 @@ class Content(Resource):
             content_unique_words.append(
                 {
                     "id": row.id,
-                    "word": row.word,
-                    "frequency": row.frequency
+                    "text": row.word,
+                    "value": row.frequency
                 }
             )
 
