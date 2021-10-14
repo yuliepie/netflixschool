@@ -24,21 +24,22 @@ function Sidebar() {
                 <nav className='nav-menu active'>
                     <ul className="nav-menu-items" >
                         <div className="logoInline">
-                            <h1>Netflix school</h1>
+                            <h1>Netflixschool</h1>
                         </div>
-                        {SidebarData.map((item) => {
-                            return(
-                                <div key={item.title} className={item.cName}>
-                                    <Link to={item.path}>
-                                        {item.icon}
-                                        <span>{item.title}</span>
-                                    </Link>
-                                </div>
-                            )
-                        })}
+                        <div className="nav-text-boxs">
+                            {SidebarData.map((item) => {
+                                return(
+                                    <div key={item.title} className={item.cName}>
+                                        <Link to={item.path}>
+                                            {item.icon}
+                                            <span>{item.title}</span>
+                                        </Link>
+                                    </div>
+                                )
+                            })}
+                        </div>
                         <br />
                         <div className="footerIn">
-                            <hr />
                             <Footer />
                         </div>
                     </ul>
