@@ -2,17 +2,8 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import {
-  Animator,
-  Fade,
-  ScrollContainer,
-  ScrollPage,
-  Sticky,
-  batch,
-  MoveOut,
-} from 'react-scroll-motion';
-import ScrollToBottom from '../common/ScrollBottom';
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const TestIntro = () => {
   return (
@@ -35,7 +26,7 @@ const TestIntro = () => {
 
 const Precautions = () => {
   return (
-    <div style={{ marginLeft: '23rem', width: '50rem' }}>
+    <div className="ready" id="ready">
       <span style={{ fontSize: '1rem', color: 'black', textAlign: 'center' }}>
         <h1 style={{ color: '#E82B0C', fontSize: '3rem' }}>
           <strong>주의사항</strong>
@@ -57,12 +48,12 @@ const Precautions = () => {
         </p>
         <br />
         <div>
-          <Link to="/dotest">
+          <NavLink to="/dotest">
             <YesBox>Yes</YesBox>
-          </Link>
-          <Link to="/">
+          </NavLink>
+          <NavLink to="/">
             <YesBox>No</YesBox>
-          </Link>
+          </NavLink>
         </div>
       </span>
     </div>
@@ -72,22 +63,28 @@ const Precautions = () => {
 function TestPrecautions() {
   return (
     <div className="container">
-      <ScrollContainer>
-        <ScrollPage page={0}>
-          <div className="testReadyFirst">
-            <h1>테스트를 통해 당신의 레벨을 확인해보세요!</h1>
-          </div>
-          <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -1000))}>
-            <TestIntro />
-          </Animator>
-          <button onClick={ScrollToBottom}>xczc</button>
-        </ScrollPage>
-        <ScrollPage page={1}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -50))}>
-            <Precautions />
-          </Animator>
-        </ScrollPage>
-      </ScrollContainer>
+      <div style={{ width: '100%', height: '100vh' }}>
+        <div className="testReadyFirst">
+          <h1>테스트를 통해 당신의 레벨을 확인해보세요!</h1>
+        </div>
+        <TestIntro />
+        <Link to="ready" spy={true} smooth={true}>
+          <span
+            style={{
+              fontSize: '24px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginLeft: '20px',
+            }}
+          >
+            테스트 시작
+          </span>
+        </Link>
+      </div>
+      <div>
+        <Precautions />
+      </div>
     </div>
   );
 }
