@@ -13,7 +13,7 @@ export default function ContentComponent({
     const history = useHistory();
     
     const handleClick = () => {
-        history.push(`/recommendation`)
+        history.push(`/contentsranking`)
     };
 
     return (
