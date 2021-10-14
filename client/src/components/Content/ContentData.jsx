@@ -12,7 +12,7 @@ export const content_detail = {
   running_time: '1h 30m',
   genre: 'Children & Family Movies, Comedies',
   story: 'Before planning an awesome wedding for his grandfather, a polar bear king must take back a stolen artifact from an evil archaeologist first.',
-  img_path: '/img/MV5BNjMwZDhhZWYtOTM0OC00ZTQzLWIyNDktNDM1NmVkYTY4NWNlXkEyXkFqcGdeQXVyNTYyNDUxMDc@._V1_FMjpg_UX1000_.jpg',
+  img_path: 'img/MV5BYmQzNmY3YzItOTE3OC00NGZjLTkwZDYtOWVmM2QyMzhiYTgwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UY720_.jpg',
   example: [{
           id: '1',
           word: 'word1',

@@ -1,6 +1,6 @@
 // 영화 소개 페이지
 
-import { content } from "../components/Content/ContentData"
+import { content_detail } from "../components/Content/ContentData"
 
 import axios from "axios";
 import { useEffect, useState } from "react";
