@@ -25,15 +25,15 @@ export default function TestFormMultipleAnswer({
   return (
     <div>
       <Wrap>
-        <div>
-          <Image src={question.imgPath} alt="questionimg" />
-        </div>
+        <Image src={question.imgPath} alt="questionimg" />
       </Wrap>
 
-      <Wrap>
-        <Asking>{question.koreanSentence}</Asking>
-      </Wrap>
-      <Wrap>
+      <QuestionWrapper>
+        <Asking>
+          Q{number}. {question.koreanSentence}
+        </Asking>
+      </QuestionWrapper>
+      <ExampleWrapper>
         {question.choices.map((answ, index) => {
           return (
             <Reply key={index}>
@@ -57,16 +57,30 @@ export default function TestFormMultipleAnswer({
             </Reply>
           );
         })}
-      </Wrap>
+      </ExampleWrapper>
     </div>
   );
 }
 
 const Image = styled.img`
   width: 60%;
-  height: 60%;
+  height: 500px;
   display: block;
   margin: 0px auto;
+`;
+
+const QuestionWrapper = styled.div`
+  margin-top: 40px;
+  text-align: center;
+`;
+
+const ExampleWrapper = styled.div`
+  height: 100px;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 `;
 
 const Asking = styled.p`
@@ -87,36 +101,22 @@ const Reply = styled.div`
 
 const Label = styled.label`
   cursor: pointer;
-  width: 200px;
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: ${(props) =>
-    props.checked
-      ? 'linear-gradient(to bottom, #b1adf4 5%, #f6f6f6 100%)'
-      : 'linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)'};
-  background-color: #ffffff;
-  border-radius: 5px;
-  border: 1px solid #6a5acd;
+  width: 13rem;
+  margin-top: 15px;
+  background-color: ${(props) => (props.checked ? '#000000' : '#ffffff')};
+  color: ${(props) => (props.checked ? '#ffffff' : '#000000')};
+  border-radius: 10px;
+  border: 2px solid #000000;
   display: inline-block;
   cursor: pointer;
-  color: #6a5acd;
-  font-size: 16px;
-  padding: 8px 10px;
+  font-size: 23px;
+  padding: 20px 8px;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
 
   :hover {
-    background: ${(props) =>
-      props.checked
-        ? 'linear-gradient(to bottom, #f6f6f6 5%, #b1adf4 100%)'
-        : 'linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%)'};
-
-    background-color: #f6f6f6;
-  }
-
-  :active {
-    position: relative;
-    top: 1px;
+    background-color: #000000;
+    color: #ffffff;
   }
 
   > input {
