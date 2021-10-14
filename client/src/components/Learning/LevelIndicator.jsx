@@ -1,47 +1,48 @@
 import styled, { css } from 'styled-components';
 import Arrow from './Arrow';
+import {
+  IoMdArrowDroprightCircle,
+  IoMdArrowDropleftCircle,
+} from 'react-icons/io';
 
 const Container = styled.div`
-  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 50px 0;
   font-size: 25px;
-
-`
+`;
 
 const ArrowButton = styled.button`
-  margin: ${props => props.flip ? "0 0 0 16px !important": "0 16px 0 0"};
+  margin: ${(props) => (props.flip ? '0 0 0 16px !important' : '0 16px 0 0')};
 
-  ${props => props.flip && css`
-    transform: scaleX(-1);
-  `}
+  ${(props) =>
+    props.flip &&
+    css`
+      transform: scaleX(-1);
+    `}
 
   > svg {
     display: block;
   }
+`;
 
-`
-
-export default function LevelIndicator (
-  {
-    level,
-    currPage,
-    onClickPage,
-    pageCount
-  }
-  ) {
-
-  return(
+export default function LevelIndicator({
+  level,
+  currPage,
+  onClickPage,
+  pageCount,
+}) {
+  return (
     <Container>
-      <ArrowButton
+      {/* <ArrowButton
         disabled={currPage === 0}
         onClick={() => onClickPage(currPage - 1)}
       >
         <Arrow />
-      </ArrowButton>
-        <h2> Level {level} Today's examples</h2>
+      </ArrowButton> */}
+      <IoMdArrowDropleftCircle size="35" />
+      <h2> Level {level}</h2>
       <ArrowButton
         flip
         disabled={currPage === pageCount - 1}
@@ -50,5 +51,5 @@ export default function LevelIndicator (
         <Arrow />
       </ArrowButton>
     </Container>
-  )
+  );
 }
