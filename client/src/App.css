@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
@@ -8,7 +7,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.components{
+.components {
   margin-left: 23rem;
 }
 
@@ -20,7 +19,7 @@
   /* position: sticky; */
 }
 
-.submitBox{
+.submitBox {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -37,6 +36,7 @@
 } */
 
 /* .MainFirst{
+
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2021-10-12+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+10.49.11.png');
   height: 100vh;
   background-size: cover;
@@ -58,12 +58,9 @@
   bottom: 0px;
 } */
 
-
-
 /* ================= */
 /*  Main page - 5개  */
 /* ================= */
-
 
 .container {
   scroll-snap-type: mandatory;
@@ -72,52 +69,51 @@
 
 /* 넷플릭스쿨 메인 */
 
-.MainFirst{
+.MainFirst {
   scroll-snap-align: start;
-  height: 100vh; 
+  height: 100vh;
   position: relative;
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2021-10-12+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+10.49.11.png');
   background-size: cover;
-  }
-  
-.MainFirst::before{
-  content: "";
+}
+
+.MainFirst::before {
+  content: '';
   opacity: 0.6;
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color:gray;
+  background-color: gray;
 }
 
-.MainFirst h1{
+.MainFirst h1 {
   padding-top: 10%;
   color: white;
   text-align: center;
-  line-height: 300px;  
+  line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
 
-.downButton{
-  align-items: center;  
+.downButton {
+  align-items: center;
   position: relative;
   padding-left: 45%;
   padding-top: 30%;
 }
 
-
 /* 소개 */
-.MainIntro{
-  height: 100vh; 
+.MainIntro {
+  height: 100vh;
   position: relative;
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/anne.jpg');
   background-size: cover;
   scroll-snap-align: start;
-  }
-.MainIntro::before{
-  content: "";
+}
+.MainIntro::before {
+  content: '';
   opacity: 0.5;
   position: absolute;
   top: 0px;
@@ -127,32 +123,30 @@
   background-color: lightgray;
 }
 
-.MainIntro h1{
+.MainIntro h1 {
   color: black;
   /* text-align: center; */
   padding-left: 10%;
-  line-height: 300px;  
+  line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
 
-
-.gotoPage{
-
-  line-height: 300px;  
+.gotoPage {
+  line-height: 300px;
   position: relative;
 }
 
 /* 테스트 */
-.MainTest{
-  height: 100vh; 
+.MainTest {
+  height: 100vh;
   position: relative;
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/stranger_things_3_by_ryan_butler_dddhpro-pre.jpg');
   background-size: cover;
   scroll-snap-align: start;
-  }
-.MainTest::before{
-  content: "";
+}
+.MainTest::before {
+  content: '';
   opacity: 0.5;
   position: absolute;
   top: 0px;
@@ -162,25 +156,25 @@
   background-color: gray;
 }
 
-.MainTest h1{
+.MainTest h1 {
   color: white;
   /* text-align: center; */
   padding-left: 60%;
-  line-height: 300px;  
+  line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
 
 /* 랭킹 */
-.MainRanking{
-  height: 100vh; 
+.MainRanking {
+  height: 100vh;
   position: relative;
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/pink.jpg');
   background-size: cover;
   scroll-snap-align: start;
-  }
-.MainRanking::before{
-  content: "";
+}
+.MainRanking::before {
+  content: '';
   opacity: 0.5;
   position: absolute;
   top: 0px;
@@ -190,25 +184,25 @@
   background-color: lightgray;
 }
 
-.MainRanking h1{
+.MainRanking h1 {
   color: black;
   /* text-align: center; */
   padding-left: 10%;
-  line-height: 300px;  
+  line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
 
 /* 학습 */
-.MainLearning{
-  height: 100vh; 
+.MainLearning {
+  height: 100vh;
   position: relative;
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/queens.jpeg');
   background-size: cover;
   scroll-snap-align: start;
-  }
-.MainLearning::before{
-  content: "";
+}
+.MainLearning::before {
+  content: '';
   opacity: 0.5;
   position: absolute;
   top: 0px;
@@ -218,30 +212,28 @@
   background-color: gray;
 }
 
-.MainLearning h1{
+.MainLearning h1 {
   color: white;
   /* text-align: center; */
   padding-left: 60%;
-  line-height: 300px;  
+  line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
-
-
 
 /* ====================== */
 /*  test Precaution page  */
 /* ====================== */
 
-.testReadyFirst{
+.testReadyFirst {
   height: 30vh;
   width: 100%;
   position: relative;
 }
-.testReadyFirst::before{
+.testReadyFirst::before {
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/test.jpeg');
   background-size: cover;
-  content: "";
+  content: '';
   opacity: 0.5;
   position: absolute;
   top: 0px;
@@ -249,12 +241,12 @@
   right: 0px;
   bottom: 0px;
 }
-.testReadyFirst h1{
+.testReadyFirst h1 {
   font-size: 2.5rem;
   padding-top: 1.5rem;
   color: black;
   text-align: center;
-  line-height: 300px;  
+  line-height: 300px;
   position: relative;
 }
 
@@ -267,6 +259,7 @@
   align-items: center; */
   
 }
+
 
 /* ================= */
 /*  content, result  */
@@ -311,7 +304,7 @@ dd {
   margin-right: 40px;
 }
 .info_poster img {
-  width:400px;
+  width: 400px;
   height: 500px;
 }
 
@@ -335,16 +328,16 @@ dd {
   padding: 2rem;
   width: 94%;
   height: 50%;
-  background-color: #BFBAB0;
+  background-color: #bfbab0;
   margin-bottom: 2rem;
-  overflow : scroll;
+  overflow: scroll;
 }
-.recommended_list img{
+.recommended_list img {
   width: 280px;
   height: 420px;
-} 
-.recommended_list a :hover{
-  transform: scale(1.08 );
+}
+.recommended_list a :hover {
+  transform: scale(1.08);
   transition: transform 1s;
   filter: brightness(120%);
 }
@@ -354,7 +347,7 @@ dd {
   grid-template-columns: 24% 24% 24% 24% 24%;
 }
 
-.recommendBox{
+.recommendBox {
   background-color: gray;
   color: white;
   height: 100%;
@@ -365,9 +358,6 @@ dd {
   padding-left: 1rem;
 }
  */
-
-
-
 
 /* .header {
   padding: 1rem 2rem;
@@ -441,15 +431,13 @@ li {
   border-radius: 4px;
 } */
 
-
-
-
 /* 랜딩페이지
 .slider {
   position:relative;
+
   height: 100vh;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -457,7 +445,7 @@ li {
   width: 100%;
   height: 600px;
   border-radius: 10px;
-} 
+}
 
 .right-arrow {
   position: absolute;
@@ -475,7 +463,7 @@ li {
   top: 50%;
   left: 32px;
   font-size: 3rem;
-  color:#000;
+  color: #000;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -494,13 +482,12 @@ li {
 section {
   margin: 30px;
   margin-bottom: 100px;
-  padding:10px;
+  padding: 10px;
   padding-bottom: 50px;
 }
 .shortcut_left_div {
-  background-color: #F2C230;
+  background-color: #f2c230;
   margin-top: 20%;
-  ;
 }
 .shortcut_left {
   margin-left: 10%;
@@ -508,26 +495,27 @@ section {
   display: block;
   font: black;
 }
-.shortcut_button_left{
+.shortcut_button_left {
   margin-left: 10%;
 }
 .shortcut_right_div {
- 
 }
 .shortcut_right {
   margin-left: 55%;
   padding: 10px;
   display: block;
 }
-.shortcut_button_right{
+.shortcut_button_right {
   margin-left: 55%;
 }
-.shortcut_left p, .shortcut_left h3{
+.shortcut_left p,
+.shortcut_left h3 {
   width: 500px;
   color: black;
 }
 
-.shortcut_right p, .shortcut_right h3{
+.shortcut_right p,
+.shortcut_right h3 {
   width: 500px;
 }
 .shortcut_button {
@@ -538,15 +526,17 @@ section {
 }
 
 .shortcut {
-  background-color: #F2C230;
+  background-color: #f2c230;
 }
-.shortcut h3,.shortcut h4,.shortcut p{
-  color: black
+.shortcut h3,
+.shortcut h4,
+.shortcut p {
+  color: black;
 }
 .capable_list {
   text-align: center;
 }
-.split{
+.split {
   display: grid;
   grid-template-columns: 50% 50%;
 
