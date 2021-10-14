@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: "Gowun";
+  src: url("./fonts/GowunDodum-Regular.ttf");
+}
+
+@font-face {
+  font-family: "wemafe";
+  src: url("./fonts/Wemakeprice-Regular.ttf");
+}
 
 * {
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Gowun', sans-serif;
+  font-weight: 900;
 }
 
 .components {
@@ -63,23 +72,29 @@
 /* ================= */
 
 .container {
-  scroll-snap-type: mandatory;
+  /* scroll-snap-type: mandatory; */
+  background-attachment: fixed;
+  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2021-10-12+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+10.49.11.png');
+  background-size: cover;
+
+  /* width: ; */
 }
 
 
 /* 넷플릭스쿨 메인 */
 
 .MainFirst {
-  scroll-snap-align: start;
   height: 100vh;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2021-10-12+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+10.49.11.png');
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .MainFirst::before {
   content: '';
-  opacity: 0.6;
+  opacity: 0.5;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -89,7 +104,6 @@
 }
 
 .MainFirst h1 {
-  padding-top: 10%;
   color: white;
   text-align: center;
   line-height: 300px;
@@ -106,11 +120,13 @@
 
 /* 소개 */
 .MainIntro {
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/anne.jpg');
+  /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/anne.jpg'); */
   background-size: cover;
-  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 .MainIntro::before {
   content: '';
@@ -120,30 +136,54 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: lightgray;
+  background-color: gray;
 }
 
 .MainIntro h1 {
-  color: black;
+  color: white;
   /* text-align: center; */
+  /* padding-top: 5%; */
   padding-left: 10%;
   line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
 
+.MainIntro p {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #BFB7AD;
+  color: white;
+  width: 8rem;
+  /* text-align: center; */
+  /* padding-left: 60%;
+  line-height: 300px; */
+  position: relative;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.MainIntro p:hover{
+  background-color: #FAEBD7;
+}
+
 .gotoPage {
-  line-height: 300px;
+  margin-left: 80%;
   position: relative;
 }
 
 /* 테스트 */
 .MainTest {
-  height: 100vh;
+  height: 70vh;
+  width: 100%;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/stranger_things_3_by_ryan_butler_dddhpro-pre.jpg');
+  /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/stranger_things_3_by_ryan_butler_dddhpro-pre.jpg'); */
   background-size: cover;
-  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 .MainTest::before {
   content: '';
@@ -159,19 +199,43 @@
 .MainTest h1 {
   color: white;
   /* text-align: center; */
-  padding-left: 60%;
+  /* padding-top: 5%; */
+  padding-left: 65%;
   line-height: 300px;
   position: relative;
   font-size: 3rem;
 }
 
+.MainTest p {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #426171;
+  color: white;
+  width: 8rem;
+  /* text-align: center; */
+  /* padding-left: 60%;
+  line-height: 300px; */
+  position: relative;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: center; 
+  margin-left: 73%;
+}
+
+.MainTest p:hover{
+  background-color: #003F63;
+}
+
+
 /* 랭킹 */
 .MainRanking {
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/pink.jpg');
+  /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/pink.jpg'); */
   background-size: cover;
-  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 .MainRanking::before {
   content: '';
@@ -181,11 +245,11 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: lightgray;
+  background-color: gray;
 }
 
 .MainRanking h1 {
-  color: black;
+  /* color: black; */
   /* text-align: center; */
   padding-left: 10%;
   line-height: 300px;
@@ -193,13 +257,35 @@
   font-size: 3rem;
 }
 
+.MainRanking p {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #9D9C96;
+  color: white;
+  width: 8rem;
+  /* text-align: center; */
+  /* padding-left: 60%;
+  line-height: 300px; */
+  position: relative;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: center; 
+  margin-left: 12%;
+}
+
+.MainRanking p:hover{
+  background-color: #BAB7AC;
+}
+
 /* 학습 */
 .MainLearning {
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/queens.jpeg');
+  /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/queens.jpeg'); */
   background-size: cover;
-  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 .MainLearning::before {
   content: '';
@@ -215,20 +301,48 @@
 .MainLearning h1 {
   color: white;
   /* text-align: center; */
-  padding-left: 60%;
+  padding-left: 55%;
   line-height: 300px;
   position: relative;
   font-size: 3rem;
+}
+
+.MainLearning p {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #424242;
+  color: white;
+  width: 8rem;
+  /* text-align: center; */
+  /* padding-left: 60%;
+  line-height: 300px; */
+  position: relative;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: center; 
+  margin-left: 73%;
+}
+
+.MainLearning p:hover{
+  background-color: black;
 }
 
 /* ====================== */
 /*  test Precaution page  */
 /* ====================== */
 
+.testIntroBox{
+  margin-left: 55%;
+  padding : 2rem;
+  width: 30rem;
+  height: 20rem;
+}
+
 .testReadyFirst {
-  height: 30vh;
+  height: 15rem;
   width: 100%;
   position: relative;
+  /* position: fixed; */
 }
 .testReadyFirst::before {
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/test.jpeg');
@@ -251,13 +365,19 @@
 }
 
 .ready{
-  /* width:100%; */
-  height:100vh;
-  padding-top: 10%;
+  width:100%;
+  height:80vh;
+  padding-top: 20%;
   background-color: antiquewhite;
   /* display: flex;
   align-items: center; */
-  
+}
+
+.goTestButton{
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -326,38 +446,72 @@ dd {
   display: flex;
   align-items: center;
   padding: 2rem;
-  width: 94%;
+  width: 70%;
   height: 50%;
-  background-color: #bfbab0;
+  background-color: #222121;
   margin-bottom: 2rem;
   overflow: scroll;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13%;
 }
+
+/* .recommend{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} */
+
 .recommended_list img {
-  width: 280px;
+  width: 80%;
   height: 420px;
+  border: 0.5px solid #222121;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 7px 7px 7px black;
+
 }
 .recommended_list a :hover {
   transform: scale(1.08);
   transition: transform 1s;
   filter: brightness(120%);
+  position: relative;
 }
 
 .recommendation {
   display: grid;
   grid-template-columns: 24% 24% 24% 24% 24%;
+  position: relative;
+  overflow: scroll;
 }
 
 .recommendBox {
-  background-color: gray;
-  color: white;
   height: 100%;
   width: 100%;
+  position: relative;
+  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/netflix_back.jpg');
+  background-size: cover;
+  /* display: flex;
+  align-items: center;
+  justify-content: end; */
+}
+.recommendBox::before {
+  content: '';
+  opacity: 0.8;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #424242;
 }
 
-/* .recommend{
-  padding-left: 1rem;
-}
- */
+
+
+
 
 /* .header {
   padding: 1rem 2rem;
@@ -542,3 +696,14 @@ section {
 
   text-align: center;s
 } */
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 400%;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
