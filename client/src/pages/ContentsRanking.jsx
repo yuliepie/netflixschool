@@ -17,7 +17,7 @@ export default function ContentsRanking () {
   const [offset, setOffset] = useState(0);
   const [sorting, setSorting] = useState(0);
   const [hasMore, setHasMore] = useState(true);
-  const [totalCount, setTotalCount] = useState(50);
+  const [totalCount, setTotalCount] = useState(11);
   const [value, setValue] = useState([0, 10]);
   const [isMouseUp, setIsMouseUp] = useState(false);
   
@@ -89,7 +89,7 @@ export default function ContentsRanking () {
   return (
     <CC.Container>
       <CC.ConditionContainer>
-        <CC.Title>NEI 랭킹</CC.Title>
+        <CC.Title>Netflix English Index 랭킹</CC.Title>
         <CC.SliderBox>
           <CC.StyledSlider
             value={value}
@@ -104,11 +104,11 @@ export default function ContentsRanking () {
         </CC.SliderBox>
         {sorting ? (
           <CC.Button onClick={handleClickSortingButton}>
-            <ImSortAmountDesc/>지수 내림차순
+            <ImSortAmountDesc/>NEI 내림차순
           </CC.Button>
         ) : (
           <CC.Button onClick={handleClickSortingButton}>
-            <ImSortAmountAsc/>지수 오름차순
+            <ImSortAmountAsc/>NEI 오름차순
           </CC.Button>
         ) }
         

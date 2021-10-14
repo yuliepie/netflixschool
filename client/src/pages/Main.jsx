@@ -1,17 +1,19 @@
 // 메안(렌딩)페이지
 
-import React from "react";
+import React,{ useEffect, useState } from "react";
 // import { Link } from "react-scroll"
 import { Link } from "react-router-dom";
-import {BsBoxArrowInRight} from 'react-icons/bs'
+import {FiArrowUpCircle} from 'react-icons/fi'
 
 const Intro = () => {
   return(
     <>
-      <h1>소개페이지</h1> 
-      <Link to ="/intro">
-        <BsBoxArrowInRight className="gotoPage" size='15rem' color='black'/>
-      </Link>
+      <div style={{backgroundColor:'#FAEBD7', height:'30rem', width:'70%'}}>
+          <h1>About 넷플릭스쿨</h1>
+          <Link to ="/intro" style={{ textDecoration: 'none'}}>
+            <p>Learn More</p>
+          </Link>
+        </div>
     </>
   )
 }
@@ -19,10 +21,13 @@ const Intro = () => {
 const Test = () => {
   return(
     <>
-      <h1>테스트페이지</h1> 
-      <Link to ="/test">
-        <BsBoxArrowInRight className="gotoPage" size='15rem' color='white'/>
-      </Link>
+      <div style={{backgroundColor:'#003F63', color:'white', height:'30rem', width:'70%'}}>
+        <h1>Level Test</h1> 
+        <Link to ="/test" style={{ textDecoration: 'none'}}>
+          {/* <BsBoxArrowInRight className="gotoPage" size='5rem' color='white'/> */}
+          <p>Take A Test</p>
+        </Link>
+      </div>
     </>
   )
 }
@@ -30,10 +35,12 @@ const Test = () => {
 const Ranking = () => {
   return(
     <>
-      <h1>랭킹페이지</h1> 
-      <Link to ="/ContentsRanking">
-        <BsBoxArrowInRight className="gotoPage" size='15rem' color='black'/>
-      </Link>
+      <div style={{backgroundColor:'#BAB7AC', color:'white', height:'30rem', width:'70%'}}>
+        <h1>NEI Ranking</h1> 
+        <Link to ="/ContentsRanking" style={{ textDecoration: 'none'}} >
+          <p>Learn More</p>
+        </Link>
+      </div>
     </>
   )
 }
@@ -41,15 +48,37 @@ const Ranking = () => {
 const Learning = () => {
   return(
     <>
-      <h1>학습페이지</h1> 
-      <Link to ="/learning">
-        <BsBoxArrowInRight className="gotoPage" size='15rem' color='white'/>
-      </Link>
+      <div style={{backgroundColor:'black', color:'white', height:'30rem', width:'70%'}}>
+        <h1>Today's English</h1> 
+        <Link to ="/learning" >
+          <p>Learn More</p>
+        </Link>
+      </div>
     </>
   )
 }
 
 export default function Main () {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
+
   return (
     <div className="container">
       <div className="MainFirst" id="1">
@@ -67,13 +96,15 @@ export default function Main () {
       <div className="MainLearning" id="5">
         <Learning />
       </div>
+
+      {showButton && (
+        <button onClick={scrollToTop} className="back-to-top">
+          <FiArrowUpCircle style={{color:'white'}} />
+        </button>
+      )}
     </div>
   )
 }
-
-
-
-
 
 
 

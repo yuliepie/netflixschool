@@ -78,6 +78,8 @@ export const Image = styled.img`
     height: 100%;
     width: 240px;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 10px;
 `
 
 export const ConditionContainer = styled.div`

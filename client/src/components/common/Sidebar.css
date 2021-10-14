@@ -46,6 +46,10 @@
     padding-bottom: 20%;
 }
 
+.logoInline h1{
+    font-weight:bolder;
+}
+
 .footerIn{
     font-size: 14px;
     color: white;
