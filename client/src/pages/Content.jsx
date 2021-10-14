@@ -1,6 +1,6 @@
 // 영화 소개 페이지
 
-import { content_detail } from "../components/Content/ContentData"
+import { content } from "../components/Content/ContentData"
 
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -43,7 +43,7 @@ const Title = styled.div`
 `
 
 const BackImage = styled.div`
-  background-image: url(${content_detail.img_path});
+  background-image: url(${content.img_path});
   background-size: cover;
   background-position:center center;
   background-color: black;    
@@ -138,33 +138,33 @@ export default function Content ({location}) {
           <BackImage>
             <Wrapper2>
               <Title className='box_basic'>
-                <h2 className='title_name_en'>{content_detail.title_en}</h2>
-                <h3 className='title_name_kr'>{content_detail.title_kr}</h3>
+                <h2 className='title_name_en'>{content.title_en}</h2>
+                <h3 className='title_name_kr'>{content.title_kr}</h3>
               </Title>
               <ContentInfoWrapper>
                 <DetailInfo className='box_basic'>
-                  <div className="info_poster"><img src={content_detail.img_path} alt='movie_poster' /></div>
+                  <div className="info_poster"><img src={content.img_path} alt='movie_poster' /></div>
                   <div className='info_content'>
                   <ContentInfo className='inner_content'>
                     <dl className='list_content'>
                       <dt>개봉연도</dt>
-                      <dd>{content_detail.release_year}</dd>
+                      <dd>{content.release_year}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>장르</dt>
-                      <dd>{content_detail.genre}</dd>
+                      <dd>{content.genre}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>등급</dt>
-                      <dd>{isNaN(content_detail.age_rating) ?   "전체연령가" : `${content_detail.age_rating} 세 이용가`}</dd>
+                      <dd>{isNaN(content.age_rating) ?   "전체연령가" : `${content.age_rating} 세 이용가`}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>감독</dt>
-                      <dd>{content_detail.director}</dd>
+                      <dd>{content.director}</dd>
                     </dl>
                     <dl className='list_content'>
                       <dt>러닝타임</dt>
-                      <dd>{content_detail.running_time}</dd>
+                      <dd>{content.running_time}</dd>
                     </dl>
                   </ContentInfo>
                   </div>
@@ -177,15 +177,15 @@ export default function Content ({location}) {
         <EngInfo>
           <dl className='list_content'>
             <h3>영화 내용</h3>
-            <dd>{content_detail.story}</dd>
+            <dd>{content.story}</dd>
           </dl>
           <div>
-            <h3>단어 난이도 : {content_detail.word_difficulty_level}</h3>
-            <h3>WPS : {content_detail.words_per_second}</h3>
-            <h3>종합 난이도 : {content_detail.content_level} / 10</h3>
+            <h3>단어 난이도 : {content.word_difficulty_level}</h3>
+            <h3>WPS : {content.words_per_second}</h3>
+            <h3>종합 난이도 : {content.content_level} / 10</h3>
             <h4>영화에 나오는 중요 단어들</h4>
-            {content_detail.content_unique_words && <WordCloud 
-              words={content_detail.content_unique_words}
+            {content.content_unique_words && <WordCloud 
+              words={content.content_unique_words}
             />}
             <h4>영화에 나오는 대표 단어 및 예문</h4>
             {content_detail && content_detail.example.map ((example) => {
