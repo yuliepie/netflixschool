@@ -48,8 +48,6 @@ def recalculate_normalization(conn):
         all_scripts_df.max() - all_scripts_df.min()
     )
 
-    print(normalization_level_df)
-
     """
         모든 레벨 합의 80% 값 계산 및 레벨 분류
         컬럼명 : word_level
@@ -135,11 +133,13 @@ def recalculate_normalization(conn):
         (10 * (word_difficulty_level + wps_level) + word_difficulty_level) * weight(0.10417)
         컬럼명 : content_level
     """
+
     def calculate_content_level(word_level, wps_level, weight):
         return ((10 * (word_level + wps_level)) + word_level) * weight
 
     normalization_level_df["content_level"] = normalization_level_df.apply(
-        lambda x: calculate_content_level(x["word_level"], x["wps_level"], 0.10417)
+        lambda x: calculate_content_level(x["word_level"], x["wps_level"], 0.10417),
+        axis=1,
     )
 
     """
