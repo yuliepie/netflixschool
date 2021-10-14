@@ -9,13 +9,13 @@ export const SidebarData = [
         cName:"nav-text"
     },
     {
-        title : "Intro",
+        title : "Introduction",
         path:"/intro",
         icon : <AiIcons.AiOutlineCaretRight />,
         cName:"nav-text"
     },
     {
-        title : "Test",
+        title : "Level Test",
         path:"/test",
         icon : <AiIcons.AiOutlineCaretRight />,
         cName:"nav-text"
@@ -27,7 +27,7 @@ export const SidebarData = [
         cName:"nav-text"
     },
     {
-        title : "Study",
+        title : "Learning",
         path:"/study",
         icon : <AiIcons.AiOutlineCaretRight />,
         cName:"nav-text"
