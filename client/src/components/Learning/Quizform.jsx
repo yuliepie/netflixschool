@@ -1,4 +1,5 @@
 // 객관식 문제 유형
+import { useState } from 'react';
 import styled from 'styled-components';
 
 const QuizWrapper = styled.div`
@@ -39,15 +40,52 @@ const Reply = styled.div`
   padding-left: 50px;
 `;
 
+const Submit = styled.button`
+  margin-top: 20px;
+
+  font-size:30px;
+  background-color: #ff8906;
+  border: 0px none;
+  border-radius : 10px;
+  color: white;
+  width: 9rem;
+  height: 5rem;
+
+  :hover{
+      background-color: white;
+      cursor: pointer;
+      color: black;
+  }
+`
+
 export default function Quizform (
   {
     file_path,
     question,
-    choices
+    choices,
+    answer
   }
   ) {
+  const [selectedAnswer, setSelectedAnswer] = useState("0");
 
-  return(
+  const checkAnswer = (e) => {
+    e.preventDefault();
+    console.log('selectedAnswer', selectedAnswer)
+    console.log('answer', answer)
+    return (
+      <div>
+        { selectedAnswer && (answer === selectedAnswer ?
+          alert('맞았습니다.')
+        :
+          alert('틀렸습니다')
+        )}
+      </div>
+    )
+  }
+  console.log('choices', choices)
+  console.log('answer', answer)
+  return (
+
     <QuizWrapper>
       <Container>
         <h3> Today's Quiz </h3>
@@ -55,18 +93,22 @@ export default function Quizform (
         <Asking>{question}</Asking>
       </Container>
       <Wrap>
-      {choices && choices.map((answ, index) => {
-        return (
-            <Reply key={index}>
-              <input
-                type='radio'
-                name='answer'
-                value={answ.choice}
-              />
-              <span>{answ.choice}</span>
-            </Reply>
-        )
-      })}
+        {choices && choices.map((answ, index) => {
+          return (
+              <Reply key={index}>
+                <input
+                  type='radio'
+                  name='answer'
+                  value={`answ.choice`}
+                  onChange={(e) => {setSelectedAnswer(e.target.value)}}
+                />
+                <span>{answ.choice}</span>
+              </Reply>
+          )
+        })}
+        <Submit
+          onClick={checkAnswer}
+        >제출</Submit>
       </Wrap>
     </QuizWrapper>
   )

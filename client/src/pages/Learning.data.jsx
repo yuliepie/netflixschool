@@ -1,7 +1,8 @@
-export const data=  [{
+export const data=  {
+  0: {
   level: '1',
   sentence_id: '1',
-  sentence: 'hi',
+  sentence: 'Lorem ipsum dskfhskfhaksfhakfafdhkafhkasdajsdhgasdjhab',
   img_path: 'img/About.Time_level.png',
   word: 'hello',
   question_id: '1',
@@ -9,14 +10,15 @@ export const data=  [{
   file_path: 'img/Q_hopely_1.png',
   type: '1',
   choices: [
-      {choice1 : '1',
-      choice2 : '2',
-      choice3 : '3',
-      choice4 : '4',
-      choice5 : '5'}
+      {choice : '1'},
+      {choice : '2'},
+      {choice : '3'},
+      {choice : '4'},
+      {choice : '5'}
   ],
   answer: '3'
-},{
+},
+1:{
   level: '2',
   sentence_id: '1',
   sentence: 'hi2',
@@ -27,14 +29,15 @@ export const data=  [{
   file_path: 'img/Q_hopely_1.png',
   type: '1',
   choices: [
-      {choice1 : '1',
-      choice2 : '2',
-      choice3 : '3',
-      choice4 : '4',
-      choice5 : '5'}
+      {choice : '1'},
+      {choice : '2'},
+      {choice : '3'},
+      {choice : '4'},
+      {choice : '5'}
   ],
-  answer: '3'
-},{
+  answer: '2'
+},
+2: {
   level: '3',
   sentence_id: '13',
   sentence: 'h3i',
@@ -45,11 +48,11 @@ export const data=  [{
   file_path: 'img/Q_hopely_1.png',
   type: '1',
   choices: [
-      {choice1 : '1',
-      choice2 : '2',
-      choice3 : '3',
-      choice4 : '4',
-      choice5 : '5'}
+      {choice : '1'},
+      {choice : '2'},
+      {choice : '3'},
+      {choice : '4'},
+      {choice : '5'}
   ],
-  answer: '3'
-}]
+  answer: '1'
+}}
