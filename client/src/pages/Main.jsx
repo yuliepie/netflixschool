@@ -1,27 +1,71 @@
 // 메안(렌딩)페이지
 
 import React from "react";
-import ImageSlider from "../components/Home/ImageSlider";
-import Header from '../components/common/Header'
+// import { Link } from "react-scroll"
+import { Link } from "react-router-dom";
+import {BsBoxArrowInRight} from 'react-icons/bs'
 
-import { SliderData } from "../components/Home/SliderData";
-import TestIntro from '../components/Home/TestIntro';
-import ProjectIntro from '../components/Home/ProjectIntro';
-import WhatCanDo from "../components/Home/WhatCanDo";
+const Intro = () => {
+  return(
+    <>
+      <h1>소개페이지</h1> 
+      <Link to ="/intro">
+        <BsBoxArrowInRight className="gotoPage" size='15rem' color='black'/>
+      </Link>
+    </>
+  )
+}
 
+const Test = () => {
+  return(
+    <>
+      <h1>테스트페이지</h1> 
+      <Link to ="/test">
+        <BsBoxArrowInRight className="gotoPage" size='15rem' color='white'/>
+      </Link>
+    </>
+  )
+}
 
+const Ranking = () => {
+  return(
+    <>
+      <h1>랭킹페이지</h1> 
+      <Link to ="/ranking">
+        <BsBoxArrowInRight className="gotoPage" size='15rem' color='black'/>
+      </Link>
+    </>
+  )
+}
+
+const Learning = () => {
+  return(
+    <>
+      <h1>학습페이지</h1> 
+      <Link to ="/ranking">
+        <BsBoxArrowInRight className="gotoPage" size='15rem' color='white'/>
+      </Link>
+    </>
+  )
+}
 
 export default function Main () {
   return (
-    <div >
-      <div className="MainFirst">
-          {/* <Header /> */}
-        {/* </div>
-        <ImageSlider slides={SliderData} />
-        <div> */}
-          {/* <TestIntro />
-        <ProjectIntro />
-        <WhatCanDo /> */}
+    <div className="container">
+      <div className="MainFirst" id="1">
+        <h1>넷플릭스쿨</h1>
+      </div>
+      <div className="MainIntro" id="2">
+        <Intro/>
+      </div>
+      <div className="MainTest" id="3">
+        <Test/>
+      </div>
+      <div className="MainRanking" id="4">
+        <Ranking/>
+      </div>
+      <div className="MainLearning" id="5">
+        <Learning />
       </div>
     </div>
   )
