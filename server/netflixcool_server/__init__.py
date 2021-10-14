@@ -60,7 +60,7 @@ for key, val in env_variables.items():
 # To be initialized with Flask App.
 # =======================================
 db = SQLAlchemy()
-db_migration = Migrate()
+db_migration = Migrate(compare_type=True)
 
 rest_api = Api(
     version="1.0",
