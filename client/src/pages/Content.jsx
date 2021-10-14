@@ -133,18 +133,10 @@ export default function Content ({location}) {
                 </div>
               )
             })}
-            <h4>content_unique_words</h4>
-            {content && content.content_unique_words.map ((content_unique_word) => {
-              return (
-                <div className='word_content' key={content.id}>
-                  <dt>{content.text}</dt>
-                  <dd>{content.value}</dd>
-                </div>
-              )
-            })}
-            <WordCloud 
+            <h4>영화에 나오는 중요 단어들</h4>
+            {content.content_unique_words && <WordCloud 
               words={content.content_unique_words}
-            />
+            />}
           </div>
         </EngInfo>
       </EngInfoWrapper>

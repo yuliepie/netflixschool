@@ -39,12 +39,13 @@ const initialSettings = {
   },
 };
 
-const options = {
-  rotations: 2,
-  rotationAngles: [-90, 0],
-};
+const callbacks = {
+  onWordClick: console.log,
+  onWordMouseOver: console.log,
+}
+
 const size = [600, 400];
- 
+
 export default function WordCloud(
   {
     words
@@ -52,6 +53,7 @@ export default function WordCloud(
   ) {
   return (
     <ReactWordcloud
+      callbacks={callbacks}
       options={initialSettings}
       size={size}
       words={words}
