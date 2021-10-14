@@ -72,7 +72,7 @@ export default TestPage;
 const StartBox = styled.div`
   display: flex;
   text-align: center;
-  margin-top: 20%;
+  padding-top: 20%;
   color: #002a54;
   justify-content: center;
   font-size: 2rem;
@@ -82,7 +82,7 @@ const StartBox = styled.div`
 const TestStart = styled.div`
   display: flex;
   text-align: center;
-  margin-top: 20%;
+  padding-top: 20%;
   color: #e82b0c;
   justify-content: center;
   font-size: 4rem;
