@@ -22,7 +22,7 @@ function ProgressBar({ progress }) {
 export default ProgressBar;
 
 const Container = styled.div`
-  width: 95%;
+  width: 80%;
   max-width: 80%;
   min-width: 540px;
   display: flex;
@@ -42,6 +42,7 @@ const BarWrapper = styled.div`
   background-color: #dcdcdc;
   margin-bottom: 30px;
   border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px gray;
 `;
 
 const Bar = styled.div`
@@ -50,6 +51,7 @@ const Bar = styled.div`
   background-color: #e82b0c;
   border-radius: 4px;
   transition: width ease 0.5s;
+  box-shadow: 1px 1px 1px 1px gray;
 `;
 
 const Number = styled(AnimatedNumber)`

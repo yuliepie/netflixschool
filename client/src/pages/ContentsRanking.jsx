@@ -1,15 +1,6 @@
-// import styled from "styled-components";
-// import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { useHistory } from 'react-router-dom';
 import axios from "axios";
-import Slider from '@mui/material/Slider';
-import Radio from '@mui/material/Radio';
-import RadioGroup from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import InfiniteScroll from 'react-infinite-scroll-component';
+import { ImSortAmountAsc, ImSortAmountDesc } from "react-icons/im";
 import ContentComponent from "../components/ContentsRanking/ContentComponent";
 import * as CC from "../components/ContentsRanking/ContentComponents"
 
@@ -21,15 +12,14 @@ function valuetext(value){
 const minDistance = 1;
 
 export default function ContentsRanking () {
-  const history = useHistory();
 
   const [data ,setData] = useState([]);
   const [offset, setOffset] = useState(0);
   const [sorting, setSorting] = useState(0);
   const [hasMore, setHasMore] = useState(true);
-  const [totalCount, setTotalCount] = useState(50);
+  const [totalCount, setTotalCount] = useState(11);
   const [value, setValue] = useState([0, 10]);
-
+  const [isMouseUp, setIsMouseUp] = useState(false);
   
   const limit = 10
   const fetchUrl = `/api/content?offset=${offset}&limit=${limit}&sorting=${sorting}&minlevel=${value[0]}&maxlevel=${value[1]}`
@@ -38,13 +28,16 @@ export default function ContentsRanking () {
   const fetchContentsRanking = () => {
     axios.get(fetchUrl)
       .then(response => {
-        // console.log(response);
+        console.log(response);
         setData([...data, ...response.data.ranked_contents])
-        // console.log(data.length, totalCount);
+        console.log(data.length, totalCount);
         setTotalCount(response.data.contents_max_count);
         if (data.length >= totalCount){
           setHasMore(false);
+        } else {
+          setHasMore(true);
         }
+        
       })
       .catch(err => {
         console.log('err:', err);
@@ -55,14 +48,24 @@ export default function ContentsRanking () {
 
   useEffect(() => {
     fetchContentsRanking();
+    console.log(fetchUrl);
   }, [sorting])
 
-  // 검색(필터링) 버튼 눌렀을 때 event
-  const handleClick = () => {
+  // 정렬 버튼 눌렀을 때 event
+  const handleClickSortingButton = () => {
+    if (sorting === 0){
+      setSorting(1);
+    } else {
+      setSorting(0);
+    }
     setData([]);
     setOffset(0);
-    console.log(data);
   }
+
+  useEffect(() => {    
+    fetchContentsRanking();
+    console.log(fetchUrl);
+  }, [isMouseUp])
 
   // 슬라이더 움직였을 때 event
   const handleChange = (event, newValue, activeThumb) => {
@@ -77,38 +80,41 @@ export default function ContentsRanking () {
     }
   };
 
-  // 라디오 버튼 event
-  const handleChangeRadioButton = (event) => {
-    setSorting(event.target.value)
+  const handleMouseUp = () => {
+    setIsMouseUp(!isMouseUp);
+    setData([])
+    setOffset(0)
   }
 
   return (
     <CC.Container>
-      <FormControl component="fieldset">
-        <FormLabel component="legend">정렬 방식</FormLabel>
-        <RadioGroup
-          aria-label="sorting"
-          defaultValue="0"
-          name="radio-buttons-group"
-        >
-          <FormControlLabel value={0} control={<Radio />} label="오름차순" onChange={handleChangeRadioButton} />
-          <FormControlLabel value={1} control={<Radio />} label="내림차순" onChange={handleChangeRadioButton} />
-        </RadioGroup>
-      </FormControl>
-      <CC.SliderBox>
-        <Slider
-          value={value}
-          onChange={handleChange}
-          valueLabelDisplay="auto"
-          getAriaValueText={valuetext}
-          color='secondary'
-          max={10}
-          valueLabelDisplay='on'
-          disableSwap
-        />
-      </CC.SliderBox>
-      <CC.Button onClick={handleClick}>확인</CC.Button>
-      <InfiniteScroll
+      <CC.ConditionContainer>
+        <CC.Title>Netflix English Index 랭킹</CC.Title>
+        <CC.SliderBox>
+          <CC.StyledSlider
+            value={value}
+            onChange={handleChange}
+            onMouseUp={handleMouseUp}
+            valueLabelDisplay="auto"
+            getAriaValueText={valuetext}
+            color='secondary'
+            max={10}
+            disableSwap
+          />
+        </CC.SliderBox>
+        {sorting ? (
+          <CC.Button onClick={handleClickSortingButton}>
+            <ImSortAmountDesc/>NEI 내림차순
+          </CC.Button>
+        ) : (
+          <CC.Button onClick={handleClickSortingButton}>
+            <ImSortAmountAsc/>NEI 오름차순
+          </CC.Button>
+        ) }
+        
+      </CC.ConditionContainer>
+
+      <CC.StyledInfiniteScroll
         dataLength={data.length}
         next={fetchContentsRanking}
         hasMore={hasMore}
@@ -135,7 +141,7 @@ export default function ContentsRanking () {
               </CC.StyledLink>
           )})}
         </CC.ListWrapper>
-      </InfiniteScroll>
+      </CC.StyledInfiniteScroll>
     </CC.Container>
   )
 }
