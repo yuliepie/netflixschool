@@ -35,17 +35,15 @@ export default function Quizform({
 
   const checkAnswer = (e) => {
     e.preventDefault();
-    console.log('selectedAnswer', selectedAnswer);
-    console.log('answer', answer);
     return (
       <div>
         {selectedAnswer &&
-          (answer === selectedAnswer ? setResult('1') : setResult('2'))}
+          (String(answer) === String(selectedAnswer)
+            ? setResult('1')
+            : setResult('2'))}
       </div>
     );
   };
-  console.log('type', type);
-  console.log('answer', answer);
 
   useEffect(() => {
     setSelectedAnswer('0');
@@ -53,15 +51,15 @@ export default function Quizform({
   }, [currPage]);
 
   function prepocess(sentence) {
-    const start = sentence.indexOf("[")
-    const end = sentence.indexOf("]")
+    const start = sentence.indexOf('[');
+    const end = sentence.indexOf(']');
     const newsentence1 = sentence.substring(0, start + 1);
-    const newsentence2 = sentence.substring(end, );
-    const final = newsentence1 + "  " + newsentence2
+    const newsentence2 = sentence.substring(end);
+    const final = newsentence1 + '  ' + newsentence2;
     // console.log("start",start);
     // console.log("end",end);
     // console.log("newsentence",newsentence1)
-    return final
+    return final;
   }
 
   return (
