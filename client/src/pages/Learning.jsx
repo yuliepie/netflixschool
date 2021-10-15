@@ -41,9 +41,11 @@ export default function Learning() {
           />
           <SentenceWrapper>
             <SentenceForm
-              img_path={`${data[currPage].img_path}`}
-              sentence={`${data[currPage].sentence}`}
-              word={`${data[currPage].word}`}
+              img_path={data[currPage].img_path}
+              sentence={data[currPage].sentence}
+              title_en={data[currPage].title_en}
+              title_kr={data[currPage].title_kr}
+              word={data[currPage].word}
             />
           </SentenceWrapper>
           <QuizWrapper>
@@ -52,6 +54,7 @@ export default function Learning() {
               file_path={data[currPage].file_path}
               choices={data[currPage].choices}
               answer={data[currPage].answer}
+              type={data[currPage].type}
             />
           </QuizWrapper>
         </Container>
@@ -75,9 +78,11 @@ const Title = styled.h1`
 const SentenceWrapper = styled.div`
   width: 100%;
   height: 100%;
+  margin-bottom: 80px;
 `;
 
 const QuizWrapper = styled.div`
-  width: 100%;
+  width: 1000px;
   height: 100%;
+  margin-bottom: 100px;
 `;

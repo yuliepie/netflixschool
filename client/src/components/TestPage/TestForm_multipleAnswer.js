@@ -30,7 +30,7 @@ export default function TestFormMultipleAnswer({
     <Container>
       <QuestionWrapper>
         <Image src={question.imgPath} alt="questionimg" />
-        <Subtitle>{question.koreanSentence}</Subtitle>
+        <Subtitle>{question.question}</Subtitle>
       </QuestionWrapper>
       <Asking>
         Q{number}. {AskingList(question.type)}

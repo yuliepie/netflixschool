@@ -2,7 +2,13 @@ import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 // import Papago from './Papago';
 
-export default function SentenceForm({ img_path, sentence, word }) {
+export default function SentenceForm({
+  img_path,
+  sentence,
+  title_en,
+  title_kr,
+  word,
+}) {
   const [leftSentence, setLeftSentence] = useState('');
   const [rightSentence, setRightSentence] = useState('');
 
@@ -13,16 +19,27 @@ export default function SentenceForm({ img_path, sentence, word }) {
 
   useEffect(() => {
     GetSentence();
-  }, []);
+  }, [word]);
 
   return (
     <Container>
       <TextWrapper>
-        <EnglishText>
+        <EnglishSentence>
+          {sentence.split(' ').map((words, index) => {
+            return (
+              <EnglishText highlight={words == word ? true : false}>
+                {words}{' '}
+              </EnglishText>
+            );
+          })}
+        </EnglishSentence>
+        {/* <EnglishText>
           {leftSentence} <Text>{word}</Text> {rightSentence}
-        </EnglishText>
+        </EnglishText> */}
         {/* <KoreanText>{sentence}</KoreanText> */}
-        <TitleText>- Bad Boys, 나쁜 녀석들</TitleText>
+        <TitleText>
+          - {title_en}, {title_kr}
+        </TitleText>
       </TextWrapper>
       <Image src={img_path} alt="example_image" />
     </Container>
@@ -33,7 +50,7 @@ const Container = styled.div`
   display: flex;
   margin: 0 auto;
   padding: 20px 0;
-  background-color: #dfe6ed;
+  background-color: #f9ebd7;
   max-width: 1000px;
   min-width: 1000px;
   border-radius: 20px;
@@ -50,35 +67,39 @@ const Image = styled.img`
 `;
 
 const TextWrapper = styled.div`
-  /* margin: 90px 30px 30px 80px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 80%;
+  padding: 0 30px;
+  text-align: center;
 `;
 
-const EnglishText = styled.p`
-  display: flex;
-  flex-direction: row;
+const EnglishText = styled.span`
+  /* display: flex;
+  flex-direction: column; */
   font-size: 35px;
   margin-top: 10px;
   text-shadow: 2px 2px 2px gray;
+  color: ${(props) => (props.highlight ? 'red' : 'black')};
+  font-style: ${(props) => (props.highlight ? 'bold' : 'normal')};
 `;
 
-const KoreanText = styled.p`
+const EnglishSentence = styled.span``;
+
+const KoreanText = styled.span`
   font-size: 30px;
   margin-top: 10px;
 `;
 
-const TitleText = styled.p`
+const TitleText = styled.span`
   font-size: 25px;
   margin-top: 15px;
-  padding-left: 300px;
   font-style: italic;
 `;
 
-const Text = styled.p`
+const Text = styled.span`
   font-weight: bold;
   margin: 0 10px;
   color: red;
