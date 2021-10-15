@@ -2,11 +2,25 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 
-export default function Quizform({ file_path, question, choices, answer }) {
+export default function Quizform({
+  file_path,
+  question,
+  choices,
+  answer,
+  type,
+}) {
   const [selectedAnswer, setSelectedAnswer] = useState('0');
 
   const handleChange = (e) => {
     setSelectedAnswer(e.target.value);
+  };
+
+  const AskingList = (type) => {
+    if (type === '1') {
+      return '다음 중 빈칸에 들어갈 단어를 고르세요.';
+    } else if (type === '2') {
+      return '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.';
+    }
   };
 
   const checkAnswer = (e) => {
@@ -22,50 +36,108 @@ export default function Quizform({ file_path, question, choices, answer }) {
       </div>
     );
   };
-  console.log('choices', choices);
+  console.log('type', type);
   console.log('answer', answer);
 
   return (
     <Container>
+      <Title> Today's Quiz </Title>
       <QuestionWrapper>
-        <h3> Today's Quiz </h3>
         <div>
           <Image src={file_path} alt="questionimg" />
           <Image2 src={file_path} alt="questionimg" />
         </div>
         <Subtitle>{question}</Subtitle>
       </QuestionWrapper>
-      <Asking>{question}</Asking>
+      <Asking>{AskingList(type)}</Asking>
       <ExampleWrapper>
-        {choices.map((answ, index) => {
-          return (
-            <Reply key={index}>
-              <Label
-                checked={selectedAnswer === String(index + 1) ? true : false}
-              >
-                <input
-                  type="radio"
-                  name="answer"
-                  value={index + 1}
-                  onChange={handleChange}
-                  checked={selectedAnswer === String(index + 1) ? true : false}
-                />
-                <span>{answ.choice}</span>
-              </Label>
-            </Reply>
-          );
-        })}
-        <Submit onClick={checkAnswer}>제출</Submit>
+        {choices &&
+          choices.slice(undefined, 2).map((answ, index) => {
+            return (
+              <Reply key={index}>
+                <LabelWrapper>
+                  <Num
+                    checked={
+                      selectedAnswer === String(index + 1) ? true : false
+                    }
+                  >
+                    {index == 0 ? 'A' : 'B'}
+                  </Num>
+                  <Label
+                    checked={
+                      selectedAnswer === String(index + 1) ? true : false
+                    }
+                  >
+                    <input
+                      type="radio"
+                      name="answer"
+                      value={index + 1}
+                      onChange={handleChange}
+                      checked={
+                        selectedAnswer === String(index + 1) ? true : false
+                      }
+                    />
+                    <span>{answ.choice}</span>
+                  </Label>
+                </LabelWrapper>
+              </Reply>
+            );
+          })}
       </ExampleWrapper>
+      <ExampleWrapper>
+        {choices &&
+          choices.slice(2, 4).map((answ, index) => {
+            return (
+              <Reply key={index}>
+                <LabelWrapper>
+                  <Num
+                    checked={
+                      selectedAnswer === String(index + 3) ? true : false
+                    }
+                  >
+                    {index == 0 ? 'C' : 'D'}
+                  </Num>
+                  <Label
+                    checked={
+                      selectedAnswer === String(index + 3) ? true : false
+                    }
+                  >
+                    <input
+                      type="radio"
+                      name="answer"
+                      value={index + 3}
+                      onChange={handleChange}
+                      checked={
+                        selectedAnswer === String(index + 3) ? true : false
+                      }
+                    />
+                    <span>{answ.choice}</span>
+                  </Label>
+                </LabelWrapper>
+              </Reply>
+            );
+          })}
+      </ExampleWrapper>
+      <Submit
+        disabled={selectedAnswer !== '0' ? false : true}
+        onClick={checkAnswer}
+      >
+        Submit
+      </Submit>
     </Container>
   );
 }
 
 const Container = styled.div`
-  width: 1000px;
+  /* width: 1000px; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ffefd5;
+  max-width: 1000px;
+  min-width: 1000px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
 `;
 
 const QuestionWrapper = styled.div`
@@ -96,14 +168,28 @@ const Image2 = styled.img`
   left: 30%;
   display: none;
 `;
-
-const Asking = styled.p`
-  font-size: 30px;
+const Title = styled.h1`
+  /* background-color: #f4a460; */
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: center;
+  padding: 2px 10px;
+  text-shadow: 2px 2px 2px gray;
+`;
+const Asking = styled.h1`
+  background-color: #f4a460;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 2px 10px;
+  box-shadow: 1px 1px 1px 1px gray;
 `;
 
 const ExampleWrapper = styled.div`
   text-align: center;
+  height: 80px;
 `;
 
 const Subtitle = styled.p`
@@ -120,42 +206,49 @@ const Reply = styled.div`
 `;
 
 const Submit = styled.button`
-  margin-top: 20px;
-
-  font-size: 30px;
-  background-color: #ff8906;
-  border: 0px none;
+  padding: 0px 10px;
+  font-size: 25px;
+  background-color: #e82b0c;
   border-radius: 10px;
   color: white;
-  width: 9rem;
-  height: 5rem;
+  width: 150px;
+  height: 55px;
+  opacity: ${(props) => (props.disabled ? '0.5' : '1')};
+  margin-bottom: 30px;
 
   :hover {
     background-color: white;
     cursor: pointer;
-    color: black;
+    color: red;
   }
 `;
 
-const Label = styled.label`
+const LabelWrapper = styled.label`
   cursor: pointer;
-  width: 13rem;
-  margin-top: 15px;
-  background-color: ${(props) => (props.checked ? '#000000' : '#ffffff')};
-  color: ${(props) => (props.checked ? '#ffffff' : '#000000')};
-  border-radius: 10px;
-  border: 2px solid #000000;
+`;
+
+const Num = styled.div`
+  font-size: 25px;
   display: inline-block;
-  cursor: pointer;
+  padding: 13px 30px;
+  border: 0.5px solid #bc8f8f;
+  background: NavajoWhite;
+  color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
+  box-shadow: 1px 1px 1px 1px gray;
+`;
+
+const Label = styled.label`
+  width: 280px;
+  color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
+  background-color: #ffefd5;
+  border: 0.5px solid #bc8f8f;
+  display: inline-block;
   font-size: 23px;
-  padding: 20px 8px;
+  padding: 13px 8px;
   text-align: center;
   text-decoration: none;
-
-  :hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px gray;
 
   > input {
     display: none;

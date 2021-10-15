@@ -63,4 +63,6 @@ const Number = styled(AnimatedNumber)`
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px gray;
 `;
