@@ -469,7 +469,7 @@ dd {
   height: 50%;
   background-color: #222121;
   margin-bottom: 2rem;
-  overflow: scroll;
+  /* overflow: scroll; */
   position: relative;
   display: flex;
   align-items: center;
