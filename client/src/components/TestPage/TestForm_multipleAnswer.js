@@ -26,17 +26,30 @@ export default function TestFormMultipleAnswer({
     getAnswer(number, e.target.value === question.answer ? true : false);
   };
 
+  function prepocess(sentence) {
+    const start = sentence.indexOf("[")
+    const end = sentence.indexOf("]")
+    const newsentence1 = sentence.substring(0, start + 1);
+    const newsentence2 = sentence.substring(end, );
+    const final = newsentence1 + "  " + newsentence2
+    console.log("start",start);
+    console.log("end",end);
+    console.log("newsentence",newsentence1)
+    return final
+  }
+
+
   return (
     <Container>
       <QuestionWrapper>
-        <Image src={question.imgPath} alt="questionimg" />
-        <Subtitle>{question.question}</Subtitle>
+        {question.file_path && <Image src={question.file_path} alt="questionimg" />}
+        <Subtitle>{question.type === 3 ? question.question : prepocess(question.question) }</Subtitle>
         <Asking>
           Q{number}. {AskingList(question.type)}
         </Asking>
       </QuestionWrapper>
       <ExampleWrapper>
-        {question.choices.slice(undefined, 2).map((answ, index) => {
+        {question.choice && question.choice.slice(undefined, 2).map((answ, index) => {
           return (
             <Reply key={index}>
               <LabelWrapper>
@@ -45,7 +58,7 @@ export default function TestFormMultipleAnswer({
                     choice[number - 1] === String(index + 1) ? true : false
                   }
                 >
-                  {index == 0 ? 'A' : 'B'}
+                  {index === 0 ? 'A' : 'B'}
                 </Num>
                 <Label
                   checked={
@@ -61,7 +74,7 @@ export default function TestFormMultipleAnswer({
                       choice[number - 1] === String(index + 1) ? true : false
                     }
                   />
-                  <span>{answ.choice}</span>
+                  <span>{answ}</span>
                 </Label>
               </LabelWrapper>
             </Reply>
@@ -69,7 +82,7 @@ export default function TestFormMultipleAnswer({
         })}
       </ExampleWrapper>
       <ExampleWrapper>
-        {question.choices.slice(2, 4).map((answ, index) => {
+        {question.choice && question.choice.slice(2, 4).map((answ, index) => {
           return (
             <Reply key={index}>
               <LabelWrapper>
@@ -78,7 +91,7 @@ export default function TestFormMultipleAnswer({
                     choice[number - 1] === String(index + 3) ? true : false
                   }
                 >
-                  {index == 0 ? 'C' : 'D'}
+                  {index === 0 ? 'C' : 'D'}
                 </Num>
                 <Label
                   checked={
@@ -94,7 +107,7 @@ export default function TestFormMultipleAnswer({
                       choice[number - 1] === String(index + 3) ? true : false
                     }
                   />
-                  <span>{answ.choice}</span>
+                  <span>{answ}</span>
                 </Label>
               </LabelWrapper>
             </Reply>

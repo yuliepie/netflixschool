@@ -1,19 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { QuestionData } from './TestQuestions/q_data';
+// import { QuestionData } from './TestQuestions/q_data';
 import TestFormMultipleAnswer from './TestForm_multipleAnswer';
 import ProgressBar from './ProgressBar';
 import axios from 'axios';
 
 const TestBox = ({ match, history }) => {
-  const [answer, setAnswer] = useState(
-    Array.from({ length: Object.keys(QuestionData).length }, () => 'None'),
-  );
-  const [choice, setChoice] = useState(
-    Array.from({ length: Object.keys(QuestionData).length }, () => 'None'),
-  );
+  const [answer, setAnswer] = useState([]);
+  const [choice, setChoice] = useState([]);
   const [progress, setProgress] = useState(0);
+  const [questionData, setQuestionData] = useState([]);
 
   const getAnswer = (questionNum, result) => {
     const leftAnswer = answer.slice(undefined, questionNum - 1);
@@ -36,10 +33,10 @@ const TestBox = ({ match, history }) => {
           100,
       ),
     );
-    console.log(progress);
+    console.log('p',progress);
   }, [choice]);
 
-  // 문제 GET API
+  // // 문제 GET API
   // const GetQuestionAPI = async () => {
   //   const response = await axios.post('/api/test/question');
   //   return response;
@@ -48,6 +45,18 @@ const TestBox = ({ match, history }) => {
   // useEffect(() => {
   //   QuestionData = GetQuestionAPI();
   // }, []);
+
+
+  useEffect(() => {
+    (async function () {
+      const response = await axios.get('/api/test/question');
+      console.log('a', response.data);
+      setQuestionData(response.data);
+      setAnswer(Array.from({ length: Object.keys(questionData).length }, () => 'None'),);
+      setChoice(Array.from({ length: Object.keys(questionData).length }, () => 'None'),);
+
+    })()
+  }, [])
 
   // 결과 POST API
   const handleResult = async (e) => {
@@ -62,23 +71,23 @@ const TestBox = ({ match, history }) => {
   };
 
   const { number } = match.params;
-  const question = QuestionData[number];
+  const question = questionData[number];
 
-  if (!question) {
-    return <div>존재하지 않는 번호</div>;
-  }
+  // if (!question) {
+  //   return <div>존재하지 않는 번호</div>;
+  // }
 
   return (
     <Container>
       <ProgressBar progress={progress} />
-      <TestFormMultipleAnswer
+      {question && <TestFormMultipleAnswer
         question={question}
         number={number}
         getAnswer={getAnswer}
         getChoice={getChoice}
         answer={answer}
         choice={choice}
-      />
+      />}
       <div>
         <ButtonWrapper>
           {parseInt(number) === 10 ? (
