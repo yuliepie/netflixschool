@@ -1,6 +1,7 @@
 // 객관식 문제 유형
 import { useState } from 'react';
 import styled from 'styled-components';
+import { BsCheckCircle, BsXCircle } from 'react-icons/bs';
 
 export default function Quizform({
   file_path,
@@ -10,6 +11,7 @@ export default function Quizform({
   type,
 }) {
   const [selectedAnswer, setSelectedAnswer] = useState('0');
+  const [result, setResult] = useState('0');
 
   const handleChange = (e) => {
     setSelectedAnswer(e.target.value);
@@ -23,6 +25,10 @@ export default function Quizform({
     }
   };
 
+  const handleClick = () => {
+    setResult('0');
+  };
+
   const checkAnswer = (e) => {
     e.preventDefault();
     console.log('selectedAnswer', selectedAnswer);
@@ -30,9 +36,7 @@ export default function Quizform({
     return (
       <div>
         {selectedAnswer &&
-          (answer === selectedAnswer
-            ? alert('맞았습니다.')
-            : alert('틀렸습니다'))}
+          (answer === selectedAnswer ? setResult('1') : setResult('2'))}
       </div>
     );
   };
@@ -43,13 +47,18 @@ export default function Quizform({
     <Container>
       <Title> Today's Quiz </Title>
       <QuestionWrapper>
-        <div>
+        <ImageWrapper>
           <Image src={file_path} alt="questionimg" />
-          <Image2 src={file_path} alt="questionimg" />
-        </div>
+          <IconWrapperO result={result} onClick={handleClick}>
+            <BsCheckCircle size="300" color="#7FFF00" />
+          </IconWrapperO>
+          <IconWrapperX result={result} onClick={handleClick}>
+            <BsXCircle size="300" color="#DC143C" />
+          </IconWrapperX>
+        </ImageWrapper>
         <Subtitle>{question}</Subtitle>
+        <Asking>{AskingList(type)}</Asking>
       </QuestionWrapper>
-      <Asking>{AskingList(type)}</Asking>
       <ExampleWrapper>
         {choices &&
           choices.slice(undefined, 2).map((answ, index) => {
@@ -133,9 +142,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffefd5;
-  max-width: 1000px;
-  min-width: 1000px;
+  background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px gray;
 `;
@@ -143,13 +150,21 @@ const Container = styled.div`
 const QuestionWrapper = styled.div`
   width: 90%;
   margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 20px;
   background-color: black;
   border-radius: 30px;
   box-shadow: 2px 2px 2px 2px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
 `;
+
+const ImageWrapper = styled.div`
+  width: 100%;
+`;
+
 const Image = styled.img`
   height: 400px;
   width: 100%;
@@ -158,16 +173,26 @@ const Image = styled.img`
   border-radius: 30px 30px 0 0 / 30px 30px 0 0;
 `;
 
-const Image2 = styled.img`
-  width: 1000px;
-  height: 550px;
+const IconWrapperO = styled.div`
   display: block;
   margin: 30px auto;
   position: absolute;
-  top: 30%;
-  left: 30%;
-  display: none;
+  top: 10%;
+  left: 35%;
+  display: ${(props) => (props.result == '1' ? 'nomarl' : 'none')};
+  cursor: pointer;
 `;
+
+const IconWrapperX = styled.div`
+  display: block;
+  margin: 30px auto;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  display: ${(props) => (props.result == '2' ? 'nomarl' : 'none')};
+  cursor: pointer;
+`;
+
 const Title = styled.h1`
   /* background-color: #f4a460; */
   font-size: 40px;
@@ -178,13 +203,14 @@ const Title = styled.h1`
   text-shadow: 2px 2px 2px gray;
 `;
 const Asking = styled.h1`
-  background-color: #f4a460;
-  font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  background-color: #ffffff;
+  width: 90%;
+  font-size: 25px;
+  padding: 20px 10px;
+  margin: 0 0 20px 0;
   text-align: center;
-  padding: 2px 10px;
-  box-shadow: 1px 1px 1px 1px gray;
+  padding: 2px 5px;
+  border-radius: 20px;
 `;
 
 const ExampleWrapper = styled.div`
@@ -231,17 +257,19 @@ const Num = styled.div`
   font-size: 25px;
   display: inline-block;
   padding: 13px 30px;
-  border: 0.5px solid #bc8f8f;
-  background: NavajoWhite;
+  border: 0.5px solid #000000;
+  background: #dcdcdc;
   color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
   box-shadow: 1px 1px 1px 1px gray;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 15px;
 `;
 
 const Label = styled.label`
   width: 280px;
   color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
-  background-color: #ffefd5;
-  border: 0.5px solid #bc8f8f;
+  background-color: #d3d3d3;
+  border: 0.5px solid #000000;
   display: inline-block;
   font-size: 23px;
   padding: 13px 8px;
@@ -249,6 +277,8 @@ const Label = styled.label`
   text-decoration: none;
   cursor: pointer;
   box-shadow: 1px 1px 1px 1px gray;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 15px;
 
   > input {
     display: none;

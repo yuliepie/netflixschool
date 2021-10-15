@@ -25,6 +25,12 @@ export default function Learning() {
   //     }
   //   })();
   // }, []);
+
+  useEffect(() => {
+    setLearningData(data);
+    setPageCount(Object.keys(data).length);
+  }, []);
+
   console.log('data', data[0].choices);
   console.log('l', learningData.length);
 

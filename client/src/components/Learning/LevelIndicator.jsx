@@ -13,18 +13,16 @@ export default function LevelIndicator({
 }) {
   return (
     <Container>
-      <IconWrapper>
+      <IconWrapper disabled={currPage === 0}>
         <IoMdArrowDropleftCircle
           size="35"
-          disabled={currPage === 0}
           onClick={() => onClickPage(currPage - 1)}
         />
       </IconWrapper>
       <h2> Level {level}</h2>
-      <IconWrapper>
+      <IconWrapper disabled={currPage === pageCount - 1}>
         <IoMdArrowDroprightCircle
           size="35"
-          disabled={currPage === pageCount - 1}
           onClick={() => onClickPage(currPage + 1)}
         />
       </IconWrapper>
@@ -46,4 +44,5 @@ const IconWrapper = styled.div`
   justify-content: center;
   padding: 0px 15px;
   cursor: pointer;
+  display: ${(props) => (props.disabled ? 'none' : 'normal')};
 `;
