@@ -151,6 +151,10 @@ const CloseBox = styled.p`
   display: flex;
   padding-left: 0.5%;
   margin-top: 1%;
+
+  :hover{
+    cursor: pointer;
+  }
 `;
 
 const WordCloudBox = styled. div`
