@@ -68,9 +68,9 @@ class Content(Resource):
             NetflixContent.id == content_id
         ).one()
 
-        content_level = netflix_content.content_level
+        word_difficulty_level = netflix_content.word_difficulty_level
         # sentences 테이블 select
-        filtered_sentences = Sentence.query.filter(and_(Sentence.content_id == content_id, Sentence.level == content_level)).all()
+        filtered_sentences = Sentence.query.filter(and_(Sentence.content_id == content_id, Sentence.level.between(word_difficulty_level-2, word_difficulty_level+2))).all()
         sentences = []
         for row in filtered_sentences:
             sentences.append(
@@ -87,7 +87,7 @@ class Content(Resource):
         # 문장이 3단어 이상인 데이터가 5개가 안 되면 가져온 데이터 그대로 사용
         if len(new_sentences) >= 5:
             sentences = new_sentences
-
+        
         # sentences 리스트 shuffle하고 상위 5개 출력
         random.shuffle(sentences)
         sentences = sentences[:5]
