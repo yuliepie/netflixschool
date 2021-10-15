@@ -10,6 +10,7 @@ export default function Quizform({
   answer,
   type,
   currPage,
+  korean,
 }) {
   const [selectedAnswer, setSelectedAnswer] = useState('0');
   const [result, setResult] = useState('0');
@@ -23,6 +24,8 @@ export default function Quizform({
       return '다음 중 빈칸에 들어갈 단어를 고르세요.';
     } else if (type === '2') {
       return '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.';
+    } else if (type === '3') {
+      return '다음 중 단어 뜻으로 적절한 것을 고르세요.';
     }
   };
 
@@ -63,6 +66,7 @@ export default function Quizform({
           </IconWrapperX>
         </ImageWrapper>
         <Subtitle>{question}</Subtitle>
+        <Subtitle>{korean}</Subtitle>
         <Asking>{AskingList(type)}</Asking>
       </QuestionWrapper>
       <ExampleWrapper>
@@ -92,7 +96,7 @@ export default function Quizform({
                         selectedAnswer === String(index + 1) ? true : false
                       }
                     />
-                    <span>{answ.choice}</span>
+                    <span>{answ}</span>
                   </Label>
                 </LabelWrapper>
               </Reply>
@@ -126,7 +130,7 @@ export default function Quizform({
                         selectedAnswer === String(index + 3) ? true : false
                       }
                     />
-                    <span>{answ.choice}</span>
+                    <span>{answ}</span>
                   </Label>
                 </LabelWrapper>
               </Reply>
@@ -214,10 +218,11 @@ const Asking = styled.h1`
   width: 90%;
   font-size: 25px;
   padding: 20px 10px;
-  margin: 0 0 20px 0;
+  /* margin: 0 0 20px 0; */
   text-align: center;
-  padding: 2px 5px;
+  /* padding: 2px 5px; */
   border-radius: 20px;
+  color: black;
 `;
 
 const ExampleWrapper = styled.div`
@@ -229,7 +234,7 @@ const Subtitle = styled.p`
   font-size: 25px;
   text-align: center;
   color: #ffffff;
-  padding: 40px 0 40px 0;
+  padding: 10px 0 10px 0;
 `;
 
 const Reply = styled.div`
