@@ -31,9 +31,6 @@ export default function Learning() {
     setPageCount(Object.keys(data).length);
   }, []);
 
-  console.log('data', data[0].choices);
-  console.log('l', learningData.length);
-
   return (
     <div>
       {data && (
@@ -61,6 +58,7 @@ export default function Learning() {
               choices={data[currPage].choices}
               answer={data[currPage].answer}
               type={data[currPage].type}
+              currPage={currPage}
             />
           </QuizWrapper>
         </Container>
