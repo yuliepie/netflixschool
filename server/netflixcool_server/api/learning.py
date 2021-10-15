@@ -24,7 +24,8 @@ learning_fields = learning_ns.model(
         "file_path": fields.String,
         "type": fields.Integer,
         "choices": fields.List(fields.String),
-        "answer": fields.Integer
+        "answer": fields.Integer,
+        'korean': fields.String
     }
 )
 
@@ -74,7 +75,8 @@ class Learning(Resource):
                     "choices": [
                         str(question.choice1).strip(), str(question.choice2).strip(), str(question.choice3).strip(),
                         str(question.choice4).strip(), str(question.choice5).strip()],
-                    "answer": question.answer
+                    "answer": question.answer,
+                    "korean": question.korean
                 }
             )
             
