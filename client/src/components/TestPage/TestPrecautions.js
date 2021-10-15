@@ -5,14 +5,18 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 import { Link } from 'react-scroll'
-import { ImArrowDown } from "react-icons/im";
 
 const TestIntro = () => {
     return (
-        <div className="testIntroBox">
-            <span style={{ fontSize: "1.5rem", color: "black"}}>
-                정확한 수준에 맞게 공부하지 않는다면 100%의 효과를 볼 수 없습니다. 넷플릭스쿨의 테스트를 통해 당신의 현재 레벨을 확인해보세요! 
-            </span>
+        <div>
+          <div style={{display:'flex', flexDirection:'row', paddingTop:'2%'}}>
+            <span className="testIntroBoxtwo">넷플릭스 컨텐츠를 이용한 재밌는 테스트</span>
+            <div className="testIntroBox">
+                <span style={{ fontSize: "1.5rem", color: "black"}}>
+                    정확한 수준에 맞게 공부하지 않는다면 100% 학습 효과를 볼 수 없습니다. 다양한 데이터를 바탕으로 심도있게 고안해낸 넷플릭스쿨의 테스트를 통해 당신의 현재 레벨을 확인해보세요!
+                </span>
+            </div>
+          </div>
         </div>
     )
 }
@@ -61,11 +65,29 @@ function TestPrecautions() {
                         <h1>테스트를 통해 당신의 레벨을 확인해보세요!</h1>
                     </div>
                     <TestIntro />
+                    <TestBoxes>
+                      <TestTime>
+                        <span>테스트 유형</span>
+                        <h1>객관식</h1>
+                      </TestTime>
+                      <TestTime>
+                        <span>테스트 예상 소요시간</span>
+                        <h1>10m</h1>
+                      </TestTime>
+                      <TestTime>
+                        <span>테스트 문제수</span>
+                        <h1>15Q</h1>
+                      </TestTime>
+                    </TestBoxes>
+                    <GoToTest>
+                      <p className="goTest">테스트 보러가기</p>
                     <Link to="ready" spy={true} smooth={true}>
-                        <span className="goTestButton">
-                            Go To TEST &nbsp;<ImArrowDown />
-                        </span>
-                    </Link>
+                      <span className="goTestButton">
+                          click me
+                      </span>
+                      </Link>
+                    </GoToTest>
+                    
                 </div>
                 <div>
                     <Precautions />
@@ -75,6 +97,18 @@ function TestPrecautions() {
     }
 
 export default TestPrecautions;
+
+const TestBoxes = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`;
+
+
+const TestTime = styled.div`
+  padding: 3%;
+`;
 
 const YesBox = styled.button`
   margin-top: 20px;
@@ -92,6 +126,15 @@ const YesBox = styled.button`
     cursor: pointer;
     color: black;
   }
+`;
+
+const GoToTest = styled.div`
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center; */
+  margin: auto;
+  width: 30%;
+  flex-direction: column;
 `;
 
 // const TestPrecautions = () => {
