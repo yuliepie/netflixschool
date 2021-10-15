@@ -30,9 +30,9 @@ export default function ContentsRanking () {
   const fetchContentsRanking = () => {
     axios.get(fetchUrl)
       .then(response => {
-        console.log(response);
+        // console.log(response);
         setData([...data, ...response.data.ranked_contents])
-        console.log(data.length, totalCount);
+        // console.log(data.length, totalCount);
         setTotalCount(response.data.contents_max_count);
         if (data.length >= totalCount){
           setHasMore(false);
@@ -50,7 +50,7 @@ export default function ContentsRanking () {
 
   useEffect(() => {
     fetchContentsRanking();
-    console.log(fetchUrl);
+    // console.log(fetchUrl);
   }, [sorting])
 
   // 정렬 버튼 눌렀을 때 event
@@ -92,7 +92,7 @@ export default function ContentsRanking () {
   // top 버튼 visible 처리
   const handleFollow = () => {
     setScrollY(window.pageYOffset);
-    console.log(scrollY)
+    // console.log(scrollY)
     if(scrollY > 100) {
       // 100 이상이면 버튼이 보이게
       setBtnStatus(true);
