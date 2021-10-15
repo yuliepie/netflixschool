@@ -21,7 +21,7 @@ export const QuestionData = {
     type: 1,
     imgPath: '/img/Disenchantment_statue.png',
     question:
-      'Oog, silly me. Its just a [\u00A0\u00A0\u00A0\u00a0\u00a0\u00a0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0] of Pendergast...',
+      'Oog, silly me. Its just a [\u00A0\u00A0\u00A0\u00a0\u00a0\u00a0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0] of Pendergast... ',
     choices: [
       { choice: 'status' },
       { choice: 'standard' },
@@ -147,6 +147,20 @@ export const QuestionData = {
     id: 'int',
     type: 2,
     imgPath: '/img/Qasdad5.jpg',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    choices: [
+      { choice: 'dedicate ourselves' },
+      { choice: 'are limited' },
+      { choice: 'are admitted' },
+      { choice: 'are subjected' },
+      { choice: 'look forward' },
+    ],
+    answer: '3',
+  },
+  11: {
+    id: 'int',
+    type: 2,
+    imgPath: '/img/Qasdad4.jpg',
     question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'dedicate ourselves' },

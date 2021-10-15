@@ -49,8 +49,8 @@ export default function SentenceForm({
 const Container = styled.div`
   display: flex;
   margin: 0 auto;
-  padding: 20px 0;
-  background-color: #f9ebd7;
+  padding: 40px 0;
+  background-color: #ffffff;
   max-width: 1000px;
   min-width: 1000px;
   border-radius: 20px;
@@ -59,11 +59,11 @@ const Container = styled.div`
 
 const Image = styled.img`
   margin-right: 30px;
-  width: 300px;
+  width: 250px;
   height: 300px;
   display: block;
   border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px gray;
+  box-shadow: 5px 5px 5px 5px gray;
 `;
 
 const TextWrapper = styled.div`
