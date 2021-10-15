@@ -4,16 +4,53 @@ import React,{ useEffect, useState } from "react";
 // import { Link } from "react-scroll"
 import { Link } from "react-router-dom";
 import {FiArrowUpCircle} from 'react-icons/fi'
+import styled from "styled-components";
+
+const IntroBox = styled.div`
+  background-color: #FAEBD7;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+`;
+
+const IntroSmallBox = styled.div`
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+`;
+
+const TestBox = styled.div`
+  background-color: #003F63;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+`;
+
+const TestSmallBox = styled.div`
+  background-color: #FAEBD7;
+  /* height: 25rem; */
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+`;
 
 const Intro = () => {
   return(
     <>
-      <div style={{backgroundColor:'#FAEBD7', height:'25rem', width:'70%'}}>
-          <h1>About 넷플릭스쿨</h1>
-          <Link to ="/intro" style={{ textDecoration: 'none'}}>
-            <p>Learn More</p>
-          </Link>
-        </div>
+      <IntroBox>
+            <h1>About 넷플릭스쿨</h1>
+            <IntroSmallBox>
+              <span>넷플릭스쿨은 사용자에게 맞춘 영어 학습용 넷플릭스 컨텐츠 추천 웹 서비스입니다.
+              데이터 분석을 통해 얻은 인사이트로 다양한 넷플릭스 컨텐츠의 종합 영어 난이도를 평가해, 사용자를 적정 난이도 레벨의 컨텐츠와 매칭시켜줍니다.</span>
+                        <Link to ="/intro" style={{ textDecoration: 'none'}}>
+              <p>Learn More</p>
+                        </Link>
+            </IntroSmallBox>
+      </IntroBox>
     </>
   )
 }
@@ -21,13 +58,16 @@ const Intro = () => {
 const Test = () => {
   return(
     <>
-      <div style={{backgroundColor:'#003F63', color:'white', height:'25rem', width:'70%'}}>
-        <h1>Level Test</h1> 
-        <Link to ="/test" style={{ textDecoration: 'none'}}>
-          {/* <BsBoxArrowInRight className="gotoPage" size='5rem' color='white'/> */}
-          <p>Take A Test</p>
-        </Link>
-      </div>
+      <TestBox>
+        <img src="/img/test_example.png" alt="example" style={{'width': '30%', 'height':'85%' ,position:'relative', border:'1px solid black', borderRadius:'10px', boxShadow:'7px 7px 7px black'}}/>
+          <TestSmallBox>
+            <h1>Level Test</h1>
+            <span>넷플리스 컨텐츠에서 비롯된 대사로 이루어져 있는 간단한 테스트를 통해 자신의 영어 실력을 진단 받아보세요.</span>
+                    <Link to ="/test" style={{ textDecoration: 'none'}}>
+            <p>Take A Test</p>
+                    </Link>
+          </TestSmallBox>
+      </TestBox>
     </>
   )
 }
