@@ -52,6 +52,18 @@ export default function Quizform({
     setResult('0');
   }, [currPage]);
 
+  function prepocess(sentence) {
+    const start = sentence.indexOf("[")
+    const end = sentence.indexOf("]")
+    const newsentence1 = sentence.substring(0, start + 1);
+    const newsentence2 = sentence.substring(end, );
+    const final = newsentence1 + "  " + newsentence2
+    // console.log("start",start);
+    // console.log("end",end);
+    // console.log("newsentence",newsentence1)
+    return final
+  }
+
   return (
     <Container>
       <Title> Today's Quiz </Title>
@@ -65,9 +77,9 @@ export default function Quizform({
             <BsXCircle size="300" color="#DC143C" />
           </IconWrapperX>
         </ImageWrapper>
-        <Subtitle>{question}</Subtitle>
+        <Subtitle>{prepocess(question)}</Subtitle>
         <Subtitle>{korean}</Subtitle>
-        <Asking>{AskingList(type)}</Asking>
+        <Asking>다음 중 빈칸에 들어갈 단어를 고르세요.</Asking>
       </QuestionWrapper>
       <ExampleWrapper>
         {choices &&
@@ -217,7 +229,7 @@ const Asking = styled.h1`
   background-color: #ffffff;
   width: 90%;
   font-size: 25px;
-  padding: 20px 10px;
+  padding: 10px 10px;
   /* margin: 0 0 20px 0; */
   text-align: center;
   /* padding: 2px 5px; */
