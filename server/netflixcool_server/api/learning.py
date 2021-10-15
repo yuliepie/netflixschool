@@ -2,6 +2,7 @@ from flask_restx import Resource, Namespace, fields
 from netflixcool_server.models import TestQuestion, Sentence, NetflixContent
 from  sqlalchemy.sql.expression import func
 from datetime import date
+from netflixcool_server.level_sets import get_level_sets
 
 learning_ns = Namespace(
     name="learning",
@@ -23,7 +24,8 @@ learning_fields = learning_ns.model(
         "file_path": fields.String,
         "type": fields.Integer,
         "choices": fields.List(fields.String),
-        "answer": fields.Integer
+        "answer": fields.Integer,
+        'korean': fields.String
     }
 )
 
@@ -45,15 +47,21 @@ class Learning(Resource):
         """
         # func.setseed(int(date.today().strftime('%Y%m%d')))
         
-        for i in range(1, 7):
-            sentence = Sentence.query.filter(Sentence.level == i).order_by(func.rand()).first()
-            question = TestQuestion.query.filter(TestQuestion.level == i).order_by(func.rand()).first()
+        levelsets = get_level_sets()
+
+        level = 0
+        for levelset in levelsets:
+            minwordlevel = min(levelset.word_levels)
+            maxwordlevel = max(levelset.word_levels)
+            level += 1
+            sentence = Sentence.query.filter(Sentence.level.between(minwordlevel, maxwordlevel)).order_by(func.rand()).first()
+            question = TestQuestion.query.filter(TestQuestion.level.between(minwordlevel, maxwordlevel)).order_by(func.rand()).first()
             content = NetflixContent.query.filter(NetflixContent.id == sentence.content_id).one()
             # print(int(date.today().strftime('%Y%m%d')))
             
             learning.append(
                 {
-                    "level": i,
+                    "level": level,
                     "sentence_id": sentence.id,
                     "title_en": content.title_en,
                     "title_kr": content.title_kr,
@@ -65,10 +73,24 @@ class Learning(Resource):
                     "file_path": question.file_path,
                     "type": question.type,
                     "choices": [
-                        question.choice1, question.choice2, question.choice3, 
-                        question.choice4, question.choice5],
-                    "answer": question.answer
+                        str(question.choice1).strip(), str(question.choice2).strip(), str(question.choice3).strip(),
+                        str(question.choice4).strip(), str(question.choice5).strip()],
+                    "answer": question.answer,
+                    "korean": question.korean
                 }
             )
             
         return learning
+
+
+
+# import get_level_sets()
+
+# levels = get_level_sets()
+
+# levels[0].label
+# levels[0].rank
+# levels[0].word_levels
+
+# netflix_conetns에서 word_difficulty_level 불러오고
+# sentence에서 word_difficulty_level 문장 꺼내서 보내기

@@ -68,9 +68,9 @@ class Content(Resource):
             NetflixContent.id == content_id
         ).one()
 
-        content_level = netflix_content.content_level
+        word_difficulty_level = netflix_content.word_difficulty_level
         # sentences 테이블 select
-        filtered_sentences = Sentence.query.filter(and_(Sentence.content_id == content_id, Sentence.level == content_level)).all()
+        filtered_sentences = Sentence.query.filter(and_(Sentence.content_id == content_id, Sentence.level.between(word_difficulty_level-2, word_difficulty_level+2))).all()
         sentences = []
         for row in filtered_sentences:
             sentences.append(
@@ -87,7 +87,7 @@ class Content(Resource):
         # 문장이 3단어 이상인 데이터가 5개가 안 되면 가져온 데이터 그대로 사용
         if len(new_sentences) >= 5:
             sentences = new_sentences
-
+        
         # sentences 리스트 shuffle하고 상위 5개 출력
         random.shuffle(sentences)
         sentences = sentences[:5]
@@ -142,7 +142,7 @@ ranked_content_fields = content_ns.model(
         "img_path": fields.String,
         "word_difficulty_level": fields.Integer,
         "words_per_second": fields.Float,
-        "content_level": fields.Integer
+        "content_level": fields.Float
     }
 )
 
@@ -190,10 +190,10 @@ class Contents(Resource):
         filtered_netflix_contents = NetflixContent.query.filter(NetflixContent.content_level.between(minlevel, maxlevel))
         if sorting == 0:
             ordered_netflix_contents = filtered_netflix_contents.order_by(NetflixContent.content_level.asc())
-            print('asc')
+            # print('asc')
         else:
             ordered_netflix_contents = filtered_netflix_contents.order_by(NetflixContent.content_level.desc())
-            print('desc')
+            # print('desc')
         limited_netflix_contents = ordered_netflix_contents.offset(offset).limit(limit)
 
         # netflix_contents 테이블에서 필터링된 row 개수 select
@@ -210,7 +210,7 @@ class Contents(Resource):
                     "img_path": row.img_path,
                     "word_difficulty_level": row.word_difficulty_level,
                     "words_per_second": row.words_per_second,
-                    "content_level": row.content_level
+                    "content_level": round(row.content_level, 2)
                 }
             )
         
