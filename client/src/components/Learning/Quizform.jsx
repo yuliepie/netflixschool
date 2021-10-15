@@ -1,5 +1,5 @@
 // 객관식 문제 유형
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { BsCheckCircle, BsXCircle } from 'react-icons/bs';
 
@@ -9,6 +9,7 @@ export default function Quizform({
   choices,
   answer,
   type,
+  currPage,
 }) {
   const [selectedAnswer, setSelectedAnswer] = useState('0');
   const [result, setResult] = useState('0');
@@ -42,6 +43,11 @@ export default function Quizform({
   };
   console.log('type', type);
   console.log('answer', answer);
+
+  useEffect(() => {
+    setSelectedAnswer('0');
+    setResult('0');
+  }, [currPage]);
 
   return (
     <Container>
@@ -142,9 +148,9 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #262626;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px gray;
+  box-shadow: 2px 2px 2px 2px black;
 `;
 
 const QuestionWrapper = styled.div`
@@ -153,7 +159,7 @@ const QuestionWrapper = styled.div`
   margin-bottom: 20px;
   background-color: black;
   border-radius: 30px;
-  box-shadow: 2px 2px 2px 2px gray;
+  box-shadow: 2px 2px 2px 2px black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,7 +206,8 @@ const Title = styled.h1`
   margin-bottom: 20px;
   text-align: center;
   padding: 2px 10px;
-  text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px black;
+  color: #ffffff;
 `;
 const Asking = styled.h1`
   background-color: #ffffff;
@@ -260,7 +267,7 @@ const Num = styled.div`
   border: 0.5px solid #000000;
   background: #dcdcdc;
   color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
-  box-shadow: 1px 1px 1px 1px gray;
+  box-shadow: 1px 1px 1px 1px black;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 15px;
 `;
@@ -276,7 +283,7 @@ const Label = styled.label`
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: 1px 1px 1px 1px gray;
+  box-shadow: 1px 1px 1px 1px black;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 15px;
 
