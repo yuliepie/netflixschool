@@ -5,8 +5,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import WordCloud from "../components/Content/WordCloud";
-import {SiSpeedtest} from 'react-icons/si'
-import {IoPodiumOutline,IoBookmarksSharp} from 'react-icons/io5'
+import {SiSpeedtest} from 'react-icons/si';
+import {IoPodiumOutline,IoBookmarksSharp} from 'react-icons/io5';
+import SentenceForm from '../components/Content/SentenceForm';
 
 const Container = styled.div`
   background-image: url(${(props) => props.img_path});
@@ -152,6 +153,10 @@ const CloseBox = styled.p`
   margin-top: 1%;
 `;
 
+const WordCloudBox = styled. div`
+  padding-bottom: 20px;
+`
+
 const SampleBox = styled.div`
   background-color: gray;
   border: 1px solid gray;
@@ -237,21 +242,25 @@ export default function Content ({location}) {
                 <CloseBox onClick = {HandleMore}>{closed ? '간략히' : '더보기'}</CloseBox>
               </dl>
               <div>
-                <div>
+                <WordCloudBox>
                   <h4>영화에 나오는 중요 단어들</h4>
                   {content.content_unique_words && <WordCloud
                     words={content.content_unique_words}
                   />}
-                </div>
+                </WordCloudBox>
                 <SampleBox>
-                  <h4>영화에 나오는 대표 단어 및 예문</h4>
-                  {content_detail && content_detail.example.map ((example) => {
+                  <h4>영화에 나오는 대표 예문</h4>
+                  {content && content.example.map ((example) => {
                     return (
-                      <div className='word_content' key={example.id}>
-                        <dt>{example.word}</dt>
-                        <dd>{example.sentence}</dd>
-                        <dd>{example.level}</dd>
-                      </div>
+                      // <div className='word_content' key={example.id}>
+                      //   {/* <dt>{example.word}</dt> */}
+                      //   <dd>{example.sentence}</dd>
+                      //   <dd>{example.level}</dd>
+                      // </div>
+                      <SentenceForm 
+                        sentence={example.sentence}
+                        word={example.word}
+                      />
                     )
                   })}
                 </SampleBox>
@@ -263,4 +272,3 @@ export default function Content ({location}) {
     </Container>
   )
 }
-
