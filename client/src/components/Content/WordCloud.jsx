@@ -7,7 +7,7 @@ import 'tippy.js/animations/scale.css';
 const initialSettings = {
   content: {
     allowNumbers: false,
-    maxWords: 100,
+    maxWords: 600,
     stemmer: null,
     stopwordsInput: '',
   },
@@ -44,7 +44,7 @@ const callbacks = {
   onWordMouseOver: console.log,
 }
 
-const size = [600, 400];
+const size = [800, 600];
 
 export default function WordCloud(
   {

@@ -3,26 +3,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import { Link } from 'react-scroll';
+
+import { Link } from 'react-scroll'
+import { ImArrowDown } from "react-icons/im";
 
 const TestIntro = () => {
-  return (
-    <div
-      style={{
-        marginLeft: '23rem',
-        height: '20rem',
-        width: '30rem',
-        textAlign: 'center',
-      }}
-    >
-      {/* <div style={{padding:'1rem'}}></div> */}
-      <span style={{ fontSize: '1.5rem', color: 'black' }}>
-        정확한 수준에 맞게 공부하지 않는다면 100%의 효과를 볼 수 없습니다.
-        넷플릭스쿨의 테스트를 통해 당신의 현재 레벨을 확인해보세요!
-      </span>
-    </div>
-  );
-};
+    return (
+        <div className="testIntroBox">
+            <span style={{ fontSize: "1.5rem", color: "black"}}>
+                정확한 수준에 맞게 공부하지 않는다면 100%의 효과를 볼 수 없습니다. 넷플릭스쿨의 테스트를 통해 당신의 현재 레벨을 확인해보세요! 
+            </span>
+        </div>
+    )
+}
 
 const Precautions = () => {
   return (
@@ -61,33 +54,25 @@ const Precautions = () => {
 };
 
 function TestPrecautions() {
-  return (
-    <div className="container">
-      <div style={{ width: '100%', height: '100vh' }}>
-        <div className="testReadyFirst">
-          <h1>테스트를 통해 당신의 레벨을 확인해보세요!</h1>
-        </div>
-        <TestIntro />
-        <Link to="ready" spy={true} smooth={true}>
-          <span
-            style={{
-              fontSize: '24px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginLeft: '20px',
-            }}
-          >
-            테스트 시작
-          </span>
-        </Link>
-      </div>
-      <div>
-        <Precautions />
-      </div>
-    </div>
-  );
-}
+    return (
+            <div>
+                <div style={{width:'100%', height:'100vh'}} >
+                    <div className='testReadyFirst'>
+                        <h1>테스트를 통해 당신의 레벨을 확인해보세요!</h1>
+                    </div>
+                    <TestIntro />
+                    <Link to="ready" spy={true} smooth={true}>
+                        <span className="goTestButton">
+                            Go To TEST &nbsp;<ImArrowDown />
+                        </span>
+                    </Link>
+                </div>
+                <div>
+                    <Precautions />
+                </div>
+            </div>
+        );
+    }
 
 export default TestPrecautions;
 

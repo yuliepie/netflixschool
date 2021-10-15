@@ -78,7 +78,7 @@ const TestBox = ({ match, history }) => {
       />
       <div>
         <ButtonWrapper>
-          {parseInt(question.question) === 10 ? (
+          {parseInt(number) === 10 ? (
             <YesBox
               disabled={choice[number - 1] !== 'None' ? false : true}
               onClick={handleResult}
@@ -86,7 +86,7 @@ const TestBox = ({ match, history }) => {
               Submit
             </YesBox>
           ) : (
-            <Link to={`/doTest/${parseInt(question.question) + 1}`}>
+            <Link to={`/doTest/${parseInt(number) + 1}`}>
               <NextBox
                 disabled={choice[number - 1] !== 'None' ? false : true}
                 number={number}

@@ -18,10 +18,9 @@
 export const QuestionData = {
   1: {
     id: 'int',
-    question: '1',
     type: 1,
     imgPath: '/img/Disenchantment_statue.png',
-    koreanSentence:
+    question:
       'Oog, silly me. Its just a [\u00A0\u00A0\u00A0\u00a0\u00a0\u00a0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0] of Pendergast...',
     choices: [
       { choice: 'status' },
@@ -34,10 +33,9 @@ export const QuestionData = {
   },
   2: {
     id: 'int',
-    question: '2',
     type: 1,
     imgPath: '/img/GoodPlace_awful.png',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'awful' },
       { choice: 'awesome' },
@@ -49,11 +47,9 @@ export const QuestionData = {
   },
   3: {
     id: 'int',
-    question: '3',
     type: 2,
     imgPath: '/img/Heroin(e)_judgment.png',
-    koreanSentence:
-      '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.',
+    question: '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.',
     choices: [
       { choice: 'judgement' },
       { choice: 'discernment' },
@@ -65,10 +61,9 @@ export const QuestionData = {
   },
   4: {
     id: 'int',
-    question: '4',
     type: 1,
     imgPath: '/img/FYRE_paid_off.png',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'throw off' },
       { choice: 'flip off' },
@@ -80,10 +75,9 @@ export const QuestionData = {
   },
   5: {
     id: 'int',
-    question: '5',
     type: 1,
     imgPath: '/img/Suits_raiders.png',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'reindeers' },
       { choice: 'announcer ' },
@@ -95,10 +89,9 @@ export const QuestionData = {
   },
   6: {
     id: 'int',
-    question: '6',
     type: 1,
     imgPath: '/img/Q_hopely_1.png',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'ratio' },
       { choice: 'lavish' },
@@ -110,10 +103,9 @@ export const QuestionData = {
   },
   7: {
     id: 'int',
-    question: '7',
     type: 1,
     imgPath: '/img/Qdadad2.jpg',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'engaged' },
       { choice: 'encountered' },
@@ -125,10 +117,9 @@ export const QuestionData = {
   },
   8: {
     id: 'int',
-    question: '8',
     type: 1,
     imgPath: '/img/Qasdad3.jpg',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'what you have' },
       { choice: 'What happen to you' },
@@ -140,10 +131,9 @@ export const QuestionData = {
   },
   9: {
     id: 'int',
-    question: '9',
     type: 2,
     imgPath: '/img/Qasdad4.jpg',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'citizenship' },
       { choice: 'What happen to you' },
@@ -155,10 +145,9 @@ export const QuestionData = {
   },
   10: {
     id: 'int',
-    question: '10',
     type: 2,
     imgPath: '/img/Qasdad5.jpg',
-    koreanSentence: '다음 중 빈칸에 들어갈 단어를 고르세요',
+    question: '다음 중 빈칸에 들어갈 단어를 고르세요',
     choices: [
       { choice: 'dedicate ourselves' },
       { choice: 'are limited' },

@@ -30,7 +30,7 @@ export default function TestFormMultipleAnswer({
     <Container>
       <QuestionWrapper>
         <Image src={question.imgPath} alt="questionimg" />
-        <Subtitle>{question.koreanSentence}</Subtitle>
+        <Subtitle>{question.question}</Subtitle>
       </QuestionWrapper>
       <Asking>
         Q{number}. {AskingList(question.type)}
@@ -106,7 +106,8 @@ export default function TestFormMultipleAnswer({
 }
 
 const Container = styled.div`
-  width: 1000px;
+  /* width: 1000px; */
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,6 +134,7 @@ const QuestionWrapper = styled.div`
 const ExampleWrapper = styled.div`
   height: 80px;
   width: 800px;
+  /* width: 85%; */
   text-align: center;
   display: flex;
   flex-direction: row;
