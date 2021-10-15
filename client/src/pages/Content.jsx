@@ -1,11 +1,12 @@
 // 영화 소개 페이지
 
 import { content_detail } from '../components/Content/ContentData';
-
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import styled from 'styled-components';
-import WordCloud from '../components/Content/WordCloud';
+import axios from "axios";
+import { useEffect, useState } from "react";
+import styled from "styled-components";
+import WordCloud from "../components/Content/WordCloud";
+import {SiSpeedtest} from 'react-icons/si'
+import {IoPodiumOutline,IoBookmarksSharp} from 'react-icons/io5'
 
 const Container = styled.div`
   background-image: url(${(props) => props.img_path});
@@ -53,19 +54,17 @@ const Wrapper2 = styled.div`
   }
 `;
 const Title = styled.div`
-  font-size: 35px;
+  font-size: 30px;
   display: flex;
   flex-direction: column;
+  width: 50%;
 `;
 
-// const BackImage = styled.div`
-//   background-image: url(${props => props.img_path});
-//   background-size: cover;
-//   background-position:center;
-//   background-color: black;
-//   height: 100% ;
 
-// `
+const TitleLevelBox = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
 
 const DetailInfo = styled.div``;
 
@@ -128,9 +127,48 @@ const BlackBox = styled.div`
   padding-right: 2rem;
 `;
 
-export default function Content({ location }) {
-  console.log('location content state', location.state);
-  const [content, setContent] = useState('');
+const LevelBox = styled.div`
+  background-color: #FAEBD7;
+  color : black;
+  width: 20%;
+  height: 20%;
+  padding: 1.5rem;
+  border: 1px solid black;
+  box-shadow: 7px 7px 7px black;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-right: 5%;
+  /* text-align: center; */
+`;
+
+const CloseBox = styled.p`
+  background-color: white;
+  color : black;
+  width: 3.2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  padding-left: 0.5%;
+  margin-top: 1%;
+`;
+
+const SampleBox = styled.div`
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px black;
+  padding:2%;
+  width: 53rem;
+`;
+
+export default function Content ({location}) {
+  console.log('location content state',location.state)
+  const [content, setContent] = useState("");
+  const [closed, setClosed] = useState(false);
+
+  const HandleMore = () => {
+    setClosed(!closed)
+  }
 
   useEffect(() => {
     const callContent = async () => {
@@ -147,81 +185,82 @@ export default function Content({ location }) {
 
   return (
     <Container {...content}>
-      <div>
-        <BlackBox>
-          <Wrapper1>
-            <Wrapper2>
-              <Title className="box_basic">
-                <h2 className="title_name_en">{content.title_en}</h2>
-                <h3 className="title_name_kr">{content.title_kr}</h3>
-              </Title>
-              <ContentInfoWrapper>
-                <DetailInfo className="box_basic">
-                  <div className="info_poster">
-                    <img src={content.img_path} alt="movie_poster" />
-                  </div>
-                  <div className="info_content">
-                    <ContentInfo className="inner_content">
-                      <dl className="list_content">
-                        <dt>개봉연도</dt>
-                        <dd>{content.release_year}</dd>
-                      </dl>
-                      <dl className="list_content">
-                        <dt>장르</dt>
-                        <dd>{content.genre}</dd>
-                      </dl>
-                      <dl className="list_content">
-                        <dt>등급</dt>
-                        <dd>
-                          {isNaN(content.age_rating)
-                            ? '전체연령가'
-                            : `${content.age_rating} 세 이용가`}
-                        </dd>
-                      </dl>
-                      <dl className="list_content">
-                        <dt>감독</dt>
-                        <dd>{content.director}</dd>
-                      </dl>
-                      <dl className="list_content">
-                        <dt>러닝타임</dt>
-                        <dd>{content.running_time}</dd>
-                      </dl>
-                    </ContentInfo>
-                  </div>
-                </DetailInfo>
-              </ContentInfoWrapper>
-            </Wrapper2>
-          </Wrapper1>
-          <div>
+        <div>
+          <BlackBox>
+            <Wrapper1>
+                <Wrapper2>
+                  <TitleLevelBox>
+                    <Title className='box_basic'>
+                      <h2 className='title_name_en'>{content.title_en}</h2>
+                        <span className='title_name_kr' >
+                          {content.title_kr}, <span style={{fontSize:'80%'}}>{content.release_year}</span>
+                        </span>
+                    </Title>
+                    <LevelBox>
+                      <h3><IoPodiumOutline/> 단어 난이도 : {content.word_difficulty_level}</h3>
+                      <h3><SiSpeedtest/> WPS : {content.words_per_second}</h3>
+                      <h3><IoBookmarksSharp/> 종합 난이도 : {content.content_level} / 10</h3>
+                    </LevelBox>
+                  </TitleLevelBox>
+                  <ContentInfoWrapper>
+                    <DetailInfo className='box_basic'>
+                      <div className="info_poster"><img src={content.img_path} alt='movie_poster' /></div>
+                      <div className='info_content'>
+                      <ContentInfo className='inner_content'>
+                        <dl className='list_content'>
+                          {/* <dt>장르</dt> */}
+                          <dd>{content.genre}</dd>
+                        </dl>
+                        <dl className='list_content'>
+                          {/* <dt>등급</dt> */}
+                          <dd>{isNaN(content.age_rating) ?   "전체연령가" : `${content.age_rating} 세 이용가`}</dd>
+                        </dl>
+                        <dl className='list_content'>
+                          {/* <dt>감독</dt> */}
+                          <dd>Director : {content.director}</dd>
+                        </dl>
+                        <dl className='list_content'>
+                          {/* <dt>러닝타임</dt> */}
+                          <dd>{content.running_time}</dd>
+                        </dl>
+                      </ContentInfo>
+                      </div>
+                    </DetailInfo>
+                  </ContentInfoWrapper>
+                </Wrapper2>
+            </Wrapper1>
+                  <div>
             <EngInfo>
-              <dl className="list_content">
+              <dl className='list_content'>
                 {/* <h3>영화 내용</h3> */}
-                <dd>{content.story}</dd>
+                <dd className={closed ? "":"close"}>{content.story}</dd>
+                <CloseBox onClick = {HandleMore}>{closed ? '간략히' : '더보기'}</CloseBox>
               </dl>
               <div>
-                <h3>단어 난이도 : {content.word_difficulty_level}</h3>
-                <h3>WPS : {content.words_per_second}</h3>
-                <h3>종합 난이도 : {content.content_level} / 10</h3>
-                <h4>영화에 나오는 중요 단어들</h4>
-                {content.content_unique_words && (
-                  <WordCloud words={content.content_unique_words} />
-                )}
-                <h4>영화에 나오는 대표 단어 및 예문</h4>
-                {content_detail &&
-                  content_detail.example.map((example) => {
+                <div>
+                  <h4>영화에 나오는 중요 단어들</h4>
+                  {content.content_unique_words && <WordCloud
+                    words={content.content_unique_words}
+                  />}
+                </div>
+                <SampleBox>
+                  <h4>영화에 나오는 대표 단어 및 예문</h4>
+                  {content_detail && content_detail.example.map ((example) => {
                     return (
-                      <div className="word_content" key={example.id}>
+                      <div className='word_content' key={example.id}>
                         <dt>{example.word}</dt>
                         <dd>{example.sentence}</dd>
                         <dd>{example.level}</dd>
                       </div>
-                    );
+                    )
                   })}
+                </SampleBox>
               </div>
             </EngInfo>
-          </div>
-        </BlackBox>
-      </div>
+                  </div>
+          </BlackBox>
+        </div>
     </Container>
-  );
+  )
 }
+

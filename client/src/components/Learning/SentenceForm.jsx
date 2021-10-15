@@ -49,21 +49,21 @@ export default function SentenceForm({
 const Container = styled.div`
   display: flex;
   margin: 0 auto;
-  padding: 20px 0;
-  background-color: #f9ebd7;
+  padding: 40px 0;
+  background-color: #262626;
   max-width: 1000px;
   min-width: 1000px;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px gray;
+  box-shadow: 2px 2px 2px 2px black;
 `;
 
 const Image = styled.img`
   margin-right: 30px;
-  width: 300px;
+  width: 250px;
   height: 300px;
   display: block;
   border-radius: 20px;
-  box-shadow: 1px 1px 1px 1px gray;
+  box-shadow: 5px 5px 5px 5px black;
 `;
 
 const TextWrapper = styled.div`
@@ -81,8 +81,8 @@ const EnglishText = styled.span`
   flex-direction: column; */
   font-size: 35px;
   margin-top: 10px;
-  text-shadow: 2px 2px 2px gray;
-  color: ${(props) => (props.highlight ? 'red' : 'black')};
+  text-shadow: 2px 2px 2px black;
+  color: ${(props) => (props.highlight ? 'yellow' : '#ffffff')};
   font-style: ${(props) => (props.highlight ? 'bold' : 'normal')};
 `;
 
@@ -97,6 +97,7 @@ const TitleText = styled.span`
   font-size: 25px;
   margin-top: 15px;
   font-style: italic;
+  color: #ffffff;
 `;
 
 const Text = styled.span`

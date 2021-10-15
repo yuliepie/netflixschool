@@ -8,10 +8,10 @@ import axios from 'axios';
 
 const TestBox = ({ match, history }) => {
   const [answer, setAnswer] = useState(
-    Array.from({ length: 10 }, () => 'None'),
+    Array.from({ length: Object.keys(QuestionData).length }, () => 'None'),
   );
   const [choice, setChoice] = useState(
-    Array.from({ length: 10 }, () => 'None'),
+    Array.from({ length: Object.keys(QuestionData).length }, () => 'None'),
   );
   const [progress, setProgress] = useState(0);
 
@@ -29,9 +29,12 @@ const TestBox = ({ match, history }) => {
 
   useEffect(() => {
     setProgress(
-      ((choice.length - choice.filter((element) => 'None' === element).length) /
-        choice.length) *
-        100,
+      parseInt(
+        ((choice.length -
+          choice.filter((element) => 'None' === element).length) /
+          choice.length) *
+          100,
+      ),
     );
     console.log(progress);
   }, [choice]);

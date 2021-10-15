@@ -5,38 +5,19 @@ import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/scale.css';
 
 const initialSettings = {
-  content: {
-    allowNumbers: false,
-    maxWords: 600,
-    stemmer: null,
-    stopwordsInput: '',
-  },
-  wordcloud: {
-    colors: [
-      '#1f77b4',
-      '#ff7f0e',
-      '#2ca02c',
-      '#d62728',
-      '#9467bd',
-      '#8c564b',
-      '#e377c2',
-      '#7f7f7f',
-      '#bcbd22',
-      '#17becf',
-    ],
-    fontFamily: 'times new roman',
-    fontSizes: [8, 64],
-    padding: 1,
-    rotations: undefined,
-    rotationAngles: [-90, 90],
-    spiral: 'archimedean',
-    scale: 'linear',
-    transitionDuration: 500,
-    // Non-configurable
-    deterministic: true,
-    enableOptimizations: true,
-    enableTooltip: true,
-  },
+  colors: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"],
+  enableTooltip: true,
+  deterministic: true,
+  fontFamily: "impact",
+  fontSizes: [15, 70],
+  fontStyle: "normal",
+  fontWeight: "normal",
+  padding: 1,
+  rotations: 2,
+  rotationAngles: [0, 30],
+  scale: "sqrt",
+  spiral: "archimedean",
+  transitionDuration: 1000
 };
 
 const callbacks = {
@@ -44,7 +25,7 @@ const callbacks = {
   onWordMouseOver: console.log,
 }
 
-const size = [800, 600];
+const size = [600, 400];
 
 export default function WordCloud(
   {

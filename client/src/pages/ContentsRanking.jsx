@@ -20,6 +20,8 @@ export default function ContentsRanking () {
   const [totalCount, setTotalCount] = useState(11);
   const [value, setValue] = useState([0, 10]);
   const [isMouseUp, setIsMouseUp] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+  const [btnStatus, setBtnStatus] = useState(false); // 버튼 상태
   
   const limit = 10
   const fetchUrl = `/api/content?offset=${offset}&limit=${limit}&sorting=${sorting}&minlevel=${value[0]}&maxlevel=${value[1]}`
@@ -80,11 +82,45 @@ export default function ContentsRanking () {
     }
   };
 
+  // 슬라이더 움직일 때 제어
   const handleMouseUp = () => {
     setIsMouseUp(!isMouseUp);
     setData([])
     setOffset(0)
   }
+
+  // top 버튼 visible 처리
+  const handleFollow = () => {
+    setScrollY(window.pageYOffset);
+    console.log(scrollY)
+    if(scrollY > 100) {
+      // 100 이상이면 버튼이 보이게
+      setBtnStatus(true);
+    } else {
+      // 100 이하면 버튼이 사라지게
+      setBtnStatus(false);
+    }
+  }
+
+  // 클릭하면 스크롤이 위로 올라가는 함수
+  const handleTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+    setScrollY(0);  // scrollY 의 값을 초기화
+    setBtnStatus(false); // btnStatus의 값을 false로 바꿈 => 버튼 숨김
+  }
+
+  useEffect(() => {
+    const watch = () => {
+      window.addEventListener('scroll', handleFollow)
+    }
+    watch();
+    return () => {
+      window.removeEventListener('scroll', handleFollow)
+    }
+  })
 
   return (
     <CC.Container>
@@ -114,6 +150,11 @@ export default function ContentsRanking () {
         
       </CC.ConditionContainer>
 
+      <CC.TopBtn
+          active={btnStatus}
+          className={btnStatus ? "topBtn active" : "topBtn"} // 버튼 노출 여부
+          onClick={handleTop}  // 버튼 클릭시 함수 호출
+      >TOP</CC.TopBtn>
       <CC.StyledInfiniteScroll
         dataLength={data.length}
         next={fetchContentsRanking}

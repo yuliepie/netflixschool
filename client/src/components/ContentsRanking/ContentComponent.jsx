@@ -19,10 +19,10 @@ export default function ContentComponent({
     return (
         <CC.Container onClick={handleClick}>
             <CC.Image src={img_path} />
-            <h4>{title_kr}</h4>
-            <p>단어 레벨 : {word_difficulty_level}</p>
-            <p>말하기 속도(WPS) : {words_per_second}</p>
-            <p>종합 레벨 : {content_level}</p>
+            <CC.H4>{title_kr}</CC.H4>
+            <CC.Ptag>단어 레벨 : {word_difficulty_level}</CC.Ptag>
+            <CC.Ptag>말하기 속도(WPS) : {words_per_second}</CC.Ptag>
+            <CC.Ptag>NEI 지수 : {content_level}</CC.Ptag>
         </CC.Container>
     );
 }

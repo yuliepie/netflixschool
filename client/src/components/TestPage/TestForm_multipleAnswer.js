@@ -31,10 +31,10 @@ export default function TestFormMultipleAnswer({
       <QuestionWrapper>
         <Image src={question.imgPath} alt="questionimg" />
         <Subtitle>{question.question}</Subtitle>
+        <Asking>
+          Q{number}. {AskingList(question.type)}
+        </Asking>
       </QuestionWrapper>
-      <Asking>
-        Q{number}. {AskingList(question.type)}
-      </Asking>
       <ExampleWrapper>
         {question.choices.slice(undefined, 2).map((answ, index) => {
           return (
@@ -124,11 +124,14 @@ const Image = styled.img`
 const QuestionWrapper = styled.div`
   width: 90%;
   margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 20px;
   background-color: black;
   border-radius: 30px;
   box-shadow: 2px 2px 2px 2px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const ExampleWrapper = styled.div`
@@ -149,13 +152,14 @@ const Subtitle = styled.p`
 `;
 
 const Asking = styled.h1`
-  background-color: #f4a460;
-  font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  background-color: #ffffff;
+  width: 90%;
+  font-size: 25px;
+  padding: 20px 10px;
+  margin: 0 0 20px 0;
   text-align: center;
   padding: 2px 5px;
-  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 20px;
 `;
 
 const Reply = styled.div`
@@ -171,17 +175,19 @@ const Num = styled.div`
   font-size: 25px;
   display: inline-block;
   padding: 13px 30px;
-  border: 0.5px solid #bc8f8f;
-  background: NavajoWhite;
+  border: 0.5px solid #000000;
+  background: #dcdcdc;
   color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
   box-shadow: 1px 1px 1px 1px gray;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 15px;
 `;
 
 const Label = styled.label`
   width: 280px;
   color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
-  background-color: #ffefd5;
-  border: 0.5px solid #bc8f8f;
+  background-color: #d3d3d3;
+  border: 0.5px solid #000000;
   display: inline-block;
   font-size: 23px;
   padding: 13px 8px;
@@ -189,6 +195,8 @@ const Label = styled.label`
   text-decoration: none;
   cursor: pointer;
   box-shadow: 1px 1px 1px 1px gray;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 15px;
 
   > input {
     display: none;

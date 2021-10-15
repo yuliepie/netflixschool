@@ -21,7 +21,7 @@ const Precautions = () => {
   return (
     <div className="ready" id="ready">
       <span style={{ fontSize: '1rem', color: 'black', textAlign: 'center' }}>
-        <h1 style={{ color: '#E82B0C', fontSize: '3rem' }}>
+        <h1 style={{ color: '#E82B0C', fontSize: '3rem', textAlign: 'center'  }}>
           <strong>주의사항</strong>
         </h1>
         <br />
