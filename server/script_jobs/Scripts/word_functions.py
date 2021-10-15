@@ -7,7 +7,7 @@ bucket = "netflixschool"
 
 
 def upload_word_file():
-    words_path = os.path.abspath("script_jobs/csv_files/word_levels.csv")
+    words_path = os.path.abspath("csv_files/word_levels.csv")
     word_csv = open(words_path, "rb")
     try:
         s3.Bucket("netflixschool").put_object(
