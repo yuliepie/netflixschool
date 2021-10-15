@@ -152,7 +152,7 @@ if num > 0:
     contents_no_wps = contents_no_wps[:num]
 
 wps_insert_sql = """
-    INSERT INTO content_word_levels (content_id, level_1, level_2, level_3, level_4, level_5, level_6, wps, wps_weight) values (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO content_word_levels (content_id, level_1, level_2, level_3, level_4, level_5, level_6, level_7, level_8, level_9, level_10, level_11, level_12, level_13, level_14, level_15, wps, wps_weight) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
 """
 
 print("WPS")
@@ -171,6 +171,15 @@ for (id, title, year) in contents_no_wps:
             wps_insert_sql,
             [
                 id,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
                 -1,
                 -1,
                 -1,

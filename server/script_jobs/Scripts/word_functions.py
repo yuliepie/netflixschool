@@ -7,7 +7,7 @@ bucket = "netflixschool"
 
 
 def upload_word_file():
-    words_path = os.path.abspath("csv_files/word_levels.csv")
+    words_path = os.path.abspath("script_jobs/csv_files/word_levels.csv")
     word_csv = open(words_path, "rb")
     try:
         s3.Bucket("netflixschool").put_object(
@@ -27,7 +27,7 @@ def upload_word_file():
 
 
 def upload_lemmas_file():
-    lemmas_path = os.path.abspath("csv_files/ex_lemmas.csv")
+    lemmas_path = os.path.abspath("script_jobs/csv_files/ex_lemmas.csv")
     lemmas_csv = open(lemmas_path, "rb")
     try:
         s3.Bucket("netflixschool").put_object(
@@ -45,7 +45,7 @@ def upload_lemmas_file():
 
 
 def upload_compound_lemmas_file():
-    compound_lemmas = os.path.abspath("csv_files/compound_lemmas.csv")
+    compound_lemmas = os.path.abspath("script_jobs/csv_files/compound_lemmas.csv")
     compound_lemmas_csv = open(compound_lemmas, "rb")
     try:
         s3.Bucket("netflixschool").put_object(

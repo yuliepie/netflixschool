@@ -1,6 +1,7 @@
 import boto3
 import spacy
 import pandas as pd
+import sys
 
 
 def initalize_resources():
@@ -21,13 +22,18 @@ def initalize_resources():
 
     # lemmas
     lemmas_obj = s3.get_object(Bucket=words_bucket, Key="ex_lemmas.csv")
-    lemmas_df = pd.read_csv(lemmas_obj["Body"], index_col="Word")
+    lemmas_df = pd.read_csv(lemmas_obj["Body"], sep=",", index_col="Word")
 
     lemmas_dict = {}
+    print(lemmas_df)
     for index, row in lemmas_df.iterrows():
-        lemmas = row["Lemmas"].split(";")
-        for lemma in lemmas:
-            lemmas_dict[lemma] = str(index)
+        try:
+            lemmas = row["Lemmas"].split(";")
+            for lemma in lemmas:
+                lemmas_dict[lemma] = str(index)
+        except:
+            print(row)
+            sys.exit(2)
 
     # compound lemmas
     compound_lemmas_obj = s3.get_object(Bucket=words_bucket, Key="compound_lemmas.csv")
@@ -35,7 +41,7 @@ def initalize_resources():
 
     compound_dict = {}
     for index, row in compound_lemmas_df.iterrows():
-        lemmas = row["Lemmas"].split(";")
+        lemmas = row["compound_lemmas"].split(";")
         for lemma in lemmas:
             compound_dict[lemma] = str(index)
 

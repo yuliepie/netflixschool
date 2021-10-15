@@ -68,10 +68,7 @@ for (id, title, year) in contents_to_update:
 
     # 컨텐츠의 unique words & sentences 테이블 => dataframe
     try:
-        pd_unique_words_sql = pd.read_sql_query(
-            unique_words_sql,
-            conn,
-        )
+        pd_unique_words_sql = pd.read_sql_query(unique_words_sql, conn,)
         unique_words_df = pd.DataFrame(
             pd_unique_words_sql, columns=["id", "word", "frequency"]
         )
@@ -111,12 +108,18 @@ for (id, title, year) in contents_to_update:
         content_level_counts_df,
     ) = get_word_level_counts_for_content(id, unique_words_df, words_list_df)
 
+    print(content_level_counts_df)
+
     # 러닝타임 weight 적용
-    for i in range(1, 7):
-        level = "level_" + str(i)
-        content_level_counts_df[level] = (
-            content_level_counts_df[level] * word_levels_df.iloc[0]["wps_weight"]
-        )
+    # for i in range(1, 15):
+    #     level = "level_" + str(i)
+    #     content_level_counts_df[level] = (
+    #         content_level_counts_df[level] * word_levels_df.iloc[0]["wps_weight"]
+    #     )
+
+    content_level_counts_df = content_level_counts_df.apply(
+        lambda x: x * word_levels_df.iloc[0]["wps_weight"]
+    )
 
     # ===============================
     # content_word_levels 채우기
@@ -124,7 +127,7 @@ for (id, title, year) in contents_to_update:
     # Todo: 1-1 테이블에 unique foreign key 적용할 것.
     print("CONTENT_WORD_LEVEL", id)
     word_levels_update_sql = """
-        UPDATE content_word_levels SET level_1 = %s, level_2 = %s, level_3 = %s, level_4 = %s, level_5 = %s, level_6 = %s WHERE content_id = %s
+        UPDATE content_word_levels SET level_1 = %s, level_2 = %s, level_3 = %s, level_4 = %s, level_5 = %s, level_6 = %s, level_7 = %s, level_8 = %s, level_9 = %s, level_10 = %s, level_11 = %s, level_12 = %s, level_13 = %s, level_14 = %s, level_15 = %s  WHERE content_id = %s
     """
     try:
         cursor.execute(
@@ -136,6 +139,15 @@ for (id, title, year) in contents_to_update:
                 int(content_level_counts_df["level_4"]),
                 int(content_level_counts_df["level_5"]),
                 int(content_level_counts_df["level_6"]),
+                int(content_level_counts_df["level_7"]),
+                int(content_level_counts_df["level_8"]),
+                int(content_level_counts_df["level_9"]),
+                int(content_level_counts_df["level_10"]),
+                int(content_level_counts_df["level_11"]),
+                int(content_level_counts_df["level_12"]),
+                int(content_level_counts_df["level_13"]),
+                int(content_level_counts_df["level_14"]),
+                int(content_level_counts_df["level_15"]),
                 id,
             ],
         )

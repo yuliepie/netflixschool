@@ -103,7 +103,7 @@ def classify_unlevelled_words(unique_word_counts_df):
     # First check with nltk synsets
     for index in nn_level.index:
         if len(wordnet.synsets(str(index))) > 0:
-            levelled_df.loc[index, "word_level"] = 6
+            levelled_df.loc[index, "word_level"] = 13
             # TODO: 필요하다면 최고 레벨 수정
     nn_level = levelled_df[levelled_df["word_level"].isnull()]
 
@@ -191,6 +191,10 @@ def get_word_level_counts_for_content(content_id, df_unique_words, df_word_level
     result["content_id"] = content_id
     result = result.set_index("content_id")
 
+    for i in range(1, 16):
+        if i not in result.columns:
+            result[i] = 0
+
     result = result.rename(
         columns={
             1: "level_1",
@@ -199,6 +203,15 @@ def get_word_level_counts_for_content(content_id, df_unique_words, df_word_level
             4: "level_4",
             5: "level_5",
             6: "level_6",
+            7: "level_7",
+            8: "level_8",
+            9: "level_9",
+            10: "level_10",
+            11: "level_11",
+            12: "level_12",
+            13: "level_13",
+            14: "level_14",  # temp
+            15: "level_15",
         }
     )
 
