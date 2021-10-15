@@ -82,24 +82,108 @@ class TestQuestions(Resource):
     def get(self):  
 
         test_questions = TestQuestion.query.all()
+
         questions = []
+
+        questions_A = []
+        questions_B = []
+        questions_C = []
+        questions_D = []
+        questions_E = []
+        
         for question in test_questions:
-            questions.append(
-                {
-                    'id': question.id,
-                    'question': question.question,
-                    'type': question.type,
-                    'file_path': question.file_path,
-                    'level': question.level,
-                    'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
-                    # 'choice1': question.choice1,
-                    # 'choice2': question.choice2,
-                    # 'choice3': question.choice3,
-                    # 'choice4': question.choice4,
-                    # 'choice5': question.choice5,
-                    'answer': question.answer,
-                }
-            )
+            if question.level >= 1 and question.level <= 8:
+                questions_A.append(
+                    {
+                        'id': question.id,
+                        'question': question.question,
+                        'type': question.type,
+                        'file_path': question.file_path,
+                        'level': question.level,
+                        'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
+                        # 'choice1': question.choice1,
+                        # 'choice2': question.choice2,
+                        # 'choice3': question.choice3,
+                        # 'choice4': question.choice4,
+                        # 'choice5': question.choice5,
+                        'answer': question.answer,
+                    }
+                )
+            elif question.level == 9 or question.level == 10:
+                questions_B.append(
+                    {
+                        'id': question.id,
+                        'question': question.question,
+                        'type': question.type,
+                        'file_path': question.file_path,
+                        'level': question.level,
+                        'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
+                        # 'choice1': question.choice1,
+                        # 'choice2': question.choice2,
+                        # 'choice3': question.choice3,
+                        # 'choice4': question.choice4,
+                        # 'choice5': question.choice5,
+                        'answer': question.answer,
+                    }
+                )
+            elif question.level == 11:
+                questions_C.append(
+                    {
+                        'id': question.id,
+                        'question': question.question,
+                        'type': question.type,
+                        'file_path': question.file_path,
+                        'level': question.level,
+                        'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
+                        # 'choice1': question.choice1,
+                        # 'choice2': question.choice2,
+                        # 'choice3': question.choice3,
+                        # 'choice4': question.choice4,
+                        # 'choice5': question.choice5,
+                        'answer': question.answer,
+                    }
+                )
+            elif question.level == 12:
+                questions_D.append(
+                    {
+                        'id': question.id,
+                        'question': question.question,
+                        'type': question.type,
+                        'file_path': question.file_path,
+                        'level': question.level,
+                        'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
+                        # 'choice1': question.choice1,
+                        # 'choice2': question.choice2,
+                        # 'choice3': question.choice3,
+                        # 'choice4': question.choice4,
+                        # 'choice5': question.choice5,
+                        'answer': question.answer,
+                    }
+                )
+            elif question.level == 13 or question.level == 15:
+                questions_E.append(
+                    {
+                        'id': question.id,
+                        'question': question.question,
+                        'type': question.type,
+                        'file_path': question.file_path,
+                        'level': question.level,
+                        'choice': [question.choice1, question.choice2, question.choice3, question.choice4, question.choice5],
+                        # 'choice1': question.choice1,
+                        # 'choice2': question.choice2,
+                        # 'choice3': question.choice3,
+                        # 'choice4': question.choice4,
+                        # 'choice5': question.choice5,
+                        'answer': question.answer,
+                    }
+                )
+
+        question_A_rand = random.sample(questions_A, 3)
+        question_B_rand = random.sample(questions_B, 3)
+        question_C_rand = random.sample(questions_C, 3)
+        question_D_rand = random.sample(questions_D, 3)
+        question_E_rand = random.sample(questions_E, 3)
+        questions = question_A_rand + question_B_rand + question_C_rand + question_D_rand + question_E_rand
 
         return questions
 
