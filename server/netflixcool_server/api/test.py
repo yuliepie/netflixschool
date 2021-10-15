@@ -147,6 +147,7 @@ test_question_fields = test_ns.model(
         # 'choice4': fields.String,
         # 'choice5': fields.String,
         'answer': fields.Integer,
+        'korean': fields.String
     }
 )
 
@@ -185,6 +186,7 @@ class TestQuestions(Resource):
                         # 'choice4': question.choice4,
                         # 'choice5': question.choice5,
                         'answer': question.answer,
+                        'korean': question.korean,
                     }
                 )
             elif question.level == 9 or question.level == 10:
@@ -202,6 +204,7 @@ class TestQuestions(Resource):
                         # 'choice4': question.choice4,
                         # 'choice5': question.choice5,
                         'answer': question.answer,
+                        'korean': question.korean,
                     }
                 )
             elif question.level == 11:
@@ -219,6 +222,7 @@ class TestQuestions(Resource):
                         # 'choice4': question.choice4,
                         # 'choice5': question.choice5,
                         'answer': question.answer,
+                        'korean': question.korean,
                     }
                 )
             elif question.level == 12:
@@ -236,6 +240,7 @@ class TestQuestions(Resource):
                         # 'choice4': question.choice4,
                         # 'choice5': question.choice5,
                         'answer': question.answer,
+                        'korean': question.korean,
                     }
                 )
             elif question.level == 13 or question.level == 15:
@@ -253,6 +258,7 @@ class TestQuestions(Resource):
                         # 'choice4': question.choice4,
                         # 'choice5': question.choice5,
                         'answer': question.answer,
+                        'korean': question.korean,
                     }
                 )
 

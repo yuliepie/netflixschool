@@ -66,7 +66,7 @@ export default function ContentsRanking () {
 
   useEffect(() => {    
     fetchContentsRanking();
-    console.log(fetchUrl);
+    // console.log(fetchUrl);
   }, [isMouseUp])
 
   // 슬라이더 움직였을 때 event

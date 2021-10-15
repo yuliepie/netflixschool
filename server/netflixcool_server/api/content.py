@@ -190,10 +190,10 @@ class Contents(Resource):
         filtered_netflix_contents = NetflixContent.query.filter(NetflixContent.content_level.between(minlevel, maxlevel))
         if sorting == 0:
             ordered_netflix_contents = filtered_netflix_contents.order_by(NetflixContent.content_level.asc())
-            print('asc')
+            # print('asc')
         else:
             ordered_netflix_contents = filtered_netflix_contents.order_by(NetflixContent.content_level.desc())
-            print('desc')
+            # print('desc')
         limited_netflix_contents = ordered_netflix_contents.offset(offset).limit(limit)
 
         # netflix_contents 테이블에서 필터링된 row 개수 select
