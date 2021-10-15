@@ -7,8 +7,12 @@ import ProgressBar from './ProgressBar';
 import axios from 'axios';
 
 const TestBox = ({ match, history }) => {
-  const [answer, setAnswer] = useState([]);
-  const [choice, setChoice] = useState([]);
+  const [answer, setAnswer] = useState(
+    Array.from({ length: 15 }, () => 'None'),
+  );
+  const [choice, setChoice] = useState(
+    Array.from({ length: 15 }, () => 'None'),
+  );
   const [progress, setProgress] = useState(0);
   const [questionData, setQuestionData] = useState([]);
 
@@ -33,7 +37,7 @@ const TestBox = ({ match, history }) => {
           100,
       ),
     );
-    console.log('p',progress);
+    console.log('p', progress);
   }, [choice]);
 
   // // 문제 GET API
@@ -46,17 +50,19 @@ const TestBox = ({ match, history }) => {
   //   QuestionData = GetQuestionAPI();
   // }, []);
 
-
   useEffect(() => {
     (async function () {
       const response = await axios.get('/api/test/question');
       console.log('a', response.data);
       setQuestionData(response.data);
-      setAnswer(Array.from({ length: Object.keys(questionData).length }, () => 'None'),);
-      setChoice(Array.from({ length: Object.keys(questionData).length }, () => 'None'),);
-
-    })()
-  }, [])
+      // setAnswer(
+      //   Array.from({ length: Object.keys(questionData).length }, () => 'None'),
+      // );
+      // setChoice(
+      //   Array.from({ length: Object.keys(questionData).length }, () => 'None'),
+      // );
+    })();
+  }, []);
 
   // 결과 POST API
   const handleResult = async (e) => {
@@ -71,7 +77,7 @@ const TestBox = ({ match, history }) => {
   };
 
   const { number } = match.params;
-  const question = questionData[number];
+  const question = questionData[number - 1];
 
   // if (!question) {
   //   return <div>존재하지 않는 번호</div>;
@@ -80,17 +86,19 @@ const TestBox = ({ match, history }) => {
   return (
     <Container>
       <ProgressBar progress={progress} />
-      {question && <TestFormMultipleAnswer
-        question={question}
-        number={number}
-        getAnswer={getAnswer}
-        getChoice={getChoice}
-        answer={answer}
-        choice={choice}
-      />}
+      {question && (
+        <TestFormMultipleAnswer
+          question={question}
+          number={number}
+          getAnswer={getAnswer}
+          getChoice={getChoice}
+          answer={answer}
+          choice={choice}
+        />
+      )}
       <div>
         <ButtonWrapper>
-          {parseInt(number) === 10 ? (
+          {parseInt(number) === 15 ? (
             <YesBox
               disabled={choice[number - 1] !== 'None' ? false : true}
               onClick={handleResult}
