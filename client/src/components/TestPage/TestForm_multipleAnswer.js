@@ -18,7 +18,10 @@ export default function TestFormMultipleAnswer({
       return '다음 중 빈칸에 들어갈 단어를 고르세요.';
     } else if (type === 2) {
       return '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.';
+    } else if (type === 3) {
+      return '다음 중 단어 뜻으로 적절한 것을 고르세요.';
     }
+
   };
 
   const handleChange = (e) => {
@@ -32,9 +35,9 @@ export default function TestFormMultipleAnswer({
     const newsentence1 = sentence.substring(0, start + 1);
     const newsentence2 = sentence.substring(end, );
     const final = newsentence1 + "  " + newsentence2
-    console.log("start",start);
-    console.log("end",end);
-    console.log("newsentence",newsentence1)
+    // console.log("start",start);
+    // console.log("end",end);
+    // console.log("newsentence",newsentence1)
     return final
   }
 
@@ -44,6 +47,7 @@ export default function TestFormMultipleAnswer({
       <QuestionWrapper>
         {question.file_path && <Image src={question.file_path} alt="questionimg" />}
         <Subtitle>{question.type === 3 ? question.question : prepocess(question.question) }</Subtitle>
+        <Subtitle>{question.type === (1 || 2) ? question.korean : <></> }</Subtitle>
         <Asking>
           Q{number}. {AskingList(question.type)}
         </Asking>
@@ -161,7 +165,7 @@ const Subtitle = styled.p`
   font-size: 25px;
   text-align: center;
   color: #ffffff;
-  padding: 40px 0 40px 0;
+  padding: 10px 0 10px 0;
 `;
 
 const Asking = styled.h1`
