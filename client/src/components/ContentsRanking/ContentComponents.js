@@ -130,3 +130,49 @@ export const H4 = styled.h4`
     color: black;
     font-size: 20px;
 `
+
+// top 버튼
+// export const Wrap = styled.wrap `
+//     position: relative;
+//     padding: 30px;
+//     font-size: 18px;
+//     line-height: 1.6;
+//     background: lightgray;
+// `
+
+export const TopBtn = styled.button`
+    position: fixed; 
+    bottom: 40px; 
+    right: 40px;
+    width: 50px; 
+    height: 50px;
+    border-radius: 100%;
+    border: 0 none;
+    /* background: lightpink; */
+    /* color: blueviolet; */
+    border: 2px solid /*blueviolet*/;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.06em;
+    box-shadow: 1px 1px 6px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+    opacity: ${({ active }) => {
+    if (active) {
+        return 1;
+    }
+    return 0;
+    }};
+    z-index: ${({ active }) => {
+    if (active) {
+        return 10;
+    }
+    return -10;
+    }};
+
+    :hover,
+    :focus,
+    :active { 
+        outline: 0 none; 
+    }
+`
