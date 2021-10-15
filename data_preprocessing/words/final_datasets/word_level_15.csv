@@ -1,0 +1,14 @@
+1,	cam_A1,	ox A1,	ox A2			
+2,	lex1 - Gen					
+3,	ox B1,	lex1 - Math,	lex2- Math			
+4,	cam_A2,	naver-2				
+5,	lex2- gen,	lex3-gen,	lex4-gen			
+6,	cam_B1					
+7,	cam_B2,	lex5-gen				
+8,	lex1- Sc,	lex2 - Sc,	lex2- SS,	lex3- SS,	lex6-gen,	naver-1
+9,	cam_C1,	ox_C1,	lex3 - M, Sc	lex4-M,	lex9-gen,	ngsl-A3
+10,	cam_C2,	lex4- SS,	lex5-SS,	awsl, toefl, tsl, bsl	ngsl-A4, B1	
+11,	lex4-Sc,	lex5-M,	lex6-SS,	lex9-SS,	ngsl-B2, B3	
+12,	lex5-Sc,	ngsl-C1,C2				
+13,	lex6-M,	ngsl-C3				
+15,	lex6- Sc,	lex9-M, Sc	naver-0			
