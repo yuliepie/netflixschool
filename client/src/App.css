@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Gowun', sans-serif;
-  font-weight: 900;
+
 }
 
 .components {
@@ -146,7 +146,8 @@
   padding-left: 10%;
   line-height: 300px;
   position: relative;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  display: flex;
 }
 
 .MainIntro p {
@@ -197,13 +198,14 @@
 }
 
 .MainTest h1 {
+  display: flex;
   color: white;
   /* text-align: center; */
   /* padding-top: 5%; */
-  padding-left: 65%;
+  padding-left: 70%;
   line-height: 300px;
   position: relative;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .MainTest p {
@@ -254,7 +256,8 @@
   padding-left: 10%;
   line-height: 300px;
   position: relative;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  display: flex;
 }
 
 .MainRanking p {
@@ -301,10 +304,11 @@
 .MainLearning h1 {
   color: white;
   /* text-align: center; */
-  padding-left: 55%;
+  padding-left: 60%;
   line-height: 300px;
   position: relative;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  display: flex;
 }
 
 .MainLearning p {
@@ -342,7 +346,6 @@
   height: 15rem;
   width: 100%;
   position: relative;
-  /* position: fixed; */
 }
 .testReadyFirst::before {
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/test.jpeg');
@@ -356,6 +359,7 @@
   bottom: 0px;
 }
 .testReadyFirst h1 {
+  display: flex;
   font-size: 2.5rem;
   padding-top: 1.5rem;
   color: black;
@@ -365,12 +369,14 @@
 }
 
 .ready{
+  overflow:hidden;
   width:100%;
   height:80vh;
   padding-top: 20%;
   background-color: antiquewhite;
   /* display: flex;
-  align-items: center; */
+  align-items: center;
+  text-align: center; */
 }
 
 .goTestButton{
@@ -414,7 +420,17 @@ dl {
   list-style: none;
 }
 dd {
-  margin-inline-start: 40px;
+  /* margin-inline-start: 40px; */
+  max-height: 100%;
+  line-height: 30px;
+}
+.close{
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .info_poster {
@@ -426,6 +442,9 @@ dd {
 .info_poster img {
   width: 400px;
   height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px black;
 }
 
 .content_detail {
@@ -467,7 +486,7 @@ dd {
 
 .recommended_list img {
   width: 80%;
-  height: 420px;
+  height: 100;
   border: 0.5px solid #222121;
   border-radius: 10px;
   position: relative;
@@ -489,6 +508,7 @@ dd {
 }
 
 .recommendBox {
+  overflow:hidden;
   height: 100%;
   width: 100%;
   position: relative;
@@ -499,6 +519,7 @@ dd {
   justify-content: end; */
 }
 .recommendBox::before {
+  
   content: '';
   opacity: 0.8;
   position: absolute;

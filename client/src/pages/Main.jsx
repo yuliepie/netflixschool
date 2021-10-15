@@ -8,7 +8,7 @@ import {FiArrowUpCircle} from 'react-icons/fi'
 const Intro = () => {
   return(
     <>
-      <div style={{backgroundColor:'#FAEBD7', height:'30rem', width:'70%'}}>
+      <div style={{backgroundColor:'#FAEBD7', height:'25rem', width:'70%'}}>
           <h1>About 넷플릭스쿨</h1>
           <Link to ="/intro" style={{ textDecoration: 'none'}}>
             <p>Learn More</p>
@@ -21,7 +21,7 @@ const Intro = () => {
 const Test = () => {
   return(
     <>
-      <div style={{backgroundColor:'#003F63', color:'white', height:'30rem', width:'70%'}}>
+      <div style={{backgroundColor:'#003F63', color:'white', height:'25rem', width:'70%'}}>
         <h1>Level Test</h1> 
         <Link to ="/test" style={{ textDecoration: 'none'}}>
           {/* <BsBoxArrowInRight className="gotoPage" size='5rem' color='white'/> */}
@@ -35,7 +35,7 @@ const Test = () => {
 const Ranking = () => {
   return(
     <>
-      <div style={{backgroundColor:'#BAB7AC', color:'white', height:'30rem', width:'70%'}}>
+      <div style={{backgroundColor:'#BAB7AC', color:'white', height:'25rem', width:'70%'}}>
         <h1>NEI Ranking</h1> 
         <Link to ="/ContentsRanking" style={{ textDecoration: 'none'}} >
           <p>Learn More</p>
@@ -48,7 +48,7 @@ const Ranking = () => {
 const Learning = () => {
   return(
     <>
-      <div style={{backgroundColor:'black', color:'white', height:'30rem', width:'70%'}}>
+      <div style={{backgroundColor:'black', color:'white', height:'25rem', width:'70%'}}>
         <h1>Today's English</h1> 
         <Link to ="/learning" >
           <p>Learn More</p>
