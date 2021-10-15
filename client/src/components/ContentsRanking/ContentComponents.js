@@ -10,6 +10,7 @@ function NewLink({ ...props }) {
 export const StyledLink = styled(NewLink)`
     text-decoration: none;
     width: 250px;
+    /* color: black; */
 `
 
 function NewSlider({ ... props }) {
@@ -17,7 +18,7 @@ function NewSlider({ ... props }) {
 }
 
 export const StyledSlider = styled(NewSlider)`
-
+    
 `
 
 function NewInfiniteScroll({ ...props }) {
@@ -78,7 +79,7 @@ export const Image = styled.img`
     height: 100%;
     width: 240px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 5px grey;
     margin-bottom: 10px;
 `
 
@@ -119,4 +120,13 @@ export const Button = styled.button`
         cursor: pointer;
         color: white;
     }
+`
+
+export const Ptag = styled.p`
+    color: black;
+`
+
+export const H4 = styled.h4`
+    color: black;
+    font-size: 20px;
 `
