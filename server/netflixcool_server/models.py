@@ -83,6 +83,7 @@ class TestQuestion(db.Model):
     """
     Attributes:
         * question (string) : 테스트 질문
+        * korean (string) : 한글 해석 텍스트
         * file_path (string) : 질문 시 필요한 이미지 파일 등의 경로
         * type (int) : 테스트 유형 (OX, 객관식 등)
         * level (int) : 난이도
@@ -99,6 +100,7 @@ class TestQuestion(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     question = db.Column(db.String(255), nullable=False)
+    korean = db.Column(db.String(255), nullable=False)
     file_path = db.Column(db.String(255), nullable=False)
     type = db.Column(db.Integer, nullable=False)
     level = db.Column(db.Integer, nullable=False)
