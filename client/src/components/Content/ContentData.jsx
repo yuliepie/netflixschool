@@ -15,13 +15,13 @@ export const content_detail = {
   img_path: 'img/MV5BYmQzNmY3YzItOTE3OC00NGZjLTkwZDYtOWVmM2QyMzhiYTgwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UY720_.jpg',
   example: [{
           id: '1',
-          word: 'word1',
-          sentence: 'sentence1'
+          sentence:'You forgot your boarding pass You forgot your boarding pass You forgot your boarding pass',
+          word: 'boarding',
           },
           {
             id: '2',
-            word: 'word2',
-            sentence: 'sentence2'
+            sentence: 'Good day to die',
+            word: 'die',
           },
           {
             id: '3',
@@ -44,6 +44,186 @@ export const content_detail = {
       id: 1,
       text: "string",
       value: 100
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
+    },{
+      id: 2,
+      text: "22string",
+      value: 200
+    },{
+      id: 3,
+      text: "strin21g",
+      value: 300
+    },{
+      id: 4,
+      text: "ssadtrin21g",
+      value: 30
     },{
       id: 2,
       text: "22string",
