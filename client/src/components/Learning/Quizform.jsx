@@ -20,11 +20,11 @@ export default function Quizform({
   };
 
   const AskingList = (type) => {
-    if (type === '1') {
+    if (type === 1) {
       return '다음 중 빈칸에 들어갈 단어를 고르세요.';
-    } else if (type === '2') {
+    } else if (type === 2) {
       return '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.';
-    } else if (type === '3') {
+    } else if (type === 3) {
       return '다음 중 단어 뜻으로 적절한 것을 고르세요.';
     }
   };
@@ -75,9 +75,9 @@ export default function Quizform({
             <BsXCircle size="300" color="#DC143C" />
           </IconWrapperX>
         </ImageWrapper>
-        <Subtitle>{prepocess(question)}</Subtitle>
-        <Subtitle>{korean}</Subtitle>
-        <Asking>다음 중 빈칸에 들어갈 단어를 고르세요.</Asking>
+        <Subtitle>{type === 3 ? question : prepocess(question)}</Subtitle>
+        <Subtitle>{type === (1 || 2) ? korean : <></>}</Subtitle>
+        <Asking>{AskingList(type)}</Asking>
       </QuestionWrapper>
       <ExampleWrapper>
         {choices &&
@@ -179,6 +179,7 @@ const QuestionWrapper = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 20px;
 `;
 
 const ImageWrapper = styled.div`

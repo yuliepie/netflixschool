@@ -21,102 +21,114 @@ export default function TestFormMultipleAnswer({
     } else if (type === 3) {
       return '다음 중 단어 뜻으로 적절한 것을 고르세요.';
     }
-
   };
 
   const handleChange = (e) => {
     getChoice(number, e.target.value);
-    getAnswer(number, e.target.value === question.answer ? true : false);
+    getAnswer(
+      number,
+      String(e.target.value) === String(question.answer) ? true : false,
+    );
+    console.log('answer', answer);
   };
 
   function prepocess(sentence) {
-    const start = sentence.indexOf("[")
-    const end = sentence.indexOf("]")
+    const start = sentence.indexOf('[');
+    const end = sentence.indexOf(']');
     const newsentence1 = sentence.substring(0, start + 1);
-    const newsentence2 = sentence.substring(end, );
-    const final = newsentence1 + "  " + newsentence2
+    const newsentence2 = sentence.substring(end);
+    const final = newsentence1 + '  ' + newsentence2;
     // console.log("start",start);
     // console.log("end",end);
     // console.log("newsentence",newsentence1)
-    return final
+    return final;
   }
-
 
   return (
     <Container>
       <QuestionWrapper>
-        {question.file_path && <Image src={question.file_path} alt="questionimg" />}
-        <Subtitle>{question.type === 3 ? question.question : prepocess(question.question) }</Subtitle>
-        <Subtitle>{question.type === (1 || 2) ? question.korean : <></> }</Subtitle>
+        {question.file_path && (
+          <Image src={question.file_path} alt="questionimg" />
+        )}
+        <Subtitle>
+          {question.type === 3
+            ? question.question
+            : prepocess(question.question)}
+        </Subtitle>
+        <Subtitle>
+          {question.type === (1 || 2) ? question.korean : <></>}
+        </Subtitle>
         <Asking>
           Q{number}. {AskingList(question.type)}
         </Asking>
       </QuestionWrapper>
       <ExampleWrapper>
-        {question.choice && question.choice.slice(undefined, 2).map((answ, index) => {
-          return (
-            <Reply key={index}>
-              <LabelWrapper>
-                <Num
-                  checked={
-                    choice[number - 1] === String(index + 1) ? true : false
-                  }
-                >
-                  {index === 0 ? 'A' : 'B'}
-                </Num>
-                <Label
-                  checked={
-                    choice[number - 1] === String(index + 1) ? true : false
-                  }
-                >
-                  <input
-                    type="radio"
-                    name="answer"
-                    value={index + 1}
-                    onChange={handleChange}
+        {question.choice &&
+          question.choice.slice(undefined, 2).map((answ, index) => {
+            return (
+              <Reply key={index}>
+                <LabelWrapper>
+                  <Num
                     checked={
                       choice[number - 1] === String(index + 1) ? true : false
                     }
-                  />
-                  <span>{answ}</span>
-                </Label>
-              </LabelWrapper>
-            </Reply>
-          );
-        })}
+                  >
+                    {index === 0 ? 'A' : 'B'}
+                  </Num>
+                  <Label
+                    checked={
+                      choice[number - 1] === String(index + 1) ? true : false
+                    }
+                  >
+                    <input
+                      type="radio"
+                      name="answer"
+                      value={index + 1}
+                      onChange={handleChange}
+                      checked={
+                        choice[number - 1] === String(index + 1) ? true : false
+                      }
+                    />
+                    <span>{answ}</span>
+                  </Label>
+                </LabelWrapper>
+              </Reply>
+            );
+          })}
       </ExampleWrapper>
       <ExampleWrapper>
-        {question.choice && question.choice.slice(2, 4).map((answ, index) => {
-          return (
-            <Reply key={index}>
-              <LabelWrapper>
-                <Num
-                  checked={
-                    choice[number - 1] === String(index + 3) ? true : false
-                  }
-                >
-                  {index === 0 ? 'C' : 'D'}
-                </Num>
-                <Label
-                  checked={
-                    choice[number - 1] === String(index + 3) ? true : false
-                  }
-                >
-                  <input
-                    type="radio"
-                    name="answer"
-                    value={index + 3}
-                    onChange={handleChange}
+        {question.choice &&
+          question.choice.slice(2, 4).map((answ, index) => {
+            return (
+              <Reply key={index}>
+                <LabelWrapper>
+                  <Num
                     checked={
                       choice[number - 1] === String(index + 3) ? true : false
                     }
-                  />
-                  <span>{answ}</span>
-                </Label>
-              </LabelWrapper>
-            </Reply>
-          );
-        })}
+                  >
+                    {index === 0 ? 'C' : 'D'}
+                  </Num>
+                  <Label
+                    checked={
+                      choice[number - 1] === String(index + 3) ? true : false
+                    }
+                  >
+                    <input
+                      type="radio"
+                      name="answer"
+                      value={index + 3}
+                      onChange={handleChange}
+                      checked={
+                        choice[number - 1] === String(index + 3) ? true : false
+                      }
+                    />
+                    <span>{answ}</span>
+                  </Label>
+                </LabelWrapper>
+              </Reply>
+            );
+          })}
       </ExampleWrapper>
     </Container>
   );
