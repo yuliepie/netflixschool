@@ -192,7 +192,7 @@ def recalculate_normalization(conn):
         return ((10 * (word_level + wps_level)) + word_level) * weight
 
     normalization_level_df["content_level"] = normalization_level_df.apply(
-        lambda x: calculate_content_level(x["word_level"], x["wps_level"], 0.10417),
+        lambda x: calculate_content_level(x["word_level"], x["wps_level"], 0.05128),
         axis=1,
     )
 

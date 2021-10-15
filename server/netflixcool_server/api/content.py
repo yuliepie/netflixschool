@@ -142,7 +142,7 @@ ranked_content_fields = content_ns.model(
         "img_path": fields.String,
         "word_difficulty_level": fields.Integer,
         "words_per_second": fields.Float,
-        "content_level": fields.Integer
+        "content_level": fields.Float
     }
 )
 
@@ -210,7 +210,7 @@ class Contents(Resource):
                     "img_path": row.img_path,
                     "word_difficulty_level": row.word_difficulty_level,
                     "words_per_second": row.words_per_second,
-                    "content_level": row.content_level
+                    "content_level": round(row.content_level, 2)
                 }
             )
         

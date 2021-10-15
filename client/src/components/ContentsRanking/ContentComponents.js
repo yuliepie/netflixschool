@@ -91,29 +91,33 @@ export const ConditionContainer = styled.div`
 
 export const Title = styled.h1`
     position: absolute;
-    left: 500px;
-    font-size: 60px;
+    left: 25vw;
+    font-size: 3vw;
+    font-weight: bold;
+    z-index: -1;
 `
 
 export const SliderBox = styled.div`
-    width: 30vh;
+    width: 15vw;
     margin-right: 20px;
     position: absolute;
-    right: 300px;
+    right: 14vw;
     top: 70px;
+    z-index: 0;
 `
 
 export const Button = styled.button`
     height: 50px;
     width: 110px;
     position: absolute;
-    right: 150px;
+    right: 7vw;
     top: 60px;
     border-radius: 10px;
     font-weight: bold;
     /* font-size: 30px; */
     /* color: white; */
     background-color: white;
+    z-index: 0;
 
     :hover {
         background-color: #e82b0c;
