@@ -67,9 +67,15 @@ const TestBox = ({ match, history }) => {
   // 결과 POST API
   const handleResult = async (e) => {
     e.preventDefault();
-    const response = await axios.post('/api/test/result', {
-      answer: answer,
-    });
+    // console.log('-- answer data -- ', answer)
+    const response = await axios.post(
+      '/api/test/result', 
+      JSON.stringify({'answers': answer}), 
+      {
+        headers: {
+          "Content-Type": `application/json`,
+        }
+      });
     history.push({
       pathname: '/result',
       state: { data: response.data },
