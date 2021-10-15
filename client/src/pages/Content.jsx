@@ -159,6 +159,12 @@ const CloseBox = styled.p`
 
 const WordCloudBox = styled. div`
   padding-bottom: 20px;
+
+  h4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+  }
 `
 
 const SampleBox = styled.div`
@@ -168,6 +174,12 @@ const SampleBox = styled.div`
   box-shadow: 7px 7px 7px black;
   padding:2%;
   width: 53rem;
+
+  h4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+  }
 `;
 
 export default function Content ({location}) {
@@ -254,7 +266,7 @@ export default function Content ({location}) {
                 </WordCloudBox>
                 <SampleBox>
                   <h4>영화에 나오는 대표 예문</h4>
-                  {content && content.example.map ((example) => {
+                  {content && content.sentences.map ((example) => {
                     return (
                       // <div className='word_content' key={example.id}>
                       //   {/* <dt>{example.word}</dt> */}
