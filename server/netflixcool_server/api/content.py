@@ -44,7 +44,7 @@ netflix_contents_fields = content_ns.model(
         "running_time": fields.String,
         "story": fields.String,
         "img_path": fields.String,
-        "words_difficulty_level": fields.Integer,
+        "word_difficulty_level": fields.Integer,
         "words_per_second": fields.Float,
         "content_level": fields.Integer,
         "sentences": fields.List(fields.Nested(sentences_fields)),
