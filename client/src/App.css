@@ -111,7 +111,7 @@
   color: white;
   /* text-align: center; */
   position: relative;
-  font-size: 3rem;
+  font-size: 6rem;
 }
 
 .MainFirst h2 {
@@ -397,13 +397,14 @@
   display: flex;
 }
 .testIntroBoxtwo{
-  width: 40%;
+  width: 30%;
   padding : 2rem;
   padding-left: 10%;
   height: 10rem;
   display: flex;
   font-size: 3rem;
-  text-shadow: 3px 3px 3px lightgray;
+  /* font-weight: bolder; */
+  /* text-shadow: 3px 3px 3px lightgray; */
 }
 
 .testReadyFirst {
@@ -447,15 +448,16 @@
 }
 
 .goTest{
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1%;
 }
 
 .goTestButton{
   width: 50%;
-  font-size: 3rem;
+  font-size: 2rem;
   display: block;
   text-align: center;
   border: 1px solid black;
@@ -592,7 +594,7 @@ dd {
   display: grid;
   grid-template-columns: 24% 24% 24% 24% 24%;
   position: relative;
-  overflow: scroll;
+  overflow:auto;
 }
 
 .recommendBox {
@@ -600,7 +602,8 @@ dd {
   height: 100%;
   width: 100%;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/netflix_back.jpg');
+  /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/netflix_back.jpg'); */
+  background-color: gray;
   background-size: cover;
   /* display: flex;
   align-items: center;
