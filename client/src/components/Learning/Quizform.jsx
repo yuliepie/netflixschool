@@ -76,7 +76,7 @@ export default function Quizform({
           </IconWrapperX>
         </ImageWrapper>
         <Subtitle>{type === 3 ? question : prepocess(question)}</Subtitle>
-        <Subtitle>{type === (1 || 2) ? korean : <></>}</Subtitle>
+        <Subtitle>{type === 1 || type === 2 ? korean : <></>}</Subtitle>
         <Asking>{AskingList(type)}</Asking>
       </QuestionWrapper>
       <ExampleWrapper>
