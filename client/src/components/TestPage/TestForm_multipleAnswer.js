@@ -56,7 +56,7 @@ export default function TestFormMultipleAnswer({
             : prepocess(question.question)}
         </Subtitle>
         <Subtitle>
-          {question.type === (1 || 2) ? question.korean : <></>}
+          {question.type === 1 || question.type === 2 ? question.korean : <></>}
         </Subtitle>
         <Asking>
           Q{number}. {AskingList(question.type)}
