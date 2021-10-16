@@ -12,14 +12,16 @@ export default function Intro () {
     <div>
       <IntroPage>
         <TopTitlte>
-          <Title>어려운 영어공부,<br/>
-            넷플릭스쿨과 함께 해보세요!</Title>
+          <Title><span style={{fontSize:'2rem'}}>"어려운 영어공부,</span><br/>
+          <span style={{fontSize:'3rem'}}>넷플릭스쿨과 함께 해보세요!"</span></Title>
         </TopTitlte>
         <div className="IntroPage">
         </div>
-        <DescBox>Netflixschool은 사용자에게 맞춘 영어 학습용 넷플릭스 컨텐츠를 추천해주는 웹 서비스입니다.
-            데이터 분석을 통해 얻은 인사이트로 다양한 넷플릭스 컨텐츠의 종합 영어 난이도를 평가해, 사용자를 적정 난이도 레벨의 컨텐츠와 매칭시켜줍니다.
-        </DescBox>
+        <DescBoxUp>
+          <DescBox>Netflixschool은 사용자에게 맞춘 영어 학습용 넷플릭스 컨텐츠를 추천해주는 웹 서비스입니다.
+              데이터 분석을 통해 얻은 인사이트로 다양한 넷플릭스 컨텐츠의 종합 영어 난이도를 평가해, 사용자를 적정 난이도 레벨의 컨텐츠와 매칭시켜줍니다.
+          </DescBox>
+        </DescBoxUp>
           <HowToUse>
             <h1 style={{fontFamily:'score', fontSize:'3rem'}}>How To Use</h1>
             <p>넷플릭스쿨을 가장 효율적으로 사용하는 방법!</p>
@@ -32,29 +34,60 @@ export default function Intro () {
               테스트를 마치면 결과 분석을 통해 이용자의 현재 영어 어휘수준에 대한 간단한 결과보고와 함께, 영어공부에 도움이 될만한 컨텐츠를 맞춤 추천해드려요!
             </span>
           </HowToUseHead>
-          <Image src='./img/32.jpeg' alt="image1" />
+          <Image src='./img/test_example.png' alt="image1" />
         </HowToUseHeaddiv>
-        <HowToUseHeaddiv>
-        <ImageLeft src='./img/32.jpeg' alt="image1" />
-          <HowToUseHead>
+        <HowToUseHeaddivtwo>
+        <ImageLeft src='./img/ranking_example.png' alt="image1" />
+          <HowToUseHeadTwo>
             <span>
             또한 NEI Ranking Page에 방문하시면 다양한 넷플릭스 컨텐츠의 종합 영어난이도(NEI)를 한눈에 볼 수 있습니다. NEI 지수를 구경해보고, 관심 있는 작품을 선택해 작품의 상세 정보와 실제 영어 예문도 확인해보세요.
             </span>
-          </HowToUseHead>
-        </HowToUseHeaddiv>
+          </HowToUseHeadTwo>
+        </HowToUseHeaddivtwo>
         <HowToUseHeaddiv>
-          <HowToUseHead>
-            <span>
-            Today's Netflix English 탭에 방문해서 단어 레벨별 오늘의 영어 예문, 그리고 간단한 퀴즈도 풀며 나의 데일리 영어공부를 시작해보세요.
-            </span>
-          </HowToUseHead>
-          <Image src='./img/32.jpeg' alt="image1" />
+          <HowToUseHeadthree>
+              <span>
+              Today's Netflix English 탭에 방문해서 단어 레벨별 오늘의 영어 예문, 그리고 간단한 퀴즈도 풀며 나의 데일리 영어공부를 시작해보세요.
+              </span>
+          </HowToUseHeadthree>
+          <Image src='./img/learning_example.png' alt="image1" />
         </HowToUseHeaddiv>
-        
-        <HowToUse>
+        <HowItWorkTitle>
           <h1 style={{fontFamily:'score', fontSize:'3rem'}}>How it works?</h1>
-          <p>넷플릭스쿨을 가장 효율적으로 사용하는 방법!</p>
-        </HowToUse>
+          <p>넷플릭스쿨의 과학</p>
+        </HowItWorkTitle>
+        <HowItWorksDiv>
+          <HowItWorks>
+            <span>
+            영어는 어휘별로 난이도가 다릅니다. 또한 컨텐츠는 작품별로 배우들의 말하는 속도가 다르죠. 저희는 이 점에 착안하여 다양한 넷플릭스의 컨텐츠를 단어, 그리고 등장인물들의 말하는 속도를 기반으로 분석했습니다.<br/>
+            <br/>
+            단어의 난이도는 영국의 Oxford Learner's 3000, 미국의 Lexile Word Category 등 CEFR 레벨에 기반한 검증된 분류방법을 채택해 신뢰성을 높였습니다. 또한 등장인물들의 평균 말하기 속도 를 분석해 3단계로 나눠주어 상대적으로 더 속도가 느리거나 빠른 작품을 분류했습니다.
+            </span>
+          </HowItWorks>
+          <GraphAll>
+              <Graph11 src='./img/oxford_movie_pajamas.png' alt="Graph" />
+              <Graph12 src='./img/oxford_What.the.Health.png' alt="Graph" />
+          </GraphAll>
+          <p style={{fontStyle:'italic', color:'gray'}}>The Boy In the Striped Pajamas 와 What the Health 의 oxford CEFR 단어 비율 비교.</p>
+          <HowItWorksTwo>
+            <span>
+              그렇게 넷플릭스 컨텐츠의 평균 어휘 난이도 (Word Difficulty)와 등장인물들의 평균 말하기 속도 (Words per Second)를 분석하여 컨텐츠에 대한 종합 영어 난이도를 도출해 낸 값이 NEI (Netflix English Index) 지수입니다. Netflixschool에선 다양한 넷플릭스 컨텐츠별로 이 NEI 지수를 공개해, 사용자가 작품의 영어 난이도를 파악하고 학습에 활용할 수 있도록 돕습니다.
+            </span>
+          </HowItWorksTwo>
+          <Formula>
+            <h1 style={{fontStyle:'italic', fontFamily:'sans-serif'}}>NEI = ( 1.1 WD + WPS ) * 0.5128</h1>
+          </Formula>
+          <GraphFour>
+            <Graph src='https://cdn.discordapp.com/attachments/891858096597651489/898622137387057162/4graph.png' alt="Graph" />
+            <p style={{fontStyle:'italic', color:'gray'}}>넷플릭스 컨텐츠의 Word difficulty vs WPS 분포도</p>
+          </GraphFour>
+        </HowItWorksDiv>
+        {/* <div>
+          <span>
+          Netflixschool,
+          넷플릭스에 영어를 더하다.
+          </span>
+        </div> */}
       </IntroPage>
     </div>
   )
@@ -70,18 +103,31 @@ const IntroPage = styled.div`
 
 const TopTitlte = styled.div`
   display: flex;
-  padding: 5%;
+  padding: 2.5%;
+  padding-right: 7%;
+  float: right;
+  text-align: end;
 `
 
 const Title = styled.h1`
-  text-shadow: 3px 3px 3px lightgray;
+  color : black;
+  /* text-shadow: 3px 3px 3px lightgray; */
   font-size: 2.5rem;
+`;
+
+const DescBoxUp = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 `;
 
 const DescBox = styled.h2`
   width: 50%;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   padding-top: 3%;
+  display: block;
 `;
 
 const HowToUse = styled.div`
@@ -89,7 +135,9 @@ const HowToUse = styled.div`
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20%;
+  padding: 7%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 
   p{
     padding: 1%;
@@ -99,14 +147,41 @@ const HowToUse = styled.div`
 
 const HowToUseHead = styled.div`
   width: 40%;
-  padding-left: 5%; 
-  font-size: 1.2rem;
+  padding-left: 8%; 
+  font-size: 1.5rem;
+  padding-top: 3%;
+  color : #535151;
+`;
+
+const HowToUseHeadthree = styled.div`
+  width: 40%;
+  padding-left: 8%; 
+  font-size: 1.5rem;
+  padding-top: 10%;
+  color : #535151;
+  text-align: center;
+`;
+
+const HowToUseHeadTwo = styled.div`
+  width: 40%; 
+  padding-left: 3%; 
+  font-size: 1.5rem;
+  padding-top: 3%;
+  color : #535151;
+  float: left;
 `;
 
 const HowToUseHeaddiv = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+/* padding-top: 5%; */
+`;
+
+const HowToUseHeaddivtwo = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: space-space-around;
 padding-top: 5%;
 `;
 
@@ -119,11 +194,90 @@ const Image = styled.img`
 const ImageLeft = styled.img`
   /* height: 60%; */
   width: 49%;
+  /* border: 2px solid black; */
 `;
 
+const HowItWorksDiv = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color : #535151;
+`;
 
+const HowItWorks = styled.div`
+  display: block;
+  width: 70%;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+  line-height: 40px;
+`;
 
+const HowItWorksTwo = styled.div`
+  display: block;
+  width: 70%;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  line-height: 40px;
+`;
 
+const HowItWorkTitle = styled.div`
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  p{
+    padding: 1%;
+    font-size: 1.5rem;
+  }
+`;
+
+const Graph11 = styled.img`
+  /* border: 2px solid black;
+  background-color: lightgray; */
+  background-color: white;
+  width: 30%;
+  margin: 2%;
+  padding: 2%;
+`;
+const Graph12 = styled.img`
+  /* border: 2px solid black;
+  background-color: lightgray; */
+  background-color: white;
+  width: 32%;
+  margin: 2%;
+  padding: 1%;
+`;
+
+const Graph = styled.img`
+  /* border: 2px solid black; */
+  background-color: white;
+  padding-left: 7%;
+  margin-bottom: 2%;
+`;
+
+const GraphAll = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+const GraphFour = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10%;
+`;
+
+const Formula = styled.div`
+  padding-bottom: 5%;
+`;
 
 
 {/* <div style={{width:'100%', height:'100vh'}} >

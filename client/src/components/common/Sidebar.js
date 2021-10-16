@@ -8,16 +8,6 @@ import {BiCameraMovie} from 'react-icons/bi'
 
 
 function Sidebar() {
-    // const [sidebar, setSidebar] = useState(true);
-
-    // // const showSidebar = () => setSidebar(!sidebar)
-
-    // const showSidebar = () => {
-    //     if (window.location.pathname === "/test") {
-    //         return <SideComponent props = {false}/>
-    //     }
-    //     return <SideComponent props = {true}/>
-    // }
 
     return (
         <>
@@ -25,14 +15,14 @@ function Sidebar() {
                 <nav className='nav-menu active'>
                     <ul className="nav-menu-items" >
                         <div className="logoInline">
-                            <h1>Netflixschool<BiCameraMovie style={{color:'black'}}/></h1>
+                            <h1>Netflixschool<BiCameraMovie/></h1>
                         </div>
                         <div className="nav-text-boxs">
                             {SidebarData.map((item) => {
                                 return(
-                                    <div key={item.title} activeClassName="active" className={item.cName}>
+                                    <div key={item.title}  className={item.cName}>
                                         <NavLink
-                                        exact={item.title === 'Main'} to={item.path}>
+                                        exact={item.title === 'Main'} activeClassName="active" to={item.path}>
                                             {item.icon}
                                             <span>{item.title}</span>
                                         </NavLink>

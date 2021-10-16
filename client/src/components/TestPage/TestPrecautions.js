@@ -9,10 +9,10 @@ import { Link } from 'react-scroll'
 const TestIntro = () => {
     return (
         <div>
-          <div style={{display:'flex', flexDirection:'row', paddingTop:'2%'}}>
-            <span className="testIntroBoxtwo">넷플릭스 컨텐츠를 이용한 재밌는 테스트</span>
+          <div style={{display:'flex', flexDirection:'row', justifyContent:'center', paddingTop:'2%'}}>
+            <span className="testIntroBoxtwo" style={{fontWeight:'900', textAlign:'center'}}>Netflix English Level Test</span>
             <div className="testIntroBox">
-                <span style={{ fontSize: "1.5rem", color: "black"}}>
+                <span style={{ fontSize: "1.5rem", color: "gray"}}>
                     정확한 수준에 맞게 공부하지 않는다면 100% 학습 효과를 볼 수 없습니다. 다양한 데이터를 바탕으로 심도있게 고안해낸 넷플릭스쿨의 테스트를 통해 당신의 현재 레벨을 확인해보세요!
                 </span>
             </div>
@@ -108,6 +108,10 @@ const TestBoxes = styled.div`
 
 const TestTime = styled.div`
   padding: 3%;
+
+  h1{
+    text-align: center;
+  }
 `;
 
 const YesBox = styled.button`
@@ -135,6 +139,7 @@ const GoToTest = styled.div`
   margin: auto;
   width: 30%;
   flex-direction: column;
+  padding-top:2%;
 `;
 
 // const TestPrecautions = () => {

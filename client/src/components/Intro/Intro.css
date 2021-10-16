@@ -1,13 +1,13 @@
 .IntroPage {
     height: 23rem;
-    width: 90%;
+    width: 100%;
     position: relative;
-    background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/test.jpeg');
+    background-image: url('https://www.insightpublications.com.au/wp-content/uploads/2019/05/Term-2_Week-3_How-to-study-texts_Final_6May19.jpg');
     background-size: cover;
     display: flex;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
   }
   .IntroPage::before {
     content: '';

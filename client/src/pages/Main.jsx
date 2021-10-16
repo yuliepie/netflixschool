@@ -108,7 +108,7 @@ export default function Main () {
     <div className="container">
       <div className="MainFirst" id="1">
         <MainTitle>
-          <h1 className="MainTitle" style={{fontFamily: "score", textShadow: '6px 5px 5px black'}}>Welcome To NetflixSchool</h1>
+          <h1 className="MainTitle" style={{fontFamily: "score", textShadow: '6px 5px 5px black'}}>NetflixSchool,</h1>
           <h2 style={{textShadow: '6px 5px 5px black'}}>재밌게 영어 공부하고 싶다면, 넷플릭스쿨.</h2>
         </MainTitle>
       </div>
