@@ -158,6 +158,14 @@ const CloseBox = styled.p`
   }
 `;
 
+const WordCloudWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+
+`
+
 const WordCloudBox = styled.div`
   padding-bottom: 20px;
 
@@ -281,12 +289,14 @@ export default function Content({ location }) {
                 </CloseBox>
               </dl>
               <div>
-                <WordCloudBox>
-                  <h4>영화에 나오는 중요 단어들</h4>
-                  {content.content_unique_words && (
-                    <WordCloud words={content.content_unique_words} />
-                  )}
-                </WordCloudBox>
+                <WordCloudWrapper>
+                  <WordCloudBox>
+                    <h4>영화에 나오는 중요 단어들</h4>
+                    {content.content_unique_words && (
+                      <WordCloud words={content.content_unique_words} />
+                    )}
+                  </WordCloudBox>
+                </WordCloudWrapper>
                 <SampleBox>
                   <h4>영화에 나오는 대표 예문</h4>
                   {content &&
