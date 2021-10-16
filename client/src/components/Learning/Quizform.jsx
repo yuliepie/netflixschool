@@ -281,8 +281,8 @@ const Num = styled.div`
   display: inline-block;
   padding: 13px 30px;
   border: 0.5px solid #000000;
-  background: #dcdcdc;
-  color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
+  background-color: ${(props) => (props.checked ? '#A52A2A' : '#d3d3d3')};
+  color: ${(props) => (props.checked ? '#ffffff' : '#000000')};
   box-shadow: 1px 1px 1px 1px black;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 15px;
@@ -290,8 +290,8 @@ const Num = styled.div`
 
 const Label = styled.label`
   width: 280px;
-  color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
-  background-color: #d3d3d3;
+  color: ${(props) => (props.checked ? '#ffffff' : '#000000')};
+  background-color: ${(props) => (props.checked ? '#e82b0c' : '#d3d3d3')};
   border: 0.5px solid #000000;
   display: inline-block;
   font-size: 23px;
