@@ -4,8 +4,13 @@
 }
 
 @font-face {
-  font-family: "wemafe";
-  src: url("./fonts/Wemakeprice-Regular.ttf");
+  font-family: "beamin";
+  src: url("./fonts/BMDOHYEON_ttf.ttf");
+}
+
+@font-face {
+  font-family: "score";
+  src: url("./fonts/SCDream6.otf");
 }
 
 * {
@@ -13,7 +18,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Gowun', sans-serif;
-
 }
 
 .components {
@@ -105,10 +109,16 @@
 
 .MainFirst h1 {
   color: white;
-  text-align: center;
-  line-height: 300px;
+  /* text-align: center; */
   position: relative;
-  font-size: 3rem;
+  font-size: 6rem;
+}
+
+.MainFirst h2 {
+  color: white;
+  /* text-align: center; */
+  position: relative;
+  /* font-size: 3rem; */
 }
 
 .downButton {
@@ -120,7 +130,7 @@
 
 /* 소개 */
 .MainIntro {
-  height: 70vh;
+  height: 65vh;
   position: relative;
   /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/anne.jpg'); */
   background-size: cover;
@@ -140,11 +150,12 @@
 }
 
 .MainIntro h1 {
+  /* background-color: wheat; */
+  /* width: 40%; */
   color: white;
   /* text-align: center; */
-  /* padding-top: 5%; */
-  padding-left: 10%;
-  line-height: 300px;
+  padding-top: 7%;
+  margin-left: 20%;
   position: relative;
   font-size: 2.5rem;
   display: flex;
@@ -163,11 +174,28 @@
   font-size: 1.2rem;
   padding: 0.5rem;
   text-align: center;
-  margin-left: 15%;
+  /* margin-left: 70%; */
+  margin-top: 15%;
 }
 
 .MainIntro p:hover{
   background-color: #FAEBD7;
+}
+
+.MainIntro span {
+  /* background-color: saddlebrown; */
+  width: 50%;
+  color: white;
+  /* width: 8rem; */
+  /* text-align: center; */
+  /* padding-left: 60%;
+  line-height: 300px; */
+  position: relative;
+  display: flex;
+  /* justify-content: end; */
+  font-size: 1.2rem;
+  text-align: center;
+  /* margin-left: 10%; */
 }
 
 .gotoPage {
@@ -177,7 +205,7 @@
 
 /* 테스트 */
 .MainTest {
-  height: 70vh;
+  height: 65vh;
   width: 100%;
   position: relative;
   /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/stranger_things_3_by_ryan_butler_dddhpro-pre.jpg'); */
@@ -201,9 +229,10 @@
   display: flex;
   color: white;
   /* text-align: center; */
+  margin-right: 10%;
   /* padding-top: 5%; */
-  padding-left: 70%;
-  line-height: 300px;
+  /* padding-left: 70%; */
+  /* line-height: 300px; */
   position: relative;
   font-size: 2.5rem;
 }
@@ -220,18 +249,29 @@
   position: relative;
   font-size: 1.2rem;
   padding: 0.5rem;
-  text-align: center; 
-  margin-left: 73%;
+  text-align: center;
+  /* margin-left: 73%; */
 }
 
 .MainTest p:hover{
   background-color: #003F63;
 }
 
+.MainTest span {
+  /* width: 50%; */
+  color: white;
+  position: relative;
+  display: flex;
+  /* justify-content: end; */
+  font-size: 1.2rem;
+  /* text-align: center; */
+  /* margin-left: 10%; */
+}
+
 
 /* 랭킹 */
 .MainRanking {
-  height: 70vh;
+  height: 65vh;
   position: relative;
   /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/pink.jpg'); */
   background-size: cover;
@@ -253,11 +293,23 @@
 .MainRanking h1 {
   /* color: black; */
   /* text-align: center; */
-  padding-left: 10%;
-  line-height: 300px;
+  /* padding-left: 10%; */
+  /* line-height: 300px; */
   position: relative;
   font-size: 2.5rem;
   display: flex;
+  margin-left: 10%;
+}
+
+.MainRanking span {
+  /* width: 50%; */
+  color: white;
+  position: relative;
+  display: flex;
+  /* justify-content: end; */
+  font-size: 1.2rem;
+  /* text-align: center; */
+  /* margin-left: 10%; */
 }
 
 .MainRanking p {
@@ -274,6 +326,7 @@
   padding: 0.5rem;
   text-align: center; 
   margin-left: 12%;
+  margin-top: 3%;
 }
 
 .MainRanking p:hover{
@@ -282,7 +335,7 @@
 
 /* 학습 */
 .MainLearning {
-  height: 70vh;
+  height: 65vh;
   position: relative;
   /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/queens.jpeg'); */
   background-size: cover;
@@ -304,8 +357,9 @@
 .MainLearning h1 {
   color: white;
   /* text-align: center; */
-  padding-left: 60%;
-  line-height: 300px;
+  /* margin-left: 60%; */
+  /* line-height: 300px; */
+  margin-right: 20%;
   position: relative;
   font-size: 2.5rem;
   display: flex;
@@ -324,7 +378,8 @@
   font-size: 1.2rem;
   padding: 0.5rem;
   text-align: center; 
-  margin-left: 73%;
+  
+  /* margin-left: 73%; */
 }
 
 .MainLearning p:hover{
@@ -336,20 +391,32 @@
 /* ====================== */
 
 .testIntroBox{
-  margin-left: 55%;
   padding : 2rem;
   width: 30rem;
-  height: 20rem;
+  height: 10rem;
+  display: flex;
+}
+.testIntroBoxtwo{
+  width: 30%;
+  padding : 2rem;
+  padding-left: 10%;
+  height: 10rem;
+  display: flex;
+  font-size: 3rem;
+  /* font-weight: bolder; */
+  /* text-shadow: 3px 3px 3px lightgray; */
 }
 
 .testReadyFirst {
-  height: 15rem;
+  height: 23rem;
   width: 100%;
   position: relative;
-}
-.testReadyFirst::before {
   background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/test.jpeg');
   background-size: cover;
+  display: flex;
+  text-align: center;
+}
+.testReadyFirst::before {
   content: '';
   opacity: 0.5;
   position: absolute;
@@ -357,15 +424,16 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
+  background-color: gray;
 }
 .testReadyFirst h1 {
-  display: flex;
-  font-size: 2.5rem;
-  padding-top: 1.5rem;
-  color: black;
-  text-align: center;
-  line-height: 300px;
   position: relative;
+  padding-top: 10%;
+  font-size: 2.5rem;
+  display: block;
+  margin:auto;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(61, 59, 59);
 }
 
 .ready{
@@ -379,12 +447,34 @@
   text-align: center; */
 }
 
-.goTestButton{
-  font-size: 3rem;
+.goTest{
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1%;
 }
+
+.goTestButton{
+  width: 50%;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+
+.goTestButton:hover{
+  transform: scale(1.1);
+  background-color: #E82B0C;
+  }
+
+
+
 
 
 /* ================= */
@@ -469,7 +559,7 @@ dd {
   height: 50%;
   background-color: #222121;
   margin-bottom: 2rem;
-  overflow: scroll;
+  /* overflow: scroll; */
   position: relative;
   display: flex;
   align-items: center;
@@ -504,7 +594,7 @@ dd {
   display: grid;
   grid-template-columns: 24% 24% 24% 24% 24%;
   position: relative;
-  overflow: scroll;
+  overflow:auto;
 }
 
 .recommendBox {
@@ -512,7 +602,8 @@ dd {
   height: 100%;
   width: 100%;
   position: relative;
-  background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/netflix_back.jpg');
+  /* background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/netflix_back.jpg'); */
+  background-color: gray;
   background-size: cover;
   /* display: flex;
   align-items: center;

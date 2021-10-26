@@ -10,6 +10,7 @@ export default function Quizform({
   answer,
   type,
   currPage,
+  korean,
 }) {
   const [selectedAnswer, setSelectedAnswer] = useState('0');
   const [result, setResult] = useState('0');
@@ -19,10 +20,12 @@ export default function Quizform({
   };
 
   const AskingList = (type) => {
-    if (type === '1') {
+    if (type === 1) {
       return '다음 중 빈칸에 들어갈 단어를 고르세요.';
-    } else if (type === '2') {
+    } else if (type === 2) {
       return '다음 중 빈칸에 들어갈 단어로 적절하지 않은 단어를 고르세요.';
+    } else if (type === 3) {
+      return '다음 중 단어 뜻으로 적절한 것을 고르세요.';
     }
   };
 
@@ -32,22 +35,32 @@ export default function Quizform({
 
   const checkAnswer = (e) => {
     e.preventDefault();
-    console.log('selectedAnswer', selectedAnswer);
-    console.log('answer', answer);
     return (
       <div>
         {selectedAnswer &&
-          (answer === selectedAnswer ? setResult('1') : setResult('2'))}
+          (String(answer) === String(selectedAnswer)
+            ? setResult('1')
+            : setResult('2'))}
       </div>
     );
   };
-  console.log('type', type);
-  console.log('answer', answer);
 
   useEffect(() => {
     setSelectedAnswer('0');
     setResult('0');
   }, [currPage]);
+
+  function prepocess(sentence) {
+    const start = sentence.indexOf('[');
+    const end = sentence.indexOf(']');
+    const newsentence1 = sentence.substring(0, start + 1);
+    const newsentence2 = sentence.substring(end);
+    const final = newsentence1 + '  ' + newsentence2;
+    // console.log("start",start);
+    // console.log("end",end);
+    // console.log("newsentence",newsentence1)
+    return final;
+  }
 
   return (
     <Container>
@@ -62,7 +75,8 @@ export default function Quizform({
             <BsXCircle size="300" color="#DC143C" />
           </IconWrapperX>
         </ImageWrapper>
-        <Subtitle>{question}</Subtitle>
+        <Subtitle>{type === 3 ? question : prepocess(question)}</Subtitle>
+        <Subtitle>{type === 1 || type === 2 ? korean : <></>}</Subtitle>
         <Asking>{AskingList(type)}</Asking>
       </QuestionWrapper>
       <ExampleWrapper>
@@ -92,7 +106,7 @@ export default function Quizform({
                         selectedAnswer === String(index + 1) ? true : false
                       }
                     />
-                    <span>{answ.choice}</span>
+                    <span>{answ}</span>
                   </Label>
                 </LabelWrapper>
               </Reply>
@@ -126,7 +140,7 @@ export default function Quizform({
                         selectedAnswer === String(index + 3) ? true : false
                       }
                     />
-                    <span>{answ.choice}</span>
+                    <span>{answ}</span>
                   </Label>
                 </LabelWrapper>
               </Reply>
@@ -165,6 +179,7 @@ const QuestionWrapper = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 20px;
 `;
 
 const ImageWrapper = styled.div`
@@ -213,11 +228,12 @@ const Asking = styled.h1`
   background-color: #ffffff;
   width: 90%;
   font-size: 25px;
-  padding: 20px 10px;
-  margin: 0 0 20px 0;
+  padding: 10px 10px;
+  /* margin: 0 0 20px 0; */
   text-align: center;
-  padding: 2px 5px;
+  /* padding: 2px 5px; */
   border-radius: 20px;
+  color: black;
 `;
 
 const ExampleWrapper = styled.div`
@@ -229,7 +245,7 @@ const Subtitle = styled.p`
   font-size: 25px;
   text-align: center;
   color: #ffffff;
-  padding: 40px 0 40px 0;
+  padding: 10px 0 10px 0;
 `;
 
 const Reply = styled.div`
@@ -265,8 +281,8 @@ const Num = styled.div`
   display: inline-block;
   padding: 13px 30px;
   border: 0.5px solid #000000;
-  background: #dcdcdc;
-  color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
+  background-color: ${(props) => (props.checked ? '#A52A2A' : '#d3d3d3')};
+  color: ${(props) => (props.checked ? '#ffffff' : '#000000')};
   box-shadow: 1px 1px 1px 1px black;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 15px;
@@ -274,8 +290,8 @@ const Num = styled.div`
 
 const Label = styled.label`
   width: 280px;
-  color: ${(props) => (props.checked ? '#e82b0c' : '#000000')};
-  background-color: #d3d3d3;
+  color: ${(props) => (props.checked ? '#ffffff' : '#000000')};
+  background-color: ${(props) => (props.checked ? '#e82b0c' : '#d3d3d3')};
   border: 0.5px solid #000000;
   display: inline-block;
   font-size: 23px;

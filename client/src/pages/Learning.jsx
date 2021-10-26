@@ -12,52 +12,53 @@ export default function Learning() {
   const [currPage, setCurrPage] = useState(0);
   const [pageCount, setPageCount] = useState(0);
 
-  // useEffect(() => {
-  //   (async function () {
-  //     try {
-  //       const response = await axios.get(`/api/learning`);
-  //       console.log('r', response);
-  //       setLearningData(response.data);
-  //       setPageCount(response.data.length);
-  //       console.log(response.data);
-  //     } catch (e) {
-  //       console.log(e);
-  //     }
-  //   })();
-  // }, []);
-
   useEffect(() => {
-    setLearningData(data);
-    setPageCount(Object.keys(data).length);
+    (async function () {
+      try {
+        const response = await axios.get(`/api/learning`);
+        console.log('r', response);
+        setLearningData(response.data);
+        setPageCount(response.data.length);
+        console.log(response.data);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
   }, []);
+
+  // useEffect(() => {
+  //   setLearningData(data);
+  //   setPageCount(Object.keys(data).length);
+  // }, []);
 
   return (
     <div>
-      {data && (
+      {learningData.length > 0  && (
         <Container>
           <Title>Today's Netflix English</Title>
           <LevelIndicator
-            level={`${data[currPage].level}`}
+            level={`${learningData[currPage]?.level}`}
             currPage={currPage}
             onClickPage={setCurrPage}
             pageCount={pageCount}
           />
           <SentenceWrapper>
             <SentenceForm
-              img_path={data[currPage].img_path}
-              sentence={data[currPage].sentence}
-              title_en={data[currPage].title_en}
-              title_kr={data[currPage].title_kr}
-              word={data[currPage].word}
+              img_path={learningData[currPage].img_path}
+              sentence={learningData[currPage].sentence}
+              title_en={learningData[currPage].title_en}
+              title_kr={learningData[currPage].title_kr}
+              word={learningData[currPage].word}
             />
           </SentenceWrapper>
           <QuizWrapper>
             <Quizform
-              question={data[currPage].question}
-              file_path={data[currPage].file_path}
-              choices={data[currPage].choices}
-              answer={data[currPage].answer}
-              type={data[currPage].type}
+              question={learningData[currPage].question}
+              file_path={learningData[currPage].file_path}
+              choices={learningData[currPage].choices}
+              answer={learningData[currPage].answer}
+              type={learningData[currPage].type}
+              korean={learningData[currPage].korean}
               currPage={currPage}
             />
           </QuizWrapper>
