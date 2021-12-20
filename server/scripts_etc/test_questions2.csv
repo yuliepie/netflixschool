@@ -1,0 +1,42 @@
+word,sentence,레벨,해석,문제유형,보기,답,img,choice1,choice2,choice3,choice4
+wonderful,That's [wonderful] news!,1.0,아주 좋은 소식이구나!,1.0,"wonderful, sad, cheap, old",1.0,https://netflixschool.s3.amazonaws.com/Question_A1.png,wonderful, sad, cheap, old
+warn,I must [warn] you about something.,2.0,경고할 게 있어,3.0,"돈을 벌다, 경고하다, 밥을 먹다, 가다",2.0,https://netflixschool.s3.amazonaws.com/Question_A2.png,돈을 벌다, 경고하다, 밥을 먹다, 가다
+concerned,What are you [concerned] about?,3.0,뭘 걱정하는건가?,3.0,"쳐다보다, 꾸미다, 걱정하다, 충전하다",3.0,https://netflixschool.s3.amazonaws.com/Question_A3.png,쳐다보다, 꾸미다, 걱정하다, 충전하다
+thunderstorm,The [thunderstorm] has filled the garden with muddy puddles.,4.0,폭풍이 정원을 진흙 투성이 웅덩이로 가득 채웠습니다.,1.0,"sun, colud,sky, thunderstrom",4.0,https://netflixschool.s3.amazonaws.com/Question_A4.png,sun, colud,sky, thunderstrom
+interact,I don't [interact] with them.,5.0,상종을 안 하죠,3.0,"상종하다, 보다, 앉아있다, 읽다",1.0,https://netflixschool.s3.amazonaws.com/Question_A5.png,상종하다, 보다, 앉아있다, 읽다
+curriculum,"Well, the [curriculum] is not designed for teaching a woman.",6.0,여성을 가르치는 커리큘럼이 아니에요.,3.0,"청소과정, 교육과정, 수영과정, 비행과정",2.0,https://netflixschool.s3.amazonaws.com/Question_A6.png,청소과정, 교육과정, 수영과정, 비행과정
+unfortunately,"[Unfortunately], I have another matter to attend to.",7.0,유감이지만 난 다른 볼일이 있어서,2.0,"unhappily, unluckly,Surprisingly, unfortunately",3.0,https://netflixschool.s3.amazonaws.com/Question_A7.png,unhappily, unluckly,Surprisingly, unfortunately
+nonprofit,"And you, you're a [nonprofit] lawyer.",8.0,그리고 당신은 공익 변호사야,3.0,"이득인, 비싼,비영리적인, 지나가는,",3.0,https://netflixschool.s3.amazonaws.com/Question_A8.png,이득인, 비싼,비영리적인, 지나가는
+validate,Could you [validate] my parking ticket?,9.0,주차증에 도장 좀 찍어주실래요?,3.0,"입증하다,승인하다,인증하다,찾아보다",2.0,https://netflixschool.s3.amazonaws.com/Question_B1.png,입증하다,승인하다,인증하다,찾아보다
+lawsuit,This [lawsuit] is a pretty big deal.,9.0,이번 일 만만찮을 거야,2.0,"case,judgment,lawsuit,incident",2.0,https://netflixschool.s3.amazonaws.com/Question_B2.png,case,judgment,lawsuit,incident
+pointless,It's [pointless] arguing with him.,9.0,딴지 걸어봤자야,2.0,"meaningless,pointless,painless,senseless",3.0,https://netflixschool.s3.amazonaws.com/Question_B3.png,meaningless,pointless,painless,senseless
+therapist,Your [therapist] thinks it's post-traumatic stress disorder.,9.0,외상 후 스트레스 장애 진단을 받으셨어요,2.0,"therapist,professor,doctor,florist",4.0,https://netflixschool.s3.amazonaws.com/Question_B4.png,therapist,professor,doctor,florist
+fingerprints,Because my [fingerprints] are on this thing.,10.0,왜냐하면 제 지문도 여기에 남아 있거든요,1.0,"finger,fingerprints,footprint,bloodstain",3.0,https://netflixschool.s3.amazonaws.com/Question_B5.png,finger,fingerprints,footprint,bloodstain
+cop,"I am a [cop], you moron!",10.0,"난 경찰이야, 이 자식아!",2.0,"civil servant,officer,policeman,cop",1.0,https://netflixschool.s3.amazonaws.com/Question_B6.png,civil servant,officer,policeman,cop
+diabetes,Why do I have to have [diabetes]?,10.0,왜 하필이면 나만 당뇨 환자인 걸까?,1.0,"dementia,leukemia,diabetes,cancer",3.0,https://netflixschool.s3.amazonaws.com/Question_B7.png,dementia,leukemia,diabetes,cancer
+protagonist,Who is the [protagonist] of the story?,10.0,이 이야기에선 누가 주인공일까?,2.0,"villain,character,heroine, protagonist",1.0,https://netflixschool.s3.amazonaws.com/Question_B8.png,villain,character,heroine, protagonist
+undercover,"And I am [undercover], so forget I told you that piece of information.",11.0,비밀리에 움직이는 중이니까 내 이름은 잊어줘.,2.0,"secret, covert, hidden, exposed",4.0,https://netflixschool.s3.amazonaws.com/Question_C1.png,secret, covert, hidden, exposed
+seizure,"The [seizure] is not mild, it's very strong.",11.0,발작은 안순하거든. 아주 벼락같지,1.0,"seize, seismic, siege, seizure",4.0,https://netflixschool.s3.amazonaws.com/Question_C2.png,seize, seismic, siege, seizure
+autopsy,But how come the [autopsy] didn't pick that up?,11.0,그럼 부검 중에 나왔을텐데 왜 발견하지 못했을까?,1.0,"dissection, anatomy, autopsy, anesthesia",3.0,https://netflixschool.s3.amazonaws.com/Question_C3.png,dissection, anatomy, autopsy, anesthesia
+truthfully,"[Truthfully], in all the excitement, I haven't even checked to see who it is.",11.0,너무 흥분해서 아직 상대 선수가 누군지 확인도 못했네요.,2.0,"truthfully, fictitiously, honestly, squarely",2.0,https://netflixschool.s3.amazonaws.com/Question_C4.png,truthfully, fictitiously, honestly, squarely
+lame,This is kind of [lame]. You wanna get out of here?,11.0,답답한데 밖에 나갈까?,1.0,"lament, lam, lame, lamb",3.0,https://netflixschool.s3.amazonaws.com/Question_C5.png,lament, lam, lame, lamb
+replenish,It will [replenish] you for your finals.,11.0,그럼 기말고사도 잘볼거야,3.0,"보충하다, 보상하다, 보조하다, 보장하다",1.0,https://netflixschool.s3.amazonaws.com/Question_C6.png,보충하다, 보상하다, 보조하다, 보장하다
+cardiovascular,Your [cardiovascular] fitness is excellent.,11.0,심혈관 건강이 매우 좋습니다.,3.0,"심혈관의 ,호흡기관의, 관상동맥의, 신진대사의",1.0,https://netflixschool.s3.amazonaws.com/Question_C7.png,심혈관의 ,호흡기관의, 관상동맥의, 신진대사의
+creepy,It's [creepy] and flattering at the same time.,11.0,완전 사당 같아 무서우면서도 좋더라고,2.0,"hair-raising, horrifying, spooky, exhilarating",4.0,https://netflixschool.s3.amazonaws.com/Question_C8.png,hair-raising, horrifying, spooky, exhilarating
+carousel,This [carousel] doesn't work.,12.0,슬라이드쇼가 고장났네요.,2.0,"slideshow, carousel, wheeler, projector",3.0,https://netflixschool.s3.amazonaws.com/Question_D1.png,slideshow, carousel, wheeler, projector
+hallucinated,You might have [hallucinated] half of it.,12.0,네가 환상을 본 걸수도 있잖아?,1.0,"hallucinated, harrowed, hollowed, habituated",1.0,https://netflixschool.s3.amazonaws.com/Question_D2.png,hallucinated, harrowed, hollowed, habituated
+misbehaving,You've been [misbehaving] in my garden.,12.0,내 정원에서 사고를 치다니.,1.0,"maneuvering, misbehaving, mingilng, moaning",2.0,https://netflixschool.s3.amazonaws.com/Question_D3.png,maneuvering, misbehaving, mingilng, moaning
+empathetic,But you're [empathetic].,12.0,하지만 넌 마음이 따뜻하잖아.,2.0,"kind, warm-hearted, malicious, empathetic",3.0,https://netflixschool.s3.amazonaws.com/Question_D4.png,kind, warm-hearted, malicious, empathetic
+opportunistic,This is not an [opportunistic] move for me.,12.0,이건 나에게 기회주의적인 선택이 아니야.,1.0,"optimistic, approachable, on-demand, opportunistic",4.0,https://netflixschool.s3.amazonaws.com/Question_D5.png,optimistic, approachable, on-demand, opportunistic
+doorknob,"I can't go out, there's no [doorknob].",12.0,문고리가 없어서 나가질 못하겠어요.,3.0,"문고리, 현관문, 자물쇠, 도어락",1.0,https://netflixschool.s3.amazonaws.com/Question_D6.png,문고리, 현관문, 자물쇠, 도어락
+impervious,They are [impervious] to heat and magnetism.,12.0,(이 발명품은) 열과 자력에 매우 강합니다.,2.0,"resistant, impervious, superfluous, immune",3.0,https://netflixschool.s3.amazonaws.com/Question_D7.png,resistant, impervious, superfluous, immune
+recklessness,Your [recklessness] is going to get us all killed!,12.0,당신의 무모함 때문에 우리모두 죽게 될거요.,3.0,"강인함, 안일함, 멍청함, 무모함",4.0,https://netflixschool.s3.amazonaws.com/Question_D8.png,강인함, 안일함, 멍청함, 무모함
+stepdad,"No, uh, it's my [stepdad]'s.",13.0,그건 내 새 아버지 물건이야,1.0,"father in law, sibling, stepdad, uncle ",3.0,https://netflixschool.s3.amazonaws.com/Question_E1.png,father in law, sibling, stepdad, uncle 
+wriggly,I'm a [wriggly] worm.,13.0,난 꿈틀거리는 벌레야,3.0,"꿈틀거리는, 반짝이는, 게으른, 기분좋은",1.0,https://netflixschool.s3.amazonaws.com/Question_E2.png,꿈틀거리는, 반짝이는, 게으른, 기분좋은
+deceivingly,"I'm better looking, I have better hair, I'm [deceivingly] smart...",13.0,"난 더 잘생기고, 머리결도 더 좋고, 잔꾀도 잘 부리고....",3.0,"기만적으로, 우직하게, 재치있게, 기발하게 ",1.0,https://netflixschool.s3.amazonaws.com/Question_E3.jpg,기만적으로, 우직하게, 재치있게, 기발하게 
+signaling,I was [signaling] you.,13.0,내가 너에게 연락했었어,1.0,"googling, signalling, protecting, blackmailing",2.0,https://netflixschool.s3.amazonaws.com/Question_E4.jpg,googling, signalling, protecting, blackmailing
+schemer,"You were a [schemer], you had plans...",15.0,너는 모사꾼이었어. 넌 계획이 있었지.,1.0,"ubiquitin, arbitrator, traitor, schemer",4.0,https://netflixschool.s3.amazonaws.com/Question_E5.jpg,ubiquitin, arbitrator, traitor, schemer
+boatyard,"I'm at the [boatyard], right off...",15.0,"난 지금 조선소에 있어, 바로...",1.0,"graveyard, boatyard, playground, workshop",2.0,https://netflixschool.s3.amazonaws.com/Question_E6.jpg,graveyard, boatyard, playground, workshop
+undeserving,"I'm one of the [undeserving] poor, that's what I am.",15.0,"난 자격이 없는 가난한 사람들 중 한 명이야, 그게 나야.",1.0,"undeserving, wealthy, healthy, impoverished",1.0,https://netflixschool.s3.amazonaws.com/Question_E7.jpg,undeserving, wealthy, healthy, impoverished
+mortally,You shall not have been [mortally] wounded in vain!,15.0,넌 치명상을 입었지만 헛된 것은 아니야.,3.0,"정신적으로, 가벼운, 심각한, 살짝 삐는",2.0,https://netflixschool.s3.amazonaws.com/Question_E8.jpg,정신적으로, 가벼운, 심각한, 살짝 삐는
+,,,,,,,,,,,

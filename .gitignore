@@ -1,0 +1,36 @@
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+
+############
+# FLASK
+############
+
+# Virtual Environment
+venv
+
+# bin files
+__pycache__/
+
+# env file
+.env
+
+.ipynb_checkpoints
+
+# crwaling folder
+/temp_download
+/user_data
+user_data/
+
+

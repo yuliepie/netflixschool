@@ -1,0 +1,2890 @@
+cattle		B1		animals	
+like		B1			
+although	BUT	B1		communication	
+although	DESPITE	B1		communication	
+and	EMPHASIZE	B1		communication	
+or	WARNING	B1		communication	
+close		B1		describing things	
+second	ANOTHER	B1		describing things	
+after		B1			
+as	BEING	B1			
+as	WHILE	B1			
+as	LIKE	B1			
+before	TO AVOID SOMETHING	B1			
+before	UNTIL	B1			
+but	EXPLAINING WHY	B1			
+if	ALWAYS	B1			
+if	MIGHT	B1			
+if	WHETHER	B1			
+plus		B1			
+second	ONLY ONE BETTER/BIGGER, ETC.	B1			
+since	TIME	B1			
+since	BECAUSE	B1			
+while	COMPARING	B1		communication	
+zero	TEMPERATURE	B1		natural world	
+though	DESPITE	B1			
+till		B1			
+unless		B1			
+until	TIME	B1			
+until	DIRECTIONS	B1			
+whenever	EVERY TIME	B1			
+wherever	EVERY PLACE	B1			
+whether	IF	B1			
+yet		B1			
+goalkeeper		B1	noun	shopping	
+soap opera		B1	noun	arts and media	
+lab		B1	noun	homes and buildings	
+cash	MONEY	B1	noun	money	
+note		B1	verb	people: actions	
+depart		B1	verb	travel	
+bike	MOTORCYCLE	B1	noun	travel	
+permit		B1	verb		
+second	VERY SHORT PERIOD	B1	noun		
+ages		B1	noun		
+bunch	PEOPLE	B1	noun		
+make	ARRIVE	B1	verb		
+disagree		B1	verb	communication	
+dislike		B1	verb	people: personality	
+replace	USE INSTEAD	B1	verb	people: actions	
+commercial		B1	noun	arts and media	
+criminal		B1	noun	crime	
+performance	ENTERTAINMENT	B1	noun	arts and media	
+appearance	WAY YOU LOOK	B1	noun	people: appearance	
+assistant		B1	noun	work	
+conference		B1	noun	communication	
+performer		B1	noun	arts and media	
+reader	PERSON	B1	noun	communication	
+speaker	PERSON	B1	noun	communication	
+speaker	IN PUBLIC	B1	noun	communication	
+dishwasher		B1	noun	food and drink	
+freezer		B1	noun	food and drink	
+heater		B1	noun	homes and buildings	
+leader	PERSON IN CONTROL	B1	noun	politics	
+lover	PERSON	B1	noun	relationships	
+partner	RELATIONSHIP	B1	noun	relationships	
+diver		B1	noun	shopping	
+server		B1	noun	technology	
+backpacker		B1	noun	travel	
+babysitter		B1	noun	work	
+barber		B1	noun	work	
+barber		B1	noun	work	
+builder		B1	noun	work	
+employer		B1	noun	work	
+firefighter		B1	noun	work	
+officer	POSITION OF AUTHORITY	B1	noun	work	
+recording	MUSIC/SPEECH	B1	noun	arts and media	
+feeling	PHYSICAL SENSE	B1	noun	body and health	
+ending	WORD	B1	noun	communication	
+greeting		B1	noun	communication	
+handwriting		B1	noun	communication	
+meaning	EXPRESS	B1	noun	communication	
+central heating		B1	noun	homes and buildings	
+lightning		B1	noun	natural world	
+ironing		B1	noun	people: actions	
+feeling	IDEA	B1	noun	people: personality	
+feeling	EMOTION	B1	noun	people: personality	
+boxing		B1	noun	shopping	
+ice skating		B1	noun	shopping	
+crossing	WHERE PEOPLE CROSS	B1	noun	travel	
+backpacking		B1	noun	travel	
+parking	LEAVING VEHICLE	B1	noun	travel	
+farming		B1	noun	work	
+animation		B1	noun	arts and media	
+exhibition		B1	noun	arts and media	
+operation	MEDICAL PROCEDURE	B1	noun	body and health	
+presentation	EVENT	B1	noun	communication	
+communication		B1	noun	communication	
+punctuation		B1	noun	communication	
+registration		B1	noun	communication	
+description		B1	noun	communication	
+discussion		B1	noun	communication	
+explanation		B1	noun	communication	
+pronunciation		B1	noun	communication	
+graduation	CEREMONY	B1	noun	education	
+graduation	COMPLETION	B1	noun	education	
+admission	MONEY	B1	noun	money	
+pollution		B1	noun	natural world	
+decision		B1	noun	people: actions	
+action	ACTIVITY	B1	noun	people: actions	
+preparation	GETTING READY	B1	noun	people: actions	
+conclusion	JUDGMENT	B1	noun	people: personality	
+imagination	ABILITY	B1	noun	people: personality	
+election		B1	noun	politics	
+relation	FAMILY MEMBER	B1	noun	relationships	
+celebration		B1	noun	relationships	
+position	SPORTS	B1	noun	shopping	
+destination		B1	noun	travel	
+expedition		B1	noun	travel	
+reservation	ARRANGEMENT	B1	noun	travel	
+immigration	PLACE	B1	noun	travel	
+organization	GROUP	B1	noun	work	
+cyclist		B1	noun	travel	
+quantity	AMOUNT	B1	noun	describing things	
+facility	BUILDING	B1	noun	homes and buildings	
+security	PROTECTION	B1	noun	politics	
+apologize		B1	verb	communication	
+organize	PLAN	B1	verb	people: actions	
+realize		B1	verb	people: personality	
+entertainment		B1	noun	arts and media	
+argument	DISAGREEMENT	B1	noun	communication	
+development	PROCESS	B1	noun	people: actions	
+achievement		B1	noun	people: actions	
+disappointment	PERSON/THING	B1	noun	people: personality	
+disappointment	FEELING	B1	noun	people: personality	
+excitement		B1	noun	people: personality	
+government	GROUP	B1	noun	politics	
+equipment		B1	noun	technology	
+employment		B1	noun	work	
+illness	DISEASE	B1	noun	body and health	
+fitness		B1	noun	body and health	
+happiness		B1	noun	people: personality	
+competitor		B1	noun	shopping	
+director	MANAGER	B1	noun	work	
+instructor		B1	noun	work	
+relationship	TWO PEOPLE/GROUPS	B1	noun	relationships	
+relationship	ROMANTIC	B1	noun	relationships	
+friendship		B1	noun	relationships	
+championship		B1	noun	shopping	
+delivery		B1	noun	people: actions	
+killer		B1	noun	crime	
+murderer		B1	noun	crime	
+ant		B1	noun	animals	
+bat	ANIMAL	B1	noun	animals	
+bee		B1	noun	animals	
+bug	INSECT	B1	noun	animals	
+bull		B1	noun	animals	
+butterfly		B1	noun	animals	
+cage		B1	noun	animals	
+calf	ANIMAL	B1	noun	animals	
+camel		B1	noun	animals	
+creature		B1	noun	animals	
+dolphin		B1	noun	animals	
+donkey		B1	noun	animals	
+fly		B1	noun	animals	
+frog		B1	noun	animals	
+giraffe		B1	noun	animals	
+goat		B1	noun	animals	
+kangaroo		B1	noun	animals	
+kitten		B1	noun	animals	
+mosquito		B1	noun	animals	
+parrot		B1	noun	animals	
+penguin		B1	noun	animals	
+puppy		B1	noun	animals	
+shark		B1	noun	animals	
+fur		B1	noun	animals	
+act	THEATER	B1	noun	arts and media	
+album	MUSIC	B1	noun	arts and media	
+article	NEWSPAPER	B1	noun	arts and media	
+audience	GROUP	B1	noun	arts and media	
+biography		B1	noun	arts and media	
+chapter		B1	noun	arts and media	
+character	IN A STORY	B1	noun	arts and media	
+circus		B1	noun	arts and media	
+display	ARRANGEMENT	B1	noun	arts and media	
+documentary		B1	noun	arts and media	
+festival	PERFORMANCES	B1	noun	arts and media	
+film	PICTURE	B1	noun	arts and media	
+flute		B1	noun	arts and media	
+gallery		B1	noun	arts and media	
+headline	IN NEWSPAPER	B1	noun	arts and media	
+hero	BOOK/MOVIE	B1	noun	arts and media	
+intermission		B1	noun	arts and media	
+novel		B1	noun	arts and media	
+paper	NEWSPAPER	B1	noun	arts and media	
+part	MOVIE/PLAY	B1	noun	arts and media	
+picture	MOVIE	B1	noun	arts and media	
+poem		B1	noun	arts and media	
+poet		B1	noun	arts and media	
+record	SONG/MUSIC	B1	noun	arts and media	
+role	ACTING	B1	noun	arts and media	
+scene	FILM/BOOK, ETC.	B1	noun	arts and media	
+series	BROADCASTS	B1	noun	arts and media	
+soap	TELEVISION PROGRAM	B1	noun	arts and media	
+cable	TELEVISION/TELEPHONE	B1	noun	arts and media	
+culture	ARTS	B1	noun	arts and media	
+fiction	STORIES	B1	noun	arts and media	
+folk		B1	noun	arts and media	
+literature	BOOKS	B1	noun	arts and media	
+poetry		B1	noun	arts and media	
+science fiction		B1	noun	arts and media	
+comedy		B1	noun	arts and media	
+drama	THEATER	B1	noun	arts and media	
+sculpture		B1	noun	arts and media	
+contents	INFORMATION	B1	noun	arts and media	
+graphics		B1	noun	arts and media	
+act	PERFORM	B1	verb	arts and media	
+advertise	TRY TO SELL	B1	verb	arts and media	
+ache		B1	noun	body and health	
+ankle		B1	noun	body and health	
+body	NOT ARMS/LEGS	B1	noun	body and health	
+breast		B1	noun	body and health	
+cheek		B1	noun	body and health	
+chin		B1	noun	body and health	
+cough		B1	noun	body and health	
+cut	INJURY	B1	noun	body and health	
+diet	WEIGHT LOSS	B1	noun	body and health	
+elbow		B1	noun	body and health	
+forehead		B1	noun	body and health	
+heart attack		B1	noun	body and health	
+human		B1	noun	body and health	
+knee		B1	noun	body and health	
+lip		B1	noun	body and health	
+patient		B1	noun	body and health	
+pill		B1	noun	body and health	
+shoulder		B1	noun	body and health	
+breath	AIR	B1	noun	body and health	
+flu		B1	noun	body and health	
+sight	ABILITY TO SEE	B1	noun	body and health	
+aspirin		B1	noun	body and health	
+backache		B1	noun	body and health	
+bone		B1	noun	body and health	
+disease		B1	noun	body and health	
+earache		B1	noun	body and health	
+fever	ILLNESS	B1	noun	body and health	
+skin	BODY	B1	noun	body and health	
+beat	HEART	B1	verb	body and health	
+bleed		B1	verb	body and health	
+recover	HEALTH	B1	verb	body and health	
+burn	HURT BODY	B1	verb	body and health	
+cut	INJURE	B1	verb	body and health	
+breathe		B1	verb	body and health	
+button	ON CLOTHING	B1	noun	clothes	
+collar	PART OF CLOTHES	B1	noun	clothes	
+heel	SHOE PART	B1	noun	clothes	
+pullover		B1	noun	clothes	
+sandal		B1	noun	clothes	
+sleeve	CLOTHING	B1	noun	clothes	
+pantyhose		B1	noun	clothes	
+dress	WEAR PARTICULAR CLOTHES	B1	verb	clothes	
+accent	PRONUNCIATION	B1	noun	communication	
+alarm	WARNING	B1	noun	communication	
+alphabet		B1	noun	communication	
+brochure		B1	noun	communication	
+call	SHOUT	B1	noun	communication	
+card	INFORMATION	B1	noun	communication	
+certificate		B1	noun	communication	
+comma		B1	noun	communication	
+comment	THING SAID	B1	noun	communication	
+consonant		B1	noun	communication	
+cry		B1	noun	communication	
+demand	REQUEST	B1	noun	communication	
+diagram		B1	noun	communication	
+entry	INFORMATION	B1	noun	communication	
+excuse	REASON	B1	noun	communication	
+excuse	FALSE REASON	B1	noun	communication	
+figure	NUMBER	B1	noun	communication	
+form	GRAMMAR	B1	noun	communication	
+guess		B1	noun	communication	
+interview	FOR JOB	B1	noun	communication	
+interview	FOR ARTICLE/TV, ETC.	B1	noun	communication	
+issue	SUBJECT	B1	noun	communication	
+joke	FUNNY	B1	noun	communication	
+label	INFORMATION	B1	noun	communication	
+lie		B1	noun	communication	
+line	WORDS	B1	noun	communication	
+logo		B1	noun	communication	
+paper	WRITING	B1	noun	communication	
+paragraph		B1	noun	communication	
+period	MARK	B1	noun	communication	
+photocopy		B1	noun	communication	
+phrase		B1	noun	communication	
+point	IDEA	B1	noun	communication	
+prayer		B1	noun	communication	
+promise	SAY	B1	noun	communication	
+question mark		B1	noun	communication	
+questionnaire		B1	noun	communication	
+scream		B1	noun	communication	
+shout		B1	noun	communication	
+signature		B1	noun	communication	
+contact	COMMUNICATION	B1	noun	communication	
+language	COMMUNICATION	B1	noun	communication	
+notice	WARNING	B1	noun	communication	
+speech	ABILITY TO TALK	B1	noun	communication	
+apology		B1	noun	communication	
+complaint	SOMETHING WRONG	B1	noun	communication	
+ink		B1	noun	communication	
+inquiry		B1	noun	communication	
+material	DOCUMENTS	B1	noun	communication	
+reply		B1	noun	communication	
+request		B1	noun	communication	
+argue	DISAGREE	B1	verb	communication	
+complain		B1	verb	communication	
+count	SAY NUMBERS	B1	verb	communication	
+insist	DEMAND	B1	verb	communication	
+joke		B1	verb	communication	
+lie		B1	verb	communication	
+listen	PAY ATTENTION	B1	verb	communication	
+add	SAY MORE	B1	verb	communication	
+announce		B1	verb	communication	
+approve	AGREE	B1	verb	communication	
+blame	RESPONSIBLE	B1	verb	communication	
+convince		B1	verb	communication	
+date	WRITE DATE ON	B1	verb	communication	
+demand	REQUEST	B1	verb	communication	
+encourage	MAKE MORE LIKELY	B1	verb	communication	
+encourage	GIVE CONFIDENCE	B1	verb	communication	
+excuse	FORGIVE	B1	verb	communication	
+get	TELEPHONE/DOOR	B1	verb	communication	
+greet	WELCOME	B1	verb	communication	
+inform	TELL	B1	verb	communication	
+mail		B1	verb	communication	
+mean	EXPRESS	B1	verb	communication	
+mean	HAVE IMPORTANCE	B1	verb	communication	
+mention		B1	verb	communication	
+name	SAY WHAT NAME IS	B1	verb	communication	
+persuade	MAKE SOMEONE AGREE	B1	verb	communication	
+predict		B1	verb	communication	
+promise	GIVE	B1	verb	communication	
+pronounce		B1	verb	communication	
+recommend	SUITABLE	B1	verb	communication	
+remind		B1	verb	communication	
+repeat	TELL	B1	verb	communication	
+report	TELL	B1	verb	communication	
+request		B1	verb	communication	
+say	TELL	B1	verb	communication	
+say	GIVE INFORMATION	B1	verb	communication	
+say	THINK	B1	verb	communication	
+show	GIVE INFORMATION	B1	verb	communication	
+admit		B1	verb	communication	
+advise		B1	verb	communication	
+ask	REQUEST	B1	verb	communication	
+ask	WANT SOMETHING	B1	verb	communication	
+ask	WANT PERMISSION	B1	verb	communication	
+call	SHOUT	B1	verb	communication	
+communicate	SHARE INFORMATION	B1	verb	communication	
+confirm	MAKE ARRANGEMENT CERTAIN	B1	verb	communication	
+cry	SHOUT	B1	verb	communication	
+forgive	NOT BE ANGRY	B1	verb	communication	
+hear	BE TOLD	B1	verb	communication	
+interrupt	STOP SPEAKING	B1	verb	communication	
+learn	BE TOLD INFORMATION	B1	verb	communication	
+promise	SAY	B1	verb	communication	
+refuse		B1	verb	communication	
+register		B1	verb	communication	
+reply		B1	verb	communication	
+ring	SOUND	B1	verb	communication	
+scream		B1	verb	communication	
+sign		B1	verb	communication	
+crime	ILLEGAL ACT	B1	noun	crime	
+pirate		B1	noun	crime	
+prisoner	PERSON IN PRISON	B1	noun	crime	
+rule	INSTRUCTION	B1	noun	crime	
+crime	ILLEGAL ACTIVITIES	B1	noun	crime	
+arrest		B1	verb	crime	
+amount		B1	noun	describing things	
+average	AMOUNT	B1	noun	describing things	
+bit	SMALL AMOUNT	B1	noun	describing things	
+bunch	THINGS	B1	noun	describing things	
+dozen		B1	noun	describing things	
+drop	LIQUID	B1	noun	describing things	
+extra	SOMETHING MORE	B1	noun	describing things	
+foot	MEASUREMENT	B1	noun	describing things	
+inch		B1	noun	describing things	
+limit	LARGEST POSSIBLE AMOUNT	B1	noun	describing things	
+mile		B1	noun	describing things	
+millimeter		B1	noun	describing things	
+pattern	ARRANGEMENT	B1	noun	describing things	
+piece	SINGLE AMOUNT	B1	noun	describing things	
+pile	HEAP	B1	noun	describing things	
+row	LINE	B1	noun	describing things	
+average	USUAL/TYPICAL	B1	noun	describing things	
+depth	DISTANCE DOWN	B1	noun	describing things	
+distance	LENGTH	B1	noun	describing things	
+height	HOW FAR UP	B1	noun	describing things	
+length	DISTANCE	B1	noun	describing things	
+number	AMOUNT	B1	noun	describing things	
+shape	PHYSICAL FORM	B1	noun	describing things	
+couple	SOME	B1	noun	describing things	
+maximum		B1	noun	describing things	
+increase		B1	verb	describing things	
+curriculum		B1	noun	education	
+degree	ACHIEVEMENT	B1	noun	education	
+exchange	STUDENTS	B1	noun	education	
+grade	SCORE	B1	noun	education	
+period	SCHOOL	B1	noun	education	
+place	OPPORTUNITY	B1	noun	education	
+pupil		B1	noun	education	
+quiz	TEST	B1	noun	education	
+secondary school		B1	noun	education	
+science	TYPE	B1	noun	education	
+know	UNDERSTAND A SUBJECT	B1	verb	education	
+review	STUDY	B1	verb	education	
+fridge		B1	noun	food and drink	
+frying pan		B1	noun	food and drink	
+grill		B1	noun	food and drink	
+kettle		B1	noun	food and drink	
+oven		B1	noun	food and drink	
+pan	COOKING CONTAINER	B1	noun	food and drink	
+pea		B1	noun	food and drink	
+peanut		B1	noun	food and drink	
+pepper	VEGETABLE	B1	noun	food and drink	
+pot		B1	noun	food and drink	
+recipe		B1	noun	food and drink	
+roll	BREAD	B1	noun	food and drink	
+saucer		B1	noun	food and drink	
+beef		B1	noun	food and drink	
+broccoli		B1	noun	food and drink	
+chewing gum		B1	noun	food and drink	
+corn		B1	noun	food and drink	
+flour		B1	noun	food and drink	
+hunger	NEED FOR FOOD	B1	noun	food and drink	
+cabbage		B1	noun	food and drink	
+coconut		B1	noun	food and drink	
+cucumber		B1	noun	food and drink	
+flavor	TASTE	B1	noun	food and drink	
+lettuce		B1	noun	food and drink	
+peach		B1	noun	food and drink	
+pie		B1	noun	food and drink	
+pineapple		B1	noun	food and drink	
+spice	FOOD	B1	noun	food and drink	
+refreshments		B1	noun	food and drink	
+barbecue		B1	verb	food and drink	
+boil	COOK	B1	verb	food and drink	
+grill		B1	verb	food and drink	
+burn	COOK TOO LONG	B1	verb	food and drink	
+freeze	FOOD	B1	verb	food and drink	
+fry		B1	verb	food and drink	
+balcony	HOUSE ETC.	B1	noun	homes and buildings	
+bathtub		B1	noun	homes and buildings	
+cabin	HOUSE	B1	noun	homes and buildings	
+candle		B1	noun	homes and buildings	
+chest of drawers		B1	noun	homes and buildings	
+cottage		B1	noun	homes and buildings	
+cupboard		B1	noun	homes and buildings	
+cushion	CLOTH BAG	B1	noun	homes and buildings	
+faucet		B1	noun	homes and buildings	
+fire station		B1	noun	homes and buildings	
+frame	BORDER	B1	noun	homes and buildings	
+hut		B1	noun	homes and buildings	
+iron	FOR CLOTHES	B1	noun	homes and buildings	
+laboratory		B1	noun	homes and buildings	
+ladder	EQUIPMENT	B1	noun	homes and buildings	
+monument	BUILDING/PLACE	B1	noun	homes and buildings	
+palace		B1	noun	homes and buildings	
+pillow	FOR CHAIR	B1	noun	homes and buildings	
+place	SEAT	B1	noun	homes and buildings	
+row	SEATS	B1	noun	homes and buildings	
+rug		B1	noun	homes and buildings	
+ruin	REMAINS	B1	noun	homes and buildings	
+sheet	FOR BED	B1	noun	homes and buildings	
+air conditioning		B1	noun	homes and buildings	
+architecture	STYLE	B1	noun	homes and buildings	
+the first floor		B1	noun	homes and buildings	
+the ground floor		B1	noun	homes and buildings	
+account	BANK	B1	noun	money	
+bill	MONEY	B1	noun	money	
+coin		B1	noun	money	
+exchange rate		B1	noun	money	
+fee		B1	noun	money	
+loan	MONEY	B1	noun	money	
+penny		B1	noun	money	
+change	MONEY	B1	noun	money	
+change	COINS	B1	noun	money	
+credit	MONEY	B1	noun	money	
+currency		B1	noun	money	
+bay	WATER	B1	noun	natural world	
+branch	TREE	B1	noun	natural world	
+breeze		B1	noun	natural world	
+cave		B1	noun	natural world	
+cliff		B1	noun	natural world	
+coast		B1	noun	natural world	
+continent		B1	noun	natural world	
+district		B1	noun	natural world	
+flood	WATER	B1	noun	natural world	
+forecast		B1	noun	natural world	
+landscape		B1	noun	natural world	
+leaf	PLANT	B1	noun	natural world	
+peak	MOUNTAIN TOP	B1	noun	natural world	
+planet		B1	noun	natural world	
+rain forest		B1	noun	natural world	
+region	AREA	B1	noun	natural world	
+rose		B1	noun	natural world	
+season	PART OF YEAR	B1	noun	natural world	
+shower	RAIN	B1	noun	natural world	
+countryside		B1	noun	natural world	
+heat		B1	noun	natural world	
+iron	METAL	B1	noun	natural world	
+land	AREA OF GROUND	B1	noun	natural world	
+life	PLANTS/ANIMALS	B1	noun	natural world	
+oil	FUEL	B1	noun	natural world	
+sand		B1	noun	natural world	
+scenery		B1	noun	natural world	
+shade	LESS SUN	B1	noun	natural world	
+space	BEYOND EARTH	B1	noun	natural world	
+climate	WEATHER	B1	noun	natural world	
+jungle		B1	noun	natural world	
+metal		B1	noun	natural world	
+rock	HARD SUBSTANCE	B1	noun	natural world	
+shore		B1	noun	natural world	
+bottom	SEA/RIVER/LAKE	B1	noun	natural world	
+earth	PLANET	B1	noun	natural world	
+blow	WIND	B1	verb	natural world	
+pour	RAIN	B1	verb	natural world	
+rise	SUN/MOON	B1	verb	natural world	
+set	SUN	B1	verb	natural world	
+boil	HEAT LIQUID	B1	verb	natural world	
+flood	COVER WITH WATER	B1	verb	natural world	
+freeze	ICE	B1	verb	natural world	
+check	EXAMINATION	B1	noun	people: actions	
+experiment		B1	noun	people: actions	
+fight	PHYSICAL FORCE	B1	noun	people: actions	
+hug		B1	noun	people: actions	
+jump		B1	noun	people: actions	
+laugh		B1	noun	people: actions	
+look	SEE	B1	noun	people: actions	
+search	TRY TO FIND	B1	noun	people: actions	
+housework		B1	noun	people: actions	
+effort	ATTEMPT	B1	noun	people: actions	
+exchange	GIVING	B1	noun	people: actions	
+habit	REGULAR ACTIVITY	B1	noun	people: actions	
+rescue	SAVE	B1	noun	people: actions	
+routine		B1	noun	people: actions	
+act	BEHAVE	B1	verb	people: actions	
+behave	IN A PARTICULAR WAY	B1	verb	people: actions	
+blow	PERSON	B1	verb	people: actions	
+escape	GET AWAY	B1	verb	people: actions	
+fish		B1	verb	people: actions	
+hide	PERSON	B1	verb	people: actions	
+jog		B1	verb	people: actions	
+knock	MAKE NOISE	B1	verb	people: actions	
+meet	GROUP	B1	verb	people: actions	
+move	CHANGE PLACE	B1	verb	people: actions	
+pause	PERSON	B1	verb	people: actions	
+rest	RELAX/SLEEP	B1	verb	people: actions	
+slip	SLIDE	B1	verb	people: actions	
+achieve		B1	verb	people: actions	
+attach	CONNECT	B1	verb	people: actions	
+attempt		B1	verb	people: actions	
+avoid	STAY AWAY FROM	B1	verb	people: actions	
+bury	DEAD BODY	B1	verb	people: actions	
+cancel		B1	verb	people: actions	
+carry	HAVE WITH YOU	B1	verb	people: actions	
+catch	STOP ESCAPING	B1	verb	people: actions	
+circle	DRAW	B1	verb	people: actions	
+collect	BRING TOGETHER	B1	verb	people: actions	
+control	HAVE POWER OVER	B1	verb	people: actions	
+count	SEE HOW MANY	B1	verb	people: actions	
+create		B1	verb	people: actions	
+damage		B1	verb	people: actions	
+decorate		B1	verb	people: actions	
+defend	PROTECT	B1	verb	people: actions	
+design	PLAN	B1	verb	people: actions	
+destroy		B1	verb	people: actions	
+develop	MAKE	B1	verb	people: actions	
+discover		B1	verb	people: actions	
+exchange	GIVING	B1	verb	people: actions	
+finish	USE COMPLETELY	B1	verb	people: actions	
+fix	REPAIR	B1	verb	people: actions	
+follow	OBEY	B1	verb	people: actions	
+form	COMBINE	B1	verb	people: actions	
+get	DO	B1	verb	people: actions	
+give	DO	B1	verb	people: actions	
+hand	GIVE	B1	verb	people: actions	
+handle	DEAL WITH	B1	verb	people: actions	
+hide	THING	B1	verb	people: actions	
+hit	TOUCH	B1	verb	people: actions	
+hold	KEEP IN POSITION	B1	verb	people: actions	
+hold	ORGANIZE	B1	verb	people: actions	
+hug		B1	verb	people: actions	
+imagine	FORM PICTURE	B1	verb	people: actions	
+install	EQUIPMENT	B1	verb	people: actions	
+invent	NEW DESIGN	B1	verb	people: actions	
+join	CONNECT	B1	verb	people: actions	
+knock	HIT	B1	verb	people: actions	
+learn	REMEMBER	B1	verb	people: actions	
+lift		B1	verb	people: actions	
+meet	PLACE	B1	verb	people: actions	
+miss	AVOID	B1	verb	people: actions	
+name	GIVE NAME	B1	verb	people: actions	
+offer	PROVIDE	B1	verb	people: actions	
+pass	GIVE	B1	verb	people: actions	
+pick	CHOOSE	B1	verb	people: actions	
+pin		B1	verb	people: actions	
+point	AIM	B1	verb	people: actions	
+postpone		B1	verb	people: actions	
+pour	LIQUID	B1	verb	people: actions	
+prevent		B1	verb	people: actions	
+produce	MAKE	B1	verb	people: actions	
+prove	SHOW TRUTH	B1	verb	people: actions	
+provide		B1	verb	people: actions	
+push	PRESS	B1	verb	people: actions	
+quit	STOP SOMETHING	B1	verb	people: actions	
+raise	LIFT	B1	verb	people: actions	
+remove	TAKE AWAY	B1	verb	people: actions	
+rescue		B1	verb	people: actions	
+save	MAKE SAFE	B1	verb	people: actions	
+smell	USE NOSE	B1	verb	people: actions	
+arrange	PLAN	B1	verb	people: actions	
+attend	BE PRESENT	B1	verb	people: actions	
+babysit		B1	verb	people: actions	
+clap		B1	verb	people: actions	
+connect	JOIN	B1	verb	people: actions	
+continue	BEGIN AGAIN	B1	verb	people: actions	
+date	SPEND TIME TOGETHER	B1	verb	people: actions	
+deliver	TAKE	B1	verb	people: actions	
+dig	MOVE SOIL	B1	verb	people: actions	
+divide	SEPARATE	B1	verb	people: actions	
+drop	FALL	B1	verb	people: actions	
+explore	LOOK AROUND	B1	verb	people: actions	
+face	DIRECTION	B1	verb	people: actions	
+fasten	CLOSE/ATTACH	B1	verb	people: actions	
+fight	USE FORCE	B1	verb	people: actions	
+fold		B1	verb	people: actions	
+grab	TAKE WITH HAND	B1	verb	people: actions	
+hang	FASTEN	B1	verb	people: actions	
+iron		B1	verb	people: actions	
+lead	SHOW WAY	B1	verb	people: actions	
+light	START FLAMES	B1	verb	people: actions	
+lock	WITH KEY	B1	verb	people: actions	
+manage	SUCCEED	B1	verb	people: actions	
+notice		B1	verb	people: actions	
+pass	GO PAST	B1	verb	people: actions	
+plan	DECIDE	B1	verb	people: actions	
+press	PUSH	B1	verb	people: actions	
+protect		B1	verb	people: actions	
+push	MOVE YOURSELF	B1	verb	people: actions	
+search	TRY TO FIND	B1	verb	people: actions	
+select		B1	verb	people: actions	
+shake	SMALL MOVEMENTS	B1	verb	people: actions	
+shoot	WEAPON	B1	verb	people: actions	
+haircut		B1	noun	people: appearance	
+lady		B1	noun	people: appearance	
+mustache		B1	noun	people: appearance	
+beauty	BEING BEAUTIFUL	B1	noun	people: appearance	
+sex	MALE OR FEMALE	B1	noun	people: appearance	
+childhood		B1	noun	people: appearance	
+cream	FOR SKIN	B1	noun	people: appearance	
+grow	HAIR	B1	verb	people: appearance	
+shave		B1	verb	people: appearance	
+background	EXPERIENCE	B1	noun	people: personality	
+dream	HOPE	B1	noun	people: personality	
+experience	SOMETHING THAT HAPPENS TO YOU	B1	noun	people: personality	
+favorite		B1	noun	people: personality	
+fool	PERSON	B1	noun	people: personality	
+head	MIND	B1	noun	people: personality	
+hero	BRAVE PERSON	B1	noun	people: personality	
+idea	OPINION	B1	noun	people: personality	
+mind	THINKING	B1	noun	people: personality	
+experience	KNOWLEDGE	B1	noun	people: personality	
+peace	CALM	B1	noun	people: personality	
+pleasure	FEELING	B1	noun	people: personality	
+respect	ADMIRATION	B1	noun	people: personality	
+respect	POLITENESS	B1	noun	people: personality	
+attitude		B1	noun	people: personality	
+character	QUALITIES/PERSONALITY	B1	noun	people: personality	
+doubt	NOT CERTAIN	B1	noun	people: personality	
+fear	BAD FEELING	B1	noun	people: personality	
+heart	EMOTIONS	B1	noun	people: personality	
+hope		B1	noun	people: personality	
+memory	ABILITY TO REMEMBER	B1	noun	people: personality	
+mood	WAY YOU FEEL	B1	noun	people: personality	
+shock	SURPRISE	B1	noun	people: personality	
+skill		B1	noun	people: personality	
+sense	FEELING	B1	noun	people: personality	
+care	LOVE	B1	verb	people: personality	
+annoy		B1	verb	people: personality	
+attract	ENCOURAGE INTEREST	B1	verb	people: personality	
+control	STAY CALM	B1	verb	people: personality	
+disappoint		B1	verb	people: personality	
+experience		B1	verb	people: personality	
+interest		B1	verb	people: personality	
+regret	BAD DECISION	B1	verb	people: personality	
+respect	ADMIRE	B1	verb	people: personality	
+behave	BE POLITE	B1	verb	people: personality	
+care	WORRY	B1	verb	people: personality	
+feel	THINK/HAVE OPINION	B1	verb	people: personality	
+hurt	EMOTION	B1	verb	people: personality	
+judge	DEVELOP OPINION	B1	verb	people: personality	
+mind	ANNOYED	B1	verb	people: personality	
+please	MAKE HAPPY	B1	verb	people: personality	
+relax	BECOME HAPPY	B1	verb	people: personality	
+politics		B1	noun	politics	
+anniversary		B1	noun	relationships	
+bride		B1	noun	relationships	
+ceremony		B1	noun	relationships	
+date	SOCIAL TIME TOGETHER	B1	noun	relationships	
+enemy	PERSON	B1	noun	relationships	
+family	CHILDREN	B1	noun	relationships	
+groom		B1	noun	relationships	
+love	PERSON	B1	noun	relationships	
+nephew		B1	noun	relationships	
+niece		B1	noun	relationships	
+relative		B1	noun	relationships	
+culture	SOCIETY	B1	noun	relationships	
+divorce		B1	noun	relationships	
+marriage		B1	noun	relationships	
+romance		B1	noun	relationships	
+call	NAME	B1	verb	relationships	
+celebrate		B1	verb	relationships	
+leave	END RELATIONSHIP	B1	verb	relationships	
+basket		B1	noun	shopping	
+captain	SPORTS	B1	noun	shopping	
+chain	BUSINESS	B1	noun	shopping	
+champion	WINNER	B1	noun	shopping	
+checkout	store	B1	noun	shopping	
+club	TEAM	B1	noun	shopping	
+contest	COMPETITION	B1	noun	shopping	
+course	SPORTS AREA	B1	noun	shopping	
+court	SPORTS	B1	noun	shopping	
+cup	SPORTS	B1	noun	shopping	
+defeat	LOSING	B1	noun	shopping	
+field	SPORTS	B1	noun	shopping	
+final		B1	noun	shopping	
+league		B1	noun	shopping	
+net	OBJECT	B1	noun	shopping	
+point	SPORTS	B1	noun	shopping	
+product		B1	noun	shopping	
+record	BEST	B1	noun	shopping	
+score		B1	noun	shopping	
+ski		B1	noun	shopping	
+snowboard		B1	noun	shopping	
+gymnastics		B1	noun	shopping	
+leisure		B1	noun	shopping	
+pool	GAME	B1	noun	shopping	
+service	DEALING WITH CUSTOMER	B1	noun	shopping	
+defense	SPORTS	B1	noun	shopping	
+extreme sports		B1	noun	shopping	
+beat	DEFEAT	B1	verb	shopping	
+lose	NOT WIN	B1	verb	shopping	
+bulb		B1	noun	technology	
+button	ON MACHINE	B1	noun	technology	
+card	COMPUTER	B1	noun	technology	
+disk	COMPUTER STORAGE	B1	noun	technology	
+document	ON COMPUTER	B1	noun	technology	
+download		B1	noun	technology	
+drive	COMPUTER	B1	noun	technology	
+folder	ON COMPUTER	B1	noun	technology	
+link	COMPUTER	B1	noun	technology	
+message board		B1	noun	technology	
+password		B1	noun	technology	
+plug	ELECTRICAL OBJECT	B1	noun	technology	
+pump		B1	noun	technology	
+remote control		B1	noun	technology	
+access	RIGHT/OPPORTUNITY	B1	noun	technology	
+dot	INTERNET	B1	noun	technology	
+hardware		B1	noun	technology	
+power	ELECTRICITY	B1	noun	technology	
+radio	SYSTEM	B1	noun	technology	
+return	COMPUTER	B1	noun	technology	
+social networking		B1	noun	technology	
+CD-ROM		B1	noun	technology	
+display	ON SCREEN	B1	noun	technology	
+attach	COMPUTING	B1	verb	technology	
+brake		B1	noun	travel	
+cab		B1	noun	travel	
+cabin	AIRCRAFT	B1	noun	travel	
+campsite		B1	noun	travel	
+check-in (counter)		B1	noun	travel	
+crash	VEHICLE	B1	noun	travel	
+cruise		B1	noun	travel	
+ferry		B1	noun	travel	
+garage	BUSINESS	B1	noun	travel	
+gate	AIRPORT	B1	noun	travel	
+harbor		B1	noun	travel	
+jet		B1	noun	travel	
+line	RAILROAD	B1	noun	travel	
+pass	DOCUMENT	B1	noun	travel	
+pocket	IN BAG	B1	noun	travel	
+resort	VACATION	B1	noun	travel	
+ride	VEHICLE	B1	noun	travel	
+ride	BICYCLE	B1	noun	travel	
+route	ROAD	B1	noun	travel	
+schedule	BUS/TRAIN	B1	noun	travel	
+sidewalk		B1	noun	travel	
+souvenir		B1	noun	travel	
+baggage	BAGS	B1	noun	travel	
+customs		B1	noun	travel	
+entry	PLACE	B1	noun	travel	
+public transportation		B1	noun	travel	
+rail	TRAINS	B1	noun	travel	
+camp	TENTS/BUILDINGS	B1	noun	travel	
+camp	vacation place	B1	noun	travel	
+departure		B1	noun	travel	
+port		B1	noun	travel	
+go	LEAD	B1	verb	travel	
+sail	TRAVEL ON BOAT	B1	verb	travel	
+reach	ARRIVE	B1	verb	travel	
+board		B1	verb	travel	
+book		B1	verb	travel	
+land	ARRIVE	B1	verb	travel	
+sail	CONTROL BOAT	B1	verb	travel	
+agency	BUSINESS	B1	noun	work	
+architect		B1	noun	work	
+career	JOB	B1	noun	work	
+employee		B1	noun	work	
+guard	PERSON WHO PROTECTS	B1	noun	work	
+head	ORGANIZATION/DEPARTMENT	B1	noun	work	
+industry	TYPE OF BUSINESS	B1	noun	work	
+model	PERSON	B1	noun	work	
+profession	WORK	B1	noun	work	
+architecture	SUBJECT	B1	noun	work	
+business	WORK	B1	noun	work	
+benefit	SERVICE	B1	noun	work	
+advertise	ASK FOR	B1	verb	work	
+retire		B1	verb	work	
+manage	CONTROL	B1	verb	work	
+spider		B1	noun	animals	
+cancer		B1	noun	body and health	
+murder		B1	noun	crime	
+bacon		B1	noun	food and drink	
+pork		B1	noun	food and drink	
+bomb		B1	verb	people: actions	
+priest		B1	noun	work	
+recycling	PROCESS	B1	noun		
+disadvantage	MAKING DIFFICULT	B1	noun		
+disappear	NOT SEE	B1	verb		
+disappear	NOT FIND	B1	verb		
+refund		B1	noun		
+rebuild	BUILD AGAIN	B1	verb		
+replace	GET SOMETHING NEW	B1	verb		
+recycle		B1	verb		
+arrival		B1	noun		
+importance		B1	noun		
+difference	AMOUNT	B1	noun		
+baker		B1	noun		
+blogger		B1	noun		
+border		B1	noun		
+butcher		B1	noun		
+buyer		B1	noun		
+designer		B1	noun		
+foreigner		B1	noun		
+hairdresser		B1	noun		
+keeper		B1	noun		
+lawyer		B1	noun		
+lighter		B1	noun		
+officer	POLICE	B1	noun		
+owner		B1	noun		
+reader	BOOK	B1	noun		
+reporter		B1	noun		
+rider		B1	noun		
+seller		B1	noun		
+ending	FINAL PART	B1	noun		
+engineering		B1	noun		
+jogging		B1	noun		
+parking	PLACE FOR VEHICLE	B1	noun		
+ambition	HOPE	B1	noun		
+application	REQUEST	B1	noun		
+attraction	THING TO SEE OR DO	B1	noun		
+collection	OBJECTS	B1	noun		
+collection	GROUP	B1	noun		
+composition	WRITING	B1	noun		
+direction	WAY	B1	noun		
+generation	PEOPLE	B1	noun		
+location	PLACE	B1	noun		
+occasion	SPECIAL TIME	B1	noun		
+position	PLACE	B1	noun		
+situation		B1	noun		
+solution		B1	noun		
+attention	NOTICE	B1	noun		
+organization	PLANNING	B1	noun		
+relaxation		B1	noun		
+connection	JOINING THINGS	B1	noun		
+correction		B1	noun		
+invention		B1	noun		
+population	NUMBER	B1	noun		
+position	SITTING/STANDING	B1	noun		
+chemist		B1	noun		
+guitarist		B1	noun		
+journalist		B1	noun		
+scientist		B1	noun		
+celebrity		B1	noun		
+quality	GOOD	B1	noun		
+ability		B1	noun		
+charity	ORGANIZATION	B1	noun		
+opportunity	CHANCE	B1	noun		
+possibility	MAY HAPPEN/BE TRUE	B1	noun		
+recognize	KNOW	B1	verb		
+improvement	CHANGE	B1	noun		
+development	CHANGE	B1	noun		
+announcement		B1	noun		
+improvement	BETTER	B1	noun		
+author		B1	noun		
+calculator		B1	noun		
+director	MOVIE/PLAY	B1	noun		
+professor		B1	noun		
+sailor		B1	noun		
+membership	BEING A MEMBER	B1	noun		
+difficulty	NOT EASY	B1	noun		
+killing		B1	noun		
+accountant		B1	noun		
+aim		B1	noun		
+airline		B1	noun		
+alarm	WAKING	B1	noun		
+ambulance		B1	noun		
+answer	SOLUTION	B1	noun		
+antique		B1	noun		
+area	PART	B1	noun		
+article	GRAMMAR	B1	noun		
+assignment		B1	noun		
+athlete		B1	noun		
+backyard		B1	noun		
+barbershop		B1	noun		
+bargain		B1	noun		
+bell	ELECTRICAL OBJECT	B1	noun		
+blog		B1	noun		
+board	SURFACE	B1	noun		
+book	FOR WRITING	B1	noun		
+branch	BUSINESS	B1	noun		
+break	VACATION	B1	noun		
+break	DAMAGE	B1	noun		
+bucket		B1	noun		
+bulletin board		B1	noun		
+canal		B1	noun		
+case	SITUATION	B1	noun		
+cash machine		B1	noun		
+chance	OPPORTUNITY	B1	noun		
+checkout	WEB SITE	B1	noun		
+cinema	BUILDING	B1	noun		
+clinic		B1	noun		
+club	DANCE	B1	noun		
+coach		B1	noun		
+contract		B1	noun		
+copy	MADE THE SAME	B1	noun		
+count noun		B1	noun		
+cover	BOOK	B1	noun		
+cover	PROTECTION	B1	noun		
+crew	SHIP/AIRCRAFT	B1	noun		
+crop		B1	noun		
+cross	RELIGION	B1	noun		
+CV		B1	noun		
+dance	STEPS	B1	noun		
+danger	THREAT	B1	noun		
+date	PLANNED TIME	B1	noun		
+definite article		B1	noun		
+deposit	BUYING	B1	noun		
+design	DECORATION	B1	noun		
+detail	FACT	B1	noun		
+detective		B1	noun		
+disc jockey		B1	noun		
+disk	RECORDING	B1	noun		
+DJ		B1	noun		
+drive	JOURNEY	B1	noun		
+drugstore		B1	noun		
+edge	OUTER POINT	B1	noun		
+elementary school		B1	noun		
+embassy		B1	noun		
+essay		B1	noun		
+event	HAPPENING	B1	noun		
+event	RACE	B1	noun		
+expert		B1	noun		
+fair	EVENT	B1	noun		
+fan	MACHINE/OBJECT	B1	noun		
+fare		B1	noun		
+favor	HELP	B1	noun		
+festival	CELEBRATION	B1	noun		
+fifth		B1	noun		
+figure	BODY SHAPE	B1	noun		
+film-maker		B1	noun		
+fine		B1	noun		
+finish		B1	noun		
+fire	NATURAL HEAT	B1	noun		
+flag		B1	noun		
+floor	AREA	B1	noun		
+fountain		B1	noun		
+goal	AIM	B1	noun		
+guide	BOOK	B1	noun		
+gun		B1	noun		
+hair dryer		B1	noun		
+hairstylist		B1	noun		
+handkerchief		B1	noun		
+herb		B1	noun		
+hit	SUCCESS	B1	noun		
+hole		B1	noun		
+honeymoon		B1	noun		
+hostel		B1	noun		
+hot dog		B1	noun		
+indefinite article		B1	noun		
+infinitive		B1	noun		
+item	PART OF SET	B1	noun		
+jar		B1	noun		
+judge	COMPETITION	B1	noun		
+key	METHOD	B1	noun		
+kit		B1	noun		
+label	COMPANY	B1	noun		
+lecture		B1	noun		
+line	PEOPLE WAITING	B1	noun		
+lock		B1	noun		
+lottery		B1	noun		
+mall		B1	noun		
+method		B1	noun		
+modal (verb)		B1	noun		
+moment	POINT IN TIME	B1	noun		
+monster	CREATURE	B1	noun		
+musician		B1	noun		
+neighborhood		B1	noun		
+nickname		B1	noun		
+nightclub		B1	noun		
+nightmare	BAD EXPERIENCE	B1	noun		
+nightmare	BAD DREAM	B1	noun		
+object	THING	B1	noun		
+object	GRAMMAR	B1	noun		
+offer	CHEAP	B1	noun		
+olive		B1	noun		
+opinion	OF PERSON	B1	noun		
+opposite		B1	noun		
+option	CHOICE	B1	noun		
+pedestrian		B1	noun		
+period	TIME	B1	noun		
+pharmacy		B1	noun		
+phrasal verb		B1	noun		
+pin		B1	noun		
+pipe		B1	noun		
+pleasure	EXPERIENCE	B1	noun		
+plug	HOLE	B1	noun		
+politician		B1	noun		
+preposition		B1	noun		
+prescription		B1	noun		
+prince		B1	noun		
+princess		B1	noun		
+pronoun		B1	noun		
+purpose	REASON	B1	noun		
+range	OF THINGS	B1	noun		
+report		B1	noun		
+result	INFORMATION	B1	noun		
+result	COMPETITION	B1	noun		
+résumé		B1	noun		
+review	REPORT	B1	noun		
+reward	SOMETHING GOOD	B1	noun		
+reward	MONEY	B1	noun		
+ride	PLAYING	B1	noun		
+robot		B1	noun		
+rule	PRINCIPLE	B1	noun		
+run	MOVE FAST	B1	noun		
+salesman		B1	noun		
+saleswoman		B1	noun		
+salon		B1	noun		
+search	USE COMPUTER	B1	noun		
+season	FOR PARTICULAR EVENT	B1	noun		
+secret	NOT TELL	B1	noun		
+section		B1	noun		
+session		B1	noun		
+sign	SHOWING	B1	noun		
+sign	BODY MOVEMENT	B1	noun		
+signpost		B1	noun		
+site	PLACE	B1	noun		
+sleep	PERIOD OF SLEEPING	B1	noun		
+smell	CHARACTERISTIC	B1	noun		
+smile		B1	noun		
+access	METHOD	B1	noun		
+behavior		B1	noun		
+care	ATTENTION	B1	noun		
+chance	LUCK	B1	noun		
+common sense		B1	noun		
+cotton		B1	noun		
+credit	PAYMENT	B1	noun		
+damage		B1	noun		
+design	PLANNING	B1	noun		
+design	PROCESS	B1	noun		
+dirt		B1	noun		
+diving		B1	noun		
+dust		B1	noun		
+economics		B1	noun		
+effort	ENERGY	B1	noun		
+energy	STRENGTH	B1	noun		
+energy	ELECTRICITY, GAS, ETC.	B1	noun		
+entrance	RIGHT	B1	noun		
+entry	JOINING OR TAKING PART	B1	noun		
+fashion	BUSINESS	B1	noun		
+garbage	THINGS THROWN AWAY	B1	noun		
+gas	FUEL	B1	noun		
+interest	QUALITY	B1	noun		
+law	SUBJECT	B1	noun		
+light	BRIGHTNESS	B1	noun		
+love	FRIENDS/FAMILY	B1	noun		
+love	ROMANCE	B1	noun		
+luxury	COMFORT	B1	noun		
+ma'am		B1	noun		
+medicine	TREATMENT	B1	noun		
+nightlife		B1	noun		
+northeast		B1	noun		
+northwest		B1	noun		
+notice	ATTENTION	B1	noun		
+offense	SPORTS	B1	noun		
+order	ARRANGEMENT	B1	noun		
+pay		B1	noun		
+permission		B1	noun		
+progress	IMPROVEMENT	B1	noun		
+property	THINGS OWNED	B1	noun		
+research		B1	noun		
+room	SPACE	B1	noun		
+sex	ACTIVITY	B1	noun		
+side	NEXT TO	B1	noun		
+silence	NO SOUND	B1	noun		
+silk		B1	noun		
+sleep	NOT AWAKE	B1	noun		
+smoke		B1	noun		
+southeast		B1	noun		
+southwest		B1	noun		
+advantage	USEFUL THING	B1	noun		
+attack		B1	noun		
+battle	WAR	B1	noun		
+benefit	HELP	B1	noun		
+challenge	DIFFICULT	B1	noun		
+chance	POSSIBILITY	B1	noun		
+charge	MONEY	B1	noun		
+chili	VEGETABLE	B1	noun		
+cod		B1	noun		
+custom		B1	noun		
+death	END OF LIFE	B1	noun		
+decrease		B1	noun		
+defense	PROTECTION	B1	noun		
+diet	USUAL FOOD	B1	noun		
+drama	EXCITEMENT	B1	noun		
+duty	RIGHT THING TO DO	B1	noun		
+effect	RESULT	B1	noun		
+emergency		B1	noun		
+entry	COMPETITION WORK	B1	noun		
+fuel		B1	noun		
+height	HOW TALL	B1	noun		
+jail		B1	noun		
+lamb		B1	noun		
+life	WAY OF LIVING	B1	noun		
+liquid		B1	noun		
+material	CLOTH	B1	noun		
+mystery		B1	noun		
+powder		B1	noun		
+prison		B1	noun		
+religion		B1	noun		
+repair		B1	noun		
+result	HAPPEN	B1	noun		
+review	STUDY	B1	noun		
+salary		B1	noun		
+salmon		B1	noun		
+service	PUBLIC NEED	B1	noun		
+shadow	NO LIGHT	B1	noun		
+shrimp		B1	noun		
+society	PEOPLE	B1	noun		
+speed	RATE OF MOVEMENT	B1	noun		
+contents	THINGS INSIDE	B1	noun		
+groceries		B1	noun		
+atmosphere	FEELING	B1	noun		
+bottom	LOWEST POSITION	B1	noun		
+mix		B1	noun		
+return	GOING BACK	B1	noun		
+firework		B1	noun		
+change	NEW EXPERIENCE	B1	noun		
+appear	BE SEEN	B1	verb		
+appear	SEEM	B1	verb		
+apply	REQUEST	B1	verb		
+blog		B1	verb		
+burn	PRODUCE FLAMES	B1	verb		
+compete	SPORTS	B1	verb		
+concentrate	THINK CAREFULLY	B1	verb		
+cough		B1	verb		
+cycle		B1	verb		
+dive	ENTER WATER	B1	verb		
+dive	SWIM UNDER WATER	B1	verb		
+exist	BE REAL	B1	verb		
+fall	BECOME LOWER	B1	verb		
+float	MOVE IN AIR	B1	verb		
+go	DISAPPEAR	B1	verb		
+go	MATCH	B1	verb		
+grow	INCREASE	B1	verb		
+hitchhike		B1	verb		
+lie	OBJECT	B1	verb		
+lie	PLACE	B1	verb		
+live	BE ALIVE	B1	verb		
+operate	TREATMENT	B1	verb		
+pass	TIME	B1	verb		
+point	DIRECTION	B1	verb		
+rise	MOVE UP	B1	verb		
+shine	PRODUCE LIGHT	B1	verb		
+shoot	SPORTS	B1	verb		
+shop		B1	verb		
+skate		B1	verb		
+ski		B1	verb		
+smell	UNPLEASANT	B1	verb		
+accompany	GO WITH	B1	verb		
+admire	LOOK AT	B1	verb		
+allow	GIVE PERMISSION	B1	verb		
+answer	TEST	B1	verb		
+change	IN STORE	B1	verb		
+comb		B1	verb		
+contain	INSIDE	B1	verb		
+cover	LAYER	B1	verb		
+cover	DEAL WITH	B1	verb		
+declare	STATE VALUE/AMOUNT	B1	verb		
+defeat	WIN	B1	verb		
+delay	CAUSE LATENESS	B1	verb		
+delete		B1	verb		
+deserve		B1	verb		
+direct	ROUTE	B1	verb		
+display	ARRANGE	B1	verb		
+drag	COMPUTER	B1	verb		
+employ	JOB	B1	verb		
+enter	INFORMATION	B1	verb		
+expect	THINK	B1	verb		
+fax		B1	verb		
+feed	GIVE FOOD	B1	verb		
+figure	THINK	B1	verb		
+fill	TAKE SPACE	B1	verb		
+fill	BE NOTICEABLE	B1	verb		
+find	BECOME AWARE	B1	verb		
+fix	ARRANGE	B1	verb		
+forget	STOP THINKING	B1	verb		
+gain	INCREASE	B1	verb		
+give	ALLOW	B1	verb		
+give	CAUSE	B1	verb		
+give	ALLOW TIME	B1	verb		
+give	PAY MONEY	B1	verb		
+guide		B1	verb		
+have	CAUSE	B1	verb		
+have	HOLD	B1	verb		
+hide	FEELING/INFORMATION	B1	verb		
+hold	CONTAIN	B1	verb		
+imagine	FORM IDEA	B1	verb		
+imagine	THINK	B1	verb		
+injure		B1	verb		
+install	COMPUTER	B1	verb		
+intend	HAVE PLAN	B1	verb		
+interview		B1	verb		
+introduce	MEETING PEOPLE	B1	verb		
+involve	NECESSARY PART	B1	verb		
+involve	AFFECT/INCLUDE	B1	verb		
+keep	DELAY	B1	verb		
+know	BE FAMILIAR WITH	B1	verb		
+let	ALLOW	B1	verb		
+lose	NOT HAVE	B1	verb		
+lose	HAVE LESS	B1	verb		
+make	CAUSE	B1	verb		
+mean	INTEND	B1	verb		
+mean	HAVE RESULT	B1	verb		
+miss	NOT SEE/HEAR	B1	verb		
+need	MUST BE DONE	B1	verb		
+open	COMPUTERS	B1	verb		
+own		B1	verb		
+pick	FLOWERS/FRUIT	B1	verb		
+plant	TREES/FLOWERS, ETC.	B1	verb		
+play	ACT	B1	verb		
+post	WEB SITE	B1	verb		
+punish		B1	verb		
+raise	INCREASE	B1	verb		
+reduce		B1	verb		
+rent	RECEIVE MONEY	B1	verb		
+require	NEED	B1	verb		
+rob	STEAL	B1	verb		
+run	ORGANIZE	B1	verb		
+save	NOT WASTE	B1	verb		
+solve		B1	verb		
+accept	AGREE TO TAKE	B1	verb		
+agree	DECIDE	B1	verb		
+attack	TRY TO HURT	B1	verb		
+bite		B1	verb		
+boil	CONTAINER	B1	verb		
+bounce	MOVE UP	B1	verb		
+break	INTERRUPT	B1	verb		
+burn	DESTROY	B1	verb		
+charge	MONEY	B1	verb		
+check	FIND OUT	B1	verb		
+compare	EXAMINE DIFFERENCES	B1	verb		
+consider	THINK CAREFULLY	B1	verb		
+continue	NEVER STOP	B1	verb		
+crash	VEHICLE	B1	verb		
+decrease		B1	verb		
+develop	CHANGE	B1	verb		
+dial		B1	verb		
+direct	FILM/PLAY	B1	verb		
+dream	IMAGINE	B1	verb		
+enter	COMPETITION	B1	verb		
+entertain		B1	verb		
+exercise	PHYSICAL ACTIVITY	B1	verb		
+exit		B1	verb		
+explode		B1	verb		
+film		B1	verb		
+fit	CORRECT SIZE	B1	verb		
+float	NOT SINK	B1	verb		
+follow	HAPPEN AFTER	B1	verb		
+follow	UNDERSTAND	B1	verb		
+forget	NOT DO	B1	verb		
+forget	NOT REMEMBER	B1	verb		
+gain	GET	B1	verb		
+hunt	CHASE	B1	verb		
+join	MEET	B1	verb		
+kid		B1	verb		
+knit		B1	verb		
+live	SPEND LIFE	B1	verb		
+marry		B1	verb		
+match	BE THE SAME	B1	verb		
+mix	COMBINE QUALITIES/ACTIVITIES	B1	verb		
+pay	WORK	B1	verb		
+perform	ENTERTAIN	B1	verb		
+play	COMPETE	B1	verb		
+quit	STOP WORK	B1	verb		
+race		B1	verb		
+report	DESCRIBE	B1	verb		
+reserve	ARRANGE TO HAVE	B1	verb		
+score		B1	verb		
+search	USE COMPUTER	B1	verb		
+see	UNDERSTAND	B1	verb		
+sew		B1	verb		
+share	FEELING/EXPERIENCE, ETC.	B1	verb		
+sink	GO DOWN BELOW	B1	verb		
+smile		B1	verb		
+air force		B1	noun		
+angel		B1	noun		
+bomb		B1	noun		
+ghost		B1	noun		
+soldier		B1	noun		
+murder		B1	verb		
+incredible	VERY GOOD	B1	adjective	describing things	
+scary		B1	adjective	people: personality	
+frozen	PERSON	B1	adjective	body and health	
+sir	FORM OF ADDRESS	B1	noun	communication	
+pretty	QUITE	B1	adverb	communication	
+irregular	GRAMMAR	B1	adjective		
+disabled		B1	adjective	body and health	
+recycled		B1	adjective	natural world	
+acceptable	GOOD ENOUGH	B1	adjective	describing things	
+reasonable	BIG ENOUGH	B1	adjective	describing things	
+reasonable	GOOD ENOUGH	B1	adjective	describing things	
+comfortable	PERSON	B1	adjective	people: personality	
+enjoyable		B1	adjective	people: personality	
+reliable		B1	adjective	people: personality	
+cultural	ARTS	B1	adjective	arts and media	
+financial		B1	adjective	money	
+environmental		B1	adjective	natural world	
+professional	SKILL	B1	adjective	people: personality	
+political		B1	adjective	politics	
+digital	DISPLAY	B1	adjective	technology	
+electrical	USING ELECTRICITY	B1	adjective	technology	
+animated	FILM	B1	adjective	arts and media	
+advanced	MODERN	B1	adjective	describing things	
+damaged		B1	adjective	describing things	
+limited	SMALL	B1	adjective	describing things	
+old-fashioned		B1	adjective	describing things	
+barbecued		B1	adjective	food and drink	
+boiled		B1	adjective	food and drink	
+middle-aged		B1	adjective	people: appearance	
+amazed		B1	adjective	people: personality	
+annoyed		B1	adjective	people: personality	
+ashamed	EMBARRASSED	B1	adjective	people: personality	
+bored		B1	adjective	people: personality	
+confused	NOT UNDERSTAND	B1	adjective	people: personality	
+delighted		B1	adjective	people: personality	
+disappointed		B1	adjective	people: personality	
+embarrassed		B1	adjective	people: personality	
+exhausted		B1	adjective	people: personality	
+experienced		B1	adjective	people: personality	
+frightened		B1	adjective	people: personality	
+relaxed	PERSON	B1	adjective	people: personality	
+satisfied	PLEASED	B1	adjective	people: personality	
+scared		B1	adjective	people: personality	
+shocked		B1	adjective	people: personality	
+divorced		B1	adjective	relationships	
+engaged		B1	adjective	relationships	
+different	SEPARATE	B1	adjective	describing things	
+confident	ABILITY	B1	adjective	people: personality	
+intelligent		B1	adjective	people: personality	
+painful	PHYSICAL	B1	adjective	body and health	
+cheerful	HAPPY	B1	adjective	people: personality	
+grateful		B1	adjective	people: personality	
+helpful		B1	adjective	people: personality	
+hopeful	FEELING POSITIVE	B1	adjective	people: personality	
+peaceful	CALM	B1	adjective	people: personality	
+powerful	CONTROL	B1	adjective	people: personality	
+sensible		B1	adjective	people: personality	
+romantic	STORY	B1	adjective	arts and media	
+basic	MAIN	B1	adjective	describing things	
+basic	NECESSARY	B1	adjective	describing things	
+basic	SIMPLE	B1	adjective	describing things	
+scientific		B1	adjective	education	
+electric	SUPPLY	B1	adjective	technology	
+electronic	EQUIPMENT	B1	adjective	technology	
+electronic	TECHNOLOGY	B1	adjective	technology	
+amusing		B1	adjective	describing things	
+disgusting		B1	adjective	describing things	
+freezing		B1	adjective	natural world	
+amazing	SURPRISING	B1	adjective	people: personality	
+annoying		B1	adjective	people: personality	
+charming		B1	adjective	people: personality	
+confusing		B1	adjective	people: personality	
+disappointing		B1	adjective	people: personality	
+easygoing		B1	adjective	people: personality	
+embarrassing		B1	adjective	people: personality	
+frightening		B1	adjective	people: personality	
+relaxing		B1	adjective	people: personality	
+shocking		B1	adjective	people: personality	
+education		B1	noun	education	
+imagination	PART OF MIND	B1	noun	people: personality	
+selfish		B1	adjective	people: personality	
+quality		B1	adjective	describing things	
+creative		B1	adjective	people: personality	
+negative	NO ENTHUSIASM	B1	adjective	people: personality	
+careless		B1	adjective	people: personality	
+hopeless	NO HOPE	B1	adjective	people: personality	
+absolutely	COMPLETELY	B1	adverb	communication	
+actually	SURPRISE	B1	adverb	communication	
+clearly	CERTAIN	B1	adverb	communication	
+completely		B1	adverb	communication	
+exactly	EMPHASIS	B1	adverb	communication	
+extremely		B1	adverb	communication	
+finally	LAST POINT	B1	adverb	communication	
+fortunately		B1	adverb	communication	
+fully		B1	adverb	communication	
+generally	USUALLY	B1	adverb	communication	
+heavily		B1	adverb	communication	
+honestly	EMPHASIZE	B1	adverb	communication	
+hopefully	WHAT YOU WANT	B1	adverb	communication	
+mainly		B1	adverb	communication	
+particularly		B1	adverb	communication	
+partly		B1	adverb	communication	
+personally	OPINION	B1	adverb	communication	
+possibly	QUESTIONS	B1	adverb	communication	
+approximately		B1	adverb	describing things	
+fairly	QUITE	B1	adverb	describing things	
+beautifully		B1	adverb	people: appearance	
+lively		B1	adjective	people: personality	
+lonely	PERSON	B1	adjective	people: personality	
+amazingly		B1	adverb	people: personality	
+angrily		B1	adverb	people: personality	
+bravely		B1	adverb	people: personality	
+curiously	WANTING TO KNOW	B1	adverb	people: personality	
+dangerously		B1	adverb	people: personality	
+excitedly		B1	adverb	people: personality	
+happily	HAPPY	B1	adverb	people: personality	
+kindly		B1	adverb	people: personality	
+politely		B1	adverb	people: personality	
+arrangement	PLANS	B1	noun	people: actions	
+enormous		B1	adjective	describing things	
+anxious	WORRIED	B1	adjective	people: personality	
+curious		B1	adjective	people: personality	
+generous	WILLING TO GIVE	B1	adjective	people: personality	
+jealous	UNHAPPY IN LOVE	B1	adjective	people: personality	
+nervous		B1	adjective	people: personality	
+serious	PERSON	B1	adjective	people: personality	
+curly		B1	adjective	describing things	
+spicy		B1	adjective	food and drink	
+icy	WITH ICE	B1	adjective	natural world	
+icy	COLD	B1	adjective	natural world	
+rainy		B1	adjective	natural world	
+sandy		B1	adjective	natural world	
+guilty	FEELING	B1	adjective	people: personality	
+alcoholic		B1	adjective	food and drink	
+comic		B1	adjective	arts and media	
+lead		B1	adjective	arts and media	
+live	AS IT HAPPENS	B1	adjective	arts and media	
+orchestra		B1	noun	arts and media	
+publish		B1	verb	arts and media	
+set	STORY/MOVIE	B1	verb	arts and media	
+alive	LIVING	B1	adjective	body and health	
+asleep	SLEEPING	B1	adjective	body and health	
+awake		B1	adjective	body and health	
+blind	NO SIGHT	B1	adjective	body and health	
+deaf		B1	adjective	body and health	
+human		B1	adjective	body and health	
+hurt	IN PAIN	B1	adjective	body and health	
+mad	ILL	B1	adjective	body and health	
+pregnant		B1	adjective	body and health	
+sore	PAINFUL	B1	adjective	body and health	
+casual	CLOTHES	B1	adjective	clothes	
+flat	LOW	B1	adjective	clothes	
+brief	SHORT	B1	adjective	communication	
+complete	TOTAL	B1	adjective	communication	
+great	EXTREME	B1	adjective	communication	
+anyway	MORE IMPORTANTLY	B1	adverb	communication	
+besides	EXTRA REASON	B1	adverb	communication	
+down	IN WRITING	B1	adverb	communication	
+hardly	ALMOST NOT	B1	adverb	communication	
+how	EXPERIENCE	B1	adverb	communication	
+how	EMPHASIZE	B1	adverb	communication	
+indeed	REALLY	B1	adverb	communication	
+just	ONLY	B1	adverb	communication	
+just	EMPHASIS	B1	adverb	communication	
+quite	COMPLETELY	B1	adverb	communication	
+rather	SMALL AMOUNT	B1	adverb	communication	
+initial		B1	noun	communication	
+madam	WOMAN	B1	noun	communication	
+inform	GIVE INFORMATION	B1	verb	communication	
+offer	ASK	B1	verb	communication	
+ancient		B1	adjective	describing things	
+antique		B1	adjective	describing things	
+average	AMOUNT	B1	adjective	describing things	
+bad	SEVERE	B1	adjective	describing things	
+bad	NOT LUCKY	B1	adjective	describing things	
+blank	EMPTY	B1	adjective	describing things	
+brand new		B1	adjective	describing things	
+brilliant	VERY BRIGHT	B1	adjective	describing things	
+broad	WIDE	B1	adjective	describing things	
+clever		B1	adjective	describing things	
+colorful	BRIGHT	B1	adjective	describing things	
+deep	COLOR	B1	adjective	describing things	
+equal	SAME AMOUNT/NUMBER, ETC.	B1	adjective	describing things	
+exact		B1	adjective	describing things	
+extraordinary		B1	adjective	describing things	
+FALSE	NOT CORRECT	B1	adjective	describing things	
+flat		B1	adjective	describing things	
+front		B1	adjective	describing things	
+gentle	NOT STRONG	B1	adjective	describing things	
+giant		B1	adjective	describing things	
+heavy	A LOT	B1	adjective	describing things	
+high	ABOVE GROUND	B1	adjective	describing things	
+high	AMOUNT/LEVEL	B1	adjective	describing things	
+high	VERY GOOD	B1	adjective	describing things	
+huge		B1	adjective	describing things	
+individual	SINGLE	B1	adjective	describing things	
+last	REMAINING	B1	adjective	describing things	
+light	NOT MUCH	B1	adjective	describing things	
+low	NOT HIGH	B1	adjective	describing things	
+magnificent		B1	adjective	describing things	
+main	MOST IMPORTANT	B1	adjective	describing things	
+marvelous		B1	adjective	describing things	
+maximum		B1	adjective	describing things	
+medium		B1	adjective	describing things	
+minimum		B1	adjective	describing things	
+narrow	NOT WIDE	B1	adjective	describing things	
+nasty	BAD	B1	adjective	describing things	
+navy blue		B1	adjective	describing things	
+near	DISTANCE	B1	adjective	describing things	
+nearby		B1	adjective	describing things	
+opposite	FACING	B1	adjective	describing things	
+outdoor		B1	adjective	describing things	
+pretty	PLACE/OBJECT	B1	adjective	describing things	
+regular	SIZE	B1	adjective	describing things	
+rough	NOT SMOOTH	B1	adjective	describing things	
+rough	NOT EXACT	B1	adjective	describing things	
+sharp	ABLE TO CUT	B1	adjective	describing things	
+smooth	REGULAR SURFACE	B1	adjective	describing things	
+apart	SEPARATE	B1	adverb	describing things	
+around	IN A CIRCLE/CIRCULAR MOVEMENT	B1	adverb	describing things	
+away	INTO PLACE	B1	adverb	describing things	
+behind	BACK	B1	adverb	describing things	
+below	LESS	B1	adverb	describing things	
+deep	LONG WAY INTO	B1	adverb	describing things	
+down	FAR	B1	adverb	describing things	
+extra		B1	adverb	describing things	
+high	DISTANCE	B1	adverb	describing things	
+indoors		B1	adverb	describing things	
+least	LESS	B1	adverb	describing things	
+low		B1	adverb	describing things	
+more	GREATER NUMBER OF TIMES	B1	adverb	describing things	
+much	OFTEN/ A LOT	B1	adverb	describing things	
+much	WITH ADJECTIVES	B1	adverb	describing things	
+near	DISTANCE	B1	adverb	describing things	
+nearby		B1	adverb	describing things	
+opposite		B1	adverb	describing things	
+percent		B1	adverb	describing things	
+minimum		B1	noun	describing things	
+elementary		B1	adjective	education	
+secondary		B1	adjective	education	
+school	COLLEGE/UNIVERSITY	B1	noun	education	
+bitter	TASTE	B1	adjective	food and drink	
+frozen	FOOD	B1	adjective	food and drink	
+hot	SPICY	B1	adjective	food and drink	
+raw	NOT COOKED	B1	adjective	food and drink	
+sour		B1	adjective	food and drink	
+ingredient	FOOD	B1	noun	food and drink	
+downstairs		B1	adjective	homes and buildings	
+first-floor		B1	adjective	homes and buildings	
+owe	HAVE DEBT	B1	verb	money	
+calm	SEA/WEATHER	B1	adjective	natural world	
+clear	WITHOUT CLOUDS	B1	adjective	natural world	
+cool	SLIGHTLY COLD	B1	adjective	natural world	
+fine	SUNNY	B1	adjective	natural world	
+frozen	WATER	B1	adjective	natural world	
+green	GRASS	B1	adjective	natural world	
+humid		B1	adjective	natural world	
+mild	WEATHER	B1	adjective	natural world	
+seaside		B1	noun	natural world	
+choice	RIGHT	B1	noun	people: actions	
+look	SEARCH	B1	noun	people: actions	
+push	PRESS	B1	noun	people: actions	
+match	CHOOSE	B1	verb	people: actions	
+reserve	KEEP	B1	verb	people: actions	
+elderly		B1	adjective	people: appearance	
+handsome	ATTRACTIVE	B1	adjective	people: appearance	
+afraid	WORRIED	B1	adjective	people: personality	
+bad	EVIL	B1	adjective	people: personality	
+brave		B1	adjective	people: personality	
+brilliant	VERY INTELLIGENT	B1	adjective	people: personality	
+calm	PERSON	B1	adjective	people: personality	
+certain	NO DOUBT	B1	adjective	people: personality	
+cold	UNFRIENDLY	B1	adjective	people: personality	
+cruel		B1	adjective	people: personality	
+difficult	NOT FRIENDLY	B1	adjective	people: personality	
+gentle	KIND	B1	adjective	people: personality	
+good	MORALLY RIGHT	B1	adjective	people: personality	
+honest	TRUTH	B1	adjective	people: personality	
+honest	NOT CHEAT	B1	adjective	people: personality	
+hurt	UNHAPPY	B1	adjective	people: personality	
+miserable	UNHAPPY	B1	adjective	people: personality	
+nasty	UNKIND	B1	adjective	people: personality	
+new	NOT FAMILIAR	B1	adjective	people: personality	
+patient		B1	adjective	people: personality	
+positive	HAPPY	B1	adjective	people: personality	
+proud	PLEASED	B1	adjective	people: personality	
+shy		B1	adjective	people: personality	
+silly	LITTLE THOUGHT	B1	adjective	people: personality	
+smart	INTELLIGENT	B1	adjective	people: personality	
+interest	FEELING	B1	noun	people: personality	
+knowledge	UNDERSTANDING	B1	noun	people: personality	
+public	GOVERNMENT	B1	adjective	politics	
+party	POLITICS	B1	noun	politics	
+close	RELATIVE	B1	adjective	relationships	
+gay		B1	adjective	relationships	
+couple	TWO PEOPLE	B1	noun	relationships	
+out	AVAILABLE	B1	adverb	shopping	
+abroad		B1	adverb	travel	
+in	TRANSPORT	B1	adverb	travel	
+on	MOVEMENT/POSITION	B1	adverb	travel	
+full-time		B1	adjective	work	
+part-time		B1	adverb	work	
+promote	JOB	B1	verb	work	
+impossible	CANNOT HAPPEN	B1	adjective		
+inexpensive		B1	adjective		
+internationally		B1	adverb		
+intermediate		B1	adjective		
+fashionable		B1	adjective		
+reasonable	CHEAP	B1	adjective		
+sociable		B1	adjective		
+annual		B1	adjective		
+central	NEAR CENTER	B1	adjective		
+cultural	WAY OF LIFE	B1	adjective		
+essential	NECESSARY	B1	adjective		
+historical		B1	adjective		
+natural	NOT ARTIFICIAL	B1	adjective		
+original	FIRST MADE	B1	adjective		
+original	INTERESTING	B1	adjective		
+personal	RELATING TO A PERSON	B1	adjective		
+personal	FOR ONE PERSON	B1	adjective		
+personal	PRIVATE	B1	adjective		
+principal		B1	adjective		
+professional	EARNING MONEY	B1	adjective		
+social	GOING OUT	B1	adjective		
+important	POWERFUL	B1	adjective		
+complicated		B1	adjective		
+depressed	UNHAPPY	B1	adjective		
+dressed	PARTICULAR CLOTHES	B1	adjective		
+prepared	READY	B1	adjective		
+convenient	EASY/SUITABLE	B1	adjective		
+convenient	NEAR	B1	adjective		
+efficient		B1	adjective		
+independent	NOT HELPED	B1	adjective		
+further	DISTANCE	B1	adverb		
+powerful	STRENGTH	B1	adjective		
+possible	NOT CERTAIN	B1	adjective		
+historic		B1	adjective		
+realistic	SEEMING REAL	B1	adjective		
+romantic	LOVE	B1	adjective		
+burning	ON FIRE	B1	adjective		
+challenging		B1	adjective		
+missing	NOT INCLUDED	B1	adjective		
+condition	STATE	B1	noun		
+position	SITUATION	B1	noun		
+quality	GOOD OR BAD	B1	noun		
+active	BUSY	B1	adjective		
+active	GRAMMAR	B1	adjective		
+possessive	GRAMMAR	B1	adjective		
+likely		B1	adjective		
+monthly		B1	adjective		
+accidentally		B1	adverb		
+briefly		B1	adverb		
+correctly		B1	adverb		
+definitely		B1	adverb		
+differently		B1	adverb		
+directly	NOTHING BETWEEN	B1	adverb		
+frequently		B1	adverb		
+lately		B1	adverb		
+lightly	GENTLY	B1	adverb		
+loudly		B1	adverb		
+mostly		B1	adverb		
+normally	USUALLY	B1	adverb		
+obviously		B1	adverb		
+perfectly	WITHOUT FAULT	B1	adverb		
+pleasantly		B1	adverb		
+previously		B1	adverb		
+properly		B1	adverb		
+quietly	WITHOUT NOISE	B1	adverb		
+quietly	WITHOUT ACTIVITY	B1	adverb		
+rarely		B1	adverb		
+really	FACT	B1	adverb		
+recently		B1	adverb		
+regularly	OFTEN	B1	adverb		
+regularly	SAME TIME	B1	adverb		
+secretly		B1	adverb		
+seriously	BADLY	B1	adverb		
+softly		B1	adverb		
+specially		B1	adverb		
+delicious		B1	adjective		
+obvious		B1	adjective		
+previous		B1	adjective		
+serious	BAD	B1	adjective		
+serious	NOT JOKING	B1	adjective		
+dusty		B1	adjective		
+funny	STRANGE	B1	adjective		
+juicy	WITH JUICE	B1	adjective		
+lucky	GIVING LUCK	B1	adjective		
+messy		B1	adjective		
+shiny		B1	adjective		
+sleepy	TIRED	B1	adjective		
+absent		B1	adjective		
+alike		B1	adjective		
+all right	GOOD ENOUGH	B1	adjective		
+bald		B1	adjective		
+bright	LIGHT	B1	adjective		
+certain	SURE TO HAPPEN	B1	adjective		
+certain	PARTICULAR	B1	adjective		
+clear	CERTAIN	B1	adjective		
+common	USUAL	B1	adjective		
+common	SHARED	B1	adjective		
+complete	WHOLE	B1	adjective		
+correct	SUITABLE	B1	adjective		
+cozy		B1	adjective		
+direct	STRAIGHT	B1	adjective		
+downtown		B1	adjective		
+due	EXPECTED	B1	adjective		
+dull	BORING	B1	adjective		
+duty-free		B1	adjective		
+early	BEFORE	B1	adjective		
+eastern	EAST PART	B1	adjective		
+face-to-face		B1	adjective		
+fair	EQUAL	B1	adjective		
+fair	REASONABLE	B1	adjective		
+familiar	EASY TO RECOGNIZE	B1	adjective		
+fancy	ATTRACTIVE	B1	adjective		
+fancy	EXPENSIVE	B1	adjective		
+female		B1	adjective		
+forbidden		B1	adjective		
+former		B1	adjective		
+frequent		B1	adjective		
+fresh	DIFFERENT	B1	adjective		
+fresh	CLEAN/COOL	B1	adjective		
+full	GREATEST POSSIBLE	B1	adjective		
+future		B1	adjective		
+general	NOT DETAILED	B1	adjective		
+gorgeous		B1	adjective		
+hard	USING EFFORT	B1	adjective		
+hidden	NOT EASY TO FIND	B1	adjective		
+incorrect		B1	adjective		
+individual	RELATING TO ONE	B1	adjective		
+light	BRIGHT	B1	adjective		
+little	NOT IMPORTANT	B1	adjective		
+local		B1	adjective		
+loose	CLOTHES	B1	adjective		
+lost	OBJECT	B1	adjective		
+magic	SPECIAL POWERS	B1	adjective		
+male		B1	adjective		
+modern	NOW	B1	adjective		
+neat	ORGANIZED	B1	adjective		
+necessary		B1	adjective		
+next-door		B1	adjective		
+northeast		B1	adjective		
+northern		B1	adjective		
+northwest		B1	adjective		
+open	WITHOUT BUILDINGS	B1	adjective		
+ordinary	NOT SPECIAL	B1	adjective		
+out-of-date		B1	adjective		
+overnight	FOR THE NIGHT	B1	adjective		
+passive	GRAMMAR	B1	adjective		
+past	BEFORE NOW	B1	adjective		
+past	UNTIL NOW	B1	adjective		
+perfect	SUITABLE	B1	adjective		
+permanent		B1	adjective		
+plain	SIMPLE	B1	adjective		
+plain	NOT MIXED	B1	adjective		
+present		B1	adjective		
+private	NOT EVERYONE	B1	adjective		
+private	SECRET	B1	adjective		
+proper		B1	adjective		
+pure	NOT MIXED	B1	adjective		
+pure	CLEAN	B1	adjective		
+quiet	NOT TALKING MUCH	B1	adjective		
+rare	UNUSUAL	B1	adjective		
+real	TRUE	B1	adjective		
+recent		B1	adjective		
+regular	OFTEN	B1	adjective		
+regular	GRAMMAR	B1	adjective		
+right	SUITABLE	B1	adjective		
+rude		B1	adjective		
+safe	NOT HARMED	B1	adjective		
+second-hand		B1	adjective		
+secret		B1	adjective		
+self-service		B1	adjective		
+separate	NOT JOINED	B1	adjective		
+separate	DIFFERENT	B1	adjective		
+shut	CLOSED	B1	adjective		
+silent	QUIET	B1	adjective		
+silly	UNIMPORTANT	B1	adjective		
+similar		B1	adjective		
+simple	NOT COMPLICATED	B1	adjective		
+soft	GENTLE	B1	adjective		
+southeast		B1	adjective		
+southern		B1	adjective		
+southwest		B1	adjective		
+spare	EXTRA	B1	adjective		
+special	DIFFERENT	B1	adjective		
+spectacular		B1	adjective		
+above		B1	adverb		
+ahead	IN FRONT	B1	adverb		
+ahead	FUTURE	B1	adverb		
+along	FORWARD	B1	adverb		
+along	WITH YOU	B1	adverb		
+aloud		B1	adverb		
+already	EARLY	B1	adverb		
+altogether	TOTAL	B1	adverb		
+any		B1	adverb		
+around	OPPOSITE DIRECTION	B1	adverb		
+back	BEHIND	B1	adverb		
+backward	BEHIND	B1	adverb		
+besides	IN ADDITION TO	B1	adverb		
+best	MOST SUITABLE	B1	adverb		
+either		B1	adverb		
+even	EMPHASIS	B1	adverb		
+face to face		B1	adverb		
+first	FIRST TIME	B1	adverb		
+first	BEGINNING A SERIES	B1	adverb		
+forever	IN FUTURE	B1	adverb		
+forward	DIRECTION	B1	adverb		
+furthest		B1	adverb		
+half		B1	adverb		
+hard	WITH FORCE	B1	adverb		
+home	AT/IN PLACE	B1	adverb		
+in	AT A PLACE	B1	adverb		
+just	ALMOST NOT	B1	adverb		
+just	EXACTLY	B1	adverb		
+last	MOST RECENT	B1	adverb		
+loud		B1	adverb		
+luckily		B1	adverb		
+meanwhile		B1	adverb		
+next door		B1	adverb		
+not	QUESTIONS	B1	adverb		
+nowadays		B1	adverb		
+nowhere	NOT ANYWHERE	B1	adverb		
+off	AWAY FROM	B1	adverb		
+off	LESS MONEY	B1	adverb		
+once	PAST	B1	adverb		
+only	NOWHERE ELSE	B1	adverb		
+only	RECENTLY	B1	adverb		
+only	NOT IMPORTANT	B1	adverb		
+otherwise	WHAT WOULD HAPPEN	B1	adverb		
+out	AWAY FROM INSIDE	B1	adverb		
+out	APPEAR	B1	adverb		
+out	DISAPPEAR	B1	adverb		
+outdoors		B1	adverb		
+over	ACROSS	B1	adverb		
+over	FINISHED	B1	adverb		
+right	EXACTLY	B1	adverb		
+safely		B1	adverb		
+second	IN ORDER	B1	adverb		
+somehow	WAY NOT KNOWN	B1	adverb		
+someplace		B1	adverb		
+choice	VARIETY	B1	noun		
+choice	PERSON/THING	B1	noun		
+fall	LOWER AMOUNT	B1	noun		
+future	SUCCESS	B1	noun		
+hurry		B1	noun		
+interest	ACTIVITY/SUBJECT	B1	noun		
+memory	EVENT REMEMBERED	B1	noun		
+mess	NOT NEAT	B1	noun		
+popcorn		B1	noun		
+range	MOUNTAINS	B1	noun		
+accompany	HAPPEN TOGETHER	B1	verb		
+last	CONTINUE	B1	verb		
+unemployment		B1	noun	work	
+thriller		B1	noun	arts and media	
+stranger		B1	noun	relationships	
+swimmer		B1	noun	shopping	
+writing	STYLE	B1	noun	communication	
+warning		B1	noun	communication	
+wedding		B1	noun	relationships	
+training	SPORTS	B1	noun	shopping	
+windsurfing		B1	noun	shopping	
+station	BROADCASTING	B1	noun	arts and media	
+television	SYSTEM	B1	noun	arts and media	
+suggestion	IDEA	B1	noun	communication	
+translation		B1	noun	communication	
+tourism		B1	noun	travel	
+tiger		B1	noun	animals	
+web	SPIDER	B1	noun	animals	
+whale		B1	noun	animals	
+wing	CREATURE	B1	noun	animals	
+statue		B1	noun	arts and media	
+talk show		B1	noun	arts and media	
+trumpet		B1	noun	arts and media	
+star		B1	verb	arts and media	
+tablet		B1	noun	body and health	
+temperature	BODY	B1	noun	body and health	
+test	MEDICAL	B1	noun	body and health	
+throat		B1	noun	body and health	
+thumb		B1	noun	body and health	
+tongue	IN MOUTH	B1	noun	body and health	
+sweatshirt		B1	noun	clothes	
+top	CLOTHES	B1	noun	clothes	
+underwear		B1	noun	clothes	
+underpants		B1	noun	clothes	
+take	CLOTHES	B1	verb	clothes	
+subject	THING TALKED ABOUT	B1	noun	communication	
+table	INFORMATION	B1	noun	communication	
+talk	CONVERSATION	B1	noun	communication	
+text	PIECE OF WRITING	B1	noun	communication	
+tip	ADVICE	B1	noun	communication	
+title	BOOK/FILM, ETC.	B1	noun	communication	
+topic		B1	noun	communication	
+use	WORD	B1	noun	communication	
+vowel		B1	noun	communication	
+text	WORDS, NOT PICTURES	B1	noun	communication	
+welcome	FRIENDLY TREATMENT	B1	noun	communication	
+suggest	IDEA	B1	verb	communication	
+suggest	ADVICE	B1	verb	communication	
+take	WRITE	B1	verb	communication	
+underline	DRAW LINE	B1	verb	communication	
+warn		B1	verb	communication	
+welcome	MEET	B1	verb	communication	
+translate	LANGUAGE	B1	verb	communication	
+wonder	POLITE REQUEST	B1	verb	communication	
+write	CREATE	B1	verb	communication	
+stripe		B1	noun	describing things	
+yard	UNIT OF MEASUREMENT	B1	noun	describing things	
+worst	MOST UNPLEASANT/DIFFICULT	B1	noun	describing things	
+take	STUDY	B1	verb	education	
+strawberry		B1	noun	food and drink	
+takeout		B1	noun	food and drink	
+vegetarian		B1	noun	food and drink	
+spinach		B1	noun	food and drink	
+taste	FLAVOR	B1	noun	food and drink	
+tuna		B1	noun	food and drink	
+step	STAIR	B1	noun	homes and buildings	
+study	ROOM	B1	noun	homes and buildings	
+tower		B1	noun	homes and buildings	
+sum		B1	noun	money	
+tip	PAYMENT	B1	noun	money	
+tax		B1	noun	money	
+stream	SMALL RIVER	B1	noun	natural world	
+valley		B1	noun	natural world	
+waterfall		B1	noun	natural world	
+wave	WATER	B1	noun	natural world	
+weather forecast		B1	noun	natural world	
+sunshine		B1	noun	natural world	
+thunder		B1	noun	natural world	
+stone	ROCK	B1	noun	natural world	
+sunrise		B1	noun	natural world	
+sunset		B1	noun	natural world	
+step	FOOT MOVEMENT	B1	noun	people: actions	
+support	HELP	B1	noun	people: actions	
+work	EFFORT	B1	noun	people: actions	
+succeed		B1	verb	people: actions	
+sunbathe		B1	verb	people: actions	
+turn	MOVE YOUR BODY	B1	verb	people: actions	
+spoil		B1	verb	people: actions	
+stop	PREVENT	B1	verb	people: actions	
+strike	HIT	B1	verb	people: actions	
+take	GET HOLD	B1	verb	people: actions	
+take	WITHOUT PERMISSION	B1	verb	people: actions	
+take	PERFORM ACTION	B1	verb	people: actions	
+tie	MAKE A KNOT	B1	verb	people: actions	
+transfer	MOVE	B1	verb	people: actions	
+try	TEST	B1	verb	people: actions	
+use	REDUCE	B1	verb	people: actions	
+waste	USE TOO MUCH	B1	verb	people: actions	
+wrap	COVER	B1	verb	people: actions	
+spill		B1	verb	people: actions	
+start	MAKE HAPPEN	B1	verb	people: actions	
+stick	ATTACH	B1	verb	people: actions	
+stop	NOT MOVE	B1	verb	people: actions	
+tear	BREAK	B1	verb	people: actions	
+tie	FASTEN	B1	verb	people: actions	
+turn	PAGE	B1	verb	people: actions	
+thought	IDEA	B1	noun	people: personality	
+worry	PROBLEM	B1	noun	people: personality	
+stress	WORRY	B1	noun	people: personality	
+talent		B1	noun	people: personality	
+surprise		B1	verb	people: personality	
+trust	BELIEVE	B1	verb	people: personality	
+vote	SHOW CHOICE	B1	noun	politics	
+twin		B1	noun	relationships	
+stall		B1	noun	shopping	
+tournament		B1	noun	shopping	
+track	RACE	B1	noun	shopping	
+squash		B1	noun	shopping	
+yoga		B1	noun	shopping	
+support	SPORTS	B1	verb	shopping	
+switch		B1	noun	technology	
+virus	COMPUTER PROBLEM	B1	noun	technology	
+webcam		B1	noun	technology	
+window	COMPUTER	B1	noun	technology	
+volume	SOUND	B1	noun	technology	
+technology		B1	noun	technology	
+stop	NOT OPERATE	B1	verb	technology	
+stay		B1	noun	travel	
+tent		B1	noun	travel	
+track	PATH	B1	noun	travel	
+traffic jam		B1	noun	travel	
+traveler		B1	noun	travel	
+truck		B1	noun	travel	
+trunk	CAR	B1	noun	travel	
+tunnel		B1	noun	travel	
+van		B1	noun	travel	
+vehicle		B1	noun	travel	
+windshield		B1	noun	travel	
+transportation	TRAVEL METHOD	B1	noun	travel	
+travel		B1	noun	travel	
+strike		B1	noun	work	
+thief		B1	noun	crime	
+temple		B1	noun	homes and buildings	
+uncountable noun		B1	noun		
+undress		B1	verb		
+unpack		B1	verb		
+trainer	PERSON	B1	noun		
+user		B1	noun		
+writer		B1	noun		
+teaching		B1	noun		
+training	LEARNING SKILLS	B1	noun		
+spot	CIRCLE	B1	noun		
+spy		B1	noun		
+stain		B1	noun		
+state	PART OF COUNTRY	B1	noun		
+stick	THIN PIECE	B1	noun		
+stop	TRIP/ACTIVITY	B1	noun		
+studio	TV/RADIO/MUSIC	B1	noun		
+studio	FILM	B1	noun		
+subject	GRAMMAR	B1	noun		
+success	GOOD THING	B1	noun		
+system	EQUIPMENT	B1	noun		
+tense		B1	noun		
+tissue		B1	noun		
+total		B1	noun		
+travel agent		B1	noun		
+trend		B1	noun		
+trick	DECEIVE	B1	noun		
+trick	MAGIC	B1	noun		
+tube	CONTAINER	B1	noun		
+turn	TIME	B1	noun		
+unit	SINGLE THING	B1	noun		
+vase		B1	noun		
+vet		B1	noun		
+video clip		B1	noun		
+view	OPINION	B1	noun		
+visa		B1	noun		
+visit		B1	noun		
+voice	SOUNDS	B1	noun		
+way	DIRECTION	B1	noun		
+wheelchair		B1	noun		
+workout		B1	noun		
+zone		B1	noun		
+stuff	SUBSTANCE	B1	noun		
+success	ACHIEVEMENT	B1	noun		
+time	AVAILABLE OR NEEDED	B1	noun		
+toothpaste		B1	noun		
+town	PLACE YOU LIVE	B1	noun		
+trade	BUYING AND SELLING	B1	noun		
+trash		B1	noun		
+trouble	PUNISHMENT	B1	noun		
+value	IMPORTANCE	B1	noun		
+variety	BEING DIFFERENT	B1	noun		
+weight	AMOUNT	B1	noun		
+wildlife		B1	noun		
+style	WAY	B1	noun		
+style	FASHION	B1	noun		
+technique		B1	noun		
+trouble	DIFFICULTIES	B1	noun		
+turkey		B1	noun		
+use	PURPOSE	B1	noun		
+value	MONEY	B1	noun		
+wage		B1	noun		
+way	DISTANCE	B1	noun		
+stay	CONTINUE	B1	verb		
+surf	WAVES	B1	verb		
+think	USE BRAIN	B1	verb		
+think	REMEMBER	B1	verb		
+travel	MOVE	B1	verb		
+work	SUCCEED	B1	verb		
+support	PROVIDE	B1	verb		
+support	HELP	B1	verb		
+surround	GO AROUND	B1	verb		
+take	ACCEPT	B1	verb		
+taste	FOOD/DRINK	B1	verb		
+teach	GET EXPERIENCE	B1	verb		
+test	EXAM	B1	verb		
+turn	CHANGE POSITION	B1	verb		
+update	ADD INFORMATION	B1	verb		
+upload		B1	verb		
+weigh	HEAVINESS	B1	verb		
+stir	MIX	B1	verb		
+tour		B1	verb		
+train	SPORTS	B1	verb		
+type		B1	verb		
+understand	KNOW FEELINGS	B1	verb		
+vote		B1	verb		
+wave		B1	verb		
+win	ELECTION	B1	verb		
+wonder	QUESTION	B1	verb		
+unwell		B1	adjective	body and health	
+unbelievable	SURPRISING	B1	adjective	people: personality	
+uncomfortable		B1	adjective	people: personality	
+unexpected		B1	adjective	people: personality	
+uninterested		B1	adjective	people: personality	
+unemployed		B1	adjective	work	
+uninteresting		B1	adjective	people: personality	
+unhealthy		B1	adjective	body and health	
+unimportant		B1	adjective	describing things	
+unpleasant	NOT PLEASANT	B1	adjective	describing things	
+unhappy	NOT SATISFIED	B1	adjective	people: personality	
+unkind		B1	adjective	people: personality	
+valuable	OBJECTS	B1	adjective	money	
+well-dressed		B1	adjective	people: appearance	
+stressed		B1	adjective	people: personality	
+talented		B1	adjective	people: personality	
+terrified		B1	adjective	people: personality	
+stressful		B1	adjective	people: personality	
+surprising		B1	adjective	people: personality	
+tiring		B1	adjective	people: personality	
+working	JOB	B1	adjective	work	
+stylish		B1	adjective	clothes	
+useless	NO HELP	B1	adjective	describing things	
+terribly	VERY MUCH	B1	adverb	communication	
+totally		B1	adverb	communication	
+surprisingly		B1	adverb	people: personality	
+tasty		B1	adjective	food and drink	
+tight	CLOTHES	B1	adjective	clothes	
+written		B1	adjective	communication	
+therefore		B1	adverb	communication	
+thank you		B1	noun	communication	
+strong	DIFFICULT TO BREAK	B1	adjective	describing things	
+strong	NOTICEABLE	B1	adjective	describing things	
+terrific	VERY GOOD	B1	adjective	describing things	
+thick	NOT THIN	B1	adjective	describing things	
+tiny		B1	adjective	describing things	
+through		B1	adverb	describing things	
+vegetarian		B1	adjective	food and drink	
+upstairs		B1	adjective	homes and buildings	
+stone	JEWEL	B1	noun	natural world	
+waste	BAD USE	B1	noun	people: actions	
+touch	PUT HAND ON	B1	verb	people: actions	
+teenage		B1	adjective	people: appearance	
+weak	BODY	B1	adjective	people: appearance	
+white	PERSON	B1	adjective	people: appearance	
+youth	YOUNG PEOPLE	B1	noun	people: appearance	
+strict	PERSON	B1	adjective	people: personality	
+stupid		B1	adjective	people: personality	
+sweet	KIND	B1	adjective	people: personality	
+weak	NOT GOOD	B1	adjective	people: personality	
+strong	RELATIONSHIP	B1	adjective	relationships	
+sports		B1	adjective	shopping	
+team	WORK GROUP	B1	noun	work	
+union	REPRESENTATIVE ORGANIZATION	B1	noun	work	
+unforgettable		B1	adjective		
+unlikely	NOT LIKELY	B1	adjective		
+unlucky		B1	adjective		
+unfair	NOT EQUAL	B1	adjective		
+unfriendly		B1	adjective		
+unknown		B1	adjective		
+unnecessary		B1	adjective		
+suitable		B1	adjective		
+traditional		B1	adjective		
+typical		B1	adjective		
+usual	NORMAL	B1	adjective		
+successful	ACHIEVEMENT	B1	adjective		
+suddenly		B1	adverb		
+typically	USUALLY	B1	adverb		
+urgently		B1	adverb		
+sticky		B1	adjective		
+steep	SLOPE	B1	adjective		
+strange	NOT FAMILIAR	B1	adjective		
+strong	PRODUCED WITH POWER	B1	adjective		
+temporary		B1	adjective		
+thick	CLOSE TOGETHER	B1	adjective		
+top	HIGHEST PART	B1	adjective		
+top	BEST	B1	adjective		
+total	AMOUNT	B1	adjective		
+TRUE	REAL	B1	adjective		
+upper		B1	adjective		
+up-to-date		B1	adjective		
+urgent		B1	adjective		
+used		B1	adjective		
+warm	FRIENDLY	B1	adjective		
+waste		B1	adjective		
+welcome	PLEASED	B1	adjective		
+western	DIRECTION	B1	adjective		
+western	COUNTRIES	B1	adjective		
+wet	NOT DRY YET	B1	adjective		
+wrong	PROBLEM	B1	adjective		
+still	DESPITE	B1	adverb		
+straight	IMMEDIATELY	B1	adverb		
+together	SAME TIME	B1	adverb		
+up	NOT IN BED	B1	adverb		
+why	TALK ABOUT REASON	B1	adverb		
+worse	COMPARATIVE	B1	adverb		
+start	BEGINNING	B1	noun		
+tear	CRYING	B1	noun		
+time	WHEN SOMETHING HAPPENS	B1	noun		
+world	GROUP	B1	noun		
+regarding		B1	preposition	communication	
+may	PERMISSION	B1	modal verb	communication	
+in	WEARING	B1	preposition	clothes	
+could	SUGGESTION	B1	modal verb	communication	
+could	ASK PERMISSION	B1	modal verb	communication	
+according to	OPINION	B1	preposition	communication	
+because of		B1	preposition	communication	
+despite		B1	preposition	communication	
+in	EXPRESSED	B1	preposition	communication	
+itself	EMPHASIS	B1	pronoun	communication	
+double		B1	determiner	describing things	
+few	NOT MANY	B1	determiner	describing things	
+little	NOT ENOUGH	B1	determiner	describing things	
+after	FOLLOWING	B1	preposition	describing things	
+along	NEXT TO	B1	preposition	describing things	
+before	IN FRONT OF	B1	preposition	describing things	
+beside		B1	preposition	describing things	
+by	NEAR	B1	preposition	describing things	
+in	ARRANGEMENT	B1	preposition	describing things	
+of	WHO/WHAT	B1	preposition	describing things	
+on	NEXT TO	B1	preposition	describing things	
+out of	NO LONGER INSIDE	B1	preposition	describing things	
+out of	FROM AMONG	B1	preposition	describing things	
+over	HIGHER POSITION	B1	preposition	describing things	
+over	OTHER SIDE	B1	preposition	describing things	
+little	SMALL AMOUNT	B1	pronoun	describing things	
+none		B1	pronoun	describing things	
+plenty		B1	pronoun	describing things	
+in	EXPERIENCE	B1	preposition	people: personality	
+for	REPRESENTING	B1	preposition	work	
+damn		B1	exclamation	communication	
+do	AVOID REPEATING	B1	auxiliary verb		
+all	ONLY THING	B1	determiner		
+most	MORE	B1	determiner		
+other	DIFFERENT	B1	determiner		
+Cheers!		B1	exclamation		
+can	SURPRISE	B1	modal verb		
+could	POSSIBLY HAPPEN	B1	modal verb		
+may	POSSIBLY TRUE	B1	modal verb		
+might	POSSIBLY TRUE	B1	modal verb		
+ought to	BEST THING	B1	modal verb		
+should	BEST	B1	modal verb		
+should	PROBABLE	B1	modal verb		
+against	OPPOSITE DIRECTION	B1	preposition		
+at	ABILITY	B1	preposition		
+before	IN ORDER	B1	preposition		
+behind	SLOWER	B1	preposition		
+behind	SUPPORTING	B1	preposition		
+besides		B1	preposition		
+between	SHARE	B1	preposition		
+beyond	TIME	B1	preposition		
+but		B1	preposition		
+for	HELP	B1	preposition		
+from	COMPARING	B1	preposition		
+in	INVOLVED	B1	preposition		
+instead of		B1	preposition		
+into	HIT	B1	preposition		
+into	TOWARD	B1	preposition		
+like	SUCH AS	B1	preposition		
+of	CAUSE	B1	preposition		
+off	AWAY FROM	B1	preposition		
+off	REMOVED	B1	preposition		
+on	ABOUT	B1	preposition		
+on	USING	B1	preposition		
+onto	MOVEMENT	B1	preposition		
+out of	MADE FROM	B1	preposition		
+over	ACROSS	B1	preposition		
+over	DURING	B1	preposition		
+anybody	ANY PERSON	B1	pronoun		
+anyone	ANY PERSON	B1	pronoun		
+either	ONE OF TWO	B1	pronoun		
+nothing	NOT IMPORTANT	B1	pronoun		
+via	USING	B1	preposition	communication	
+which	ADDING INFORMATION	B1	pronoun	communication	
+to	POSITION	B1	preposition	describing things	
+underneath		B1	preposition	describing things	
+with	WHAT	B1	preposition	describing things	
+within	DISTANCE	B1	preposition	describing things	
+to	RELATIONSHIP	B1	preposition	relationships	
+via	JOURNEY	B1	preposition	travel	
+the	YOUR	B1	determiner		
+their	TO AVOID HIS/HERS	B1	determiner		
+what	STRONG OPINION	B1	determiner		
+whose	ASKING WHO	B1	determiner		
+whose	MORE INFORMATION	B1	determiner		
+your	PEOPLE GENERALLY	B1	determiner		
+would	IF	B1	modal verb		
+would	SAID/THOUGHT	B1	modal verb		
+would	WILLING/ABLE	B1	modal verb		
+would	IMAGINE	B1	modal verb		
+through	BEGINNING TO END	B1	preposition		
+through	BECAUSE OF	B1	preposition		
+to	AFFECTED	B1	preposition		
+to	COMPARE	B1	preposition		
+to	UNTIL	B1	preposition		
+to	CONNECTED	B1	preposition		
+toward	DIRECTION	B1	preposition		
+with	HOW	B1	preposition		
+within	TIME	B1	preposition		
+them	TO AVOID HIM/HER	B1	pronoun		
+they	PERSON	B1	pronoun		
+we	ALL PEOPLE	B1	pronoun		
+what	THE THING	B1	pronoun		
+whatever	ANYTHING	B1	pronoun		
+who	ADDING INFORMATION	B1	pronoun		
+whose		B1	pronoun		
+regards		B1	phrase	communication	
+I bet (you)		B1	phrase	communication	
+Are you kidding?/You're kidding!		B1	phrase	communication	
+quite a bit		B1	phrase	describing things	
+loads of/a load of		B1	phrase	describing things	
+be dying for/to do sth		B1	phrase	people: personality	
+Oh my God!		B1	phrase	communication	
+thank God		B1	phrase	communication	
+sb's call		B1	phrase		
+hours		B1	phrase		
+a book/cat/dog, etc. lover		B1	phrase	people: personality	
+a horror film/movie/story		B1	phrase	arts and media	
+the news		B1	phrase	arts and media	
+appear in/at/on, etc.		B1	phrase	arts and media	
+wait a minute		B1	phrase	communication	
+believe it or not		B1	phrase	communication	
+I guess		B1	phrase	communication	
+by hand		B1	phrase	people: actions	
+change your mind		B1	phrase	people: actions	
+make up your mind or make your mind up		B1	phrase	people: actions	
+fall asleep		B1	phrase	people: actions	
+have a question/idea/plan, etc.		B1	phrase	people: actions	
+make sb do sth		B1	phrase	people: actions	
+set a date/time (for sth)		B1	phrase	people: actions	
+help yourself (to sth)		B1	phrase	people: actions	
+not believe your eyes		B1	phrase	people: personality	
+for fun or for the fun of it		B1	phrase	people: personality	
+find sb/sth easy/boring/funny, etc.		B1	phrase	people: personality	
+old friend		B1	phrase	relationships	
+be friends (with sb)		B1	phrase	relationships	
+make friends (with sb)		B1	phrase	relationships	
+make friends (with sb)		B1	phrase	relationships	
+come after/first/last, etc.		B1	phrase	shopping	
+pay attention (to sth)		B1	phrase		
+by accident		B1	phrase		
+in back of sb/sth		B1	phrase		
+out of date		B1	phrase		
+up to date		B1	phrase		
+the girls		B1	phrase		
+guys		B1	phrase		
+a hand		B1	phrase		
+that kind of thing		B1	phrase		
+some kind of		B1	phrase		
+by mistake		B1	phrase		
+Route		B1	phrase		
+the public		B1	phrase		
+without delay		B1	phrase		
+have no doubt		B1	phrase		
+there's no doubt		B1	phrase		
+2/3/4, etc. o'clock in the morning		B1	phrase		
+in the morning		B1	phrase		
+come true		B1	phrase		
+fall in love		B1	phrase		
+not believe your eyes/ears		B1	phrase		
+bring (sb) happiness/luck/peace, etc.		B1	phrase		
+find the money/time, etc.		B1	phrase		
+have sth cleaned/repaired, etc.		B1	phrase		
+have sth stolen/taken, etc.		B1	phrase		
+have no idea		B1	phrase		
+be located in/near/on/etc.		B1	phrase		
+make up your mind or make your mind up		B1	phrase		
+make a face		B1	phrase		
+have been meaning to do sth		B1	phrase		
+show sb what to do/how to do sth		B1	phrase		
+can't/couldn't help doing sth		B1	phrase		
+hope to do sth		B1	phrase		
+Sincerely (yours)		B1	phrase	communication	
+catch up with sb	MEET	B1	phrasal verb	communication	
+no way		B1	phrase	communication	
+Oh my gosh!		B1	phrase	communication	
+or so		B1	phrase	describing things	
+quite a bit		B1	phrase	describing things	
+or so		B1	phrase	describing things	
+hang on		B1	phrasal verb	people: actions	
+be into sth		B1	phrase	people: personality	
+be mad about sb/sth		B1	phrase	people: personality	
+hold on	WAIT	B1	phrasal verb		
+nice and sth		B1	phrase		
+likes and dislikes		B1	phrase	people: personality	
+be responsible for sb/sth/doing sth		B1	phrase	work	
+sparkling water/wine		B1	phrase	food and drink	
+feelings		B1	phrase	people: personality	
+in addition (to)		B1	phrase	describing things	
+not really		B1	phrase	communication	
+on display		B1	phrase	arts and media	
+folk art/dancing, etc.		B1	phrase	arts and media	
+on display		B1	phrase	arts and media	
+blow your nose		B1	phrase	body and health	
+take care of sb/sth		B1	phrase	body and health	
+get cancer/flu, etc.		B1	phrase	body and health	
+have on sth or have sth on		B1	phrasal verb	clothes	
+call up (sb) or call (sb) up		B1	phrasal verb	communication	
+give in	AGREE	B1	phrasal verb	communication	
+hear from sb		B1	phrasal verb	communication	
+Look out!		B1	phrasal verb	communication	
+look up sth or look sth up		B1	phrasal verb	communication	
+pass on sth or pass sth on	TELL	B1	phrasal verb	communication	
+How/What about?	OPINION	B1	phrase	communication	
+after all		B1	phrase	communication	
+after all		B1	phrase	communication	
+and so on		B1	phrase	communication	
+apart from		B1	phrase	communication	
+as long as		B1	phrase	communication	
+at least		B1	phrase	communication	
+too bad		B1	phrase	communication	
+Come on!	ENCOURAGEMENT	B1	phrase	communication	
+of course		B1	phrase	communication	
+due to		B1	phrase	communication	
+in fact		B1	phrase	communication	
+for instance		B1	phrase	communication	
+in general		B1	phrase	communication	
+get in touch		B1	phrase	communication	
+to be honest		B1	phrase	communication	
+How about ...?		B1	phrase	communication	
+if I were you		B1	phrase	communication	
+if only		B1	phrase	communication	
+in fact		B1	phrase	communication	
+in the end		B1	phrase	communication	
+in general		B1	phrase	communication	
+in particular		B1	phrase	communication	
+for instance		B1	phrase	communication	
+keep in touch		B1	phrase	communication	
+keep a/sth secret		B1	phrase	communication	
+you know		B1	phrase	communication	
+at least		B1	phrase	communication	
+at least		B1	phrase	communication	
+as/so long as		B1	phrase	communication	
+as/so long as		B1	phrase	communication	
+out loud		B1	phrase	communication	
+Would you mind...?		B1	phrase	communication	
+wait a moment		B1	phrase	communication	
+no more/less/better, etc., than		B1	phrase	communication	
+not at all		B1	phrase	communication	
+of course		B1	phrase	communication	
+on the whole		B1	phrase	communication	
+once upon a time		B1	phrase	communication	
+out loud		B1	phrase	communication	
+in particular		B1	phrase	communication	
+break in or break into sth		B1	phrasal verb	crime	
+at least		B1	phrase	describing things	
+quite a few		B1	phrase	describing things	
+in front		B1	phrase	describing things	
+in front		B1	phrase	describing things	
+just about		B1	phrase	describing things	
+just as bad/good/tall/clever, etc. (as sb/sth)		B1	phrase	describing things	
+a little sth		B1	phrase	describing things	
+one or two		B1	phrase	describing things	
+over here/there		B1	phrase	describing things	
+be short of sth		B1	phrase	describing things	
+do badly/well		B1	phrase	education	
+to go		B1	phrase	food and drink	
+pay back sb/sth or pay sb/sth back		B1	phrasal verb	money	
+blow away (sth) or blow (sth) away		B1	phrasal verb	natural world	
+blow down (sth) or blow (sth) down		B1	phrasal verb	natural world	
+come out	SUN	B1	phrasal verb	natural world	
+go down	SUN	B1	phrasal verb	natural world	
+the cold		B1	phrase	natural world	
+before/after dark		B1	phrase	natural world	
+the environment		B1	phrase	natural world	
+fresh air		B1	phrase	natural world	
+the ground		B1	phrase	natural world	
+add up (sth) or add (sth) up		B1	phrasal verb	people: actions	
+blow up sth or blow sth up		B1	phrasal verb	people: actions	
+blow up (sth/sb) or blow (sth/sb) up		B1	phrasal verb	people: actions	
+call for sb		B1	phrasal verb	people: actions	
+carry on (sth) or carry (sth) on		B1	phrasal verb	people: actions	
+carry out sth or carry sth out		B1	phrasal verb	people: actions	
+come along	GO WITH SOMEONE	B1	phrasal verb	people: actions	
+cut up sth or cut sth up		B1	phrasal verb	people: actions	
+deal with sth		B1	phrasal verb	people: actions	
+fall down		B1	phrasal verb	people: actions	
+fall over		B1	phrasal verb	people: actions	
+fill up (sth) or fill (sth) up		B1	phrasal verb	people: actions	
+fix up sth or fix sth up		B1	phrasal verb	people: actions	
+get in	ENTER	B1	phrasal verb	people: actions	
+give out sth or give sth out		B1	phrasal verb	people: actions	
+give up sth or give sth up	ACTIVITY	B1	phrasal verb	people: actions	
+give up sth or give sth up	HABIT	B1	phrasal verb	people: actions	
+go away	LEAVE	B1	phrasal verb	people: actions	
+go off	LEAVE	B1	phrasal verb	people: actions	
+go on	CONTINUE	B1	phrasal verb	people: actions	
+hand out sth or hand sth out		B1	phrasal verb	people: actions	
+hang around (swh)		B1	phrasal verb	people: actions	
+hang out		B1	phrasal verb	people: actions	
+hang up sth or hang sth up		B1	phrasal verb	people: actions	
+hurry up		B1	phrasal verb	people: actions	
+join in (sth)		B1	phrasal verb	people: actions	
+keep sb in		B1	phrasal verb	people: actions	
+keep (sb/sth) off sth		B1	phrasal verb	people: actions	
+keep on doing sth		B1	phrasal verb	people: actions	
+keep (sb/sth) out		B1	phrasal verb	people: actions	
+keep up sth or keep sth up		B1	phrasal verb	people: actions	
+knock sb down		B1	phrasal verb	people: actions	
+laugh at sb/sth		B1	phrasal verb	people: actions	
+leave behind sb/sth or leave sb/sth behind		B1	phrasal verb	people: actions	
+look around (swh)		B1	phrasal verb	people: actions	
+pass on sth or pass sth on	GIVE	B1	phrasal verb	people: actions	
+put away sth or put sth away		B1	phrasal verb	people: actions	
+put back sth or put sth back		B1	phrasal verb	people: actions	
+put down sb/sth or put sb/sth down		B1	phrasal verb	people: actions	
+put off sth/doing sth or put sth off		B1	phrasal verb	people: actions	
+put out sth or put sth out		B1	phrasal verb	people: actions	
+put up sth or put sth up	RAISE	B1	phrasal verb	people: actions	
+put up sth or put sth up	SPREAD	B1	phrasal verb	people: actions	
+show sb around		B1	phrasal verb	people: actions	
+sign up		B1	phrasal verb	people: actions	
+take it/things easy		B1	phrase	people: actions	
+get down/into/off, etc.		B1	phrase	people: actions	
+get rid of sth		B1	phrase	people: actions	
+glance at/around/toward, etc.		B1	phrase	people: actions	
+break/cut, etc. sth in half		B1	phrase	people: actions	
+jump in/into/up, etc.		B1	phrase	people: actions	
+keep doing sth		B1	phrase	people: actions	
+take part		B1	phrase	people: actions	
+pass by/over/through, etc.		B1	phrase	people: actions	
+pay attention (to sth)		B1	phrase	people: actions	
+pull sth off/out/up		B1	phrase	people: actions	
+get rid of sth		B1	phrase	people: actions	
+get/go to sleep		B1	phrase	people: actions	
+put on sth or put sth on	WEIGHT	B1	phrasal verb	people: appearance	
+believe in sth		B1	phrasal verb	people: personality	
+look forward to sth/doing sth	HAPPY	B1	phrasal verb	people: personality	
+feel bad about sth/doing sth		B1	phrase	people: personality	
+change your mind		B1	phrase	people: personality	
+feel like/as if		B1	phrase	people: personality	
+feel like sth/doing sth		B1	phrase	people: personality	
+feel like sb/sth		B1	phrase	people: personality	
+feel sorry for		B1	phrase	people: personality	
+be fond of sb/sth		B1	phrase	people: personality	
+for fun or for the fun of it		B1	phrase	people: personality	
+a sense of humor		B1	phrase	people: personality	
+in tears		B1	phrase	people: personality	
+likes and dislikes		B1	phrase	people: personality	
+would rather		B1	phrase	people: personality	
+seem happy/a nice person, etc.		B1	phrase	people: personality	
+a sense of humor		B1	phrase	people: personality	
+feel sorry for		B1	phrase	people: personality	
+break up		B1	phrasal verb	relationships	
+bring up sb or bring sb up		B1	phrasal verb	relationships	
+get together		B1	phrasal verb	relationships	
+go out	RELATIONSHIP	B1	phrasal verb	relationships	
+get to know sb/sth		B1	phrase	relationships	
+get to know sb/sth		B1	phrase	relationships	
+single parent		B1	phrase	relationships	
+on sale		B1	phrase	shopping	
+in first/second/third, etc. place		B1	phrase	shopping	
+on sale		B1	phrase	shopping	
+break down		B1	phrasal verb	technology	
+out of order		B1	phrase	technology	
+out of order		B1	phrase	technology	
+book sb in or book sb into sth		B1	phrasal verb	travel	
+get around (somewhere)		B1	phrasal verb	travel	
+get in	ARRIVE	B1	phrasal verb	travel	
+get out	LEAVE	B1	phrasal verb	travel	
+go away	VACATION	B1	phrasal verb	travel	
+go back		B1	phrasal verb	travel	
+set off		B1	phrasal verb	travel	
+set out	TRIP	B1	phrasal verb	travel	
+on board		B1	phrase	travel	
+on board		B1	phrase	travel	
+the sights		B1	phrase	travel	
+be in charge		B1	phrase	work	
+out of work		B1	phrase	work	
+be situated in/on/by, etc.		B1	phrase		
+later on		B1	phrase		
+the following day/morning, etc.		B1	phrase		
+conditions		B1	phrase		
+daily life		B1	phrase		
+reasonably priced		B1	phrase		
+shortly afterward; shortly after/before sth		B1	phrase		
+base sth on sth		B1	phrasal verb		
+belong to sth		B1	phrasal verb		
+blow out (sth) or blow (sth) out		B1	phrasal verb		
+check in		B1	phrasal verb		
+check in/check into sth		B1	phrasal verb		
+check out		B1	phrasal verb		
+come out	BECOME AVAILABLE	B1	phrasal verb		
+complain of sth		B1	phrasal verb		
+consist of sth		B1	phrasal verb		
+depend on/upon sb/sth	BE INFLUENCED BY	B1	phrasal verb		
+eat out		B1	phrasal verb		
+end up		B1	phrasal verb		
+give away sth or give sth away	FREE	B1	phrasal verb		
+go down	BECOME LESS	B1	phrasal verb		
+go off	STOP WORKING	B1	phrasal verb		
+go on	HAPPEN	B1	phrasal verb		
+go out	LIGHT/FIRE	B1	phrasal verb		
+go up		B1	phrasal verb		
+hand in sth or hand sth in		B1	phrasal verb		
+hang up		B1	phrasal verb		
+hold up sb/sth or hold sb/sth up		B1	phrasal verb		
+move in		B1	phrasal verb		
+move out		B1	phrasal verb		
+put down sth or put sth down		B1	phrasal verb		
+put sb through		B1	phrasal verb		
+remind sb of sth/sb		B1	phrasal verb		
+run out	USE ALL	B1	phrasal verb		
+send sth back or send back sth		B1	phrasal verb		
+set up sth or set sth up	ORGANIZATION	B1	phrasal verb		
+show up		B1	phrasal verb		
+shut (sth) down or shut down (sth)		B1	phrasal verb		
+above all		B1	phrase		
+in advance		B1	phrase		
+take advantage of sth		B1	phrase		
+can afford		B1	phrase		
+day after day/year after year, etc.		B1	phrase		
+again and again		B1	phrase		
+once again		B1	phrase		
+aim to do sth		B1	phrase		
+at all		B1	phrase		
+above all		B1	phrase		
+all is well		B1	phrase		
+and all (that)		B1	phrase		
+can/could always do sth		B1	phrase		
+one another		B1	phrase		
+the army		B1	phrase		
+as soon as		B1	phrase		
+at all		B1	phrase		
+at his/its, etc. best		B1	phrase		
+at (long) last		B1	phrase		
+at first		B1	phrase		
+at the same time		B1	phrase		
+at once		B1	phrase		
+attend a church/college/school, etc.		B1	phrase		
+attract attention/interest, etc.		B1	phrase		
+two weeks/five hours, etc. away		B1	phrase		
+begin with sth		B1	phrase		
+to begin with		B1	phrase		
+the best		B1	phrase		
+at his/its, etc. best		B1	phrase		
+do/try your best		B1	phrase		
+a broad range/variety, etc.		B1	phrase		
+by accident/mistake, etc.		B1	phrase		
+by hand		B1	phrase		
+in case of sth		B1	phrase		
+(just) in case		B1	phrase		
+catch fire		B1	phrase		
+have sth in common		B1	phrase		
+go crazy		B1	phrase		
+the dark		B1	phrase		
+the other day		B1	phrase		
+one day/some day/one of these days		B1	phrase		
+for days		B1	phrase		
+it/that depends		B1	phrase		
+in detail		B1	phrase		
+do your hair/makeup, etc.		B1	phrase		
+do your best		B1	phrase		
+drag and drop		B1	phrase		
+drag and drop		B1	phrase		
+a sound/special/visual effect		B1	phrase		
+either ... or		B1	phrase		
+either way		B1	phrase		
+elder sister/brother/son/daughter		B1	phrase		
+eldest child/brother/daughter, etc.		B1	phrase		
+in the end		B1	phrase		
+not even		B1	phrase		
+hardly ever		B1	phrase		
+ever since		B1	phrase		
+for ever		B1	phrase		
+except that		B1	phrase		
+be expecting sb/sth		B1	phrase		
+make a face		B1	phrase		
+so far		B1	phrase		
+sb's fault		B1	phrase		
+feel at home		B1	phrase		
+catch fire		B1	phrase		
+on fire		B1	phrase		
+at first		B1	phrase		
+the first		B1	phrase		
+fit (sth) in/into/through/under, etc.		B1	phrase		
+for ever		B1	phrase		
+for sure		B1	phrase		
+in full		B1	phrase		
+the future		B1	phrase		
+in the future		B1	phrase		
+get cold/ill/late, etc.		B1	phrase		
+get worse		B1	phrase		
+get caught/killed/told off, etc.		B1	phrase		
+get sth wrong		B1	phrase		
+go badly/well, etc.		B1	phrase		
+go wrong		B1	phrase		
+go bald/blind/gray, etc.		B1	phrase		
+the heart of sth		B1	phrase		
+with the help of sth		B1	phrase		
+feel at home		B1	phrase		
+have no idea		B1	phrase		
+in time		B1	phrase		
+in advance		B1	phrase		
+in love		B1	phrase		
+in addition (to)		B1	phrase		
+in detail		B1	phrase		
+in full		B1	phrase		
+in the future		B1	phrase		
+in order (for sb/sth) to do sth		B1	phrase		
+(just) in case		B1	phrase		
+in case of sth		B1	phrase		
+(by) itself		B1	phrase		
+be just about to do sth		B1	phrase		
+just before/over/under, etc.		B1	phrase		
+I know		B1	phrase		
+as you know		B1	phrase		
+be known as sth		B1	phrase		
+lack of sth		B1	phrase		
+at (long) last		B1	phrase		
+family/private/work, etc. life		B1	phrase		
+a/sb's way of life		B1	phrase		
+a little		B1	phrase		
+all day long		B1	phrase		
+no longer		B1	phrase		
+all day long		B1	phrase		
+no longer		B1	phrase		
+look like		B1	phrase		
+it looks like/as if		B1	phrase		
+the middle		B1	phrase		
+be in the middle of (doing) sth		B1	phrase		
+miss a chance/opportunity		B1	phrase		
+once more		B1	phrase		
+believe it or not		B1	phrase		
+not even		B1	phrase		
+on fire		B1	phrase		
+on purpose		B1	phrase		
+on time		B1	phrase		
+(all) on your own		B1	phrase		
+(all) on your own		B1	phrase		
+once again		B1	phrase		
+once more		B1	phrase		
+one another		B1	phrase		
+one day		B1	phrase		
+if only		B1	phrase		
+or two		B1	phrase		
+in order (for sb/sth) to do sth		B1	phrase		
+the other side/end (of sth)		B1	phrase		
+the other day/week, etc.		B1	phrase		
+others		B1	phrase		
+out of date		B1	phrase		
+all over somewhere		B1	phrase		
+of your own		B1	phrase		
+(all) on your own		B1	phrase		
+(all) on your own		B1	phrase		
+the passive		B1	phrase		
+the past		B1	phrase		
+sb's past		B1	phrase		
+take place		B1	phrase		
+the present		B1	phrase		
+on purpose		B1	phrase		
+quite a while		B1	phrase		
+rather than		B1	phrase		
+remain calm/open, etc.		B1	phrase		
+right away/now/after		B1	phrase		
+at the same time		B1	phrase		
+the same		B1	phrase		
+seem like/as if/to, etc.		B1	phrase		
+set the table		B1	phrase		
+shake hands		B1	phrase		
+every single		B1	phrase		
+smell of/like; smell delicious/horrible, etc.		B1	phrase		
+so did we/so have I/so is mine, etc.		B1	phrase		
+so far		B1	phrase		
+so (that)		B1	phrase		
+as soon as		B1	phrase		
+that sort of thing		B1	phrase		
+sound like/as if/as though		B1	phrase		
+speak about/of sth		B1	phrase		
+special offer		B1	phrase		
+thank God		B1	phrase	communication	
+a quick/slow/good, etc. worker		B1	phrase	work	
+take care of sb/sth		B1	phrase	body and health	
+wait (a minute)		B1	phrase	communication	
+taste good/bad/sweet, etc.		B1	phrase	food and drink	
+keep sb waiting		B1	phrase	people: actions	
+take part		B1	phrase	people: actions	
+take it/things easy		B1	phrase	people: actions	
+walk sb home/to sth		B1	phrase	people: actions	
+walk the dog		B1	phrase	people: actions	
+walking/hockey, etc. stick		B1	phrase	shopping	
+set the table		B1	phrase		
+take place		B1	phrase		
+take a break/rest, etc.		B1	phrase		
+take advantage of sth		B1	phrase		
+Yours truly,		B1	phrase	communication	
+Yours sincerely		B1	phrase	communication	
+no way		B1	phrase	communication	
+be up to sth		B1	phrase	people: actions	
+can't stand sb/sth		B1	phrase	people: personality	
+What's up?		B1	phrase		
+be unable to do sth		B1	phrase	people: personality	
+tired of doing sth		B1	phrase	people: personality	
+be used to sb/sth/doing sth		B1	phrase	people: personality	
+get/become used to sb/sth/doing sth		B1	phrase	people: personality	
+suffer from sth		B1	phrase	body and health	
+have a temperature		B1	phrase	body and health	
+I suppose (so)		B1	phrase	communication	
+tell sb how/what/when to do sth		B1	phrase	communication	
+I can't tell you how ...		B1	phrase	communication	
+once upon a time		B1	phrase	communication	
+too bad		B1	phrase	communication	
+be/get/keep, etc. in touch		B1	phrase	communication	
+once upon a time		B1	phrase	communication	
+be welcome to do sth		B1	phrase	communication	
+Oh well		B1	phrase	communication	
+What about ...?		B1	phrase	communication	
+What if ...?		B1	phrase	communication	
+whether... or		B1	phrase	communication	
+on the whole		B1	phrase	communication	
+why not?		B1	phrase	communication	
+wish sb luck		B1	phrase	communication	
+not believe/understand/hear/say, etc. a word		B1	phrase	communication	
+Would you mind ...?		B1	phrase	communication	
+three/eight/nine, etc. times		B1	phrase	describing things	
+a wide range/selection/variety, etc.		B1	phrase	describing things	
+get worse		B1	phrase	describing things	
+be worth		B1	phrase	money	
+the universe		B1	phrase	natural world	
+start (sth) off or start off(sth)		B1	phrasal verb	people: actions	
+take out sb or take sb out		B1	phrasal verb	people: actions	
+take out sth or take sth out	REMOVE	B1	phrasal verb	people: actions	
+take up sth or take sth up	START	B1	phrasal verb	people: actions	
+throw away/out sth or throw sth away/out		B1	phrasal verb	people: actions	
+turn down sth or turn sth down		B1	phrasal verb	people: actions	
+wear (sth) out or wear out (sth)		B1	phrasal verb	people: actions	
+wrap sth up or wrap up sth		B1	phrasal verb	people: actions	
+step back/forward/over, etc.		B1	phrase	people: actions	
+step on/in sth		B1	phrase	people: actions	
+go/walk, etc. up to sb/sth		B1	phrase	people: actions	
+in tears		B1	phrase	people: personality	
+be willing (to do sth)		B1	phrase	people: personality	
+wish (that)		B1	phrase	people: personality	
+would rather		B1	phrase	people: personality	
+split up		B1	phrasal verb		
+switch off sth or switch sth off		B1	phrasal verb		
+switch on sth or switch sth on		B1	phrasal verb		
+take back sth or take sth back		B1	phrasal verb		
+take out sth or take sth out	FOOD	B1	phrasal verb		
+turn (sb/sth) into sb/sth		B1	phrasal verb		
+turn up sth or turn sth up		B1	phrasal verb		
+type in sth or type sth in		B1	phrasal verb		
+work out	EXERCISE	B1	phrasal verb		
+write sth down or write down sth		B1	phrasal verb		
+in spite of sth		B1	phrase		
+be supposed to do sth		B1	phrase		
+for sure		B1	phrase		
+burst into tears		B1	phrase		
+that sort of thing		B1	phrase		
+a thing		B1	phrase		
+the same thing		B1	phrase		
+things		B1	phrase		
+things like that		B1	phrase		
+think of sth		B1	phrase		
+it's time		B1	phrase		
+in time		B1	phrase		
+on time		B1	phrase		
+at the same time		B1	phrase		
+in a day's/two months', etc. time		B1	phrase		
+come true		B1	phrase		
+the truth		B1	phrase		
+or two		B1	phrase		
+not until		B1	phrase		
+not until		B1	phrase		
+be up to sb		B1	phrase		
+up to 10, 20, etc.		B1	phrase		
+up to/until/till, etc.		B1	phrase		
+used to do/be sth		B1	phrase		
+(a) good value		B1	phrase		
+a/sb's way of life		B1	phrase		
+either way		B1	phrase		
+all is well		B1	phrase		
+a while		B1	phrase		
+quite a while		B1	phrase		
+5 miles/10 feet, etc. wide		B1	phrase		
+without delay		B1	phrase		
+be worth sth/doing sth		B1	phrase		
+be worth it		B1	phrase		
+get sth wrong		B1	phrase		
+go wrong		B1	phrase		
+for years		B1	phrase		

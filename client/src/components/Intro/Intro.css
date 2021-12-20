@@ -1,0 +1,66 @@
+.IntroPage {
+    height: 23rem;
+    width: 100%;
+    position: relative;
+    background-image: url('https://www.insightpublications.com.au/wp-content/uploads/2019/05/Term-2_Week-3_How-to-study-texts_Final_6May19.jpg');
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+  }
+  .IntroPage::before {
+    content: '';
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: gray;
+  }
+  .IntroPage h2 {
+    position: relative;
+    padding: 5%;
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+  }
+
+  .IntroFirstImage {
+    height: 30rem;
+    width: 50%;
+    position: relative;
+    background-image: url('https://netflixschool.s3.ap-northeast-2.amazonaws.com/test.jpeg');
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    float: right;
+  }
+  /* .IntroFirstImage::before {
+    content: '';
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: gray;
+  } */
+  .IntroFirstImage h2 {
+    position: relative;
+    padding: 5%;
+
+    display: block;
+    color: white;
+  }
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }

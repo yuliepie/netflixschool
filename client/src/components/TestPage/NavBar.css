@@ -1,0 +1,19 @@
+.wrapper {
+    overflow: hidden;
+    /* background-color: #F2F2F2; */   
+}
+
+nav > div{
+    text-align: center;
+    float: left;
+    width: 10%;
+    margin-top: 40px;
+    background-color: #DEDDD9;
+    height: 130px;
+}
+
+.question{
+    padding-top: 47px;
+    font-size: 30px;
+    
+  }
