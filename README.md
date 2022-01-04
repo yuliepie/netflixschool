@@ -64,6 +64,10 @@
 | 남경민 | 프론트엔드|
 | 이승환 | 프론트엔드|
 | 정율리 | 벡엔드|
+
+<br/><br/>
+[:book: More Information...](https://github.com/yuliepie/netflixschool/wiki)
+
 <!-- 
 **멤버별 responsibility**
 
